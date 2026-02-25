@@ -133,8 +133,29 @@ wandb/
 t2m/
 body_models/
 glove/
+kit/
 slurm**/
 *.out
 *.err
 *.slurm
 .vscode/
+dataset/HumanML3D/
+
+# Large data files
+assets/actionrecognition/*.tar
+assets/actionrecognition/*.pth.tar
+visualize/joints2smpl/smpl_models/*.pkl
+visualize/joints2smpl/smpl_models/*.h5
+
+# Dataset folders (if you want to ignore the actual data)
+dataset/
+data/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Byte-compiled Python
+__pycache__/
+*.pyc
