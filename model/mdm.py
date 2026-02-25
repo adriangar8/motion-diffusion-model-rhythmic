@@ -5,6 +5,16 @@ import torch.nn.functional as F
 import clip
 from model.rotation2xyz import Rotation2xyz
 from model.BERT.BERT_encoder import load_bert
+
+####################################################################################[start]
+####################################################################################[start]
+
+from model.audio_encoder import AudioEncoder
+from model.audio_cross_attention import AudioCondTransformerEncoder
+
+####################################################################################[end]
+####################################################################################[end]
+
 from utils.misc import WeightedSum
 
 
@@ -41,6 +51,26 @@ class MDM(nn.Module):
         self.action_emb = kargs.get('action_emb', None)
         self.input_feats = self.njoints * self.nfeats
 
+        ####################################################################################[start]
+        ####################################################################################[start]
+
+        self.audio_conditioning = kargs.get('audio_conditioning', False)
+        self.audio_feat_dim = kargs.get('audio_feat_dim', 145)
+        self.audio_cond_mask_prob = kargs.get('audio_cond_mask_prob', 0.15)
+
+        if self.audio_conditioning:
+            
+            print('AUDIO CONDITIONING enabled')
+            
+            self.audio_encoder = AudioEncoder(
+                audio_feat_dim=self.audio_feat_dim,
+                latent_dim=self.latent_dim,
+                dropout=self.dropout,
+            )
+            
+        ####################################################################################[end]
+        ####################################################################################[end]
+
         self.normalize_output = kargs.get('normalize_encoder_output', False)
 
         self.cond_mode = kargs.get('cond_mode', 'no_cond')
@@ -72,6 +102,7 @@ class MDM(nn.Module):
             elif self.multi_encoder_type == 'split':
                self.embed_target_cond = EmbedTargetLocSplit(self.all_goal_joint_names, self.latent_dim, self.target_enc_layers)     
         
+        """
         if self.arch == 'trans_enc':
             print("TRANS_ENC init")
             seqTransEncoderLayer = nn.TransformerEncoderLayer(d_model=self.latent_dim,
@@ -82,6 +113,46 @@ class MDM(nn.Module):
 
             self.seqTransEncoder = nn.TransformerEncoder(seqTransEncoderLayer,
                                                          num_layers=self.num_layers)
+        """
+        
+        ####################################################################################[start]
+        ####################################################################################[start]
+        
+        if self.arch == 'trans_enc':
+            
+            print("TRANS_ENC init")
+            
+            if self.audio_conditioning:
+                
+                # -- custom encoder with cross-attention layers for audio --
+            
+                self.seqTransEncoder = AudioCondTransformerEncoder(
+                    d_model=self.latent_dim,
+                    nhead=self.num_heads,
+                    num_layers=self.num_layers,
+                    dim_feedforward=self.ff_size,
+                    dropout=self.dropout,
+                    activation=self.activation,
+                )
+            
+            else:
+            
+                # -- original encoder (no audio) --
+            
+                seqTransEncoderLayer = nn.TransformerEncoderLayer(
+                    d_model=self.latent_dim,
+                    nhead=self.num_heads,
+                    dim_feedforward=self.ff_size,
+                    dropout=self.dropout,
+                    activation=self.activation)
+                
+                self.seqTransEncoder = nn.TransformerEncoder(
+                    seqTransEncoderLayer,
+                    num_layers=self.num_layers)
+        
+        ####################################################################################[end]
+        ####################################################################################[end]
+        
         elif self.arch == 'trans_dec':
             print("TRANS_DEC init")
             seqTransDecoderLayer = nn.TransformerDecoderLayer(d_model=self.latent_dim,
@@ -137,6 +208,58 @@ class MDM(nn.Module):
     def parameters_wo_clip(self):
         return [p for name, p in self.named_parameters() if not name.startswith('clip_model.')]
 
+    ####################################################################################[start]
+    ####################################################################################[start]
+
+    def audio_parameters(self):
+        
+        """
+        Return only the parameters of the audio conditioning modules.
+        Used for Stage 2 training where we freeze everything else.
+        """
+        
+        params = []
+        
+        if self.audio_conditioning:
+        
+            params.extend(self.audio_encoder.parameters())
+        
+            # -- cross-attention layers and their gates within the transformer --
+        
+            for layer in self.seqTransEncoder.layers:
+                params.extend(layer.cross_attn.parameters())
+                params.extend(layer.norm_cross.parameters())
+                params.append(layer.cross_attn_gate)
+        
+        return params
+
+    def freeze_non_audio(self):
+        
+        """
+        Freeze all parameters except audio conditioning modules.
+        """
+        
+        # -- freeze everything --
+        
+        for param in self.parameters():
+            param.requires_grad = False
+        
+        # -- unfreeze audio-specific parameters --
+        
+        for param in self.audio_parameters():
+            param.requires_grad = True
+        
+        # -- count --
+        
+        total = sum(p.numel() for p in self.parameters())
+        trainable = sum(p.numel() for p in self.parameters() if p.requires_grad)
+        
+        print(f"Frozen: {total - trainable:,} params | Trainable (audio): {trainable:,} params "
+              f"({100*trainable/total:.1f}%)")
+
+    ####################################################################################[end]
+    ####################################################################################[end]
+
     def load_and_freeze_clip(self, clip_version):
         clip_model, clip_preprocess = clip.load(clip_version, device='cpu',
                                                 jit=False)  # Must set jit=False for training
@@ -159,6 +282,45 @@ class MDM(nn.Module):
             return cond * (1. - mask)
         else:
             return cond
+
+    ####################################################################################[start]
+    ####################################################################################[start]
+    
+    def mask_audio(self, audio_emb, force_mask=False):
+        
+        """
+        Classifier-free guidance dropout for audio conditioning.
+        During training, randomly zeros out the audio with probability audio_cond_mask_prob.
+        At inference with force_mask=True, always zeros (for unconditional generation).
+        
+        Args:
+            audio_emb: (T_audio, batch_size, latent_dim) — projected audio features
+            force_mask: if True, always zero out (used for CFG unconditional pass)
+        
+        Returns:
+            Masked audio embedding (same shape)
+        """
+        
+        if force_mask:
+            return torch.zeros_like(audio_emb)
+        
+        elif self.training and self.audio_cond_mask_prob > 0.:
+        
+            bs = audio_emb.shape[1]
+        
+            # -- same mask for all frames of a given sample (drop entire audio or keep all) --
+        
+            mask = torch.bernoulli(
+                torch.ones(bs, device=audio_emb.device) * self.audio_cond_mask_prob
+            ).view(1, bs, 1) # (1, B, 1) — broadcasts over T and D
+        
+            return audio_emb * (1. - mask)
+        
+        else:
+            return audio_emb
+    
+    ####################################################################################[end]
+    ####################################################################################[end]
 
     def clip_encode_text(self, raw_text):
         # raw_text - list (batch_size length) of strings with input text prompts
@@ -228,6 +390,27 @@ class MDM(nn.Module):
             # unconstrained
             emb = time_emb
 
+        ####################################################################################[start]
+        ####################################################################################[start]
+
+        # -- audio conditioning --
+        
+        audio_memory = None
+        
+        if self.audio_conditioning and y is not None and 'audio_features' in y:
+        
+            # y['audio_features']: (batch_size, T_audio, audio_feat_dim)
+            
+            audio_proj = self.audio_encoder(y['audio_features']) # (B, T_audio, D)
+            audio_memory = audio_proj.permute(1, 0, 2) # (T_audio, B, D) — seq-first
+            audio_memory = self.mask_audio(
+                audio_memory,
+                force_mask=y.get('uncond_audio', False)
+            )
+            
+        ####################################################################################[end]
+        ####################################################################################[end]
+
         if self.arch == 'gru':
             x_reshaped = x.reshape(bs, njoints*nfeats, 1, nframes)
             emb_gru = emb.repeat(nframes, 1, 1)     #[#frames, bs, d]
@@ -246,11 +429,40 @@ class MDM(nn.Module):
                 step_mask = torch.zeros((bs, 1), dtype=torch.bool, device=x.device)
                 frames_mask = torch.cat([step_mask, frames_mask], dim=1)
 
+        """
+
         if self.arch == 'trans_enc':
             # adding the timestep embed
             xseq = torch.cat((emb, x), axis=0)  # [seqlen+1, bs, d]
             xseq = self.sequence_pos_encoder(xseq)  # [seqlen+1, bs, d]
             output = self.seqTransEncoder(xseq, src_key_padding_mask=frames_mask)[1:]  # , src_key_padding_mask=~maskseq)  # [seqlen, bs, d]
+
+        """
+
+        ####################################################################################[start]
+        ####################################################################################[start]
+
+        if self.arch == 'trans_enc':
+            
+            # -- adding the timestep embed --
+            
+            xseq = torch.cat((emb, x), axis=0) # [seqlen+1, bs, d]
+            xseq = self.sequence_pos_encoder(xseq) # [seqlen+1, bs, d]
+            
+            if self.audio_conditioning and audio_memory is not None:
+                output = self.seqTransEncoder(
+                    xseq,
+                    audio_memory=audio_memory,
+                    src_key_padding_mask=frames_mask,
+                )
+            
+            else:
+                output = self.seqTransEncoder(xseq, src_key_padding_mask=frames_mask)
+            
+            output = output[1:] # remove condition token
+
+        ####################################################################################[end]
+        ####################################################################################[end]
 
         elif self.arch == 'trans_dec':
             if self.emb_trans_dec:
