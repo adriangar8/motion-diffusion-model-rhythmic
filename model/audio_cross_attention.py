@@ -40,13 +40,13 @@ class AudioCondTransformerEncoderLayer(nn.Module):
 
         # -- self-attention (same as nn.TransformerEncoderLayer) --
         
-        self.self_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout, batch_first=False)
+        self.self_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout)
         self.norm1 = nn.LayerNorm(d_model)
         self.dropout1 = nn.Dropout(dropout)
 
         # -- audio cross-attention (NEW) --
         
-        self.cross_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout, batch_first=False)
+        self.cross_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout)
         self.norm_cross = nn.LayerNorm(d_model)
         self.dropout_cross = nn.Dropout(dropout)
 
