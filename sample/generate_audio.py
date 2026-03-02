@@ -349,6 +349,13 @@ def main():
     
     sample = sample.squeeze(2).permute(0, 2, 1).cpu().numpy() # (B, T, 263)
     sample = sample * std + mean # denormalize
+    
+    from scipy.ndimage import gaussian_filter1d
+
+    # -- smooth along time axis, sigma=1 frame = 50ms at 20fps --
+    
+    for i in range(sample.shape[0]):
+        sample[i] = gaussian_filter1d(sample[i], sigma=1.0, axis=0)
 
     # -- save --
 
