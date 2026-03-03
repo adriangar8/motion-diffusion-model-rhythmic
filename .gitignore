@@ -159,3 +159,10 @@ data/
 # Byte-compiled Python
 __pycache__/
 *.pyc
+
+# Blueprint / local docs (do not push)
+Multimodal_Motion_Generation_Blueprint*.pdf
+
+# Generated style-subset outputs and cache
+cache/
+outputs/
