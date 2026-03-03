@@ -1,0 +1,801 @@
+rank,style,motion_id,best_caption,best_caption_idx,similarity,source_file
+1,old_elderly,M012839,a person gets up from a seated position,2,0.7954509,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012839.txt
+2,old_elderly,012839,a person gets up from a seated position,2,0.7954509,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012839.txt
+3,old_elderly,M000127,a person moves their right arm at head level back and forth,0,0.79168373,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000127.txt
+4,old_elderly,000127,a person moves their left arm at head level back and forth,0,0.7895403,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000127.txt
+5,old_elderly,M007946,a person gets up from a seated position and sits back down after a second,2,0.78749466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007946.txt
+6,old_elderly,007946,a person gets up from a seated position and sits back down after a second,2,0.78749466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007946.txt
+7,old_elderly,011897,a person uses their left arm to get up from a kneeling position,2,0.78746146,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011897.txt
+8,old_elderly,M011897,a person uses their right arm to get up from a kneeling position,2,0.78632414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011897.txt
+9,old_elderly,M009897,a person bends down and picks something up with their left hand,1,0.78381634,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009897.txt
+10,old_elderly,009897,a person bends down and picks something up with their right hand,1,0.7821517,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009897.txt
+11,old_elderly,001415,a person tries to reach something by stretching,1,0.78188765,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001415.txt
+12,old_elderly,M001415,a person tries to reach something by stretching,1,0.78188765,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001415.txt
+13,old_elderly,M001123,a person bends down to pick something up with their left hand,0,0.7808554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001123.txt
+14,old_elderly,000837,a person hurriedly throws themselves into a chair,2,0.7794734,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000837.txt
+15,old_elderly,M000837,a person hurriedly throws themselves into a chair,2,0.7794734,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000837.txt
+16,old_elderly,M005960,person moves slowly before bending down into a sitting own with legs raised,1,0.7785142,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005960.txt
+17,old_elderly,005960,person moves slowly before bending down into a sitting own with legs raised,1,0.7785142,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005960.txt
+18,old_elderly,013883,a person stands up from seated position without using hands or arms for assistance,1,0.77818525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013883.txt
+19,old_elderly,M013883,a person stands up from seated position without using hands or arms for assistance,1,0.77818525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013883.txt
+20,old_elderly,M000063,"a person bends down to grab something, then moves their arm",2,0.7781345,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000063.txt
+21,old_elderly,000063,"a person bends down to grab something, then moves their arm",2,0.7781345,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000063.txt
+22,old_elderly,009741,a person uses his left arm to do a passing something back motion,0,0.7774602,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009741.txt
+23,old_elderly,004170,a person sits and moves their left arm,0,0.775434,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004170.txt
+24,old_elderly,001123,a person bends down to pick something up with their right hand,0,0.77464855,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001123.txt
+25,old_elderly,M005074,the person quickly moves their arm while sitting down,1,0.7743206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005074.txt
+26,old_elderly,005074,the person quickly moves their arm while sitting down,1,0.7743206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005074.txt
+27,old_elderly,M008130,a person bends forward slightly at the waist and continually uses the left hand to stroke something softly,2,0.773705,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008130.txt
+28,old_elderly,M004170,a person sits and moves their right arm,0,0.77340424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004170.txt
+29,old_elderly,M007752,a person moves left arm up and back to the knee,1,0.77303,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007752.txt
+30,old_elderly,M009741,a person uses his right arm to do a passing something back motion,0,0.7723211,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009741.txt
+31,old_elderly,M003472,"a person takes a few steps forward and bend down slightly, takes their left arm and opens something",1,0.77145284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003472.txt
+32,old_elderly,M006275,"a person reaches forward with their left arm, then puts their arm back down at their side.",1,0.7706786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006275.txt
+33,old_elderly,M009606,a person moves arm back and forth and then sets something down on the ground.,0,0.7706391,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009606.txt
+34,old_elderly,009606,a person moves arm back and forth and then sets something down on the ground.,0,0.7706391,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009606.txt
+35,old_elderly,006275,"a person reaches forward with their right arm, then puts their arm back down at their side.",1,0.7696694,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006275.txt
+36,old_elderly,007752,a person moves right arm up and back to the knee,1,0.7691485,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007752.txt
+37,old_elderly,004067,a person reaches forward with the right hand and then lets their arm drop to their side.,0,0.7687882,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004067.txt
+38,old_elderly,M002049,a person reaches forward with their left arm,1,0.7677641,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002049.txt
+39,old_elderly,M002092,a person bends left arm and moves it back and forth several times while slightly leaning to the left.,1,0.76683676,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002092.txt
+40,old_elderly,008130,a person bends forward slightly at the waist and continually uses the right hand to stroke something softly,2,0.76507187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008130.txt
+41,old_elderly,M004257,"a person slowly reaches forward with their left hand and quickly reaches out in front of them, then brings their arm back",1,0.7649846,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004257.txt
+42,old_elderly,M014083,a person slowly stretching,2,0.76454717,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014083.txt
+43,old_elderly,014083,a person slowly stretching,2,0.76454717,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014083.txt
+44,old_elderly,013780,person leans forward and stretches out left hand to move something around,1,0.76392376,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013780.txt
+45,old_elderly,005214,"a person is sitting down, while slightly moving its arms.",2,0.76379395,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005214.txt
+46,old_elderly,M005214,"a person is sitting down, while slightly moving its arms.",2,0.76379395,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005214.txt
+47,old_elderly,008000,a person reaching over to move something,1,0.7637485,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008000.txt
+48,old_elderly,M008000,a person reaching over to move something,1,0.7637485,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008000.txt
+49,old_elderly,M004067,a person reaches forward with the left hand and then lets their arm drop to their side.,0,0.76365256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004067.txt
+50,old_elderly,006647,a person picks up a chair and moves it to the left.,1,0.76331884,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006647.txt
+51,old_elderly,M002346,the person sits down whilst their left arm is shaking,1,0.7632451,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002346.txt
+52,old_elderly,002475,a person slowly lifts something from the left to the right.,2,0.76312286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002475.txt
+53,old_elderly,002049,a person reaches forward with their right arm,1,0.7630391,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002049.txt
+54,old_elderly,003423,"a person takes slow, steady steps forward with their arms loose at their side",1,0.7630361,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003423.txt
+55,old_elderly,M003423,"a person takes slow, steady steps forward with their arms loose at their side",1,0.7630361,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003423.txt
+56,old_elderly,004257,"a person slowly reaches forward with their right hand and quickly reaches out in front of them, then brings their arm back",1,0.762588,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004257.txt
+57,old_elderly,009429,person is sitting down leaving at someone with the right arm.,0,0.7621414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009429.txt
+58,old_elderly,M006395,"a person reaches out with their left arm as if to grab something, then drop their arm back to the side",1,0.76162815,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006395.txt
+59,old_elderly,010974,a person moves its arm in an upward motion as if to pick something up with both hands,2,0.7615756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010974.txt
+60,old_elderly,M010974,a person moves its arm in an upward motion as if to pick something up with both hands,2,0.7615756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010974.txt
+61,old_elderly,M013780,person leans forward and stretches out right hand to move something around,1,0.76135457,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013780.txt
+62,old_elderly,003472,"a person takes a few steps forward and bend down slightly, takes their right arm and opens something",1,0.7611993,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003472.txt
+63,old_elderly,008143,a person stretches right hand forward,0,0.76092,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008143.txt
+64,old_elderly,M012220,"a person bends over, trying to pick something up with his left hand",1,0.76050436,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012220.txt
+65,old_elderly,012220,"a person bends over, trying to pick something up with his right hand",1,0.76001066,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012220.txt
+66,old_elderly,001075,a person struggles to get out of a chair.,1,0.7599586,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001075.txt
+67,old_elderly,M001075,a person struggles to get out of a chair.,1,0.7599586,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001075.txt
+68,old_elderly,M008143,a person stretches left hand forward,0,0.75971013,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008143.txt
+69,old_elderly,011740,"a person is sitting down, moves his hand up to his face and back down",0,0.75969684,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011740.txt
+70,old_elderly,M011740,"a person is sitting down, moves his hand up to his face and back down",0,0.75969684,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011740.txt
+71,old_elderly,001694,a person bends forward and reaches down with hand.,2,0.7595372,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001694.txt
+72,old_elderly,M001694,a person bends forward and reaches down with hand.,2,0.7595372,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001694.txt
+73,old_elderly,M004436,"a person bends down, picks something up with their left arm, and walks forward.",2,0.759378,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004436.txt
+74,old_elderly,M001847,a person bends over and moves their left hand back and forth horizontally several times.,2,0.75930727,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001847.txt
+75,old_elderly,010548,"a person steps forward, bends down with their arms slightly elevated, then gets back up.",2,0.7591022,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010548.txt
+76,old_elderly,M010548,"a person steps forward, bends down with their arms slightly elevated, then gets back up.",2,0.7591022,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010548.txt
+77,old_elderly,013258,person moves into a seated position,2,0.75874245,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013258.txt
+78,old_elderly,M013258,person moves into a seated position,2,0.75874245,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013258.txt
+79,old_elderly,M006647,a person picks up a chair and moves it to the right.,1,0.75845504,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006647.txt
+80,old_elderly,M010812,a person leans down as if to pick up something heavy and and tosses it to their left.,0,0.75825536,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010812.txt
+81,old_elderly,M012739,a person moves slightly to his left and sits down.,0,0.75800586,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012739.txt
+82,old_elderly,008934,a person recovering from a push to their left,2,0.7576649,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008934.txt
+83,old_elderly,M011939,person slowly moves right arm up in the air,2,0.7575531,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011939.txt
+84,old_elderly,M009016,a person moves their arm back and forth in a pulling motion.,2,0.7572173,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009016.txt
+85,old_elderly,009016,a person moves their arm back and forth in a pulling motion.,2,0.7572173,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009016.txt
+86,old_elderly,001435,"a person slowly extends their left arm forward, then drops it back to a neutral stance.",2,0.75721246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001435.txt
+87,old_elderly,M006409,a person stretches out its left arm then moves it back to its side.,0,0.7571244,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006409.txt
+88,old_elderly,006395,"a person reaches out with their right arm as if to grab something, then drop their arm back to the side",1,0.75712204,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006395.txt
+89,old_elderly,M002475,a person slowly lifts something from the right to the left.,2,0.75703645,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002475.txt
+90,old_elderly,004089,a person warms up their arms before going ahead and sitting down,1,0.7563244,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004089.txt
+91,old_elderly,M004089,a person warms up their arms before going ahead and sitting down,1,0.7563244,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004089.txt
+92,old_elderly,M007281,"a person bends over slightly and picks something up on their right side, and puts it down on their left side",2,0.756052,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007281.txt
+93,old_elderly,M006182,the person gets up from a chair and turns back.,1,0.75593615,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006182.txt
+94,old_elderly,006182,the person gets up from a chair and turns back.,1,0.75593615,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006182.txt
+95,old_elderly,M006592,a person slowly walked forward while grabbing something with right hand,2,0.75587416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006592.txt
+96,old_elderly,M010540,a person raises their left foot and brings it down quickly.,2,0.75572056,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010540.txt
+97,old_elderly,M000119,a person who is sitting with their arms bent turns their arms back and forth,1,0.7556027,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000119.txt
+98,old_elderly,000119,a person who is sitting with their arms bent turns their arms back and forth,1,0.7556027,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000119.txt
+99,old_elderly,004436,"a person bends down, picks something up with their right arm, and walks forward.",2,0.7556018,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004436.txt
+100,old_elderly,010630,"a person carefully paces back and forth, their arms loose at their sides.",2,0.7555728,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010630.txt
+101,old_elderly,M010630,"a person carefully paces back and forth, their arms loose at their sides.",2,0.7555728,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010630.txt
+102,old_elderly,M002912,a person slowly walks backwards with their arms at their side to balance,1,0.7553897,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002912.txt
+103,old_elderly,002912,a person slowly walks backwards with their arms at their side to balance,1,0.7553897,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002912.txt
+104,old_elderly,M005096,"a person doing something while sitting and raised the left hand , while leaned it to face",2,0.7553337,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005096.txt
+105,old_elderly,M002677,a person bends down to sitting position with arms pressing ground.,2,0.7552884,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002677.txt
+106,old_elderly,002677,a person bends down to sitting position with arms pressing ground.,2,0.7552884,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002677.txt
+107,old_elderly,M009638,a person recovering from a push to the left,0,0.7551694,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009638.txt
+108,old_elderly,M010038,"while slightly crouched, a person puts up their left hand.",2,0.75477445,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010038.txt
+109,old_elderly,M009970,a person repeatedly reaches for an object and appears to put it back with their left hand.,1,0.7547,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009970.txt
+110,old_elderly,009485,a person reaches his right arm straight forward,1,0.7546551,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009485.txt
+111,old_elderly,011939,person slowly moves left arm up in the air,2,0.7546195,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011939.txt
+112,old_elderly,001249,a person steps forward and reaches down to grab or place something with their left hand.,0,0.7545753,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001249.txt
+113,old_elderly,M008825,a person lifts something up and sets it down to their left.,2,0.75451696,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008825.txt
+114,old_elderly,M002447,a person bends over and picks something up with their left hand.,2,0.75444865,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002447.txt
+115,old_elderly,M004449,a person bends towards his left and goes up and down.,2,0.7544342,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004449.txt
+116,old_elderly,M007593,a crouching person makes movement of his body and arms slowly,1,0.75442314,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007593.txt
+117,old_elderly,007593,a crouching person makes movement of his body and arms slowly,1,0.75442314,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007593.txt
+118,old_elderly,010038,"while slightly crouched, a person puts up their right hand.",2,0.75422955,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010038.txt
+119,old_elderly,012499,a person strafes back and forth from right to left.,1,0.75421345,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012499.txt
+120,old_elderly,005380,a person bends down and picks up something gets up and stops,2,0.75415945,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005380.txt
+121,old_elderly,M005380,a person bends down and picks up something gets up and stops,2,0.75415945,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005380.txt
+122,old_elderly,002716,"a person bends down to pick something up with one hand, stands up and walks forward, then moves their arm back and forth",1,0.7540662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002716.txt
+123,old_elderly,M002716,"a person bends down to pick something up with one hand, stands up and walks forward, then moves their arm back and forth",1,0.7540662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002716.txt
+124,old_elderly,M009485,a person reaches his left arm straight forward,1,0.7537546,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009485.txt
+125,old_elderly,004449,a person bends towards his right and goes up and down.,2,0.75371337,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004449.txt
+126,old_elderly,002447,a person bends over and picks something up with their right hand.,2,0.7535999,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002447.txt
+127,old_elderly,000929,a person picks something up and moves their hand over it,2,0.75335336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000929.txt
+128,old_elderly,M000929,a person picks something up and moves their hand over it,2,0.75335336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000929.txt
+129,old_elderly,M008199,a slouched person hits something softly with their left hand,1,0.75305223,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008199.txt
+130,old_elderly,002583,"a sitting person reaches forward and grabs something close to them, then raises it to their head.",0,0.7530367,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002583.txt
+131,old_elderly,M002583,"a sitting person reaches forward and grabs something close to them, then raises it to their head.",0,0.7530367,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002583.txt
+132,old_elderly,010775,a person lifting their left arm and then dropping it back down,1,0.7528906,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010775.txt
+133,old_elderly,010786,a person that gets down on their knees using their left hand to support them to get down,2,0.7528602,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010786.txt
+134,old_elderly,004178,a person moves their right arm up and down in front of them,2,0.7527639,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004178.txt
+135,old_elderly,M010775,a person lifting their right arm and then dropping it back down,1,0.75264794,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010775.txt
+136,old_elderly,000046,a person raises its left hand and sets it back down.,2,0.75232315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000046.txt
+137,old_elderly,M001756,a person reaches out to grab something with his left arm and then attempts to drag it backwards.,1,0.752314,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001756.txt
+138,old_elderly,M001435,"a person slowly extends their right arm forward, then drops it back to a neutral stance.",2,0.7523018,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001435.txt
+139,old_elderly,001473,a person backs up and sits in a chair with their arms at their sides and then gets up from the chair,2,0.7522975,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001473.txt
+140,old_elderly,M001473,a person backs up and sits in a chair with their arms at their sides and then gets up from the chair,2,0.7522975,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001473.txt
+141,old_elderly,003732,a person bends over and grabs something from the ground with there right hand and stands back up.,1,0.75217307,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003732.txt
+142,old_elderly,006023,a person reaches down towards their left leg and then goes back up to standing position,2,0.75211215,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006023.txt
+143,old_elderly,006409,a person stretches out its right arm then moves it back to its side.,0,0.75210464,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006409.txt
+144,old_elderly,005516,a person slowly walked forward while grabbing the hands,1,0.75203764,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005516.txt
+145,old_elderly,M005516,a person slowly walked forward while grabbing the hands,1,0.75203764,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005516.txt
+146,old_elderly,000383,"a person steps back and uses arms to lower themselves into a seat, then stands back up and takes a step forward",0,0.7520178,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000383.txt
+147,old_elderly,M000383,"a person steps back and uses arms to lower themselves into a seat, then stands back up and takes a step forward",0,0.7520178,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000383.txt
+148,old_elderly,006592,a person slowly walked forward while grabbing something with left hand,2,0.75174046,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006592.txt
+149,old_elderly,M013570,person bends over slightly and puts something down,1,0.75166494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013570.txt
+150,old_elderly,013570,person bends over slightly and puts something down,1,0.75166494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013570.txt
+151,old_elderly,005096,"a person doing something while sitting and raised the right hand , while leaned it to face",2,0.7515656,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005096.txt
+152,old_elderly,008295,a person struggles to sit down.,1,0.75151134,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008295.txt
+153,old_elderly,M008295,a person struggles to sit down.,1,0.75151134,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008295.txt
+154,old_elderly,M004935,a person lifts something with both hands and moves it towards their left side then sets it down,2,0.75143284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004935.txt
+155,old_elderly,M006556,a person moves their left hand in front of their body quickly.,0,0.75142014,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006556.txt
+156,old_elderly,M011297,a person raises their left leg then sets it back down.,1,0.7514025,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011297.txt
+157,old_elderly,010200,a person raises their left leg then sets it back down.,1,0.7514025,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010200.txt
+158,old_elderly,001565,a person reaches down and picks something up on their left side with both hands and sets it down on their right side.,0,0.7514013,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001565.txt
+159,old_elderly,012739,a person moves slightly to his right and sits down.,0,0.75135326,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012739.txt
+160,old_elderly,014523,a person bends down and lifts up something.,0,0.7512498,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014523.txt
+161,old_elderly,M014523,a person bends down and lifts up something.,0,0.7512498,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014523.txt
+162,old_elderly,M012256,a person steps forward then kicks something hard with their left arm,1,0.7511293,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012256.txt
+163,old_elderly,004994,"a person reaches their left hand, touches their head, and then lowers the hand back down",1,0.7510253,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004994.txt
+164,old_elderly,M004994,"a person reaches their right hand, touches their head, and then lowers the hand back down",1,0.75098187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004994.txt
+165,old_elderly,011623,"a person limps back and forth, dragging their right leg with their hands.",1,0.7508496,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011623.txt
+166,old_elderly,001847,a person bends over and moves their right hand back and forth horizontally several times.,2,0.7506636,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001847.txt
+167,old_elderly,M003374,a person slightly bends over to pick something up and then sets it down to his left.,1,0.75031126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003374.txt
+168,old_elderly,006288,a person in a seated position moves their right hand up and down while keeping their left hand in place.,2,0.7502686,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006288.txt
+169,old_elderly,M003531,person is in a seating position and moved slowly towards the left turning head,2,0.75024056,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003531.txt
+170,old_elderly,M011635,a person raised left hand and pull it down,1,0.750007,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011635.txt
+171,old_elderly,005366,a person slowly walks forward hunched over and then picks something up with their left hand.,0,0.749872,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005366.txt
+172,old_elderly,000335,a person raises its left arm then sets it back down.,1,0.74987185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000335.txt
+173,old_elderly,M001565,a person reaches down and picks something up on their right side with both hands and sets it down on their left side.,0,0.74985075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001565.txt
+174,old_elderly,002346,the person sits down whilst their right arm is shaking,1,0.74977493,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002346.txt
+175,old_elderly,M003732,a person bends over and grabs something from the ground with there left hand and stands back up.,1,0.7497078,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003732.txt
+176,old_elderly,013585,a person goes from standing to sitting in a chair,1,0.74957585,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013585.txt
+177,old_elderly,M013585,a person goes from standing to sitting in a chair,1,0.74957585,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013585.txt
+178,old_elderly,M010135,a person is sitting and makes slight movements of his hands,0,0.74953127,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010135.txt
+179,old_elderly,010135,a person is sitting and makes slight movements of his hands,0,0.74953127,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010135.txt
+180,old_elderly,M000318,a person bends forward and picks up an object in their left hand.,2,0.74952686,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000318.txt
+181,old_elderly,011358,a person carefully sits down in a swaying motion,0,0.7493353,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011358.txt
+182,old_elderly,M011358,a person carefully sits down in a swaying motion,0,0.7493353,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011358.txt
+183,old_elderly,M012600,a person has left arm up to push something away,1,0.749228,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012600.txt
+184,old_elderly,004475,"a person quickly scrambles around, moving its arms as it goes",0,0.74899626,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004475.txt
+185,old_elderly,M004475,"a person quickly scrambles around, moving its arms as it goes",0,0.74899626,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004475.txt
+186,old_elderly,M002712,"a person lowers their arms, then uses their left hand to push an object to the side.",2,0.74878323,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002712.txt
+187,old_elderly,007281,"a person bends over slightly and picks something up on their left side, and puts it down on their right side",2,0.7484414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007281.txt
+188,old_elderly,M001162,a person lifts an object and moves it from right to left and set it back down,2,0.7483473,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001162.txt
+189,old_elderly,008614,a person leans forward then hops back trying to catch something,1,0.74737346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008614.txt
+190,old_elderly,M008614,a person leans forward then hops back trying to catch something,1,0.74737346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008614.txt
+191,old_elderly,007178,the person raises and lowers their left hand while sitting.,1,0.74727666,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007178.txt
+192,old_elderly,M003671,a person steps back and carefully sits down as if on a chair before rising and stepping forward again.,1,0.7470869,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003671.txt
+193,old_elderly,003671,a person steps back and carefully sits down as if on a chair before rising and stepping forward again.,1,0.7470869,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003671.txt
+194,old_elderly,005663,a person moves back and forth with their right arm and then seems to wave goodbye,1,0.74701416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005663.txt
+195,old_elderly,M000611,a person loses their balance and falls slightly to their left,1,0.74692506,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000611.txt
+196,old_elderly,M006835,a person scrambles to sit.,2,0.7468755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006835.txt
+197,old_elderly,006835,a person scrambles to sit.,2,0.7468755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006835.txt
+198,old_elderly,M003494,person picks up something on their right side and moves it to their left side,0,0.7467387,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003494.txt
+199,old_elderly,M002686,the person approaches and slowly walks around the back of a chair to their left then sits down.,0,0.7466786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002686.txt
+200,old_elderly,M006023,a person reaches down towards their right leg and then goes back up to standing position,2,0.74661213,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006023.txt
+201,old_elderly,009802,"a person bends down, pushes something heavy in a straight line",1,0.7465691,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009802.txt
+202,old_elderly,M009802,"a person bends down, pushes something heavy in a straight line",1,0.7465691,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009802.txt
+203,old_elderly,008371,a person slowly walks forward with their arms swinging gently at their sides.,2,0.74655175,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008371.txt
+204,old_elderly,M008371,a person slowly walks forward with their arms swinging gently at their sides.,2,0.74655175,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008371.txt
+205,old_elderly,M013208,a person walks forward slowly and then stops and bends over to pick up something with their left arm and hand.,2,0.746542,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013208.txt
+206,old_elderly,001162,a person lifts an object and moves it from left to right and set it back down,2,0.74653256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001162.txt
+207,old_elderly,M011578,a person walks forward slowly then bends down and picks something up with their left hand.,2,0.7465217,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011578.txt
+208,old_elderly,M014613,a person reaches form something on the right and moves it to the left.,1,0.74633706,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014613.txt
+209,old_elderly,M006288,a person in a seated position moves their left hand up and down while keeping their right hand in place.,2,0.7462789,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006288.txt
+210,old_elderly,003630,a person kneels to the ground using their left hand as balance whilst on the way down,2,0.74625164,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003630.txt
+211,old_elderly,M012993,a person gets up from sitting.,2,0.7462494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012993.txt
+212,old_elderly,012993,a person gets up from sitting.,2,0.7462494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012993.txt
+213,old_elderly,M005426,a person reaches forward with his left hand,2,0.7461512,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005426.txt
+214,old_elderly,013456,a person moves backwards and sits in a chair.,0,0.74598336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013456.txt
+215,old_elderly,M013456,a person moves backwards and sits in a chair.,0,0.74598336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013456.txt
+216,old_elderly,006758,a person takes a step sideways to their right and assumes a seated position.,0,0.74593836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006758.txt
+217,old_elderly,009970,a person repeatedly reaches for an object and appears to put it back with their right hand.,1,0.7458999,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009970.txt
+218,old_elderly,005618,a person lunges forward thrusting their left hand out at the same time,0,0.74575996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005618.txt
+219,old_elderly,M006758,a person takes a step sideways to their left and assumes a seated position.,0,0.7457042,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006758.txt
+220,old_elderly,M006341,a person begins to walk forward and then sit down on a chair.,1,0.7456497,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006341.txt
+221,old_elderly,006341,a person begins to walk forward and then sit down on a chair.,1,0.7456497,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006341.txt
+222,old_elderly,M006565,a person picks something up in front of him and moves it to the side,0,0.74556404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006565.txt
+223,old_elderly,006565,a person picks something up in front of him and moves it to the side,0,0.74556404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006565.txt
+224,old_elderly,M010786,a person that gets down on their knees using their right hand to support them to get down,2,0.7455556,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010786.txt
+225,old_elderly,010812,a person leans down as if to pick up something heavy and and tosses it to their right.,0,0.7455157,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010812.txt
+226,old_elderly,002686,the person approaches and slowly walks around the back of a chair to their right then sits down.,0,0.74546385,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002686.txt
+227,old_elderly,M009605,a person limps back and forth clutching their right knee.,2,0.74546194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009605.txt
+228,old_elderly,M011988,a person bends down forward.,1,0.7454401,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011988.txt
+229,old_elderly,011988,a person bends down forward.,1,0.7454401,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011988.txt
+230,old_elderly,012853,a person performs a stretch to the right,1,0.74543166,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012853.txt
+231,old_elderly,008199,a slouched person hits something softly with their right hand,1,0.74542296,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008199.txt
+232,old_elderly,M012853,a person performs a stretch to the left,1,0.7453998,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012853.txt
+233,old_elderly,002892,"a person stands, raises their wrist, then lowers it and moves back and forth",1,0.74524325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002892.txt
+234,old_elderly,M002892,"a person stands, raises their wrist, then lowers it and moves back and forth",1,0.74524325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002892.txt
+235,old_elderly,M010942,a person raises their left hand slightly then sets it back down.,0,0.74513936,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010942.txt
+236,old_elderly,M011623,"a person limps back and forth, dragging their left leg with their hands.",1,0.7450787,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011623.txt
+237,old_elderly,000844,a person rotating down to the ground and reaching with one arm.,0,0.7450614,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000844.txt
+238,old_elderly,M000844,a person rotating down to the ground and reaching with one arm.,0,0.7450614,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000844.txt
+239,old_elderly,M002042,a person tilts over then stand up shifting both hands to the left.,0,0.7450467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002042.txt
+240,old_elderly,M013329,a person places their arms to their sides and slowly turns in place.,1,0.7450422,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013329.txt
+241,old_elderly,013329,a person places their arms to their sides and slowly turns in place.,1,0.7450422,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013329.txt
+242,old_elderly,M006599,person picks up something on their right and sets it down on their left,1,0.7449986,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006599.txt
+243,old_elderly,012584,a person reaches his left arm straight out,0,0.7449938,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012584.txt
+244,old_elderly,M000434,a person walks forward while putting their left arm on something for support,1,0.7448485,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000434.txt
+245,old_elderly,006514,"a person puts their hands on their knee, then gets up and walks towards the right.",0,0.744827,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006514.txt
+246,old_elderly,M004452,a person grabs something with their left hand and moves it slightly to the left.,1,0.7447918,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004452.txt
+247,old_elderly,010145,a person is pushed hard to their left and they recover into a standing position.,0,0.7446129,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010145.txt
+248,old_elderly,M009429,person is sitting down leaving at someone with the left arm.,0,0.74460536,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009429.txt
+249,old_elderly,M003163,a person is moving their left hand back and forth in front of their face.,2,0.74456394,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003163.txt
+250,old_elderly,M001761,person moves forward and moves left hand with something in it carefully,1,0.7445362,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001761.txt
+251,old_elderly,011297,a person raises their right leg then sets it back down.,1,0.7442901,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011297.txt
+252,old_elderly,M010200,a person raises their right leg then sets it back down.,1,0.7442901,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010200.txt
+253,old_elderly,M001249,a person steps forward and reaches down to grab or place something with their right hand.,0,0.74425995,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001249.txt
+254,old_elderly,003494,person picks up something on their left side and moves it to their right side,0,0.744187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003494.txt
+255,old_elderly,M003896,"a person reaches down to grab something, then placing it off to their left, and then reaching down again.",1,0.74406075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003896.txt
+256,old_elderly,M003071,person moves forward and sits in chair briefly before standing back up and walking away,0,0.7439375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003071.txt
+257,old_elderly,003071,person moves forward and sits in chair briefly before standing back up and walking away,0,0.7439375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003071.txt
+258,old_elderly,005738,a person picks something up with their left hand and sets it down to their side.,1,0.74389416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005738.txt
+259,old_elderly,007198,a person carefully sits down backwards,1,0.7438004,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007198.txt
+260,old_elderly,M007198,a person carefully sits down backwards,1,0.7438004,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007198.txt
+261,old_elderly,M002303,"a person leans to their left, then bounces on their feet",1,0.7437817,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002303.txt
+262,old_elderly,M003399,a person being pushed to their left,0,0.74376225,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003399.txt
+263,old_elderly,012354,"a person stretches their arm out, curves outwards and returns it to the neutral position",0,0.7437552,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012354.txt
+264,old_elderly,M012354,"a person stretches their arm out, curves outwards and returns it to the neutral position",0,0.7437552,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012354.txt
+265,old_elderly,M009423,a person gets up from a chair while holding something with both hands.,2,0.7437254,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009423.txt
+266,old_elderly,009423,a person gets up from a chair while holding something with both hands.,2,0.7437254,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009423.txt
+267,old_elderly,M004178,a person moves their left arm up and down in front of them,2,0.7437043,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004178.txt
+268,old_elderly,M011829,a person puts their arms down and it sitting.,2,0.74364763,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011829.txt
+269,old_elderly,011829,a person puts their arms down and it sitting.,2,0.74364763,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011829.txt
+270,old_elderly,M006514,"a person puts their hands on their knee, then gets up and walks towards the left.",0,0.74360514,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006514.txt
+271,old_elderly,M011593,person moves forward and uses left  hand to  pick something up and move to side,0,0.7435944,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011593.txt
+272,old_elderly,001063,a person lets their hand down from there head and puts something down.,0,0.7435866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001063.txt
+273,old_elderly,M001063,a person lets their hand down from there head and puts something down.,0,0.7435866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001063.txt
+274,old_elderly,006556,a person moves their right hand in front of their body quickly.,0,0.7435211,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006556.txt
+275,old_elderly,003531,person is in a seating position and moved slowly towards the right turning head,2,0.7434782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003531.txt
+276,old_elderly,M011550,a person reaches out and slides their hand across something.,2,0.7434238,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011550.txt
+277,old_elderly,011550,a person reaches out and slides their hand across something.,2,0.7434238,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011550.txt
+278,old_elderly,M003900,a person bends down as if pushed.,0,0.7433532,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003900.txt
+279,old_elderly,003900,a person bends down as if pushed.,0,0.7433532,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003900.txt
+280,old_elderly,M005366,a person slowly walks forward hunched over and then picks something up with their right hand.,0,0.7433347,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005366.txt
+281,old_elderly,M005663,a person moves back and forth with their left arm and then seems to wave goodbye,1,0.7433002,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005663.txt
+282,old_elderly,003922,a person steps and almost falls backwards.,0,0.74320316,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003922.txt
+283,old_elderly,M003922,a person steps and almost falls backwards.,0,0.74320316,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003922.txt
+284,old_elderly,M003630,a person kneels to the ground using their right hand as balance whilst on the way down,2,0.74317557,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003630.txt
+285,old_elderly,011312,a person is moving their left arm erratically.,2,0.743135,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011312.txt
+286,old_elderly,M010843,"a person has left arm straight to side, and is trying to kick something with left leg",2,0.74307513,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010843.txt
+287,old_elderly,012071,a person raises his left hand towards the head and then lowers it,2,0.74306494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012071.txt
+288,old_elderly,011807,a person lowers arm and claps once before walking forward to sit down.,2,0.7430315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011807.txt
+289,old_elderly,M011807,a person lowers arm and claps once before walking forward to sit down.,2,0.7430315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011807.txt
+290,old_elderly,M003621,a person is pushing something back and forward with their left hand.,2,0.7430137,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003621.txt
+291,old_elderly,002042,a person tilts over then stand up shifting both hands to the right.,0,0.7429402,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002042.txt
+292,old_elderly,M001065,a person sways slightly from left to right and uses him arms as if to balance himself.,0,0.7428421,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001065.txt
+293,old_elderly,M000799,a person moving arms and right leg in a certain motion,2,0.7428287,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000799.txt
+294,old_elderly,M001528,a person on their knees pushes themselves up with their right hand to a standing position,2,0.74276876,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001528.txt
+295,old_elderly,M005322,a person gently lifts something from their right and sets it down on their left.,2,0.7426748,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005322.txt
+296,old_elderly,M007526,"a person reaches slightly down first to their right, then to their left.",1,0.7426512,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007526.txt
+297,old_elderly,014306,"a person raises their left hand slightly, then sets it back down.",0,0.7425481,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014306.txt
+298,old_elderly,003374,person bends down a little in a lifting position and moves hands left to right,2,0.74254394,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003374.txt
+299,old_elderly,M013215,"a person steps forward very slowly, with their arms held out to either side and holding onto something for support.",1,0.7425356,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013215.txt
+300,old_elderly,013215,"a person steps forward very slowly, with their arms held out to either side and holding onto something for support.",1,0.7425356,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013215.txt
+301,old_elderly,001528,a person on their knees pushes themselves up with their left hand to a standing position,2,0.7425147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001528.txt
+302,old_elderly,005322,a person gently lifts something from their left and sets it down on their right.,2,0.7424903,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005322.txt
+303,old_elderly,005523,a person leans quickly backward from something,0,0.74242437,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005523.txt
+304,old_elderly,M005523,a person leans quickly backward from something,0,0.74242437,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005523.txt
+305,old_elderly,M001856,a person shakingly goes to a sitting position.,1,0.7424039,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001856.txt
+306,old_elderly,001856,a person shakingly goes to a sitting position.,1,0.7424039,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001856.txt
+307,old_elderly,002712,"a person lowers their arms, then uses their right hand to push an object to the side.",2,0.7423452,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002712.txt
+308,old_elderly,004921,a person reaches down to pick something up with left hand and stumbles.,0,0.74209756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004921.txt
+309,old_elderly,M013980,"a person slowly walked backward, and sat on the knee and hands",0,0.7420862,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013980.txt
+310,old_elderly,013980,"a person slowly walked backward, and sat on the knee and hands",0,0.7420862,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013980.txt
+311,old_elderly,000318,a person bends forward and picks up an object in their right hand.,2,0.74197686,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000318.txt
+312,old_elderly,000799,a person moving arms and left leg in a certain motion,2,0.74191415,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000799.txt
+313,old_elderly,M000335,a person raises its right arm then sets it back down.,1,0.7418721,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000335.txt
+314,old_elderly,002558,a person limps forward while holding his side.,0,0.7418314,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002558.txt
+315,old_elderly,M002558,a person limps forward while holding his side.,0,0.7418314,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002558.txt
+316,old_elderly,M013057,the person lowers his left arm and takes a step forward.,2,0.74179554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013057.txt
+317,old_elderly,M003891,"a person picks up something with both hands, moves it to their left and then sets it back down.",1,0.7417675,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003891.txt
+318,old_elderly,001954,a person limps while putting their hands on their right leg,0,0.7417489,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001954.txt
+319,old_elderly,M004153,a figure repeatedly turns towards the left hand side,0,0.74157155,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004153.txt
+320,old_elderly,009411,a person grabs something with their hands and takes a sideways step to the left.,1,0.7415521,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009411.txt
+321,old_elderly,M012584,a person reaches his right arm straight out,0,0.74153304,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012584.txt
+322,old_elderly,001035,a person doing loosening up by moving and bending.,1,0.74151087,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001035.txt
+323,old_elderly,M001035,a person doing loosening up by moving and bending.,1,0.74151087,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001035.txt
+324,old_elderly,000589,"a sitting person lowers their arms, then raises them.",2,0.7414946,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000589.txt
+325,old_elderly,M000589,"a sitting person lowers their arms, then raises them.",2,0.7414946,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000589.txt
+326,old_elderly,M007543,a person slightly bent over with right hand pressing against the air walks forward slowly,0,0.7414559,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007543.txt
+327,old_elderly,000885,person lifts their right arm up to their side and puts it back down again,1,0.7414005,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000885.txt
+328,old_elderly,M004872,"a person takes a step forward, then bends over while trying to reach something underneath him",2,0.74134743,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004872.txt
+329,old_elderly,004872,"a person takes a step forward, then bends over while trying to reach something underneath him",2,0.74134743,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004872.txt
+330,old_elderly,M004921,a person reaches down to pick something up with right hand and stumbles.,0,0.7413195,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004921.txt
+331,old_elderly,M009071,a person sways their arms back and forth while bent over.,0,0.74124455,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009071.txt
+332,old_elderly,009071,a person sways their arms back and forth while bent over.,0,0.74124455,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009071.txt
+333,old_elderly,000434,a person walks forward while putting their right arm on something for support,1,0.7412413,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000434.txt
+334,old_elderly,002198,a person walks foward slowly while holding onto something with their arms for balance.,1,0.7412093,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002198.txt
+335,old_elderly,M002198,a person walks foward slowly while holding onto something with their arms for balance.,1,0.7412093,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002198.txt
+336,old_elderly,M002050,person stumbles backwards and then puts their hand on their hand. they appear to be sick or feeling unwell,2,0.7411896,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002050.txt
+337,old_elderly,002050,person stumbles backwards and then puts their hand on their hand. they appear to be sick or feeling unwell,2,0.7411896,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002050.txt
+338,old_elderly,001801,a person is leaning forward and reaching for something.,1,0.7410697,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001801.txt
+339,old_elderly,M001801,a person is leaning forward and reaching for something.,1,0.7410697,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001801.txt
+340,old_elderly,M012678,"a figure raises its hands to shoulder level then lowers them, repeatedly",2,0.7410253,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012678.txt
+341,old_elderly,012678,"a figure raises its hands to shoulder level then lowers them, repeatedly",2,0.7410253,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012678.txt
+342,old_elderly,M001804,a person bends slightly to their right and picks something up then turns slightly to their left and places it down.,0,0.74101734,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001804.txt
+343,old_elderly,004935,a person lifts something with both hands and moves it towards their right side then sets it down,2,0.74099815,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004935.txt
+344,old_elderly,M005229,a person bends down and picks something up and then sets it down,2,0.7409586,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005229.txt
+345,old_elderly,005229,a person bends down and picks something up and then sets it down,2,0.7409586,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005229.txt
+346,old_elderly,011578,a person walks forward slowly then bends down and picks something up with their right hand.,2,0.7408858,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011578.txt
+347,old_elderly,001761,person moves forward and moves right hand with something in it carefully,1,0.74084395,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001761.txt
+348,old_elderly,M013079,"a person bends down, turning their head back and forth, looking for an object.",2,0.7408147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013079.txt
+349,old_elderly,013079,"a person bends down, turning their head back and forth, looking for an object.",2,0.7408147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013079.txt
+350,old_elderly,M013519,"a person picks something up with both hands, moves it and puts it down to their left",1,0.7407724,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013519.txt
+351,old_elderly,M010721,a person picks something up on his right and sets down to his left,2,0.7406285,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010721.txt
+352,old_elderly,M005054,a person slowly walked forward in left direction while grabbing something,1,0.74060965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005054.txt
+353,old_elderly,012256,a person steps forward then kicks something hard with their right arm,1,0.7405454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012256.txt
+354,old_elderly,M001672,a person moves his right arm up and his left arm downward.,1,0.74047655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001672.txt
+355,old_elderly,007543,a person slightly bent over with left hand pressing against the air walks forward slowly,0,0.74046934,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007543.txt
+356,old_elderly,M002863,a person leans forward and picks something up off the ground with their left hand.,1,0.7403356,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002863.txt
+357,old_elderly,M012499,a person strafes back and forth from left to right.,1,0.74031246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012499.txt
+358,old_elderly,002092,a person bends right arm and moves it back and forth several times while slightly leaning to the right.,1,0.7403004,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002092.txt
+359,old_elderly,008825,a person lifts something up and sets it down to their right.,2,0.7402981,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008825.txt
+360,old_elderly,004066,a person has their arms fully extended and then sits down on an invisible chair.,0,0.74016184,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004066.txt
+361,old_elderly,M004066,a person has their arms fully extended and then sits down on an invisible chair.,0,0.74016184,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004066.txt
+362,old_elderly,M005712,a person in a sitting position hitting with his left hand to throw something,1,0.74015075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005712.txt
+363,old_elderly,012600,a person has right arm up to push something away,1,0.7400055,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012600.txt
+364,old_elderly,006511,a person stands still while gently moving their right arm back and forth.,2,0.7399988,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006511.txt
+365,old_elderly,008821,a person is bending their knee and trying to lift something off the ground,2,0.73996186,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008821.txt
+366,old_elderly,M008821,a person is bending their knee and trying to lift something off the ground,2,0.73996186,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008821.txt
+367,old_elderly,M005344,"a person squats and eventually stands up, moving their left hand a bit.",1,0.73991984,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005344.txt
+368,old_elderly,M000796,a person leans down and presses against something with their left hand before standing up and raising their arms,1,0.7398598,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000796.txt
+369,old_elderly,008661,a person being slightly pushed forward,2,0.7398505,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008661.txt
+370,old_elderly,M008661,a person being slightly pushed forward,2,0.7398505,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008661.txt
+371,old_elderly,004310,"a person swivels their upper body around slowly, then takes a step left.",2,0.7398448,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004310.txt
+372,old_elderly,M012149,person stands still then sits back slightly into a chair,2,0.73976517,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012149.txt
+373,old_elderly,012149,person stands still then sits back slightly into a chair,2,0.73976517,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012149.txt
+374,old_elderly,002387,"a person standing still moves left hand forward , backward  to the side and down.",2,0.7396635,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002387.txt
+375,old_elderly,008340,a person is streching by leaning to their left side,2,0.7395941,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008340.txt
+376,old_elderly,004158,a person walks forward using their left hand to steady themselves on an object.,0,0.7395698,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004158.txt
+377,old_elderly,011824,a person stretches before sitting down in a chair,0,0.7395276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011824.txt
+378,old_elderly,M011824,a person stretches before sitting down in a chair,0,0.7395276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011824.txt
+379,old_elderly,000472,a person slowly moves their left arm near their stomach,2,0.7395083,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000472.txt
+380,old_elderly,M012185,a person stands from kneeling position by pushing up with right hand.,2,0.73948073,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012185.txt
+381,old_elderly,005659,a person stands from a sitting position and makes a motion with both of his hands.,1,0.73934937,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005659.txt
+382,old_elderly,M005659,a person stands from a sitting position and makes a motion with both of his hands.,1,0.73934937,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005659.txt
+383,old_elderly,005054,a person slowly walked forward in right direction while grabbing something,1,0.7393475,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005054.txt
+384,old_elderly,011593,person moves forward and uses right  hand to  pick something up and move to side,0,0.7393412,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011593.txt
+385,old_elderly,001756,a person reaches out to grab something with his right arm and then attempts to drag it backwards.,1,0.7393099,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001756.txt
+386,old_elderly,M004781,a person brings their left knee up to their chest and moves it around side to side.,2,0.73929375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004781.txt
+387,old_elderly,009476,a person being pushed backwards and trying to recover,1,0.7392888,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009476.txt
+388,old_elderly,M009476,a person being pushed backwards and trying to recover,1,0.7392888,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009476.txt
+389,old_elderly,M008340,a person is streching by leaning to their right side,2,0.739282,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008340.txt
+390,old_elderly,M009080,"a person spreads with arms straight out, before beinging them back down to their side",0,0.7392525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009080.txt
+391,old_elderly,009080,"a person spreads with arms straight out, before beinging them back down to their side",0,0.7392525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009080.txt
+392,old_elderly,009944,a person reaches with their right arm and pulls on their upper left arm,2,0.7392245,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009944.txt
+393,old_elderly,M008810,a person lifts and moves something from right to left.,2,0.73920786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008810.txt
+394,old_elderly,005250,a person pushes forward with one hand.,0,0.7392061,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005250.txt
+395,old_elderly,M005250,a person pushes forward with one hand.,0,0.7392061,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005250.txt
+396,old_elderly,M000472,a person slowly moves their right arm near their stomach,2,0.73917735,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000472.txt
+397,old_elderly,M011312,a person is moving their right arm erratically.,2,0.7391447,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011312.txt
+398,old_elderly,M007178,the person raises and lowers their right hand while sitting.,1,0.7391306,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007178.txt
+399,old_elderly,005270,a person is hunched over and lifts something up with their left hand.,1,0.7390729,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005270.txt
+400,old_elderly,009857,a person lifts up their left hand slowly.,2,0.7390651,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009857.txt
+401,old_elderly,M013704,a person takes a step diagonally to their left over an object,0,0.7389558,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013704.txt
+402,old_elderly,M014255,"a person takes a step backward, then sits down using their hands to lower themselves, then stands back up.",2,0.73883444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014255.txt
+403,old_elderly,014255,"a person takes a step backward, then sits down using their hands to lower themselves, then stands back up.",2,0.73883444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014255.txt
+404,old_elderly,001804,a person bends slightly to their left and picks something up then turns slightly to their right and places it down.,0,0.7388116,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001804.txt
+405,old_elderly,M001237,a person reaches out with their left hand and then drops it back down to their side.,2,0.73878443,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001237.txt
+406,old_elderly,M005618,a person lunges forward thrusting their right hand out at the same time,0,0.7387514,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005618.txt
+407,old_elderly,M012327,a person stands still and uses their left hand to slash at the air,2,0.7387253,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012327.txt
+408,old_elderly,003163,a person is moving their right hand back and forth in front of their face.,2,0.73869026,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003163.txt
+409,old_elderly,M003474,a person steps slowly backwards.,2,0.73866624,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003474.txt
+410,old_elderly,003474,a person steps slowly backwards.,2,0.73866624,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003474.txt
+411,old_elderly,009638,a person recovering from a push to the right,0,0.73850393,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009638.txt
+412,old_elderly,M001663,a person sitting with right hand moving up.,2,0.73850065,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001663.txt
+413,old_elderly,005426,a person reaches forward with his right hand,2,0.7384825,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005426.txt
+414,old_elderly,006499,a person bends down and touches the ground with their right hand.,1,0.7383846,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006499.txt
+415,old_elderly,012697,a person sits and moves his left hand to his head.,1,0.7382893,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012697.txt
+416,old_elderly,M010847,a person puts his left hand to his head and searches back and forth,0,0.7381857,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010847.txt
+417,old_elderly,M006499,a person bends down and touches the ground with their left hand.,1,0.7381697,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006499.txt
+418,old_elderly,M013846,a person using the left arm to reach for something.,0,0.73815,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013846.txt
+419,old_elderly,M000337,person walks forwards and uses their left arm as support,2,0.73806953,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000337.txt
+420,old_elderly,M001510,a person stretches from side to side.,0,0.7379939,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001510.txt
+421,old_elderly,001510,a person stretches from side to side.,0,0.7379939,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001510.txt
+422,old_elderly,M013713,"a person avoids something, dodging to their left.",0,0.7379589,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013713.txt
+423,old_elderly,010638,a person slowly throws something to their left with their right hand.,0,0.7379279,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010638.txt
+424,old_elderly,000583,"a person loosening up by moving their arms , shoulders and legs slightly.",0,0.7378553,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000583.txt
+425,old_elderly,M000583,"a person loosening up by moving their arms , shoulders and legs slightly.",0,0.7378553,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000583.txt
+426,old_elderly,M003516,a person moves their left hand to their head and then drops it back down.,2,0.73782325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003516.txt
+427,old_elderly,013208,a person walks forward slowly and then stops and bends over to pick up something with their right arm and hand.,2,0.73773146,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013208.txt
+428,old_elderly,002957,a person leans on something and grabs their leg with their hand,0,0.7377104,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002957.txt
+429,old_elderly,M002957,a person leans on something and grabs their leg with their hand,0,0.7377104,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002957.txt
+430,old_elderly,M002437,"a person reaches down with their left hand and picks something up then places it down, they then walk backwards",1,0.7376683,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002437.txt
+431,old_elderly,007554,a person bends knees and then stands back up quickly.,1,0.73762715,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007554.txt
+432,old_elderly,M007554,a person bends knees and then stands back up quickly.,1,0.73762715,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007554.txt
+433,old_elderly,M010522,the person is moving their left hand around while sitting or crouching.,0,0.7375791,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010522.txt
+434,old_elderly,002088,"a figure performs a lifting motion with its left arm, leaning slightly",2,0.7375301,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002088.txt
+435,old_elderly,M005647,a person bends down to their left to pick something up and then walks forward.,1,0.73751163,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005647.txt
+436,old_elderly,012185,a person stands from kneeling position by pushing up with left hand.,2,0.73750556,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012185.txt
+437,old_elderly,M014170,a person leans forward and lightly hits something with their hand.,0,0.73748463,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014170.txt
+438,old_elderly,014170,a person leans forward and lightly hits something with their hand.,0,0.73748463,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014170.txt
+439,old_elderly,010540,a person raises their right foot and brings it down quickly.,2,0.73738736,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010540.txt
+440,old_elderly,011561,a person is sitting and moves his right and left hand around.,2,0.7373585,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011561.txt
+441,old_elderly,002451,a person making a stance with right foot back for stablility.,1,0.73724973,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002451.txt
+442,old_elderly,002863,a person leans forward and picks something up off the ground with their right hand.,1,0.7372222,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002863.txt
+443,old_elderly,M006347,person is bending slightly and putting arms out to side,1,0.73721176,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006347.txt
+444,old_elderly,006347,person is bending slightly and putting arms out to side,1,0.73721176,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006347.txt
+445,old_elderly,003055,"a person lowers their left arm, and then raises it back up.",1,0.73719555,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003055.txt
+446,old_elderly,013498,a person stays in the same spot and slowly lowers their arms in a casual way,0,0.7371795,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013498.txt
+447,old_elderly,M013498,a person stays in the same spot and slowly lowers their arms in a casual way,0,0.7371795,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013498.txt
+448,old_elderly,001663,a person sitting with left hand moving up.,2,0.7371764,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001663.txt
+449,old_elderly,M014580,a person hit with left hand and walked backwards,1,0.7371433,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014580.txt
+450,old_elderly,007681,"a person is sitting down while his arms are extended outwards, then brings his arms down, then back up again",1,0.73704255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007681.txt
+451,old_elderly,M007681,"a person is sitting down while his arms are extended outwards, then brings his arms down, then back up again",1,0.73704255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007681.txt
+452,old_elderly,004559,"a person reaches down to their left and picks something up, holds it briefly, then places it down.",0,0.7369562,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004559.txt
+453,old_elderly,M007850,a person leans to their left and stretches.,0,0.73689604,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007850.txt
+454,old_elderly,001065,a person sways slightly from right to left and uses him arms as if to balance himself.,0,0.73679584,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001065.txt
+455,old_elderly,005402,"a person stands up from a kneeling position, using their right arm to help themselves up.",0,0.73678994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005402.txt
+456,old_elderly,011118,a person quickly picks something up with their left hand.,2,0.73674643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011118.txt
+457,old_elderly,M005206,a person appears to be pushed and falls to their left.,2,0.73673916,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005206.txt
+458,old_elderly,M009591,a person stretches toward their let with their left arm.,0,0.73673356,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009591.txt
+459,old_elderly,M001650,a person falling forward then sits back up.,2,0.7367156,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001650.txt
+460,old_elderly,001650,a person falling forward then sits back up.,2,0.7367156,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001650.txt
+461,old_elderly,M005186,a person bends over and reaches to the ground with his left hand to look for an item then stands back up in a neutral position with nothing in their hand.,2,0.7366977,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005186.txt
+462,old_elderly,014580,a person hit with right hand and walked backwards,1,0.73669547,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014580.txt
+463,old_elderly,M010465,a person bends over and touches something with is left hand.,2,0.736691,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010465.txt
+464,old_elderly,005328,a person moves his left hand upwards.,2,0.7366678,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005328.txt
+465,old_elderly,012997,a person swings their arm backwards while stepping back,0,0.7366025,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012997.txt
+466,old_elderly,M012997,a person swings their arm backwards while stepping back,0,0.7366025,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012997.txt
+467,old_elderly,M012316,a person bend on the knee and raised the left hand,1,0.7365909,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012316.txt
+468,old_elderly,M002451,a person making a stance with left foot back for stablility.,1,0.73658824,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002451.txt
+469,old_elderly,M004158,a person walks forward using their right hand to steady themselves on an object.,0,0.73658234,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004158.txt
+470,old_elderly,M010026,"a person uses his arms to maintain balance, takes a step forward and puts his arms back down",1,0.73657554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010026.txt
+471,old_elderly,010026,"a person uses his arms to maintain balance, takes a step forward and puts his arms back down",1,0.73657554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010026.txt
+472,old_elderly,002766,person raises their left hand over the head and slowly takes a step backwards.,0,0.7364826,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002766.txt
+473,old_elderly,001237,a person reaches out with their right hand and then drops it back down to their side.,2,0.73640406,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001237.txt
+474,old_elderly,010663,"a person pushes himself up from a sitting position, walks clockwise and starts to sit down on the ground again.",0,0.73639,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010663.txt
+475,old_elderly,002195,a person backs up before moving their arms out and pushing something.,0,0.7363539,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002195.txt
+476,old_elderly,M002195,a person backs up before moving their arms out and pushing something.,0,0.7363539,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002195.txt
+477,old_elderly,M014416,person lifts something and moves it to their left side.,2,0.7363323,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014416.txt
+478,old_elderly,M002899,a person is leaning forward and making rapid movements with their left arm.,0,0.7362428,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002899.txt
+479,old_elderly,M012942,"a person slightly reaches down to their right and picks up something with both hands, then places it back down again slightly to the left.",1,0.73622894,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012942.txt
+480,old_elderly,M007903,a person stands and moves left hand side to side,0,0.7362186,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007903.txt
+481,old_elderly,002291,"person moves their arms and legs about, bends down then back up again",2,0.73617864,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002291.txt
+482,old_elderly,M002291,"person moves their arms and legs about, bends down then back up again",2,0.73617864,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002291.txt
+483,old_elderly,012942,"a person slightly reaches down to their left and picks up something with both hands, then places it back down again slightly to the right.",1,0.736127,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012942.txt
+484,old_elderly,M005173,"a figure trembles slightly and is maybe an elderly person, gesturing with their left hand at someone else",2,0.7361224,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005173.txt
+485,old_elderly,M000885,person lifts their left arm up to their side and puts it back down again,1,0.73611796,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000885.txt
+486,old_elderly,M003629,the person walks forward then turns around to sit in a chair facing backwards,2,0.73611486,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003629.txt
+487,old_elderly,003629,the person walks forward then turns around to sit in a chair facing backwards,2,0.73611486,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003629.txt
+488,old_elderly,M008676,a person moves then right arm up whilst moving their left arm down.,2,0.73610425,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008676.txt
+489,old_elderly,010847,a person puts his right hand to his head and searches back and forth,0,0.7360867,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010847.txt
+490,old_elderly,M003725,"a person puts their arms out, moves forward and grabs something",1,0.7360233,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003725.txt
+491,old_elderly,003725,"a person puts their arms out, moves forward and grabs something",1,0.7360233,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003725.txt
+492,old_elderly,012466,"a person steps forward slowly, reaching out to their side with their left hand to hold something for support.",1,0.7359931,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012466.txt
+493,old_elderly,M002457,a person sits down to a reclined position and then stands back up.,0,0.73595965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002457.txt
+494,old_elderly,002457,a person sits down to a reclined position and then stands back up.,0,0.73595965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002457.txt
+495,old_elderly,M012851,the man is grabbing something and spinning back to the left,2,0.73594725,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012851.txt
+496,old_elderly,005712,a person in a sitting position hitting with his right hand to throw something,1,0.7359263,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005712.txt
+497,old_elderly,M001343,a person takes a step to the right then swings their left arm,0,0.7358898,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001343.txt
+498,old_elderly,M002006,the person sits down and throws something with their left hand,0,0.73588187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002006.txt
+499,old_elderly,012003,a sitting person pushes themselves up with their left foot and walks to the side to extend both their arms to the side of their body,0,0.7357567,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012003.txt
+500,old_elderly,M007741,a person moves something with their left hand.,1,0.73571897,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007741.txt
+501,old_elderly,M009857,a person lifts up their right hand slowly.,2,0.7356771,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009857.txt
+502,old_elderly,007670,a person walks forward placing their left hand on something as they pass by,1,0.7355559,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007670.txt
+503,old_elderly,004401,a person moves something up and out with his left arm.,2,0.7355378,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004401.txt
+504,old_elderly,M008670,a person slowly jumps backwards.,0,0.73551726,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008670.txt
+505,old_elderly,008670,a person slowly jumps backwards.,0,0.73551726,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008670.txt
+506,old_elderly,M008904,a person bends over and then picks up something with his right hand and then the left.,0,0.73547786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008904.txt
+507,old_elderly,M009411,a person grabs something with their hands and takes a sideways step to the right.,1,0.73546076,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009411.txt
+508,old_elderly,M002818,a person extends their arms back and forth,1,0.735254,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002818.txt
+509,old_elderly,002818,a person extends their arms back and forth,1,0.735254,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002818.txt
+510,old_elderly,M002368,a person uses their left hand to stand up from a kneeling position.,1,0.73522556,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002368.txt
+511,old_elderly,M005167,a person raises their left hand then sets it back down.,0,0.7351889,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005167.txt
+512,old_elderly,010843,"a person has right arm straight to side, and is trying to kick something with right leg",2,0.73517954,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010843.txt
+513,old_elderly,M004176,a person steps forward then reaches down for something with his left hand.,1,0.73508954,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004176.txt
+514,old_elderly,M000171,the person uses his right hand to stretch his right leg,2,0.7350553,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000171.txt
+515,old_elderly,M000785,a person picks something up and puts it down to the left,0,0.7350494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000785.txt
+516,old_elderly,M001614,a person staggers around slowly in an clockwise movement,1,0.73503304,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001614.txt
+517,old_elderly,M012003,a sitting person pushes themselves up with their right foot and walks to the side to extend both their arms to the side of their body,0,0.7350028,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012003.txt
+518,old_elderly,002435,person moves down some step holding onto something with left hand,2,0.73497546,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002435.txt
+519,old_elderly,M001267,a person bends down before returning to normal posture.,2,0.73497385,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001267.txt
+520,old_elderly,001267,a person bends down before returning to normal posture.,2,0.73497385,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001267.txt
+521,old_elderly,012316,a person bend on the knee and raised the right hand,1,0.73495185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012316.txt
+522,old_elderly,014257,the person is holding onto something moving there left leg back-and-forth.,2,0.73494494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014257.txt
+523,old_elderly,012828,a person is sitting and reaches up for a second.,2,0.7349402,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012828.txt
+524,old_elderly,M012828,a person is sitting and reaches up for a second.,2,0.7349402,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012828.txt
+525,old_elderly,005741,a person slowly moving his both hands,1,0.7349342,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005741.txt
+526,old_elderly,M005741,a person slowly moving his both hands,1,0.7349342,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005741.txt
+527,old_elderly,M002435,person moves down some step holding onto something with right hand,2,0.73483527,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002435.txt
+528,old_elderly,005088,a standing person putting their left hand forward and moving it clockwise,2,0.7347612,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005088.txt
+529,old_elderly,002806,a person backs up slowly.,2,0.7346537,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002806.txt
+530,old_elderly,M002806,a person backs up slowly.,2,0.7346537,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002806.txt
+531,old_elderly,001152,a person bends down and jumps forward,1,0.7345812,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001152.txt
+532,old_elderly,M001152,a person bends down and jumps forward,1,0.7345812,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001152.txt
+533,old_elderly,M000438,person lifts something and places it down to their left,2,0.7344986,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000438.txt
+534,old_elderly,007526,"a person reaches slightly down first to their left, then to their right.",1,0.7344855,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007526.txt
+535,old_elderly,M007918,person appears to be sitting while moving right arm rapidly in a sawing motion.,1,0.7343799,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007918.txt
+536,old_elderly,M012492,"a person is sitting down with both arms extended, lowers his right arm, then brings it back up",2,0.73435897,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012492.txt
+537,old_elderly,012288,"a person reaches down slight and grabs something, then reaches from something with its left hand.",2,0.73435545,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012288.txt
+538,old_elderly,M010290,a person is carefully stepping off of something down and to the left.,1,0.73431283,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010290.txt
+539,old_elderly,M002100,a person lowers their left arm from their middle and then raises it again,1,0.7343091,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002100.txt
+540,old_elderly,M009944,a person reaches with their left arm and pulls on their upper right arm,2,0.7342917,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009944.txt
+541,old_elderly,004148,a person gently moves something to the left.,2,0.73416406,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004148.txt
+542,old_elderly,M005769,"a person bends their right leg at the knee, and stretches their arms straight out",2,0.7341618,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005769.txt
+543,old_elderly,M010159,a person stretching to the right and left,1,0.7341614,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010159.txt
+544,old_elderly,002303,"a person leans to their right, then bounces on their feet",1,0.7341454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002303.txt
+545,old_elderly,010793,a person moves his hands from right to left hitting something.,1,0.73412,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010793.txt
+546,old_elderly,001672,a person moves his left arm up and his right arm downward.,1,0.7341192,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001672.txt
+547,old_elderly,006398,a person slowly takes steps forward while holding onto something with their hands for balance.,2,0.73411256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006398.txt
+548,old_elderly,M006398,a person slowly takes steps forward while holding onto something with their hands for balance.,2,0.73411256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006398.txt
+549,old_elderly,M005738,a person picks something up with their right hand and sets it down to their side.,1,0.7340965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005738.txt
+550,old_elderly,M001128,a person slaps their hands against their legs,0,0.7340731,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001128.txt
+551,old_elderly,001128,a person slaps their hands against their legs,0,0.7340731,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001128.txt
+552,old_elderly,007304,a person bending down to pick up something.,2,0.73397803,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007304.txt
+553,old_elderly,M007304,a person bending down to pick up something.,2,0.73397803,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007304.txt
+554,old_elderly,M002016,a person crouch to pick something up and stands up,1,0.733962,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002016.txt
+555,old_elderly,002016,a person crouch to pick something up and stands up,1,0.733962,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002016.txt
+556,old_elderly,001343,a person takes a step to the left then swings their right arm,0,0.73396003,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001343.txt
+557,old_elderly,M006977,a person shuffles to his left and then back to his left,1,0.73383206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006977.txt
+558,old_elderly,M001954,a person limps while putting their hands on their left leg,0,0.73364663,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001954.txt
+559,old_elderly,M010657,a person turns around and pulls something.,0,0.7336313,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010657.txt
+560,old_elderly,010657,a person turns around and pulls something.,0,0.7336313,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010657.txt
+561,old_elderly,004490,a person carefully stepping backwards.,2,0.7336098,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004490.txt
+562,old_elderly,M004490,a person carefully stepping backwards.,2,0.7336098,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004490.txt
+563,old_elderly,M006868,a person slowly bends over from the waist and picks something up with their left hand and then raises up to a standing position again.,0,0.73360384,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006868.txt
+564,old_elderly,000512,a person slowly hooks their right arm in a punch motion,2,0.73354983,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000512.txt
+565,old_elderly,010646,"a person is walking forwards whilst his arms are extended outwards, trying to keep balance",1,0.7335303,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010646.txt
+566,old_elderly,M010646,"a person is walking forwards whilst his arms are extended outwards, trying to keep balance",1,0.7335303,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010646.txt
+567,old_elderly,M000512,a person slowly hooks their left arm in a punch motion,2,0.733527,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000512.txt
+568,old_elderly,M011940,a person steps up and sticks their arm out straight,0,0.7334813,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011940.txt
+569,old_elderly,011940,a person steps up and sticks their arm out straight,0,0.7334813,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011940.txt
+570,old_elderly,011243,a person leans over and picks something up,2,0.73342836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011243.txt
+571,old_elderly,M011243,a person leans over and picks something up,2,0.73342836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011243.txt
+572,old_elderly,M007364,"a person is holding on to their left leg, and moving it around.",2,0.7333186,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007364.txt
+573,old_elderly,M005402,"a person stands up from a kneeling position, using their left arm to help themselves up.",0,0.73330474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005402.txt
+574,old_elderly,003621,a person is pushing something back and forward with their right hand.,2,0.73327506,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003621.txt
+575,old_elderly,002191,"a sitting person uses their hands to help them stand up, turn around, then sit back down.",0,0.733261,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002191.txt
+576,old_elderly,M002191,"a sitting person uses their hands to help them stand up, turn around, then sit back down.",0,0.733261,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002191.txt
+577,old_elderly,M009296,a person takes a step backwards to the left.,0,0.73325247,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009296.txt
+578,old_elderly,M010638,a person slowly throws something to their right with their left hand.,0,0.7331761,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010638.txt
+579,old_elderly,003891,"a person picks up something with both hands, moves it to their right and then sets it back down.",1,0.733163,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003891.txt
+580,old_elderly,M013689,a person picks up something on their right and moves it to their left.,1,0.733137,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013689.txt
+581,old_elderly,007278,"a person stands still while using their right arm to move from left to right, up and then down, and then out and in.",0,0.7331216,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007278.txt
+582,old_elderly,013057,the person lowers his right arm and takes a step forward.,2,0.7331056,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013057.txt
+583,old_elderly,005344,"a person squats and eventually stands up, moving their right hand a bit.",1,0.733061,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005344.txt
+584,old_elderly,008830,a person reaches their right arm forward.,0,0.7330518,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008830.txt
+585,old_elderly,009591,a person stretches toward their let with their right arm.,0,0.73304594,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009591.txt
+586,old_elderly,M013187,a person lifts something on their right and moves it to the left.,0,0.73298866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013187.txt
+587,old_elderly,005186,a person bends over and reaches to the ground with his right hand to look for an item then stands back up in a neutral position with nothing in their hand.,2,0.73298424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005186.txt
+588,old_elderly,011635,a person raised right hand and pull it down,1,0.7329555,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011635.txt
+589,old_elderly,011884,"a person is spinning slowly in place, reaching hands out occasionally.",0,0.732931,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011884.txt
+590,old_elderly,M011884,"a person is spinning slowly in place, reaching hands out occasionally.",0,0.732931,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011884.txt
+591,old_elderly,M012823,"a person lifts their left hand up and moves it around, occasionally bringing up their right hand.",1,0.7329201,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012823.txt
+592,old_elderly,014577,"a person steps backward to their left before sitting down, and then stands back up.",0,0.7328658,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014577.txt
+593,old_elderly,M009942,a person raised the left hand and pull it down,2,0.73283994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009942.txt
+594,old_elderly,008040,a person raised the left hand and pull it down,0,0.73283994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008040.txt
+595,old_elderly,013384,a person raised the left hand and pull it down,1,0.73283994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013384.txt
+596,old_elderly,002140,"a person falls backward, resting their back against an object and then stretches their legs out.",0,0.73270315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002140.txt
+597,old_elderly,M002140,"a person falls backward, resting their back against an object and then stretches their legs out.",0,0.73270315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002140.txt
+598,old_elderly,007224,a person crosses right leg behind left to sit down and then stands back up.,0,0.7326976,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007224.txt
+599,old_elderly,M006511,a person stands still while gently moving their left arm back and forth.,2,0.7326958,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006511.txt
+600,old_elderly,013846,a person using the right arm to reach for something.,0,0.73266256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013846.txt
+601,old_elderly,002441,person pushes their right arm forward,2,0.7326452,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002441.txt
+602,old_elderly,M013787,a person holding on the something with their left arm and moving their left leg to warm up,2,0.7326188,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013787.txt
+603,old_elderly,M011505,a person quickly slides to their left.,2,0.7325797,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011505.txt
+604,old_elderly,M004424,a person backs up and then sits down placing hands on legs.,2,0.7325481,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004424.txt
+605,old_elderly,004424,a person backs up and then sits down placing hands on legs.,2,0.7325481,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004424.txt
+606,old_elderly,M005873,a person moves their left arm over their shoulder as if to throw something.,1,0.73249197,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005873.txt
+607,old_elderly,M008730,person is doing a huge stretch  to the left,0,0.73244643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008730.txt
+608,old_elderly,007054,a person picking something up  by bending down to the ground,1,0.732435,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007054.txt
+609,old_elderly,M007054,a person picking something up  by bending down to the ground,1,0.732435,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007054.txt
+610,old_elderly,002762,a person is bent over extending their right arm back and forth in front of them.,1,0.73241687,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002762.txt
+611,old_elderly,M003055,"a person lowers their right arm, and then raises it back up.",1,0.7324047,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003055.txt
+612,old_elderly,M007278,"a person stands still while using their left arm to move from right to left, up and then down, and then out and in.",0,0.7323957,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007278.txt
+613,old_elderly,M002088,"a figure performs a lifting motion with its right arm, leaning slightly",2,0.7323853,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002088.txt
+614,old_elderly,004981,a person flaps their arms back and forward repeatedly before letting them down.,2,0.7323622,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004981.txt
+615,old_elderly,M004981,a person flaps their arms back and forward repeatedly before letting them down.,2,0.7323622,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004981.txt
+616,old_elderly,008664,a person stirs something with their left hand,0,0.732266,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008664.txt
+617,old_elderly,010942,a person raises their right hand slightly then sets it back down.,0,0.7322349,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010942.txt
+618,old_elderly,M010920,a person stretches out his left arm and moves it from left to right then puts it down.,0,0.7322259,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010920.txt
+619,old_elderly,009467,a person carefully paces back and forth,0,0.7321329,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009467.txt
+620,old_elderly,M009467,a person carefully paces back and forth,0,0.7321329,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009467.txt
+621,old_elderly,000198,a person sits down slightly and gets back up.,1,0.7321142,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000198.txt
+622,old_elderly,M000198,a person sits down slightly and gets back up.,1,0.7321142,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000198.txt
+623,old_elderly,008980,a person stumbles and falls onto something which they lean on with their left arm to correct themselves and start walking again.,2,0.7321086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008980.txt
+624,old_elderly,000171,the person uses his left hand to stretch his left leg,2,0.73209965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000171.txt
+625,old_elderly,003177,a person puts their right hand to their head and then puts it back to their side,2,0.7320732,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003177.txt
+626,old_elderly,M006436,a man reaches down to grab something which he places at his left side,2,0.73200995,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006436.txt
+627,old_elderly,M009629,a person uses their left arm to get support on something while kneeling down.,2,0.73193026,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009629.txt
+628,old_elderly,014451,a person loses balance and moves forward with both hands going backwards and their head going down.,2,0.73192406,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014451.txt
+629,old_elderly,M014451,a person loses balance and moves forward with both hands going backwards and their head going down.,2,0.73192406,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014451.txt
+630,old_elderly,007918,person appears to be sitting while moving left arm rapidly in a sawing motion.,1,0.7319064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007918.txt
+631,old_elderly,013687,a person raises their left hand slightly then place it back down.,0,0.7318854,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013687.txt
+632,old_elderly,M006047,a person stirs an object with their left hand.,1,0.7318833,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006047.txt
+633,old_elderly,013547,a person rotates their left arm at the elbow in towards their stomach and out towards the left,2,0.73186374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013547.txt
+634,old_elderly,005905,"a person bend the body, in righ and left direction",0,0.7318563,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005905.txt
+635,old_elderly,M006838,a person goes from standing to kneeling using their left hand for support.,1,0.7318549,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006838.txt
+636,old_elderly,M004181,a person walks forward and puts arms out at sides like trying to balance,2,0.7318251,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004181.txt
+637,old_elderly,004181,a person walks forward and puts arms out at sides like trying to balance,2,0.7318251,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004181.txt
+638,old_elderly,000337,person walks forwards and uses their right arm as support,2,0.7318033,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000337.txt
+639,old_elderly,009605,a person limps back and forth clutching their left knee.,2,0.73176837,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009605.txt
+640,old_elderly,M000271,a person try to throw something with his right hand and left leg forward,1,0.7317261,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000271.txt
+641,old_elderly,006951,a person releases their left arm while keeping their right arm extended,0,0.7317092,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006951.txt
+642,old_elderly,M002123,"a person stands up from a sitting position, turns clockwise and walks away.",1,0.7316475,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002123.txt
+643,old_elderly,M003177,a person puts their left hand to their head and then puts it back to their side,2,0.73164403,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003177.txt
+644,old_elderly,007021,"a person stirs something with their right hand, stirring in a clockwise motion",0,0.7316311,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007021.txt
+645,old_elderly,003516,a person moves their right hand to their head and then drops it back down.,2,0.73160887,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003516.txt
+646,old_elderly,001243,"a person lifts their left hand up to their head, brings it down",2,0.73160577,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001243.txt
+647,old_elderly,002899,a person is leaning forward and making rapid movements with their right arm.,0,0.73159826,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002899.txt
+648,old_elderly,M004511,a person picking something up and placing it down towards the left.,1,0.73156834,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004511.txt
+649,old_elderly,013820,"a person raises their left hand, then sets it back down, while wobbling side to side.",2,0.7315518,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013820.txt
+650,old_elderly,007129,a person moves hand up and down,2,0.73154324,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007129.txt
+651,old_elderly,M007129,a person moves hand up and down,2,0.73154324,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007129.txt
+652,old_elderly,001198,"a person is standing up and then turns around, then sits back down and rests arms on something.",0,0.73153603,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001198.txt
+653,old_elderly,M001198,"a person is standing up and then turns around, then sits back down and rests arms on something.",0,0.73153603,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001198.txt
+654,old_elderly,M013352,a person bends to the left,1,0.7314919,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013352.txt
+655,old_elderly,M013194,"a person is sitting on a chair, and then stands up fully without moving their arms.",1,0.7314886,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013194.txt
+656,old_elderly,013194,"a person is sitting on a chair, and then stands up fully without moving their arms.",1,0.7314886,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013194.txt
+657,old_elderly,M004620,a person sidestepping to their back-left.,1,0.73147386,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004620.txt
+658,old_elderly,013519,"a person picks something up with both hands, moves it and puts it down to their right",1,0.7313781,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013519.txt
+659,old_elderly,M006455,a person lifts something up from knee height on their right and puts it down on their left.,1,0.7313677,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006455.txt
+660,old_elderly,M010793,a person moves his hands from left to right hitting something.,1,0.73135567,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010793.txt
+661,old_elderly,003057,a man pushes his right arm forward twice and then picks something off the ground,2,0.73131377,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003057.txt
+662,old_elderly,008676,a person moves then left arm up whilst moving their right arm down.,2,0.7313049,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008676.txt
+663,old_elderly,008810,a person lifts and moves something from left to right.,2,0.7312927,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008810.txt
+664,old_elderly,003025,"a person is resting and bending over while moving their left hand, then they eventually stand up straight",0,0.73114437,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003025.txt
+665,old_elderly,M005972,a person bends to his left to touch something.,0,0.7311162,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005972.txt
+666,old_elderly,M011847,a figure throws hard forward with their left hand,0,0.731079,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011847.txt
+667,old_elderly,007850,a person leans to their right and stretches.,0,0.73107326,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007850.txt
+668,old_elderly,M008675,a person walks forward before reaching forward with their left arm,1,0.73106444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008675.txt
+669,old_elderly,M013728,"a person with its hand raised, gets down on to its knees.",0,0.7310289,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013728.txt
+670,old_elderly,013728,"a person with its hand raised, gets down on to its knees.",0,0.7310289,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013728.txt
+671,old_elderly,M010922,a person is pushed hard from his left side and he moves towards his right.,0,0.7309201,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010922.txt
+672,old_elderly,000038,a person bends their arms at the elbow and moves their left arm up and down,2,0.7308862,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000038.txt
+673,old_elderly,M006986,"a person stands up from a sit down position, then sits back down.",2,0.73084366,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006986.txt
+674,old_elderly,006986,"a person stands up from a sit down position, then sits back down.",2,0.73084366,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006986.txt
+675,old_elderly,004812,a person bounces up and down gently while leaning slightly to their right and left repeatedly.,2,0.73083776,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004812.txt
+676,old_elderly,M012336,a person steps forward carefully then shifts to the left.,1,0.7307877,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012336.txt
+677,old_elderly,010920,a person stretches out his right arm and moves it from right to left then puts it down.,0,0.7307437,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010920.txt
+678,old_elderly,M005270,a person is hunched over and lifts something up with their right hand.,1,0.73071146,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005270.txt
+679,old_elderly,M007690,"person leans down and places left hand on ground, getting down towards the ground, shifting around, before standing back up.",2,0.7306832,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007690.txt
+680,old_elderly,M000128,a person walks forward and climbs up something on the left hand side,0,0.7306812,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000128.txt
+681,old_elderly,M012909,"a person takes a step back and assumes a sitting position, then stands back up.",1,0.7306467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012909.txt
+682,old_elderly,012909,"a person takes a step back and assumes a sitting position, then stands back up.",1,0.7306467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012909.txt
+683,old_elderly,004979,person takes right arm and stretches it in front of body,1,0.73061967,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004979.txt
+684,old_elderly,005173,"a figure trembles slightly and is maybe an elderly person, gesturing with their right hand at someone else",2,0.7305913,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005173.txt
+685,old_elderly,M014553,person brings right arm up and bends it to stretch it backwards,0,0.7305845,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014553.txt
+686,old_elderly,M008958,a person swings an object back and forth,2,0.7304843,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008958.txt
+687,old_elderly,008958,a person swings an object back and forth,2,0.7304843,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008958.txt
+688,old_elderly,M001143,a person makes a large slapping motion with their left arm,1,0.73048425,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001143.txt
+689,old_elderly,000430,a person cautiously steps backwards.,1,0.7304704,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000430.txt
+690,old_elderly,M000430,a person cautiously steps backwards.,1,0.7304704,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000430.txt
+691,old_elderly,M009036,person appears to be holding something takes a few steps back and then push it towards something low with their left hand.,1,0.7304404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009036.txt
+692,old_elderly,M009381,a person gets up from their knees and takes a step back.,1,0.7304377,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009381.txt
+693,old_elderly,009381,a person gets up from their knees and takes a step back.,1,0.7304377,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009381.txt
+694,old_elderly,012851,the man is grabbing something and spinning back to the right,2,0.7303963,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012851.txt
+695,old_elderly,M014396,"a person grabs something from his right side, turns around and puts it on his left side",0,0.73038447,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014396.txt
+696,old_elderly,001143,a person makes a large slapping motion with their right arm,1,0.730366,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001143.txt
+697,old_elderly,M000038,a person bends their arms at the elbow and moves their right arm up and down,2,0.7303658,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000038.txt
+698,old_elderly,006868,a person slowly bends over and touches the floor with their right hand.,2,0.73032784,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006868.txt
+699,old_elderly,004781,a person brings their right knee up to their chest and moves it around side to side.,2,0.73030776,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004781.txt
+700,old_elderly,M005453,a person climbs something and reaches to their left with their left hand.,0,0.73028964,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005453.txt
+701,old_elderly,004153,a figure repeatedly turns towards the right hand side,0,0.7302793,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004153.txt
+702,old_elderly,M000557,"a person lifts their right arm, returns it down, and walks backward.",0,0.7302658,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000557.txt
+703,old_elderly,008730,person is doing a huge stretch  to the right,0,0.73025763,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008730.txt
+704,old_elderly,M006946,a person throws their left arm forward and pulls it back grabbing it with their left hand,0,0.73024595,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006946.txt
+705,old_elderly,012492,"a person is sitting down with both arms extended, lowers his left arm, then brings it back up",2,0.7302289,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012492.txt
+706,old_elderly,M007539,a person throws something with their left hand and stumbles slightly.,0,0.73016,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007539.txt
+707,old_elderly,003730,a person steps back on their left leg and brings their right arm in front of them.,0,0.7301276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003730.txt
+708,old_elderly,M011561,a person is sitting and moves his left and right hand around.,2,0.73010385,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011561.txt
+709,old_elderly,001416,a person raises their left hand to their head and then places it back down beside them.,1,0.73008657,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001416.txt
+710,old_elderly,007690,"person leans down and places right hand on ground, getting down towards the ground, shifting around, before standing back up.",2,0.73005354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007690.txt
+711,old_elderly,M006687,a figure gestures in frustration by extending then throwing down their left arm,2,0.7299903,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006687.txt
+712,old_elderly,000557,"a person lifts their left arm, returns it down, and walks backward.",0,0.7299596,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000557.txt
+713,old_elderly,003762,a person picks something up and moves it from their left to their right.,2,0.7299477,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003762.txt
+714,old_elderly,014553,person brings left arm up and bends it to stretch it backwards,0,0.72992885,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014553.txt
+715,old_elderly,M002964,"a person reaches their left arm out in front of them, then puts it back down.",0,0.7298646,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002964.txt
+716,old_elderly,010741,a person walks forward while using their arms mildly to balance.,1,0.72981817,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010741.txt
+717,old_elderly,M010741,a person walks forward while using their arms mildly to balance.,1,0.72981817,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010741.txt
+718,old_elderly,M012704,"a person steps backwards, sits and then pushes himself up again.",2,0.7297764,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012704.txt
+719,old_elderly,012704,"a person steps backwards, sits and then pushes himself up again.",2,0.7297764,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012704.txt
+720,old_elderly,M004310,"a person swivels their upper body around slowly, then takes a step right.",2,0.72973347,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004310.txt
+721,old_elderly,002420,"a person reaches out to grab something, then paces back and forth",0,0.72969973,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002420.txt
+722,old_elderly,M002420,"a person reaches out to grab something, then paces back and forth",0,0.72969973,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002420.txt
+723,old_elderly,M003162,a person is doing something with his left hand and ends in a standing position.,2,0.7296922,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003162.txt
+724,old_elderly,010752,a person slowly stepped backwards,2,0.7296879,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010752.txt
+725,old_elderly,M010752,a person slowly stepped backwards,2,0.7296879,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010752.txt
+726,old_elderly,M012697,a person sits and moves his right hand to his head.,1,0.7296877,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012697.txt
+727,old_elderly,005769,"a person bends their left leg at the knee, and stretches their arms straight out",2,0.7296626,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005769.txt
+728,old_elderly,M008290,"a person rises their right arm up repeatedly, then catches something.",1,0.72962236,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008290.txt
+729,old_elderly,M009421,a person steps backwards to the left.,2,0.7296108,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009421.txt
+730,old_elderly,002437,"a person reaches down with their right hand and picks something up then places it down, they then walk backwards",1,0.7296058,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002437.txt
+731,old_elderly,013844,"a person lowers their arms to their sides, steps forwards, and then opens something.",0,0.7295804,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013844.txt
+732,old_elderly,M013844,"a person lowers their arms to their sides, steps forwards, and then opens something.",0,0.7295804,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013844.txt
+733,old_elderly,M005101,person stands still then stumbles to left hand side with there left leg,2,0.72954726,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005101.txt
+734,old_elderly,M012466,"a person steps forward slowly, reaching out to their side with their right hand to hold something for support.",1,0.7295469,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012466.txt
+735,old_elderly,M002953,a person takes a few steps and forcefully pushes something into the air with their left hand.,0,0.7294669,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002953.txt
+736,old_elderly,012927,person moving arm in up motion,1,0.72946393,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012927.txt
+737,old_elderly,M012927,person moving arm in up motion,1,0.72946393,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012927.txt
+738,old_elderly,006838,a person goes from standing to kneeling using their right hand for support.,1,0.7294396,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006838.txt
+739,old_elderly,M000329,a person stumbles to the left in a forced motion.,1,0.7294357,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000329.txt
+740,old_elderly,010522,the person is moving their right hand around while sitting or crouching.,0,0.72940445,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010522.txt
+741,old_elderly,010759,a person seems to be hitting an object with their right foot,1,0.7293619,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010759.txt
+742,old_elderly,012866,a person uses the left hand to reach and get somehting then carefully places it back down.,1,0.7293552,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012866.txt
+743,old_elderly,M005963,a person brings arms slowly down and bends hands inward.,1,0.72933674,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005963.txt
+744,old_elderly,005963,a person brings arms slowly down and bends hands inward.,1,0.72933674,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005963.txt
+745,old_elderly,006910,a person drys off something with their left hand.,0,0.7293166,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006910.txt
+746,old_elderly,004063,a person trying to strike a pose,1,0.7292699,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004063.txt
+747,old_elderly,M004063,a person trying to strike a pose,1,0.7292699,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004063.txt
+748,old_elderly,M011629,person bends down forward and picks up something large with both hands,1,0.72925735,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011629.txt
+749,old_elderly,011629,person bends down forward and picks up something large with both hands,1,0.72925735,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011629.txt
+750,old_elderly,M006951,a person releases their right arm while keeping their left arm extended,0,0.7292518,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006951.txt
+751,old_elderly,M008664,a person stirs something with their right hand,0,0.72924185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008664.txt
+752,old_elderly,001820,a person gets down onto their hands and knees,1,0.7292414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001820.txt
+753,old_elderly,M001820,a person gets down onto their hands and knees,1,0.7292414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001820.txt
+754,old_elderly,004176,a person steps forward then reaches down for something with his right hand.,1,0.7291943,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004176.txt
+755,old_elderly,003627,"a person gets up from laying, to stand",1,0.72914755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003627.txt
+756,old_elderly,M003627,"a person gets up from laying, to stand",1,0.72914755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003627.txt
+757,old_elderly,M014365,a person walks forward very slightly then brings up their left hand to its face.,2,0.7291412,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014365.txt
+758,old_elderly,M005724,"a person limps forwards, holding their right leg.",0,0.7291383,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005724.txt
+759,old_elderly,012265,a person stirs something with their left hand.,2,0.7290999,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012265.txt
+760,old_elderly,005483,a person stirs something with their left hand.,1,0.7290999,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005483.txt
+761,old_elderly,M012045,"a person steps forward, while moving their left hand.",2,0.7290968,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012045.txt
+762,old_elderly,M004148,a person gently moves something to the right.,2,0.72908777,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004148.txt
+763,old_elderly,M003057,a man pushes his left arm forward twice and then picks something off the ground,2,0.7290856,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003057.txt
+764,old_elderly,M007123,a person uses right hand to reach over to the left.,2,0.72903574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007123.txt
+765,old_elderly,009629,a person uses their right arm to get support on something while kneeling down.,2,0.7290274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009629.txt
+766,old_elderly,002904,a person moves their right hand in a downward gesture.,1,0.72899926,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002904.txt
+767,old_elderly,007376,a figure throws slowly with its left hand then relaxes,2,0.72899836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007376.txt
+768,old_elderly,M001517,person raises their right arm and moved head towards wrist,2,0.7289436,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001517.txt
+769,old_elderly,001517,person raises their left arm and moved head towards wrist,2,0.72894156,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001517.txt
+770,old_elderly,005101,person stands still then stumbles to right hand side with there right leg,2,0.7289322,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005101.txt
+771,old_elderly,M008830,a person reaches their left arm forward.,0,0.72887635,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008830.txt
+772,old_elderly,005417,person picks up something and sets it back down,2,0.7288401,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005417.txt
+773,old_elderly,M005417,person picks up something and sets it back down,2,0.7288401,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005417.txt
+774,old_elderly,009343,a person reaches their left arm up in a clockwise motion and drops it to their side.,2,0.72879255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009343.txt
+775,old_elderly,011100,a person picks something up and moves it to the left.,0,0.72879016,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011100.txt
+776,old_elderly,M011118,a person bends their elbow and moves their right arm up and down quickly.,1,0.72876793,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011118.txt
+777,old_elderly,012649,a person turns to the left and sits down.,1,0.72875464,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012649.txt
+778,old_elderly,M014247,a person moves his left arm straight up and then to the left while standing still.,2,0.7287443,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014247.txt
+779,old_elderly,M014190,a person bend the body to left direction,1,0.7286994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014190.txt
+780,old_elderly,M000081,a person uses both hands to pick something up then set it down to the side,2,0.7286655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000081.txt
+781,old_elderly,000081,a person uses both hands to pick something up then set it down to the side,2,0.7286655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000081.txt
+782,old_elderly,012001,"a person bends at their knees turns to their left to pick something up, turn to their right, and place the object down.",2,0.72861207,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012001.txt
+783,old_elderly,006044,a person takes a few steps to their left and sits down on something.,1,0.72861075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006044.txt
+784,old_elderly,M001776,a person who seems to be lifting something with their left hand,2,0.7285778,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001776.txt
+785,old_elderly,M012340,the person pushes off their leg to move forward,1,0.72855663,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012340.txt
+786,old_elderly,012340,the person pushes off their leg to move forward,1,0.72855663,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012340.txt
+787,old_elderly,002274,"a person picks up something, turns it onto its side, and then lays it back down",0,0.7285431,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002274.txt
+788,old_elderly,M002274,"a person picks up something, turns it onto its side, and then lays it back down",0,0.7285431,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002274.txt
+789,old_elderly,M002387,"a person standing still moves right hand forward , backward  to the side and down.",2,0.72854173,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002387.txt
+790,old_elderly,M010659,a person sits down in a chair and then stands back up again.,1,0.728519,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010659.txt
+791,old_elderly,010659,a person sits down in a chair and then stands back up again.,1,0.728519,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010659.txt
+792,old_elderly,M009455,a person raises their left hand then places it back down.,2,0.7285111,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009455.txt
+793,old_elderly,012721,a person strafing around something,0,0.7284938,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012721.txt
+794,old_elderly,M012721,a person strafing around something,0,0.7284938,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012721.txt
+795,old_elderly,M012455,a person with its left arm raised starts to set it down.,1,0.72848547,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012455.txt
+796,old_elderly,M005328,a person moves his right hand upwards.,2,0.7284595,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005328.txt
+797,old_elderly,M014067,person walks slowly swinging left arm before leaning into it,2,0.72845846,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014067.txt
+798,old_elderly,010721,a person picks something up on his left and sets down to his right,2,0.7284294,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010721.txt
+799,old_elderly,M012072,"a person lifts an object with both hands, moves it to their left, and then sets it back down.",1,0.7284125,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012072.txt
+800,old_elderly,011868,person brings down arm where the right arm stays bent at the elbow and the left arm is straight down,1,0.7284123,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011868.txt

@@ -163,6 +163,5 @@ __pycache__/
 # Blueprint / local docs (do not push)
 Multimodal_Motion_Generation_Blueprint*.pdf
 
-# Generated style-subset outputs and cache
+# Generated CLIP index (reproducible via build-index)
 cache/
-outputs/

@@ -1,0 +1,801 @@
+rank,style,motion_id,best_caption,best_caption_idx,similarity,source_file
+1,proud_confident,012195,person stands still and aggressively points straight forward,1,0.8270546,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012195.txt
+2,proud_confident,M012195,person stands still and aggressively points straight forward,1,0.8270546,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012195.txt
+3,proud_confident,008143,a person stretches right hand forward,0,0.80648595,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008143.txt
+4,proud_confident,M008261,a person is standing with hands in front of them and slightly moves them.,0,0.80431837,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008261.txt
+5,proud_confident,008261,a person is standing with hands in front of them and slightly moves them.,0,0.80431837,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008261.txt
+6,proud_confident,002042,a person tilts over then stand up shifting both hands to the right.,0,0.8042048,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002042.txt
+7,proud_confident,001761,person moves forward and moves right hand with something in it carefully,1,0.8011165,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001761.txt
+8,proud_confident,M007083,person stands still and throws something over to there right,2,0.80084723,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007083.txt
+9,proud_confident,M011861,a person slightly turns to the left and raises their right hand,1,0.7992526,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011861.txt
+10,proud_confident,012879,a figure gestures confidently around waist and shoulder,0,0.79904014,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012879.txt
+11,proud_confident,M012879,a figure gestures confidently around waist and shoulder,0,0.79904014,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012879.txt
+12,proud_confident,M002042,a person tilts over then stand up shifting both hands to the left.,0,0.7959584,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002042.txt
+13,proud_confident,M011929,a person standing still then putting their left hand up,2,0.7958021,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011929.txt
+14,proud_confident,011929,a person standing still then putting their right hand up,2,0.7955358,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011929.txt
+15,proud_confident,007083,person stands still and throws something over to there left,2,0.7924463,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007083.txt
+16,proud_confident,M008298,"a person, using both arms, directs people forward.",0,0.792369,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008298.txt
+17,proud_confident,008298,"a person, using both arms, directs people forward.",0,0.792369,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008298.txt
+18,proud_confident,013860,a person standing looks to grab something with their left hand and then put it down infront of them,2,0.7921655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013860.txt
+19,proud_confident,011861,a person slightly turns to the right and raises their left hand,1,0.7920627,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011861.txt
+20,proud_confident,001533,person walks forward and picks something up with both hands,0,0.7917032,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001533.txt
+21,proud_confident,M001533,person walks forward and picks something up with both hands,0,0.7917032,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001533.txt
+22,proud_confident,002818,a person extends their arms back and forth,1,0.79142034,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002818.txt
+23,proud_confident,M002818,a person extends their arms back and forth,1,0.79142034,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002818.txt
+24,proud_confident,012630,person extends arms forward and sweeps them outward,2,0.7912728,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012630.txt
+25,proud_confident,M012630,person extends arms forward and sweeps them outward,2,0.7912728,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012630.txt
+26,proud_confident,M003018,a person is standing the brings right and left hand forward.,0,0.7909018,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003018.txt
+27,proud_confident,M008143,a person stretches left hand forward,0,0.78968847,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008143.txt
+28,proud_confident,004181,a person walks forward and puts arms out at sides like trying to balance,2,0.7893856,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004181.txt
+29,proud_confident,M004181,a person walks forward and puts arms out at sides like trying to balance,2,0.7893856,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004181.txt
+30,proud_confident,M006275,a person who seems to be pointing at someone or something,2,0.78924763,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006275.txt
+31,proud_confident,006275,a person who seems to be pointing at someone or something,2,0.78924763,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006275.txt
+32,proud_confident,M012281,a person moves both arm in an upward direction fast.,2,0.78904015,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012281.txt
+33,proud_confident,012281,a person moves both arm in an upward direction fast.,2,0.78904015,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012281.txt
+34,proud_confident,M009370,a person stands still while pointing at things with their left hand,1,0.7889285,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009370.txt
+35,proud_confident,M013860,a person standing looks to grab something with their right hand and then put it down infront of them,2,0.78847134,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013860.txt
+36,proud_confident,001432,person is holding arms straight up forward.,1,0.78843117,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001432.txt
+37,proud_confident,M001432,person is holding arms straight up forward.,1,0.78843117,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001432.txt
+38,proud_confident,009370,a person stands still while pointing at things with their right hand,1,0.78805625,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009370.txt
+39,proud_confident,009622,person walks forward and lifts right hand to point in front  of them,1,0.78772694,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009622.txt
+40,proud_confident,M005250,a person standing with both arms out moves something.,1,0.78738874,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005250.txt
+41,proud_confident,005250,a person standing with both arms out moves something.,1,0.78738874,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005250.txt
+42,proud_confident,010542,a person standing and raising the right arms and making gestures.,0,0.7867392,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010542.txt
+43,proud_confident,010974,a person moves its arm in an upward motion as if to pick something up with both hands,2,0.78660274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010974.txt
+44,proud_confident,M010974,a person moves its arm in an upward motion as if to pick something up with both hands,2,0.78660274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010974.txt
+45,proud_confident,004063,a person trying to strike a pose,1,0.786581,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004063.txt
+46,proud_confident,M004063,a person trying to strike a pose,1,0.786581,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004063.txt
+47,proud_confident,007903,a person stands and moves right hand side to side,0,0.7861307,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007903.txt
+48,proud_confident,M002087,a person walks forward while holding out their arms for balance,0,0.78600574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002087.txt
+49,proud_confident,002087,a person walks forward while holding out their arms for balance,0,0.78600574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002087.txt
+50,proud_confident,M002901,a person picks something up and walks straight forward,2,0.78504944,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002901.txt
+51,proud_confident,002901,a person picks something up and walks straight forward,2,0.78504944,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002901.txt
+52,proud_confident,M003725,"a person puts their arms out, moves forward and grabs something",1,0.7841421,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003725.txt
+53,proud_confident,003725,"a person puts their arms out, moves forward and grabs something",1,0.7841421,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003725.txt
+54,proud_confident,M003901,a person waves their arms to the side and forward,0,0.7838726,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003901.txt
+55,proud_confident,003901,a person waves their arms to the side and forward,0,0.7838726,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003901.txt
+56,proud_confident,M001761,person moves forward and moves left hand with something in it carefully,1,0.78328705,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001761.txt
+57,proud_confident,012263,person is standing and puts arms out to side,0,0.7829444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012263.txt
+58,proud_confident,M012263,person is standing and puts arms out to side,0,0.7829444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012263.txt
+59,proud_confident,012675,person walks with both arms straight forward,0,0.7828121,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012675.txt
+60,proud_confident,M012675,person walks with both arms straight forward,0,0.7828121,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012675.txt
+61,proud_confident,005426,a person reaches forward with his right hand,2,0.78281,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005426.txt
+62,proud_confident,006964,person is standing and starts motion to their left,0,0.7828006,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006964.txt
+63,proud_confident,003409,a person reaches down with their right hand then stands up and walks straight forward.,0,0.7826854,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003409.txt
+64,proud_confident,M008543,a person standing to the side with one hand up.,1,0.781899,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008543.txt
+65,proud_confident,008543,a person standing to the side with one hand up.,1,0.781899,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008543.txt
+66,proud_confident,005859,a person stands with their arms out straight,1,0.78169256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005859.txt
+67,proud_confident,M005859,a person stands with their arms out straight,1,0.78169256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005859.txt
+68,proud_confident,M010268,a person reaches around in front of them with their right hand.,0,0.7816707,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010268.txt
+69,proud_confident,008000,a person reaching over to move something,1,0.7812583,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008000.txt
+70,proud_confident,M008000,a person reaching over to move something,1,0.7812583,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008000.txt
+71,proud_confident,M011900,a person walks up and forward while holding on to something,0,0.7812261,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011900.txt
+72,proud_confident,011900,a person walks up and forward while holding on to something,0,0.7812261,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011900.txt
+73,proud_confident,000635,a person quickly folds their arms while standing up,0,0.78101104,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000635.txt
+74,proud_confident,M000635,a person quickly folds their arms while standing up,0,0.78101104,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000635.txt
+75,proud_confident,M003409,a person reaches down with their left hand then stands up and walks straight forward.,0,0.7806752,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003409.txt
+76,proud_confident,003018,a person is standing the brings left and right hand forward.,0,0.7806673,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003018.txt
+77,proud_confident,M000154,a person is standing and uses right hand to throw or indicate something. the person then bends forward with hands together as if they are catching something.,1,0.78048855,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000154.txt
+78,proud_confident,007971,a person stepped forward and start to scratch something with right hand,2,0.78029144,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007971.txt
+79,proud_confident,M013694,a person staggers around a little while gesturing with both hands.,0,0.7802676,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013694.txt
+80,proud_confident,013694,a person staggers around a little while gesturing with both hands.,0,0.7802676,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013694.txt
+81,proud_confident,M007903,a person stands and moves left hand side to side,0,0.780249,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007903.txt
+82,proud_confident,011940,a person steps up and sticks their arm out straight,0,0.78018415,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011940.txt
+83,proud_confident,M011940,a person steps up and sticks their arm out straight,0,0.78018415,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011940.txt
+84,proud_confident,000380,a person is standing and moving their arm in and outwardly.,0,0.7801409,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000380.txt
+85,proud_confident,M000380,a person is standing and moving their arm in and outwardly.,0,0.7801409,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000380.txt
+86,proud_confident,M003769,a person standing and gesturing with both hands.,1,0.7801261,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003769.txt
+87,proud_confident,003769,a person standing and gesturing with both hands.,1,0.7801261,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003769.txt
+88,proud_confident,002292,person quickly raises their right hand,1,0.7799334,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002292.txt
+89,proud_confident,012469,a person puts both hands slightly up.,2,0.7795528,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012469.txt
+90,proud_confident,M012469,a person puts both hands slightly up.,2,0.7795528,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012469.txt
+91,proud_confident,M009754,person is a low stance raises left arm above head and moves forward,1,0.77916807,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009754.txt
+92,proud_confident,009906,a person standing in a strong stance,2,0.7791182,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009906.txt
+93,proud_confident,M009906,a person standing in a strong stance,2,0.7791182,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009906.txt
+94,proud_confident,009129,a person holds their arms out to their side and walks forward trying to balance.,1,0.7785455,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009129.txt
+95,proud_confident,M009129,a person holds their arms out to their side and walks forward trying to balance.,1,0.7785455,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009129.txt
+96,proud_confident,000447,a person stands still then slightly moves their arms,0,0.7784957,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000447.txt
+97,proud_confident,M000447,a person stands still then slightly moves their arms,0,0.7784957,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000447.txt
+98,proud_confident,012724,a person steps forward daintily with both hands held straight up,1,0.777871,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012724.txt
+99,proud_confident,M012724,a person steps forward daintily with both hands held straight up,1,0.777871,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012724.txt
+100,proud_confident,013484,person raises right hand in a slow forward gesture,0,0.7776016,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013484.txt
+101,proud_confident,005795,a person points repeatedly with their right hand,1,0.77758086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005795.txt
+102,proud_confident,M013024,a person showming something with both hands,0,0.7775072,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013024.txt
+103,proud_confident,013024,a person showming something with both hands,0,0.7775072,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013024.txt
+104,proud_confident,009184,a person raises both hands and places them in front of themselves,0,0.77712977,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009184.txt
+105,proud_confident,M009184,a person raises both hands and places them in front of themselves,0,0.77712977,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009184.txt
+106,proud_confident,M002292,person quickly raises their left hand,1,0.7768663,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002292.txt
+107,proud_confident,003999,a person walks forward while raising their right hand and slapping it against something,2,0.77676374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003999.txt
+108,proud_confident,M005192,a person reaches their arms upwards,2,0.7763391,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005192.txt
+109,proud_confident,005192,a person reaches their arms upwards,2,0.7763391,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005192.txt
+110,proud_confident,M002380,a person stands still then moves their arms up slightly,0,0.77625686,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002380.txt
+111,proud_confident,002380,a person stands still then moves their arms up slightly,0,0.77625686,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002380.txt
+112,proud_confident,002049,a person points forward with their right hand.,0,0.7761865,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002049.txt
+113,proud_confident,014148,a person points forward with their right hand.,2,0.7761865,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014148.txt
+114,proud_confident,001768,the person is standing with both hands extend to the side and slightly swaying back and forth.,2,0.77596474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001768.txt
+115,proud_confident,M001768,the person is standing with both hands extend to the side and slightly swaying back and forth.,2,0.77596474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001768.txt
+116,proud_confident,M013782,a person uses one hand to make gestures back and forward in front of their chest.,2,0.77593553,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013782.txt
+117,proud_confident,013782,a person uses one hand to make gestures back and forward in front of their chest.,2,0.77593553,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013782.txt
+118,proud_confident,008661,a person being slightly pushed forward,2,0.775843,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008661.txt
+119,proud_confident,M008661,a person being slightly pushed forward,2,0.775843,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008661.txt
+120,proud_confident,001591,a person sticks their right hand up,2,0.77581996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001591.txt
+121,proud_confident,007931,person is gesturing to someone,2,0.77561444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007931.txt
+122,proud_confident,M007931,person is gesturing to someone,2,0.77561444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007931.txt
+123,proud_confident,009754,person is a low stance raises right arm above head and moves forward,1,0.77557224,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009754.txt
+124,proud_confident,002387,"a person standing still moves left hand forward , backward  to the side and down.",2,0.7755313,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002387.txt
+125,proud_confident,M001272,a person walks forward with arms out to keep balance.,2,0.77538383,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001272.txt
+126,proud_confident,001272,a person walks forward with arms out to keep balance.,2,0.77538383,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001272.txt
+127,proud_confident,003423,"a person takes slow, steady steps forward with their arms loose at their side",1,0.775371,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003423.txt
+128,proud_confident,M003423,"a person takes slow, steady steps forward with their arms loose at their side",1,0.775371,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003423.txt
+129,proud_confident,009628,a person throws something forward with both hands.,2,0.77525467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009628.txt
+130,proud_confident,M009628,a person throws something forward with both hands.,2,0.77525467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009628.txt
+131,proud_confident,013453,a person moves their arms from their left to the right.,2,0.77515286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013453.txt
+132,proud_confident,011221,a person stands straight with their arms at their sides moving forward at a reasonable pace.,2,0.7749622,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011221.txt
+133,proud_confident,M011221,a person stands straight with their arms at their sides moving forward at a reasonable pace.,2,0.7749622,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011221.txt
+134,proud_confident,010942,a person raises their right hand slightly then sets it back down.,0,0.77491724,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010942.txt
+135,proud_confident,M010942,a person raises their left hand slightly then sets it back down.,0,0.77487767,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010942.txt
+136,proud_confident,006140,person turns around and makes hand gestures,1,0.7748643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006140.txt
+137,proud_confident,M006140,person turns around and makes hand gestures,1,0.7748643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006140.txt
+138,proud_confident,004517,a person standing points at something by lifting their right hand.,0,0.7748237,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004517.txt
+139,proud_confident,M009178,a person confidently raises their hand to their chest.,1,0.77480435,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009178.txt
+140,proud_confident,009178,a person confidently raises their hand to their chest.,1,0.77480435,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009178.txt
+141,proud_confident,002441,person pushes their right arm forward,2,0.7747735,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002441.txt
+142,proud_confident,M002387,"a person standing still moves right hand forward , backward  to the side and down.",2,0.7746972,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002387.txt
+143,proud_confident,M012600,a person has left arm up to push something away,1,0.77454185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012600.txt
+144,proud_confident,000154,a person is standing and uses left hand to throw or indicate something. the person then bends forward with hands together as if they are catching something.,1,0.77450645,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000154.txt
+145,proud_confident,M002049,a person points forward with their left hand.,0,0.7742301,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002049.txt
+146,proud_confident,M014148,a person points forward with their left hand.,2,0.7742301,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014148.txt
+147,proud_confident,008729,a person standing stretches right hand up,2,0.774126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008729.txt
+148,proud_confident,009793,a person standing moving right arm in an upward motion .,2,0.7740233,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009793.txt
+149,proud_confident,010632,a person is strutting forward,0,0.77362597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010632.txt
+150,proud_confident,M010632,a person is strutting forward,0,0.77362597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010632.txt
+151,proud_confident,006565,a person moves something with both hands from left to right.,2,0.7735137,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006565.txt
+152,proud_confident,003621,a person is pushing something back and forward with their right hand.,2,0.77343094,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003621.txt
+153,proud_confident,M003512,a person slightly raises their left arm while standing up,0,0.7733528,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003512.txt
+154,proud_confident,013846,a person steps forward and puts their hand up.,2,0.7732658,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013846.txt
+155,proud_confident,M013846,a person steps forward and puts their hand up.,2,0.7732658,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013846.txt
+156,proud_confident,008123,a person throws something with their right hand while standing still,0,0.77312887,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008123.txt
+157,proud_confident,012823,"a person lifts their right hand up and moves it around, occasionally bringing up their left hand.",1,0.7728785,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012823.txt
+158,proud_confident,M009916,a person gestures far in front of them with both hands.,1,0.77287126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009916.txt
+159,proud_confident,009916,a person gestures far in front of them with both hands.,1,0.77287126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009916.txt
+160,proud_confident,M004908,a person puts their arms out on something in front of them,0,0.7728185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004908.txt
+161,proud_confident,004908,a person puts their arms out on something in front of them,0,0.7728185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004908.txt
+162,proud_confident,009485,a person reaches his right arm straight forward,1,0.77275443,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009485.txt
+163,proud_confident,M005795,a person points repeatedly with their left hand,1,0.77263546,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005795.txt
+164,proud_confident,M011873,a person stands up straight and starts looking around,2,0.77238756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011873.txt
+165,proud_confident,011873,a person stands up straight and starts looking around,2,0.77238756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011873.txt
+166,proud_confident,014190,a person bend the body to right direction,1,0.77236557,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014190.txt
+167,proud_confident,M001249,a person steps forward and reaches down to grab or place something with their right hand.,0,0.7723009,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001249.txt
+168,proud_confident,M001776,a person who seems to be lifting something with their left hand,2,0.772128,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001776.txt
+169,proud_confident,M012823,"a person lifts their left hand up and moves it around, occasionally bringing up their right hand.",1,0.7715728,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012823.txt
+170,proud_confident,013057,a person raises their arm and takes a small step forward,1,0.77155584,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013057.txt
+171,proud_confident,M013057,a person raises their arm and takes a small step forward,1,0.77155584,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013057.txt
+172,proud_confident,012600,a person has right arm up to push something away,1,0.771554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012600.txt
+173,proud_confident,M012678,"a figure raises its hands to shoulder level then lowers them, repeatedly",2,0.7714132,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012678.txt
+174,proud_confident,012678,"a figure raises its hands to shoulder level then lowers them, repeatedly",2,0.7714132,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012678.txt
+175,proud_confident,003468,the person is posing with hands forward.,2,0.77108854,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003468.txt
+176,proud_confident,M003468,the person is posing with hands forward.,2,0.77108854,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003468.txt
+177,proud_confident,003020,a person stands still while rocking back and forth,1,0.7710568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003020.txt
+178,proud_confident,002652,a person stands still while rocking back and forth,1,0.7710568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002652.txt
+179,proud_confident,M003020,a person stands still while rocking back and forth,1,0.7710568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003020.txt
+180,proud_confident,M002652,a person stands still while rocking back and forth,1,0.7710568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002652.txt
+181,proud_confident,013624,a person moving closer to something or someone in a ready to fight stance,1,0.7709949,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013624.txt
+182,proud_confident,M013624,a person moving closer to something or someone in a ready to fight stance,1,0.7709949,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013624.txt
+183,proud_confident,M007380,person is standing with arms out,0,0.7708782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007380.txt
+184,proud_confident,007380,person is standing with arms out,0,0.7708782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007380.txt
+185,proud_confident,001776,a person who seems to be lifting something with their right hand,2,0.7708219,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001776.txt
+186,proud_confident,013611,a person steps back to the left and brings the arms upward to the sides.,0,0.7708138,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013611.txt
+187,proud_confident,M006565,a person moves something with both hands from right to left.,2,0.7708065,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006565.txt
+188,proud_confident,003677,a person gestures with both arms.,2,0.7705193,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003677.txt
+189,proud_confident,M003677,a person gestures with both arms.,2,0.7705193,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003677.txt
+190,proud_confident,001249,a person steps forward and reaches down to grab or place something with their left hand.,0,0.7702993,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001249.txt
+191,proud_confident,M009793,a person standing moving left arm in an upward motion .,2,0.77014136,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009793.txt
+192,proud_confident,M013611,a person steps back to the right and brings the arms upward to the sides.,0,0.7700072,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013611.txt
+193,proud_confident,003512,a person slightly raises their right arm while standing up,0,0.76982355,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003512.txt
+194,proud_confident,M003999,a person walks forward while raising their left hand and slapping it against something,2,0.7697695,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003999.txt
+195,proud_confident,M002664,a person raises their right hand and points forward.,0,0.7697536,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002664.txt
+196,proud_confident,M010130,a person tosses something upwards with both hands.,2,0.76961756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010130.txt
+197,proud_confident,010130,a person tosses something upwards with both hands.,2,0.76961756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010130.txt
+198,proud_confident,M010542,a person standing and raising the left arms and making gestures.,0,0.76958454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010542.txt
+199,proud_confident,M003502,a person standing and puts right arms out.,2,0.7694811,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003502.txt
+200,proud_confident,008687,a person shift back to the right and throws something forward.,1,0.7694556,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008687.txt
+201,proud_confident,M008761,"person is standing reaches arms upwards, and then reaches arms and body forward",0,0.76936,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008761.txt
+202,proud_confident,008761,"person is standing reaches arms upwards, and then reaches arms and body forward",0,0.76936,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008761.txt
+203,proud_confident,M003842,person walks forward with arms up and out for balance.,0,0.7692944,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003842.txt
+204,proud_confident,003842,person walks forward with arms up and out for balance.,0,0.7692944,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003842.txt
+205,proud_confident,M009622,person walks forward and lifts left hand to point in front  of them,1,0.7690681,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009622.txt
+206,proud_confident,M006964,person is standing and starts motion to their right,0,0.7690439,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006964.txt
+207,proud_confident,M000438,person lifts something and places it down to their left,2,0.768597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000438.txt
+208,proud_confident,002664,a person raises their left hand and points forward.,0,0.7684556,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002664.txt
+209,proud_confident,M002892,"a person stands, raises their wrist, then lowers it and moves back and forth",1,0.7684438,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002892.txt
+210,proud_confident,002892,"a person stands, raises their wrist, then lowers it and moves back and forth",1,0.7684438,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002892.txt
+211,proud_confident,011257,person throws something forward with right hand.,1,0.76836324,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011257.txt
+212,proud_confident,M005088,a standing person putting their right hand forward and moving it counterclockwise,2,0.76834786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005088.txt
+213,proud_confident,M003792,a person shifts down to their left side then stand up with arms extended.,1,0.76826215,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003792.txt
+214,proud_confident,M003621,a person is pushing something back and forward with their left hand.,2,0.7682557,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003621.txt
+215,proud_confident,M008794,a person stands in place with their arms out and gently puts them down to their sides.,1,0.7681267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008794.txt
+216,proud_confident,008794,a person stands in place with their arms out and gently puts them down to their sides.,1,0.7681267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008794.txt
+217,proud_confident,010497,a person quickly waves with their right hand,0,0.7679346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010497.txt
+218,proud_confident,M013687,a person raises their right hand slightly then place it back down.,0,0.7678057,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013687.txt
+219,proud_confident,006560,"a person raises both arms slightly, and moves quickly.",1,0.76779723,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006560.txt
+220,proud_confident,M006560,"a person raises both arms slightly, and moves quickly.",1,0.76779723,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006560.txt
+221,proud_confident,M010863,the person is standing and lifting something in their left hand.,1,0.76773345,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010863.txt
+222,proud_confident,012292,a person spreads their arms horizontally before letting them fall to their sides,1,0.7676699,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012292.txt
+223,proud_confident,M012292,a person spreads their arms horizontally before letting them fall to their sides,1,0.7676699,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012292.txt
+224,proud_confident,M007887,person lifts right arm up repeatedly,1,0.76757216,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007887.txt
+225,proud_confident,M010630,"a person carefully paces back and forth, their arms loose at their sides.",2,0.7675255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010630.txt
+226,proud_confident,010630,"a person carefully paces back and forth, their arms loose at their sides.",2,0.7675255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010630.txt
+227,proud_confident,M010092,a person is extending both their arms forward.,0,0.76749015,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010092.txt
+228,proud_confident,010092,a person is extending both their arms forward.,0,0.76749015,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010092.txt
+229,proud_confident,005150,a person is standing still while using their hands to describe something.,2,0.7674847,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005150.txt
+230,proud_confident,M005150,a person is standing still while using their hands to describe something.,2,0.7674847,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005150.txt
+231,proud_confident,003792,a person shifts down to their right side then stand up with arms extended.,1,0.76742125,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003792.txt
+232,proud_confident,007522,person reaches for something with right hand and then moves forward.,2,0.76730967,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007522.txt
+233,proud_confident,004223,a person throws something underhanded with their right hand,0,0.7672534,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004223.txt
+234,proud_confident,007402,"a person is lifting the right hand up forward, and then putting it back down.",1,0.76718277,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007402.txt
+235,proud_confident,M001921,a person extending their arm to direct attention to something ahead.,1,0.7671368,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001921.txt
+236,proud_confident,001921,a person extending their arm to direct attention to something ahead.,1,0.7671368,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001921.txt
+237,proud_confident,M009485,a person reaches his left arm straight forward,1,0.76699066,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009485.txt
+238,proud_confident,005913,a person stretches their arms forward and to the side.,0,0.766834,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005913.txt
+239,proud_confident,M005913,a person stretches their arms forward and to the side.,0,0.766834,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005913.txt
+240,proud_confident,010863,the person is standing and lifting something in their right hand.,1,0.76657075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010863.txt
+241,proud_confident,010268,a person reaches around in front of them with their left hand.,0,0.76654255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010268.txt
+242,proud_confident,011280,person has arms raised and brings then to hip level,0,0.76651883,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011280.txt
+243,proud_confident,M011280,person has arms raised and brings then to hip level,0,0.76651883,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011280.txt
+244,proud_confident,M002441,person pushes their left arm forward,2,0.76648533,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002441.txt
+245,proud_confident,003003,a person raises arms either sides and straight outwards.,0,0.766357,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003003.txt
+246,proud_confident,M003003,a person raises arms either sides and straight outwards.,0,0.766357,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003003.txt
+247,proud_confident,013687,a person raises their left hand slightly then place it back down.,0,0.76610255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013687.txt
+248,proud_confident,M007971,a person stepped forward and start to scratch something with left hand,2,0.76607615,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007971.txt
+249,proud_confident,M008123,a person throws something with their left hand while standing still,0,0.76596737,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008123.txt
+250,proud_confident,M002905,a person holds out their arms and walks forward.,2,0.7658713,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002905.txt
+251,proud_confident,002905,a person holds out their arms and walks forward.,2,0.7658713,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002905.txt
+252,proud_confident,008969,"person reaches forward with hands, and makes repeated movements in front of themselves.",0,0.76582575,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008969.txt
+253,proud_confident,M008969,"person reaches forward with hands, and makes repeated movements in front of themselves.",0,0.76582575,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008969.txt
+254,proud_confident,002489,a person walks forward while putting both hands on something for support,1,0.7657821,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002489.txt
+255,proud_confident,M002489,a person walks forward while putting both hands on something for support,1,0.7657821,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002489.txt
+256,proud_confident,M013453,a person moves their arms from their right to the left.,2,0.7655786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013453.txt
+257,proud_confident,004067,a person reaches forward with the right hand and then lets their arm drop to their side.,0,0.765576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004067.txt
+258,proud_confident,M003955,a person directing with their left arm ahead.,1,0.76551723,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003955.txt
+259,proud_confident,004293,a person walks forward placing their right hand against something as they do.,2,0.76547766,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004293.txt
+260,proud_confident,002225,a person is walking forward holding something in hands then appears to put it down or hand something over,0,0.7654296,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002225.txt
+261,proud_confident,M002225,a person is walking forward holding something in hands then appears to put it down or hand something over,0,0.7654296,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002225.txt
+262,proud_confident,M008675,a person walks forward before reaching forward with their left arm,1,0.7654284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008675.txt
+263,proud_confident,M010609,a person raises arms then takes one step forward.,2,0.7654052,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010609.txt
+264,proud_confident,010609,a person raises arms then takes one step forward.,2,0.7654052,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010609.txt
+265,proud_confident,M002054,a person taking relaxed and confident steps forward.,2,0.76517653,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002054.txt
+266,proud_confident,002054,a person taking relaxed and confident steps forward.,2,0.76517653,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002054.txt
+267,proud_confident,003502,a person standing and puts left arms out.,2,0.7651674,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003502.txt
+268,proud_confident,011577,a person lifts their right hand.,1,0.7650294,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011577.txt
+269,proud_confident,014306,"a person raises their left hand slightly, then sets it back down.",0,0.7650021,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014306.txt
+270,proud_confident,M000811,a person motions forward with their right hand.,1,0.7649808,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000811.txt
+271,proud_confident,006453,a person is lifting their right and left arms irratically.,2,0.764922,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006453.txt
+272,proud_confident,001655,person walks around and reaches up,2,0.7648947,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001655.txt
+273,proud_confident,M001655,person walks around and reaches up,2,0.7648947,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001655.txt
+274,proud_confident,003882,person is reaching down for something.,0,0.7648816,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003882.txt
+275,proud_confident,M003882,person is reaching down for something.,0,0.7648816,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003882.txt
+276,proud_confident,003955,a person directing with their right arm ahead.,1,0.76487994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003955.txt
+277,proud_confident,M013484,person raises left hand in a slow forward gesture,0,0.7648611,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013484.txt
+278,proud_confident,001609,person leans forward and bounces forward once then stands up straight,2,0.76476634,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001609.txt
+279,proud_confident,M001609,person leans forward and bounces forward once then stands up straight,2,0.76476634,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001609.txt
+280,proud_confident,M005328,a person moves his right hand upwards.,2,0.76464725,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005328.txt
+281,proud_confident,M003337,a person waves their right hand side to side,1,0.76454055,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003337.txt
+282,proud_confident,005875,"a person is standing, the brings both arms up parallel to shoulder level and perpendicular to the body",2,0.7642646,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005875.txt
+283,proud_confident,M005875,"a person is standing, the brings both arms up parallel to shoulder level and perpendicular to the body",2,0.7642646,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005875.txt
+284,proud_confident,001069,a person standing up straight and putting both right and left hands together multiple times.,0,0.7641854,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001069.txt
+285,proud_confident,012563,a person points around with their right hand.,0,0.7641742,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012563.txt
+286,proud_confident,M002052,a person is standing then raises arms.,1,0.7641387,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002052.txt
+287,proud_confident,002052,a person is standing then raises arms.,1,0.7641387,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002052.txt
+288,proud_confident,007887,person lifts left arm up repeatedly,1,0.76408434,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007887.txt
+289,proud_confident,M014306,"a person raises their right hand slightly, then sets it back down.",0,0.76403546,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014306.txt
+290,proud_confident,008469,a person throwing something with the right hand,1,0.76381207,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008469.txt
+291,proud_confident,009081,person raises arms slightly at the sides.,0,0.76380867,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009081.txt
+292,proud_confident,M009081,person raises arms slightly at the sides.,0,0.76380867,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009081.txt
+293,proud_confident,002737,a person waves both arms in a back and forth motion.,0,0.76363784,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002737.txt
+294,proud_confident,M002737,a person waves both arms in a back and forth motion.,0,0.76363784,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002737.txt
+295,proud_confident,M008729,a person standing stretches left hand up,2,0.7634703,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008729.txt
+296,proud_confident,M009295,a person uses their right hand to point,1,0.76346254,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009295.txt
+297,proud_confident,M010741,a person walks forward while using their arms mildly to balance.,1,0.76334256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010741.txt
+298,proud_confident,010741,a person walks forward while using their arms mildly to balance.,1,0.76334256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010741.txt
+299,proud_confident,001415,a person tries to reach something by stretching,1,0.7632669,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001415.txt
+300,proud_confident,M001415,a person tries to reach something by stretching,1,0.7632669,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001415.txt
+301,proud_confident,005393,person lifts right arm up,2,0.76324064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005393.txt
+302,proud_confident,M012580,the person is lifting something from right to left,0,0.7632077,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012580.txt
+303,proud_confident,010377,person turns to their right and walks forward,2,0.76320374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010377.txt
+304,proud_confident,000371,person walks with their hands pointing slightly backwards and arms swinging,0,0.7631972,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000371.txt
+305,proud_confident,M000371,person walks with their hands pointing slightly backwards and arms swinging,0,0.7631972,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000371.txt
+306,proud_confident,M013065,a person lifts right arm up,1,0.76315135,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013065.txt
+307,proud_confident,011284,a person picks something up with their right hand and walks forward.,0,0.7629079,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011284.txt
+308,proud_confident,001845,a person uses their right hand to point forward.,1,0.7628928,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001845.txt
+309,proud_confident,M009837,a person uses their right hand to point forward.,0,0.7628928,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009837.txt
+310,proud_confident,007941,a person slightly raises their left hand in front of them.,2,0.76288897,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007941.txt
+311,proud_confident,M005426,a person reaches forward with his left hand,2,0.76286304,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005426.txt
+312,proud_confident,010267,a person lift something with right hand,2,0.7628366,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010267.txt
+313,proud_confident,001101,person  raises both arms and moves right arm in a forward motion,2,0.7626318,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001101.txt
+314,proud_confident,013098,a person throw something with right hand,0,0.76254356,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013098.txt
+315,proud_confident,010446,a person throw something with right hand,2,0.76254356,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010446.txt
+316,proud_confident,M014260,a person stands still with both arms at their side,2,0.76239264,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014260.txt
+317,proud_confident,014260,a person stands still with both arms at their side,2,0.76239264,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014260.txt
+318,proud_confident,M007363,"a person is standing up and facing the right, and left arm is moving upward and to the right as if throwing something.",1,0.7622464,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007363.txt
+319,proud_confident,012880,a figure gestures with its right hand then brings its hands together,1,0.76216304,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012880.txt
+320,proud_confident,001474,a person waves at something with their right hand.,0,0.761921,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001474.txt
+321,proud_confident,012932,a person raises their right hand and walks forward.,2,0.7618717,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012932.txt
+322,proud_confident,M014253,a person is standing in stance while shifting their right hand.,2,0.7618598,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014253.txt
+323,proud_confident,M000046,a person raises its right hand and sets it back down.,2,0.76181465,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000046.txt
+324,proud_confident,001298,"a person stands strongly with arms forward and down, then outstretches their arms to the side.",1,0.7617236,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001298.txt
+325,proud_confident,M001298,"a person stands strongly with arms forward and down, then outstretches their arms to the side.",1,0.7617236,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001298.txt
+326,proud_confident,000046,a person raises its left hand and sets it back down.,2,0.76171744,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000046.txt
+327,proud_confident,M000796,a person leans down and presses against something with their left hand before standing up and raising their arms,1,0.7617144,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000796.txt
+328,proud_confident,M004223,a person throws something underhanded with their left hand,0,0.7617111,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004223.txt
+329,proud_confident,000434,a person walks forward while raising their right arm.,0,0.76167417,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000434.txt
+330,proud_confident,008218,a person raising their right hand.,0,0.76157564,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008218.txt
+331,proud_confident,003113,a person forming a good and strong stance.,2,0.7613661,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003113.txt
+332,proud_confident,M003113,a person forming a good and strong stance.,2,0.7613661,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003113.txt
+333,proud_confident,M007996,a person extending their left arm out.,1,0.7613246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007996.txt
+334,proud_confident,007568,a person raised both hands and lift something,0,0.761311,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007568.txt
+335,proud_confident,M007568,a person raised both hands and lift something,0,0.761311,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007568.txt
+336,proud_confident,005256,a person throws something upwards with both arms.,2,0.7612467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005256.txt
+337,proud_confident,M005256,a person throws something upwards with both arms.,2,0.7612467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005256.txt
+338,proud_confident,002064,a person slowly walks forward and menacingly points with their right hand.,1,0.7610951,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002064.txt
+339,proud_confident,M000434,a person walks forward while putting their left arm on something for support,1,0.76103693,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000434.txt
+340,proud_confident,002195,a person backs up before moving their arms out and pushing something.,0,0.7609882,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002195.txt
+341,proud_confident,M002195,a person backs up before moving their arms out and pushing something.,0,0.7609882,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002195.txt
+342,proud_confident,M002149,"a person steps forward, turns to the side and gestures several times.",0,0.76083374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002149.txt
+343,proud_confident,002149,"a person steps forward, turns to the side and gestures several times.",0,0.76083374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002149.txt
+344,proud_confident,006671,a person reaches forward with their right hand and then with their left hand.,0,0.760833,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006671.txt
+345,proud_confident,M010692,a person dodging to their right side.,2,0.76079416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010692.txt
+346,proud_confident,M004517,a person standing points at something by lifting their left hand.,0,0.76067555,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004517.txt
+347,proud_confident,M014190,a person bend the body to left direction,1,0.7606348,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014190.txt
+348,proud_confident,012371,a person walks forward with each arm extended at their sides as if they are trying to balance themselves.,1,0.7606286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012371.txt
+349,proud_confident,M012371,a person walks forward with each arm extended at their sides as if they are trying to balance themselves.,1,0.7606286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012371.txt
+350,proud_confident,M005167,a person raises their left hand then sets it back down.,0,0.76061577,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005167.txt
+351,proud_confident,004178,a person moves their right arm up and down in front of them,2,0.7606131,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004178.txt
+352,proud_confident,M003798,a person waves their right hand back and forth.,0,0.7605271,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003798.txt
+353,proud_confident,008937,a person waves their right hand back and forth.,1,0.7605271,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008937.txt
+354,proud_confident,M003916,a person flexes chest area by moving arms outwards and inwards.,2,0.7604818,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003916.txt
+355,proud_confident,003916,a person flexes chest area by moving arms outwards and inwards.,2,0.7604818,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003916.txt
+356,proud_confident,008675,a person walks forward before reaching forward with their right arm,1,0.760465,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008675.txt
+357,proud_confident,006703,a person deflects something with their right hand.,2,0.7604406,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006703.txt
+358,proud_confident,005088,a standing person putting their left hand forward and moving it clockwise,2,0.7603407,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005088.txt
+359,proud_confident,005167,a person raises their right hand then sets it back down.,0,0.76027375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005167.txt
+360,proud_confident,M000636,person walks up and down with arms slightly spread,0,0.7602155,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000636.txt
+361,proud_confident,000636,person walks up and down with arms slightly spread,0,0.7602155,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000636.txt
+362,proud_confident,006318,a person thrusts their hips forward,0,0.7601938,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006318.txt
+363,proud_confident,M006318,a person thrusts their hips forward,0,0.7601938,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006318.txt
+364,proud_confident,M006910,a person drys off something with their right hand.,0,0.7601198,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006910.txt
+365,proud_confident,006031,a person casts something forward with both arms.,1,0.7601062,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006031.txt
+366,proud_confident,M006031,a person casts something forward with both arms.,1,0.7601062,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006031.txt
+367,proud_confident,004984,a person gestures quickly with their right hand and leans forward.,2,0.7598766,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004984.txt
+368,proud_confident,M010264,a person waves widely with both hands.,2,0.75984335,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010264.txt
+369,proud_confident,010264,a person waves widely with both hands.,2,0.75984335,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010264.txt
+370,proud_confident,003293,person reaches arms out then takes right arm and points outwards,0,0.75975907,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003293.txt
+371,proud_confident,M001101,person  raises both arms and moves left arm in a forward motion,2,0.75963223,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001101.txt
+372,proud_confident,011354,"a figure gestures for the viewer to come closer, beckoning them",1,0.75959283,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011354.txt
+373,proud_confident,M011354,"a figure gestures for the viewer to come closer, beckoning them",1,0.75959283,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011354.txt
+374,proud_confident,003628,a person is standing with their right and left arms in front of them,0,0.75959265,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003628.txt
+375,proud_confident,008130,a person bends forward slightly at the waist and continually uses the right hand to stroke something softly,2,0.7595786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008130.txt
+376,proud_confident,006819,"a person is standing, raising their right hand towards the center of their body, and then brings right hand back down to the side.",2,0.7594359,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006819.txt
+377,proud_confident,012499,a person strafes back and forth from right to left.,1,0.7594354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012499.txt
+378,proud_confident,011213,a person holds both arms out to the sides and sways slightly back and forth,2,0.75935924,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011213.txt
+379,proud_confident,M011213,a person holds both arms out to the sides and sways slightly back and forth,2,0.75935924,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011213.txt
+380,proud_confident,014369,a person holds their right hand up at someone.,0,0.7593244,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014369.txt
+381,proud_confident,001317,a person waves friendly with their right hand.,0,0.7592424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001317.txt
+382,proud_confident,M004293,a person walks forward placing their left hand against something as they do.,2,0.7591604,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004293.txt
+383,proud_confident,M005797,a person standing lifting arms up,1,0.7591068,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005797.txt
+384,proud_confident,005797,a person standing lifting arms up,1,0.7591068,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005797.txt
+385,proud_confident,M003757,a person wave their arm in a straight motion,2,0.7590836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003757.txt
+386,proud_confident,003757,a person wave their arm in a straight motion,2,0.7590836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003757.txt
+387,proud_confident,M001591,a person sticks their left hand up,2,0.7589928,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001591.txt
+388,proud_confident,M004016,a person raises their right arm forward to be parallel with the ground.,0,0.75897896,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004016.txt
+389,proud_confident,000634,a person raising their hands and throwing them forward.,0,0.7589574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000634.txt
+390,proud_confident,M000634,a person raising their hands and throwing them forward.,0,0.7589574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000634.txt
+391,proud_confident,M005838,person moves something with both hands diagnoly,0,0.75891405,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005838.txt
+392,proud_confident,005838,person moves something with both hands diagnoly,0,0.75891405,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005838.txt
+393,proud_confident,013800,a person gesturing with their right hand similar to waving a greeting,1,0.75889564,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013800.txt
+394,proud_confident,M004178,a person moves their left arm up and down in front of them,2,0.758786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004178.txt
+395,proud_confident,M006880,a person raised left and right hand,2,0.75876445,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006880.txt
+396,proud_confident,M013780,person leans forward and stretches out right hand to move something around,1,0.75876033,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013780.txt
+397,proud_confident,003680,a person reaches for something with his right hand.,1,0.7587503,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003680.txt
+398,proud_confident,M004013,a person reaches for something with his right hand.,0,0.7587503,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004013.txt
+399,proud_confident,008573,a person is standing while pointing at something with his right hand.,2,0.7585952,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008573.txt
+400,proud_confident,011847,a figure throws hard forward with their right hand,0,0.7585307,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011847.txt
+401,proud_confident,003162,a person is doing something with his right hand and ends in a standing position.,2,0.7585001,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003162.txt
+402,proud_confident,M002420,"a person reaches out to grab something, then paces back and forth",0,0.7584748,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002420.txt
+403,proud_confident,002420,"a person reaches out to grab something, then paces back and forth",0,0.7584748,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002420.txt
+404,proud_confident,M005936,a person moves arms slightly in place.,2,0.75842965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005936.txt
+405,proud_confident,005936,a person moves arms slightly in place.,2,0.75842965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005936.txt
+406,proud_confident,000796,a person leans down and presses against something with their right hand before standing up and raising their arms,1,0.75829196,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000796.txt
+407,proud_confident,M008487,a person moves both arms up,1,0.7582181,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008487.txt
+408,proud_confident,008487,a person moves both arms up,1,0.7582181,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008487.txt
+409,proud_confident,M003568,person is stratching hands around with a motion towards and against.,0,0.7581329,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003568.txt
+410,proud_confident,003568,person is stratching hands around with a motion towards and against.,0,0.7581329,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003568.txt
+411,proud_confident,M012563,a person points around with their left hand.,0,0.7581011,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012563.txt
+412,proud_confident,M014038,a person stands with hands at shoulder width and waist height but slightly in front of their body then reaches for thing above in the middle and below with their right hand.,0,0.7580917,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014038.txt
+413,proud_confident,001374,a person waves with their right hand. seems friendly,0,0.7580701,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001374.txt
+414,proud_confident,M013908,this person stands with both arms raised and bent at the elbow.,2,0.7579699,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013908.txt
+415,proud_confident,013908,this person stands with both arms raised and bent at the elbow.,2,0.7579699,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013908.txt
+416,proud_confident,006556,a person moves their right hand in front of their body quickly.,0,0.7578753,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006556.txt
+417,proud_confident,M003713,a person directing someone  with their hands.,0,0.7578487,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003713.txt
+418,proud_confident,003713,a person directing someone  with their hands.,0,0.7578487,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003713.txt
+419,proud_confident,008111,a person lifts something with their right hand,1,0.7578417,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008111.txt
+420,proud_confident,M003478,a person standing straight with their arms out front.,2,0.75772256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003478.txt
+421,proud_confident,003478,a person standing straight with their arms out front.,2,0.75772256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003478.txt
+422,proud_confident,001841,a person catching something and throwing it back with their right hand,2,0.75752974,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001841.txt
+423,proud_confident,012904,a person moves something with both hands.,2,0.7574662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012904.txt
+424,proud_confident,M007982,a person moves something with both hands.,0,0.7574662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007982.txt
+425,proud_confident,004126,a person moves something with both hands.,1,0.7574662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004126.txt
+426,proud_confident,M010849,a person moves something with both hands.,0,0.7574662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010849.txt
+427,proud_confident,007982,a person moves something with both hands.,0,0.7574662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007982.txt
+428,proud_confident,M012904,a person moves something with both hands.,2,0.7574662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012904.txt
+429,proud_confident,M004126,a person moves something with both hands.,1,0.7574662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004126.txt
+430,proud_confident,010849,a person moves something with both hands.,0,0.7574662,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010849.txt
+431,proud_confident,001694,a person bends forward and reaches down with hand.,2,0.75741714,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001694.txt
+432,proud_confident,M001694,a person bends forward and reaches down with hand.,2,0.75741714,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001694.txt
+433,proud_confident,002665,person stands stagnant while waving their right hand back and forth.,1,0.7573451,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002665.txt
+434,proud_confident,M012339,a person raises their right hand,2,0.7572984,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012339.txt
+435,proud_confident,012339,a person raises their left hand,2,0.7572663,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012339.txt
+436,proud_confident,M013522,a person walks while touching something with both hands.,1,0.7572655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013522.txt
+437,proud_confident,013522,a person walks while touching something with both hands.,1,0.7572655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013522.txt
+438,proud_confident,005378,"a person flexes both arms a few times, lowers them and puts them straight out.",1,0.7572353,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005378.txt
+439,proud_confident,M005378,"a person flexes both arms a few times, lowers them and puts them straight out.",1,0.7572353,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005378.txt
+440,proud_confident,008285,a person raises both hands,1,0.7570657,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008285.txt
+441,proud_confident,M008285,a person raises both hands,1,0.7570657,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008285.txt
+442,proud_confident,009725,a person evading something by dodging to the right,1,0.757028,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009725.txt
+443,proud_confident,001621,a person waves their right hand,2,0.75691116,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001621.txt
+444,proud_confident,M011504,a person is stepping around while their hands are behind their back,0,0.7568067,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011504.txt
+445,proud_confident,011504,a person is stepping around while their hands are behind their back,0,0.7568067,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011504.txt
+446,proud_confident,M007695,a person walking diagnolly back and forth while gesturing with their hand,1,0.7567445,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007695.txt
+447,proud_confident,007695,a person walking diagnolly back and forth while gesturing with their hand,1,0.7567445,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007695.txt
+448,proud_confident,007527,a person waves with the right hand.,0,0.7567346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007527.txt
+449,proud_confident,008874,a person waves with the right hand.,1,0.7567346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008874.txt
+450,proud_confident,010536,a person waves with the right hand.,1,0.7567346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010536.txt
+451,proud_confident,M000395,a person waves with the right hand.,1,0.7567346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000395.txt
+452,proud_confident,M011373,a person walks forward while holding onto something with both hands.,1,0.7567303,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011373.txt
+453,proud_confident,011373,a person walks forward while holding onto something with both hands.,1,0.7567303,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011373.txt
+454,proud_confident,012802,a person taking a jump forward,1,0.75671315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012802.txt
+455,proud_confident,M012802,a person taking a jump forward,1,0.75671315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012802.txt
+456,proud_confident,M001340,a person steps forward and makes several hand gestures.,0,0.756661,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001340.txt
+457,proud_confident,001340,a person steps forward and makes several hand gestures.,0,0.756661,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001340.txt
+458,proud_confident,M009720,a person raises their left arm out straight.,2,0.75662637,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009720.txt
+459,proud_confident,007968,"a person takes one step forward, poses, and puts their arms on their hips.",2,0.75658923,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007968.txt
+460,proud_confident,M007968,"a person takes one step forward, poses, and puts their arms on their hips.",2,0.75658923,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007968.txt
+461,proud_confident,M002458,"a person staggering up, taking labored steps in a forward and upwards direction",0,0.75655264,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002458.txt
+462,proud_confident,002458,"a person staggering up, taking labored steps in a forward and upwards direction",0,0.75655264,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002458.txt
+463,proud_confident,M000966,"a figure holds their arms up defensively, while shuffling and bouncing side to side",2,0.7565516,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000966.txt
+464,proud_confident,000966,"a figure holds their arms up defensively, while shuffling and bouncing side to side",2,0.7565516,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000966.txt
+465,proud_confident,M010806,a person waves with both hand,0,0.7565448,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010806.txt
+466,proud_confident,010806,a person waves with both hand,0,0.7565448,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010806.txt
+467,proud_confident,M002064,a person slowly walks forward and menacingly points with their left hand.,1,0.75650555,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002064.txt
+468,proud_confident,M008573,a person is standing while pointing at something with his left hand.,2,0.756485,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008573.txt
+469,proud_confident,M004158,a person walks forward using their right hand to steady themselves on an object.,0,0.7564224,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004158.txt
+470,proud_confident,002371,a person walks in all directions while performing aggressive gestures.,0,0.7563947,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002371.txt
+471,proud_confident,M002371,a person walks in all directions while performing aggressive gestures.,0,0.7563947,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002371.txt
+472,proud_confident,M005393,person lifts left arm up,2,0.7563775,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005393.txt
+473,proud_confident,M007941,a person slightly raises their right hand in front of them.,2,0.7563038,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007941.txt
+474,proud_confident,014038,a person stands with hands at shoulder width and waist height but slightly in front of their body then reaches for thing above in the middle and below with their left hand.,0,0.756297,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014038.txt
+475,proud_confident,013861,a person extends their right hand and shakes it.,0,0.7562536,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013861.txt
+476,proud_confident,M011118,a person quickly picks something up with their right hand.,2,0.75620407,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011118.txt
+477,proud_confident,M007670,a person walks forward placing their right hand on something as they pass by,1,0.756056,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007670.txt
+478,proud_confident,M012499,a person strafes back and forth from left to right.,1,0.7559351,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012499.txt
+479,proud_confident,004979,someone moving hand forward while standing,0,0.7559251,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004979.txt
+480,proud_confident,M004979,someone moving hand forward while standing,0,0.7559251,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004979.txt
+481,proud_confident,M013465,a person walks forward slightly then with its left hand it reaches for something to the right.,1,0.7557986,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013465.txt
+482,proud_confident,000438,person lifts something and places it down to their right,2,0.7557218,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000438.txt
+483,proud_confident,004016,a person raises their left arm forward to be parallel with the ground.,0,0.7557175,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004016.txt
+484,proud_confident,006880,a person raised right and left hand,2,0.7557075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006880.txt
+485,proud_confident,008830,a person reaches their right arm forward.,0,0.755689,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008830.txt
+486,proud_confident,013873,person makes a grand gesture with arms moving from standing to sitting position.,0,0.7555903,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013873.txt
+487,proud_confident,M013873,person makes a grand gesture with arms moving from standing to sitting position.,0,0.7555903,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013873.txt
+488,proud_confident,000182,person puts their hands on something and attempts to push it,0,0.7555782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000182.txt
+489,proud_confident,M000182,person puts their hands on something and attempts to push it,0,0.7555782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000182.txt
+490,proud_confident,011712,a person is putting both his right and left hand into the air.,2,0.75557536,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011712.txt
+491,proud_confident,M010071,a person is motioning both their hands forward up and down,1,0.7555399,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010071.txt
+492,proud_confident,010071,a person is motioning both their hands forward up and down,1,0.7555399,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010071.txt
+493,proud_confident,005164,"a person standing still, raises their arms very slightly.",2,0.75547135,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005164.txt
+494,proud_confident,M005164,"a person standing still, raises their arms very slightly.",2,0.75547135,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005164.txt
+495,proud_confident,M012449,the person is reaching over picking something up from the right and the left,2,0.75545514,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012449.txt
+496,proud_confident,000860,person is standing forward.,2,0.75541985,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000860.txt
+497,proud_confident,M000860,person is standing forward.,2,0.75541985,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000860.txt
+498,proud_confident,M011149,a person walks on something with his arms extended horizontally to try to maintain his balance.,0,0.75540566,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011149.txt
+499,proud_confident,011149,a person walks on something with his arms extended horizontally to try to maintain his balance.,0,0.75540566,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011149.txt
+500,proud_confident,003199,a person turns to their left and reaches above him with his right hand as if to grab something.,0,0.7553647,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003199.txt
+501,proud_confident,M000312,a person rocks back and forth while holding their arms out in front of them,1,0.7553475,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000312.txt
+502,proud_confident,000312,a person rocks back and forth while holding their arms out in front of them,1,0.7553475,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000312.txt
+503,proud_confident,007244,a person walks to their left and twist something with their right hand.,1,0.75531423,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007244.txt
+504,proud_confident,006493,a person throws something with their right hand,0,0.7553063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006493.txt
+505,proud_confident,010940,a person throws something with their right hand,0,0.7553063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010940.txt
+506,proud_confident,001264,a person throws something with their right hand,0,0.7553063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001264.txt
+507,proud_confident,000528,a person throws something with their right hand,2,0.7553063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000528.txt
+508,proud_confident,005021,a person throws something with their right hand,0,0.7553063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005021.txt
+509,proud_confident,007376,a person throws something with their right hand,0,0.7553063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007376.txt
+510,proud_confident,002929,a person throws something with their right hand,0,0.7553063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002929.txt
+511,proud_confident,000493,person looks to be throwing their hands around randomly on the spot,0,0.7552916,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000493.txt
+512,proud_confident,M000493,person looks to be throwing their hands around randomly on the spot,0,0.7552916,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000493.txt
+513,proud_confident,M007578,person takes a small leap forward,1,0.7551547,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007578.txt
+514,proud_confident,007578,person takes a small leap forward,1,0.7551547,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007578.txt
+515,proud_confident,M003293,person reaches arms out then takes left arm and points outwards,0,0.7551187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003293.txt
+516,proud_confident,M011257,person throws something forward with left hand.,1,0.7550436,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011257.txt
+517,proud_confident,010510,a person stands in one place while their arms and upper body move around,0,0.7550325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010510.txt
+518,proud_confident,M010510,a person stands in one place while their arms and upper body move around,0,0.7550325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010510.txt
+519,proud_confident,004581,a person walks while touching something with is right hand.,0,0.75501764,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004581.txt
+520,proud_confident,M007145,a person raises their left hand to their chest and lets it down.,2,0.7549939,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007145.txt
+521,proud_confident,002211,a person signals with arm movements.,1,0.754828,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002211.txt
+522,proud_confident,M002211,a person signals with arm movements.,1,0.754828,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002211.txt
+523,proud_confident,011939,person slowly moves left arm up in the air,2,0.75480884,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011939.txt
+524,proud_confident,M003611,a person raises hands and walks forward graciously.,2,0.7547876,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003611.txt
+525,proud_confident,003611,a person raises hands and walks forward graciously.,2,0.7547876,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003611.txt
+526,proud_confident,M006945,person stand still and jumps forward,1,0.75478387,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006945.txt
+527,proud_confident,006945,person stand still and jumps forward,1,0.75478387,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006945.txt
+528,proud_confident,M007429,a person standing throws something.,1,0.75476116,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007429.txt
+529,proud_confident,007429,a person standing throws something.,1,0.75476116,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007429.txt
+530,proud_confident,012861,a person twists to the right,1,0.75475943,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012861.txt
+531,proud_confident,002234,"a person walks forward with both arms out to their sides, tipping to the left and right, keeping balance.",1,0.75469506,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002234.txt
+532,proud_confident,M012932,a person raises their left hand and walks forward.,2,0.7546947,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012932.txt
+533,proud_confident,M007552,a person points with their right hand.,2,0.754689,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007552.txt
+534,proud_confident,M014242,a person raises both hands slightly and lowers them,1,0.75462174,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014242.txt
+535,proud_confident,014242,a person raises both hands slightly and lowers them,1,0.75462174,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014242.txt
+536,proud_confident,014247,a person moves his right arm straight up and then to the right while standing still.,2,0.7545953,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014247.txt
+537,proud_confident,014366,"a person steps onto something and carefully walks across it, holding their arms out for balance.",2,0.75453097,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014366.txt
+538,proud_confident,M014366,"a person steps onto something and carefully walks across it, holding their arms out for balance.",2,0.75453097,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014366.txt
+539,proud_confident,M010267,a person lift something with left hand,2,0.75435245,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010267.txt
+540,proud_confident,009673,"a person whith their hand raised, raises it higher.",1,0.7543194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009673.txt
+541,proud_confident,M009673,"a person whith their hand raised, raises it higher.",1,0.7543194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009673.txt
+542,proud_confident,M012880,a figure gestures with its left hand then brings its hands together,1,0.7542274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012880.txt
+543,proud_confident,M001551,a person who lifts there right hand up twice,2,0.7541604,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001551.txt
+544,proud_confident,013065,a person lifts left arm up,1,0.75412256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013065.txt
+545,proud_confident,014253,a person is standing in stance while shifting their left hand.,2,0.754105,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014253.txt
+546,proud_confident,002248,"a person throwing something with right hand, while doing the smal movement forward",2,0.7540989,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002248.txt
+547,proud_confident,010344,a person walks staight grabs soemthing with their right hand and left hand,2,0.7540821,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010344.txt
+548,proud_confident,005454,person through something forward with his right hand.,2,0.7540575,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005454.txt
+549,proud_confident,011092,a person moves their right hand from left to right in front of them.,2,0.75397944,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011092.txt
+550,proud_confident,011247,a person walks forward with their arms extended for balance.,1,0.7539344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011247.txt
+551,proud_confident,M011247,a person walks forward with their arms extended for balance.,1,0.7539344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011247.txt
+552,proud_confident,M005571,person takes a few steps forward and throws something with left arm twice,1,0.7539305,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005571.txt
+553,proud_confident,007996,a person extending their right arm out.,1,0.7539246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007996.txt
+554,proud_confident,M003845,a person stands with their arms up and forward.,0,0.7539,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003845.txt
+555,proud_confident,003845,a person stands with their arms up and forward.,0,0.7539,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003845.txt
+556,proud_confident,002400,a person repeatedly puts their right hand out,2,0.75389504,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002400.txt
+557,proud_confident,002584,a person waves with both hands,2,0.75386715,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002584.txt
+558,proud_confident,M002584,a person waves with both hands,2,0.75386715,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002584.txt
+559,proud_confident,M007863,a person raises both their hands to the right.,1,0.7538624,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007863.txt
+560,proud_confident,M000127,a person moves their right arm at head level back and forth,0,0.7538244,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000127.txt
+561,proud_confident,M003592,"a person stands with their hands together, step foward then reaches down to pick something up.",2,0.75382054,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003592.txt
+562,proud_confident,003592,"a person stands with their hands together, step foward then reaches down to pick something up.",2,0.75382054,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003592.txt
+563,proud_confident,M001967,a person gestures picking something up then putting it down.,0,0.7538121,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001967.txt
+564,proud_confident,001967,a person gestures picking something up then putting it down.,0,0.7538121,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001967.txt
+565,proud_confident,007608,person put his arms straight out and then down that side,1,0.753608,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007608.txt
+566,proud_confident,M007608,person put his arms straight out and then down that side,1,0.753608,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007608.txt
+567,proud_confident,009729,a person raised the right hand and lift something,2,0.7535924,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009729.txt
+568,proud_confident,008797,a person raised the right hand and lift something,2,0.7535924,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008797.txt
+569,proud_confident,009577,a person touhes their right arms twice with their left hand.,1,0.753589,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009577.txt
+570,proud_confident,002723,the person is gesturing something.,0,0.75356424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002723.txt
+571,proud_confident,M002723,the person is gesturing something.,0,0.75356424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002723.txt
+572,proud_confident,M009596,a person puts both arms forward.,1,0.7535497,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009596.txt
+573,proud_confident,009596,a person puts both arms forward.,1,0.7535497,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009596.txt
+574,proud_confident,009367,"a person raises their arm slightly, then starts to walk up something.",1,0.7534911,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009367.txt
+575,proud_confident,M009367,"a person raises their arm slightly, then starts to walk up something.",1,0.7534911,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009367.txt
+576,proud_confident,008634,the person is standing still and doing something with their left hand.,1,0.7534479,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008634.txt
+577,proud_confident,007741,a person moves something with their right hand.,1,0.7534169,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007741.txt
+578,proud_confident,002309,"a person standing straight ,moving right hand forward and backward and raising both hand on the side.",0,0.7534001,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002309.txt
+579,proud_confident,M006173,"a person is standing still, only slightly swaying both arms at the end.",0,0.7533492,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006173.txt
+580,proud_confident,006173,"a person is standing still, only slightly swaying both arms at the end.",0,0.7533492,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006173.txt
+581,proud_confident,M009080,"a person spreads with arms straight out, before beinging them back down to their side",0,0.75326276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009080.txt
+582,proud_confident,009080,"a person spreads with arms straight out, before beinging them back down to their side",0,0.75326276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009080.txt
+583,proud_confident,002563,a person quickly waves with their right hand.,1,0.75323987,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002563.txt
+584,proud_confident,005778,a person is gesturing and pointing with their right hand.   at one point they make a sweeping motion with both hands before going back to pointing with the right hand as if giving a speech.,1,0.75323236,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005778.txt
+585,proud_confident,013670,person is reaching forward with right hand at varying degrees,1,0.7532208,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013670.txt
+586,proud_confident,M011284,a person picks something up with their left hand and walks forward.,0,0.7531913,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011284.txt
+587,proud_confident,013603,a person swift the hands in right and left direction,1,0.75318944,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013603.txt
+588,proud_confident,011276,a person puts their right hand in the air and makes a slapping motion,2,0.753149,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011276.txt
+589,proud_confident,M001845,a person uses their left hand to point forward.,1,0.75314754,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001845.txt
+590,proud_confident,009837,a person uses their left hand to point forward.,0,0.75314754,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009837.txt
+591,proud_confident,M002855,person waves their right hand,2,0.75311774,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002855.txt
+592,proud_confident,M007306,a person slowly walked forward while raising up the hands,1,0.7531012,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007306.txt
+593,proud_confident,007306,a person slowly walked forward while raising up the hands,1,0.7531012,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007306.txt
+594,proud_confident,M002471,a person walks forward while keeping both arms to their side.,2,0.7530708,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002471.txt
+595,proud_confident,002471,a person walks forward while keeping both arms to their side.,2,0.7530708,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002471.txt
+596,proud_confident,M008130,a person bends forward slightly at the waist and continually uses the left hand to stroke something softly,2,0.7529917,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008130.txt
+597,proud_confident,M008687,a person shift back to the left and throws something forward.,1,0.7529688,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008687.txt
+598,proud_confident,013780,person leans forward and stretches out left hand to move something around,1,0.7529272,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013780.txt
+599,proud_confident,014364,a person raises his right hand to chest height in a pronated position and twice moves it up and down slightly.,1,0.75282854,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014364.txt
+600,proud_confident,M001069,a person standing up straight and putting both left and right hands together multiple times.,0,0.75277066,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001069.txt
+601,proud_confident,000811,a person motions forward with their left hand.,1,0.75275385,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000811.txt
+602,proud_confident,000732,a person is using their left arm to point or grab something in front of them,2,0.7527295,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000732.txt
+603,proud_confident,007670,a person walks forward placing their left hand on something as they pass by,1,0.7527224,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007670.txt
+604,proud_confident,M006145,"a person reaches for something with both hands, the raises their right hand then sets its hands back down.",0,0.7526804,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006145.txt
+605,proud_confident,006145,"a person reaches for something with both hands, the raises their left hand then sets its hands back down.",0,0.752668,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006145.txt
+606,proud_confident,M003307,a person standing in one spot and waiving their hand.,2,0.752532,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003307.txt
+607,proud_confident,003307,a person standing in one spot and waiving their hand.,2,0.752532,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003307.txt
+608,proud_confident,M003923,a person appears to be moving something with both hands.,0,0.75247425,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003923.txt
+609,proud_confident,003923,a person appears to be moving something with both hands.,0,0.75247425,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003923.txt
+610,proud_confident,M009725,a person evading something by dodging to the left,1,0.75244427,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009725.txt
+611,proud_confident,M001474,a person waves at something with their left hand.,0,0.75232816,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001474.txt
+612,proud_confident,009239,a person raised right and after left arms,2,0.75232136,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009239.txt
+613,proud_confident,M004015,"person walks forward with right hand extended to side, trying to feel something.",0,0.7520858,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004015.txt
+614,proud_confident,M009068,person stands still then throws something with left hand above their head,0,0.7519597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009068.txt
+615,proud_confident,M006671,a person reaches forward with their left hand and then with their right hand.,0,0.75190127,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006671.txt
+616,proud_confident,M006342,the person holds their arm up to their left and puts it back down.,2,0.75183994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006342.txt
+617,proud_confident,000478,a person holds their arms up for balance and walks forward one foot in front of the other,1,0.75182086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000478.txt
+618,proud_confident,M000478,a person holds their arms up for balance and walks forward one foot in front of the other,1,0.75182086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000478.txt
+619,proud_confident,M009425,a person points with their left arm to the right.,1,0.7518048,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009425.txt
+620,proud_confident,M010446,a person throw something with left hand,2,0.75171036,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010446.txt
+621,proud_confident,M013098,a person throw something with left hand,0,0.75171036,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013098.txt
+622,proud_confident,M006536,person walks forward and puts their hand on something as they pass by it,1,0.75166476,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006536.txt
+623,proud_confident,006536,person walks forward and puts their hand on something as they pass by it,1,0.75166476,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006536.txt
+624,proud_confident,014408,a person is being active with their arms while turning around.,1,0.7516413,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014408.txt
+625,proud_confident,M014408,a person is being active with their arms while turning around.,1,0.7516413,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014408.txt
+626,proud_confident,M008380,a person raises both of their hands and walks forward.,2,0.7516156,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008380.txt
+627,proud_confident,008380,a person raises both of their hands and walks forward.,2,0.7516156,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008380.txt
+628,proud_confident,007552,a person points with their left hand.,2,0.7515214,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007552.txt
+629,proud_confident,004158,a person walks forward using their left hand to steady themselves on an object.,0,0.7514896,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004158.txt
+630,proud_confident,014365,a person walks forward very slightly then brings up their right hand to its face.,2,0.7514765,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014365.txt
+631,proud_confident,000988,the person is pointing towards someone.,0,0.75147367,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000988.txt
+632,proud_confident,M000988,the person is pointing towards someone.,0,0.75147367,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000988.txt
+633,proud_confident,M014503,a person starts by standing and jumps forward by a little bit.,1,0.7514565,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014503.txt
+634,proud_confident,014503,a person starts by standing and jumps forward by a little bit.,1,0.7514565,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014503.txt
+635,proud_confident,M007244,a person walks to their right and twist something with their left hand.,1,0.7514468,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007244.txt
+636,proud_confident,M002920,the person knocks with their right hand,1,0.7514292,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002920.txt
+637,proud_confident,M009970,a person repeatedly reaches for an object and appears to put it back with their left hand.,1,0.75140786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009970.txt
+638,proud_confident,M008634,the person is standing still and doing something with their right hand.,1,0.75140655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008634.txt
+639,proud_confident,M005410,a person walks a few steps towards something and begins confidently reaching out and touching something in front of them,1,0.75130904,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005410.txt
+640,proud_confident,005410,a person walks a few steps towards something and begins confidently reaching out and touching something in front of them,1,0.75130904,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005410.txt
+641,proud_confident,M000885,a person raises their left hand.,2,0.75130093,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000885.txt
+642,proud_confident,M014539,a person raises their left hand.,2,0.75130093,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014539.txt
+643,proud_confident,M000131,a person raises their left hand.,2,0.75130093,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000131.txt
+644,proud_confident,004503,a person moves something with both arms.,2,0.7512075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004503.txt
+645,proud_confident,M004503,a person moves something with both arms.,2,0.7512075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004503.txt
+646,proud_confident,M002234,"a person walks forward with both arms out to their sides, tipping to the right and left, keeping balance.",1,0.75120497,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002234.txt
+647,proud_confident,008566,a person walks forward and catches something with their hands.,1,0.75115603,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008566.txt
+648,proud_confident,M008566,a person walks forward and catches something with their hands.,1,0.75115603,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008566.txt
+649,proud_confident,M005778,the person moves both hands in front of themselves while standing.,0,0.75115097,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005778.txt
+650,proud_confident,M013717,this person holds both arms out to the sides and walks forward.,2,0.7510756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013717.txt
+651,proud_confident,013717,this person holds both arms out to the sides and walks forward.,2,0.7510756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013717.txt
+652,proud_confident,M005320,person walks forward with hands straight up in the air,0,0.75105524,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005320.txt
+653,proud_confident,005320,person walks forward with hands straight up in the air,0,0.75105524,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005320.txt
+654,proud_confident,000042,a person passes something to the right,2,0.7510184,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000042.txt
+655,proud_confident,013636,"a person reaches their right hand straight out to the right, then directly out in front of them.",1,0.7509695,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013636.txt
+656,proud_confident,007803,a person is side stepping to their left and then to their right,0,0.750915,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007803.txt
+657,proud_confident,011628,a person raising right hand.,2,0.7509128,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011628.txt
+658,proud_confident,009970,a person repeatedly reaches for an object and appears to put it back with their right hand.,1,0.75088394,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009970.txt
+659,proud_confident,M012731,"a person picks up something in front of them with both hands at shoulder width, tilts it to their left with their right hand, and sets it back down in front of them.",2,0.7507925,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012731.txt
+660,proud_confident,M013187,a person moves something from the right to the left.,2,0.7507661,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013187.txt
+661,proud_confident,011679,person hold arms up and stumbles forward into the right.,0,0.7507427,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011679.txt
+662,proud_confident,M000335,a person raises its right arm then sets it back down.,1,0.75071406,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000335.txt
+663,proud_confident,011865,a person walks with their arms slightly outstretched and then turns to the right.,2,0.7506671,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011865.txt
+664,proud_confident,M011939,person slowly moves right arm up in the air,2,0.75063026,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011939.txt
+665,proud_confident,M009935,a person is in a fighting stance.,0,0.7506125,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009935.txt
+666,proud_confident,009935,a person is in a fighting stance.,0,0.7506125,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009935.txt
+667,proud_confident,007363,"a person is standing up and facing the left, and right arm is moving upward and to the left as if throwing something.",1,0.75061035,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007363.txt
+668,proud_confident,010939,a person throwing something with the right hand and catching it back,0,0.7505589,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010939.txt
+669,proud_confident,013984,a person repeatedly throws something with their right hand.,1,0.7505499,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013984.txt
+670,proud_confident,M013293,a person waves both hands at their side several times.,1,0.75051045,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013293.txt
+671,proud_confident,013293,a person waves both hands at their side several times.,1,0.75051045,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013293.txt
+672,proud_confident,M002416,a person stands still them moves their arms a bit.,2,0.7504177,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002416.txt
+673,proud_confident,002416,a person stands still them moves their arms a bit.,2,0.7504177,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002416.txt
+674,proud_confident,M008810,a person lifts and moves something from right to left.,2,0.75039554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008810.txt
+675,proud_confident,M002468,the person prepares to fight by raising there arms and getting in a fighting stance,0,0.75037223,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002468.txt
+676,proud_confident,002468,the person prepares to fight by raising there arms and getting in a fighting stance,0,0.75037223,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002468.txt
+677,proud_confident,M001317,a person waves friendly with their left hand.,0,0.75022566,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001317.txt
+678,proud_confident,013156,person is facing forward waving with their right hand.,0,0.7502163,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013156.txt
+679,proud_confident,006910,a person drys off something with their left hand.,0,0.75021416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006910.txt
+680,proud_confident,005640,a person walks forward and moves his arms to chest height,2,0.75020266,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005640.txt
+681,proud_confident,M005640,a person walks forward and moves his arms to chest height,2,0.75020266,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005640.txt
+682,proud_confident,010657,a person turns around and pulls something.,0,0.75017416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010657.txt
+683,proud_confident,M010657,a person turns around and pulls something.,0,0.75017416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010657.txt
+684,proud_confident,M006703,a person deflects something with their left hand.,2,0.7501677,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006703.txt
+685,proud_confident,009068,person stands still then throws something with right hand above their head,0,0.75014114,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009068.txt
+686,proud_confident,M000972,"this person does a short sprint forward, holding their arms up to their chest level.",0,0.7501337,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000972.txt
+687,proud_confident,000972,"this person does a short sprint forward, holding their arms up to their chest level.",0,0.7501337,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000972.txt
+688,proud_confident,004708,person is doing an excercise with hands forward.,2,0.7501067,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004708.txt
+689,proud_confident,M004708,person is doing an excercise with hands forward.,2,0.7501067,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004708.txt
+690,proud_confident,005894,the person is doing gestures with his right hand.,1,0.75006485,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005894.txt
+691,proud_confident,M001801,a person is leaning forward and reaching for something.,1,0.7500547,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001801.txt
+692,proud_confident,001801,a person is leaning forward and reaching for something.,1,0.7500547,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001801.txt
+693,proud_confident,M011635,a person raised left hand and pull it down,1,0.7500379,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011635.txt
+694,proud_confident,M001821,a person walks forward and towards the right hand side.,1,0.74996287,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001821.txt
+695,proud_confident,M007678,a person pointing at something with his right hand.,2,0.7499254,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007678.txt
+696,proud_confident,005439,a person waves with their right hand,0,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005439.txt
+697,proud_confident,M014570,a person waves with their right hand,0,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014570.txt
+698,proud_confident,M004356,a person waves with their right hand,0,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004356.txt
+699,proud_confident,012456,a person waves with their right hand,2,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012456.txt
+700,proud_confident,014268,a person waves with their right hand,0,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014268.txt
+701,proud_confident,003147,a person waves with their right hand,0,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003147.txt
+702,proud_confident,M009798,a person waves with their right hand,0,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009798.txt
+703,proud_confident,013373,a person waves with their right hand,0,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013373.txt
+704,proud_confident,M013879,a person waves with their right hand,0,0.7499069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013879.txt
+705,proud_confident,M014247,a person moves his left arm straight up and then to the left while standing still.,2,0.74989927,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014247.txt
+706,proud_confident,012580,the person is lifting something from left to right,0,0.74979734,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012580.txt
+707,proud_confident,005453,a person climbs something and reaches to their right with their right hand.,0,0.7497827,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005453.txt
+708,proud_confident,M010163,a person walks forward with both arms not swinging at their side,1,0.7497492,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010163.txt
+709,proud_confident,010163,a person walks forward with both arms not swinging at their side,1,0.7497492,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010163.txt
+710,proud_confident,007129,a person moves hand up and down,2,0.74972355,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007129.txt
+711,proud_confident,M007129,a person moves hand up and down,2,0.74972355,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007129.txt
+712,proud_confident,M002661,a person turns around (toward their right) and then flings their arms up a few times.,1,0.74966484,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002661.txt
+713,proud_confident,007145,a person raises their right hand to their chest and lets it down.,2,0.74963695,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007145.txt
+714,proud_confident,M000787,a person walks forward carefully with arms extended.,2,0.7496207,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000787.txt
+715,proud_confident,000787,a person walks forward carefully with arms extended.,2,0.7496207,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000787.txt
+716,proud_confident,M012367,the person is standing facing forward taking  a step to the right.,1,0.7495791,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012367.txt
+717,proud_confident,M001949,a person stretches their arms upwards,1,0.74952286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001949.txt
+718,proud_confident,001949,a person stretches their arms upwards,1,0.74952286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001949.txt
+719,proud_confident,M005421,a person waves slowly with their right hand,1,0.7494898,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005421.txt
+720,proud_confident,M005971,this person reaches in front and moves something to the right with both arms.,1,0.7494889,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005971.txt
+721,proud_confident,008552,a figure raises their left arm to throw,1,0.7494733,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008552.txt
+722,proud_confident,012449,the person is reaching over picking something up from the left and the right,2,0.749473,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012449.txt
+723,proud_confident,009715,a person puts their right hand on their hip and then holds their left arm up and out,1,0.74943626,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009715.txt
+724,proud_confident,M003038,"a person standing,  quickly sidesteps to the left.",2,0.7494333,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003038.txt
+725,proud_confident,M011687,a person walks awkwardly forward and picks something up with their left hand.,2,0.74940336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011687.txt
+726,proud_confident,008290,"a person rises their left arm up repeatedly, then catches something.",1,0.7493416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008290.txt
+727,proud_confident,M002065,a person jumping forward with great effort.,2,0.7493278,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002065.txt
+728,proud_confident,002065,a person jumping forward with great effort.,2,0.7493278,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002065.txt
+729,proud_confident,M013800,a person gesturing with their left hand similar to waving a greeting,1,0.7492665,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013800.txt
+730,proud_confident,M003199,a person turns to their right and reaches above him with his left hand as if to grab something.,0,0.749256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003199.txt
+731,proud_confident,M006179,a person is pushing something towards the right up a against something.,2,0.74925435,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006179.txt
+732,proud_confident,000744,a person throws something up with both hands,1,0.74921846,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000744.txt
+733,proud_confident,M000744,a person throws something up with both hands,1,0.74921846,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000744.txt
+734,proud_confident,011593,person moves forward and uses right  hand to  pick something up and move to side,0,0.7491969,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011593.txt
+735,proud_confident,011633,a person waves widely with their right hand.,1,0.7491921,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011633.txt
+736,proud_confident,014539,a person raises their right hand.,2,0.7491454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014539.txt
+737,proud_confident,000885,a person raises their right hand.,2,0.7491454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000885.txt
+738,proud_confident,000131,a person raises their right hand.,2,0.7491454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000131.txt
+739,proud_confident,006602,a person dizzily walks forward and uses their hands to steady themselves,1,0.7491343,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006602.txt
+740,proud_confident,M006602,a person dizzily walks forward and uses their hands to steady themselves,1,0.7491343,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006602.txt
+741,proud_confident,005571,person takes a few steps forward and throws something with right arm twice,1,0.7490811,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005571.txt
+742,proud_confident,006999,"a person steps forward slightly, the raises both their hands and places them together.",0,0.74906665,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006999.txt
+743,proud_confident,M006999,"a person steps forward slightly, the raises both their hands and places them together.",0,0.74906665,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006999.txt
+744,proud_confident,M000405,a person lifts both arm up slightly.,0,0.7490113,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000405.txt
+745,proud_confident,000405,a person lifts both arm up slightly.,0,0.7490113,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000405.txt
+746,proud_confident,M006385,a person standing still shuffles to the right.,0,0.74892473,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006385.txt
+747,proud_confident,007063,the person tilts to their right with outstretched arms.,1,0.7489211,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007063.txt
+748,proud_confident,011495,person is jumping forward once,2,0.7488763,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011495.txt
+749,proud_confident,M011495,person is jumping forward once,2,0.7488763,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011495.txt
+750,proud_confident,003337,a person waves their left hand side to side,1,0.7487911,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003337.txt
+751,proud_confident,M008218,a person raising their left hand.,0,0.7487833,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008218.txt
+752,proud_confident,003038,"a person standing,  quickly sidesteps to the right.",2,0.7487707,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003038.txt
+753,proud_confident,M002076,a person waves back and forth with both arms overhead.,2,0.74876726,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002076.txt
+754,proud_confident,002076,a person waves back and forth with both arms overhead.,2,0.74876726,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002076.txt
+755,proud_confident,M014369,a person holds their left hand up at someone.,0,0.74868375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014369.txt
+756,proud_confident,M008875,a person walks forward with arms at their side,1,0.74866366,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008875.txt
+757,proud_confident,008875,a person walks forward with arms at their side,1,0.74866366,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008875.txt
+758,proud_confident,014172,a person waves enthusiastically with their right hand.,0,0.7486518,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014172.txt
+759,proud_confident,005983,a person shakily throws with their right hand.,2,0.74863285,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005983.txt
+760,proud_confident,012367,the person is standing facing forward taking  a step to the left.,1,0.74860996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012367.txt
+761,proud_confident,M006687,a figure gestures in frustration by extending then throwing down their left arm,2,0.7486084,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006687.txt
+762,proud_confident,M002382,a person is winding arms forward and backwards.,2,0.7486083,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002382.txt
+763,proud_confident,002382,a person is winding arms forward and backwards.,2,0.7486083,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002382.txt
+764,proud_confident,M012523,a person lifts his right hand.,2,0.7485906,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012523.txt
+765,proud_confident,001551,a person who lifts there left hand up twice,2,0.7485854,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001551.txt
+766,proud_confident,012816,person dopily walks forward and is making silly gestures and body movements,1,0.7485577,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012816.txt
+767,proud_confident,M012816,person dopily walks forward and is making silly gestures and body movements,1,0.7485577,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012816.txt
+768,proud_confident,008810,a person lifts and moves something from left to right.,2,0.7485085,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008810.txt
+769,proud_confident,M014365,a person walks forward very slightly then brings up their left hand to its face.,2,0.7484704,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014365.txt
+770,proud_confident,000335,a person raises its left arm then sets it back down.,1,0.7484149,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000335.txt
+771,proud_confident,M011796,a person takes a steady step to the right side,0,0.74837285,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011796.txt
+772,proud_confident,010638,a person raise the right hand overhead then throws something.,2,0.7483325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010638.txt
+773,proud_confident,003163,a person is moving their right hand back and forth in front of their face.,2,0.7483227,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003163.txt
+774,proud_confident,M008111,a person lifts something with their left hand,1,0.7482895,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008111.txt
+775,proud_confident,003633,a person walks straight forward with their hands at their sides.,2,0.74825543,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003633.txt
+776,proud_confident,M003633,a person walks straight forward with their hands at their sides.,2,0.74825543,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003633.txt
+777,proud_confident,M013930,a person raised left and right hand  and repeat it,2,0.7482424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013930.txt
+778,proud_confident,013968,a person lifts something with their right hand twice.,1,0.7482175,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013968.txt
+779,proud_confident,M000273,a person walks forward holding their arms up while balancing on something,2,0.74821126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000273.txt
+780,proud_confident,000273,a person walks forward holding their arms up while balancing on something,2,0.74821126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000273.txt
+781,proud_confident,M007522,person reaches for something with left hand and then moves forward.,2,0.7481875,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007522.txt
+782,proud_confident,002661,a person throws something upwards with two hands.,0,0.7481557,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002661.txt
+783,proud_confident,M005248,a person walks forward while holding their arms out to the side.,2,0.74810565,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005248.txt
+784,proud_confident,005248,a person walks forward while holding their arms out to the side.,2,0.74810565,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005248.txt
+785,proud_confident,010766,the person is holding something with both hands in front of its body.,2,0.74808455,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010766.txt
+786,proud_confident,M010766,the person is holding something with both hands in front of its body.,2,0.74808455,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010766.txt
+787,proud_confident,M007063,the person tilts to their left with outstretched arms.,1,0.7480794,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007063.txt
+788,proud_confident,009720,a person raises their right arm out straight.,2,0.74802333,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009720.txt
+789,proud_confident,008478,person is walking with arms out unsteadily,0,0.74802303,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008478.txt
+790,proud_confident,M008478,person is walking with arms out unsteadily,0,0.74802303,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008478.txt
+791,proud_confident,M006453,a person is lifting their left and right arms irratically.,2,0.74800754,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006453.txt
+792,proud_confident,M012598,"a person walked backrwards, and showing something with hands",0,0.74795616,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012598.txt
+793,proud_confident,012598,"a person walked backrwards, and showing something with hands",0,0.74795616,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012598.txt
+794,proud_confident,012001,person is moving something from left to right with both arms,1,0.7479534,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012001.txt
+795,proud_confident,006323,a person shifts their partially lifted arms around before gesturing to stuff something inside of something.,1,0.7479503,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006323.txt
+796,proud_confident,M006323,a person shifts their partially lifted arms around before gesturing to stuff something inside of something.,1,0.7479503,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006323.txt
+797,proud_confident,M003915,a figure waves their right hand in a sideways motion,1,0.7479359,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003915.txt
+798,proud_confident,002979,a person walks forward while holding onto something with their right hand.,0,0.74790454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002979.txt
+799,proud_confident,M002969,person has left arm raised high and shudders,0,0.74789643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002969.txt
+800,proud_confident,004176,a person steps forward then reaches down for something with his right hand.,1,0.74787056,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004176.txt

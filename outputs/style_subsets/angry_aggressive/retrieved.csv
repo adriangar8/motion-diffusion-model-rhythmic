@@ -1,0 +1,801 @@
+rank,style,motion_id,best_caption,best_caption_idx,similarity,source_file
+1,angry_aggressive,M004061,a person punches with both hands as if they are fighting.,0,0.8721073,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004061.txt
+2,angry_aggressive,004061,a person punches with both hands as if they are fighting.,0,0.8721073,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004061.txt
+3,angry_aggressive,M005280,person puts fists up in a fighting stance twice,2,0.8665549,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005280.txt
+4,angry_aggressive,005280,person puts fists up in a fighting stance twice,2,0.8665549,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005280.txt
+5,angry_aggressive,M006538,a person winds up and throws a punch with their left hand,2,0.8626793,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006538.txt
+6,angry_aggressive,006538,a person winds up and throws a punch with their right hand,2,0.8622583,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006538.txt
+7,angry_aggressive,M006750,an angry person throws and kicks objects around.,2,0.8619164,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006750.txt
+8,angry_aggressive,006750,an angry person throws and kicks objects around.,2,0.8619164,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006750.txt
+9,angry_aggressive,008044,a person who repeatedly punches with their right hand,1,0.8614593,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008044.txt
+10,angry_aggressive,M011828,a person fights something by kicking and punching.,2,0.859602,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011828.txt
+11,angry_aggressive,011828,a person fights something by kicking and punching.,2,0.859602,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011828.txt
+12,angry_aggressive,004384,"a person angrily punches forward with their left hand, then kicks forward with their right leg",1,0.85951275,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004384.txt
+13,angry_aggressive,M004384,"a person angrily punches forward with their right hand, then kicks forward with their left leg",1,0.8590121,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004384.txt
+14,angry_aggressive,M013344,"in a fighting stance, person punches downward with their right hand.",0,0.85872644,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013344.txt
+15,angry_aggressive,012768,a person punches with their right hand,2,0.85870147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012768.txt
+16,angry_aggressive,010855,a person punches with their right hand,1,0.85870147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010855.txt
+17,angry_aggressive,006468,a person punches with their right hand,2,0.85870147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006468.txt
+18,angry_aggressive,M014155,a person punches with their right hand,1,0.85870147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014155.txt
+19,angry_aggressive,006257,a person punches with their right hand,0,0.85870147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006257.txt
+20,angry_aggressive,013881,a person punches with right hand,1,0.85846114,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013881.txt
+21,angry_aggressive,012935,a person punches with right fist.,1,0.8580153,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012935.txt
+22,angry_aggressive,002163,"a person uses their right hand to punch something, with both of their hands up",1,0.8547376,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002163.txt
+23,angry_aggressive,M002163,"a person uses their left hand to punch something, with both of their hands up",1,0.8543825,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002163.txt
+24,angry_aggressive,M008044,a person who repeatedly punches with their left hand,1,0.8541502,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008044.txt
+25,angry_aggressive,M002210,a person takes a step forward and then throws a punch with their left hand,1,0.8535483,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002210.txt
+26,angry_aggressive,M007520,a person throws a forward punch with left arm,0,0.8534179,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007520.txt
+27,angry_aggressive,M002606,a person throwing a punch with right hand.,1,0.8533449,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002606.txt
+28,angry_aggressive,M012935,a person punches with left fist.,1,0.8528977,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012935.txt
+29,angry_aggressive,M004930,a person punches with right hand.,1,0.8528517,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004930.txt
+30,angry_aggressive,000586,a person punches with right hand.,1,0.8528517,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000586.txt
+31,angry_aggressive,M006468,a person punches with their left hand,2,0.852782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006468.txt
+32,angry_aggressive,M012768,a person punches with their left hand,2,0.852782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012768.txt
+33,angry_aggressive,M010855,a person punches with their left hand,1,0.852782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010855.txt
+34,angry_aggressive,M006257,a person punches with their left hand,0,0.852782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006257.txt
+35,angry_aggressive,014155,a person punches with their left hand,1,0.852782,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014155.txt
+36,angry_aggressive,013081,a person throwing a right punch,0,0.8526943,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013081.txt
+37,angry_aggressive,M008888,a person punches forward with their right hand,2,0.85255826,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008888.txt
+38,angry_aggressive,013655,a person throwing punches with both arms.,0,0.85251546,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013655.txt
+39,angry_aggressive,M013655,a person throwing punches with both arms.,0,0.85251546,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013655.txt
+40,angry_aggressive,M004260,a person throws a punch with their right hand.,2,0.8524616,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004260.txt
+41,angry_aggressive,002551,a person throws a punch with their right hand.,2,0.8524616,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002551.txt
+42,angry_aggressive,M013081,a person throwing a left punch,0,0.8518689,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013081.txt
+43,angry_aggressive,008244,a person throws a punch with the right hand.,1,0.851281,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008244.txt
+44,angry_aggressive,013203,a person punches with their right hand.,0,0.8512659,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013203.txt
+45,angry_aggressive,M011420,a person punches with their right hand.,2,0.8512659,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011420.txt
+46,angry_aggressive,M005045,a person punches upwards with right hand.,1,0.8510086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005045.txt
+47,angry_aggressive,006877,a person punches upwards with right hand.,0,0.8510086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006877.txt
+48,angry_aggressive,M005121,a person punches upwards with right hand.,0,0.8510086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005121.txt
+49,angry_aggressive,013344,"in a fighting stance, person punches downward with their left hand.",0,0.85081834,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013344.txt
+50,angry_aggressive,014119,a person throws a left punch to someone's gut,0,0.85067,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014119.txt
+51,angry_aggressive,002210,a person takes a step forward and then throws a punch with their right hand,1,0.85063434,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002210.txt
+52,angry_aggressive,M002551,a person throws a punch with their left hand.,2,0.8502965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002551.txt
+53,angry_aggressive,004260,a person throws a punch with their left hand.,2,0.8502965,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004260.txt
+54,angry_aggressive,002606,a person throwing a punch with left hand.,1,0.85026085,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002606.txt
+55,angry_aggressive,013166,a person punches upwards with the right hand.,2,0.8500911,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013166.txt
+56,angry_aggressive,M009794,a person throws a punch wity their right hand,1,0.8500826,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009794.txt
+57,angry_aggressive,009794,a person throws a punch wity their left hand,1,0.8491163,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009794.txt
+58,angry_aggressive,M013881,a person punches with left hand,1,0.8476777,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013881.txt
+59,angry_aggressive,M011879,a person punches quickly with his right hand.,2,0.84637135,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011879.txt
+60,angry_aggressive,M008244,a person throws a punch with the left hand.,1,0.8462461,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008244.txt
+61,angry_aggressive,007520,a person throws a forward punch with right arm,0,0.84486496,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007520.txt
+62,angry_aggressive,008888,a person punches forward with their left hand,2,0.8445344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008888.txt
+63,angry_aggressive,011420,a person punches with their left hand.,2,0.84413236,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011420.txt
+64,angry_aggressive,M013203,a person punches with their left hand.,0,0.84413236,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013203.txt
+65,angry_aggressive,M013166,a person punches upwards with the left hand.,2,0.84389883,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013166.txt
+66,angry_aggressive,012717,a person is throwing punches,0,0.8431885,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012717.txt
+67,angry_aggressive,M012717,a person is throwing punches,0,0.8431885,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012717.txt
+68,angry_aggressive,M003778,a person punches with his right hand,2,0.8422079,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003778.txt
+69,angry_aggressive,000037,person is using their left arm to dodge a punch,1,0.8415466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000037.txt
+70,angry_aggressive,009907,a person punches then kicks to the right.,2,0.841545,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009907.txt
+71,angry_aggressive,013984,a person slaps or strikes something with his right hand,0,0.84128416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013984.txt
+72,angry_aggressive,M003214,a person angrily makes a series of rude gestures and brandishes their fist at someone.,1,0.8411696,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003214.txt
+73,angry_aggressive,003214,a person angrily makes a series of rude gestures and brandishes their fist at someone.,1,0.8411696,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003214.txt
+74,angry_aggressive,011419,a person punches in front of them with their right hand.,2,0.841124,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011419.txt
+75,angry_aggressive,M006877,a person punches upwards with left hand.,0,0.8408414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006877.txt
+76,angry_aggressive,005045,a person punches upwards with left hand.,1,0.8408414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005045.txt
+77,angry_aggressive,005121,a person punches upwards with left hand.,0,0.8408414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005121.txt
+78,angry_aggressive,M006855,person punches with right hand repeatedly.,2,0.8407757,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006855.txt
+79,angry_aggressive,004930,a person punches with left hand.,1,0.84029216,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004930.txt
+80,angry_aggressive,M000586,a person punches with left hand.,1,0.84029216,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000586.txt
+81,angry_aggressive,001628,a person throws punches with their right hand jerks their hand to the right.,1,0.8402237,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001628.txt
+82,angry_aggressive,M001628,a person throws punches with their left hand jerks their hand to the left.,1,0.8400643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001628.txt
+83,angry_aggressive,M003070,a person throws a punch with his right hand.,2,0.8389089,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003070.txt
+84,angry_aggressive,M009981,a person punches wit his right hand.,1,0.8383905,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009981.txt
+85,angry_aggressive,011879,a person punches quickly with his left hand.,2,0.8377062,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011879.txt
+86,angry_aggressive,M011258,a person slowly throws punches with their right and left hands.,0,0.83744746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011258.txt
+87,angry_aggressive,M011419,a person punches in front of them with their left hand.,2,0.83701456,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011419.txt
+88,angry_aggressive,M014516,a person is punching with their right hand.,0,0.83678627,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014516.txt
+89,angry_aggressive,010534,a person is punching with their right hand.,0,0.83678627,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010534.txt
+90,angry_aggressive,005653,a person is punching with their right hand.,1,0.83678627,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005653.txt
+91,angry_aggressive,M006718,a person gets into a fighting stance.,2,0.8363425,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006718.txt
+92,angry_aggressive,006718,a person gets into a fighting stance.,2,0.8363425,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006718.txt
+93,angry_aggressive,M014119,a person throws a right punch to someone's gut,0,0.835901,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014119.txt
+94,angry_aggressive,003070,a person throws a punch with his left hand.,2,0.83588177,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003070.txt
+95,angry_aggressive,006855,person punches with left hand repeatedly.,2,0.83550954,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006855.txt
+96,angry_aggressive,007222,a person throws a right over handed punch.,0,0.8354669,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007222.txt
+97,angry_aggressive,M009781,a person punches with his right hand.,1,0.8354154,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009781.txt
+98,angry_aggressive,006143,a person punches with his right hand.,1,0.8354154,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006143.txt
+99,angry_aggressive,010760,a person makes a slapping motion with their right hand.,1,0.8352766,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010760.txt
+100,angry_aggressive,M000037,person is using their right arm to dodge a punch,1,0.83456516,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000037.txt
+101,angry_aggressive,014516,a person is punching with their left hand.,0,0.8339281,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014516.txt
+102,angry_aggressive,M010534,a person is punching with their left hand.,0,0.8339281,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010534.txt
+103,angry_aggressive,M005653,a person is punching with their left hand.,1,0.8339281,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005653.txt
+104,angry_aggressive,011258,a person slowly throws punches with their left and right hands.,0,0.83368325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011258.txt
+105,angry_aggressive,003778,a person punches with his left hand,2,0.8331277,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003778.txt
+106,angry_aggressive,M009907,a person punches then kicks to the left.,2,0.832876,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009907.txt
+107,angry_aggressive,M011690,person is throwing some punches,1,0.83124214,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011690.txt
+108,angry_aggressive,011690,person is throwing some punches,1,0.83124214,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011690.txt
+109,angry_aggressive,M013276,a person punches with each hand.,2,0.8311837,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013276.txt
+110,angry_aggressive,013276,a person punches with each hand.,2,0.8311837,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013276.txt
+111,angry_aggressive,M000628,a person throws punches from a crouched position.,0,0.8310574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000628.txt
+112,angry_aggressive,000628,a person throws punches from a crouched position.,0,0.8310574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000628.txt
+113,angry_aggressive,M006128,a person starts punching and kicking the air.,1,0.83103704,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006128.txt
+114,angry_aggressive,006128,a person starts punching and kicking the air.,1,0.83103704,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006128.txt
+115,angry_aggressive,M010760,a person makes a slapping motion with their left hand.,1,0.83055496,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010760.txt
+116,angry_aggressive,M009621,a person punches out with each hand.,0,0.83014554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009621.txt
+117,angry_aggressive,009621,a person punches out with each hand.,0,0.83014554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009621.txt
+118,angry_aggressive,M013984,a person slaps or strikes something with his left hand,0,0.82983434,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013984.txt
+119,angry_aggressive,M007222,a person throws a left over handed punch.,0,0.82926136,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007222.txt
+120,angry_aggressive,M006411,a person makes angry arm movements while stumbling around.,1,0.82859683,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006411.txt
+121,angry_aggressive,006411,a person makes angry arm movements while stumbling around.,1,0.82859683,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006411.txt
+122,angry_aggressive,007473,a person throwing a punch upwards similar to a uppercut motion,0,0.82755107,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007473.txt
+123,angry_aggressive,M007473,a person throwing a punch upwards similar to a uppercut motion,0,0.82755107,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007473.txt
+124,angry_aggressive,009981,a person punches wit his left hand.,1,0.8271512,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009981.txt
+125,angry_aggressive,006945,a person clenches their fists then hops forward,2,0.8266721,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006945.txt
+126,angry_aggressive,M006945,a person clenches their fists then hops forward,2,0.8266721,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006945.txt
+127,angry_aggressive,M004744,a person goes in a fighting stance and kicks the air multiple times.,0,0.82647264,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004744.txt
+128,angry_aggressive,004744,a person goes in a fighting stance and kicks the air multiple times.,0,0.82647264,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004744.txt
+129,angry_aggressive,M001256,a person uses left arm to punch upwards to the right.,0,0.82623196,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001256.txt
+130,angry_aggressive,009781,a person punches with his left hand.,1,0.82572633,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009781.txt
+131,angry_aggressive,M006143,a person punches with his left hand.,1,0.82572633,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006143.txt
+132,angry_aggressive,M003063,a person doing a punching motion,0,0.824931,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003063.txt
+133,angry_aggressive,003063,a person doing a punching motion,0,0.824931,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003063.txt
+134,angry_aggressive,M000450,person drops something from their hands and kicks it,0,0.8243568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000450.txt
+135,angry_aggressive,000450,person drops something from their hands and kicks it,0,0.8243568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000450.txt
+136,angry_aggressive,M002313,a person punches up with their left arm,0,0.82422346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002313.txt
+137,angry_aggressive,010738,a person is punching with his right hand.,0,0.82421017,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010738.txt
+138,angry_aggressive,014128,a person punches the air with their left hand,0,0.8237887,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014128.txt
+139,angry_aggressive,006267,a person throws a punch with their right hand then with their left hand.,0,0.8233905,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006267.txt
+140,angry_aggressive,M014128,a person punches the air with their right hand,0,0.82338417,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014128.txt
+141,angry_aggressive,M000493,a person raises their arms and hits down on something in front of them repeatedly,1,0.82327884,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000493.txt
+142,angry_aggressive,000493,a person raises their arms and hits down on something in front of them repeatedly,1,0.82327884,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000493.txt
+143,angry_aggressive,M006267,a person throws a punch with their left hand then with their right hand.,0,0.82324827,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006267.txt
+144,angry_aggressive,012544,person is throwing boxing punches,1,0.82319164,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012544.txt
+145,angry_aggressive,M012544,person is throwing boxing punches,1,0.82319164,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012544.txt
+146,angry_aggressive,M012376,person throws a punch with left arm.,2,0.8230701,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012376.txt
+147,angry_aggressive,M001082,a person shoves their arms out in an angry fashion.,0,0.822839,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001082.txt
+148,angry_aggressive,001082,a person shoves their arms out in an angry fashion.,0,0.822839,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001082.txt
+149,angry_aggressive,M006315,a person slaps something with their right hand.,1,0.822822,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006315.txt
+150,angry_aggressive,M000512,a person slowly hooks their left arm in a punch motion,2,0.8228053,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000512.txt
+151,angry_aggressive,M010738,a person is punching with his left hand.,0,0.82172126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010738.txt
+152,angry_aggressive,003382,a person appears to be punching in front of them,2,0.8215312,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003382.txt
+153,angry_aggressive,M003382,a person appears to be punching in front of them,2,0.8215312,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003382.txt
+154,angry_aggressive,M001196,a person uses their left arm to block a punch,2,0.82136756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001196.txt
+155,angry_aggressive,M012565,a person runs forward and then enters a fighting stance.,2,0.8202444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012565.txt
+156,angry_aggressive,012565,a person runs forward and then enters a fighting stance.,2,0.8202444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012565.txt
+157,angry_aggressive,002313,a person punches up with their right arm,0,0.8201624,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002313.txt
+158,angry_aggressive,000512,a person slowly hooks their right arm in a punch motion,2,0.8194618,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000512.txt
+159,angry_aggressive,007745,a person punches with their right hand and then their left.,1,0.8193088,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007745.txt
+160,angry_aggressive,009221,a person punches forwards with both hands and kicks forwards with both feet.,2,0.81922626,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009221.txt
+161,angry_aggressive,M009221,a person punches forwards with both hands and kicks forwards with both feet.,2,0.81922626,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009221.txt
+162,angry_aggressive,012575,a person punches the air with their left hand.,1,0.8191598,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012575.txt
+163,angry_aggressive,008636,a person punches with both arms.,1,0.8190564,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008636.txt
+164,angry_aggressive,M008636,a person punches with both arms.,1,0.8190564,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008636.txt
+165,angry_aggressive,M005189,a person punches with an upper cut with right hand,1,0.81889635,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005189.txt
+166,angry_aggressive,014243,a person throws something carelessly in front of them with frustration.,1,0.8187671,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014243.txt
+167,angry_aggressive,M014243,a person throws something carelessly in front of them with frustration.,1,0.8187671,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014243.txt
+168,angry_aggressive,007655,a person who is punching in a very over extended manner,2,0.81855655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007655.txt
+169,angry_aggressive,M007655,a person who is punching in a very over extended manner,2,0.81855655,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007655.txt
+170,angry_aggressive,M006558,a person throws various punches with both their right and left hands.,2,0.8180069,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006558.txt
+171,angry_aggressive,M001696,a person aggressively kneeing and kicking.,1,0.81715137,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001696.txt
+172,angry_aggressive,001696,a person aggressively kneeing and kicking.,1,0.81715137,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001696.txt
+173,angry_aggressive,M014479,a person waves something over and then gets in a fighting position,1,0.8171158,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014479.txt
+174,angry_aggressive,014479,a person waves something over and then gets in a fighting position,1,0.8171158,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014479.txt
+175,angry_aggressive,M012575,a person punches the air with their right hand.,1,0.8166826,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012575.txt
+176,angry_aggressive,000744,a person throws something up with both hands,1,0.8166554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000744.txt
+177,angry_aggressive,M000744,a person throws something up with both hands,1,0.8166554,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000744.txt
+178,angry_aggressive,M009935,a person is in a fighting stance.,0,0.8164114,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009935.txt
+179,angry_aggressive,009935,a person is in a fighting stance.,0,0.8164114,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009935.txt
+180,angry_aggressive,002371,a person walks in all directions while performing aggressive gestures.,0,0.81633747,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002371.txt
+181,angry_aggressive,M002371,a person walks in all directions while performing aggressive gestures.,0,0.81633747,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002371.txt
+182,angry_aggressive,M004477,a person punching with his right hand.,1,0.81608504,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004477.txt
+183,angry_aggressive,012845,a person punches out in front of them alternating hands,0,0.81600404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012845.txt
+184,angry_aggressive,M012845,a person punches out in front of them alternating hands,0,0.81600404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012845.txt
+185,angry_aggressive,M009628,a person throws something forward with both hands.,2,0.8158586,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009628.txt
+186,angry_aggressive,009628,a person throws something forward with both hands.,2,0.8158586,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009628.txt
+187,angry_aggressive,001256,a person uses right arm to punch upwards to the left.,0,0.8157381,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001256.txt
+188,angry_aggressive,012376,person throws a punch with right arm.,2,0.8151803,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012376.txt
+189,angry_aggressive,M008464,"person does a boxing punch, right uppercut",0,0.81511414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008464.txt
+190,angry_aggressive,006315,a person slaps something with their left hand.,1,0.8151057,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006315.txt
+191,angry_aggressive,M006996,a person turns to the left and punches with their left arm.,2,0.81459713,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006996.txt
+192,angry_aggressive,M006428,a person uses self defense by kicking and holding their hands up in preparation for punching,1,0.8145574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006428.txt
+193,angry_aggressive,006428,a person uses self defense by kicking and holding their hands up in preparation for punching,1,0.8145574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006428.txt
+194,angry_aggressive,005189,a person punches with an upper cut with left hand,1,0.8145413,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005189.txt
+195,angry_aggressive,012479,a person punches with their right hand then their left hand,2,0.8142696,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012479.txt
+196,angry_aggressive,004477,a person punching with his left hand.,1,0.81406265,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004477.txt
+197,angry_aggressive,M001366,a person hitting a left boxing punch..,2,0.81404954,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001366.txt
+198,angry_aggressive,004125,a person makes angry gestures as they quarrel with someone else.,1,0.8138999,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004125.txt
+199,angry_aggressive,M004125,a person makes angry gestures as they quarrel with someone else.,1,0.8138999,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004125.txt
+200,angry_aggressive,M008262,a person punches with both their arms.,2,0.81386375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008262.txt
+201,angry_aggressive,008262,a person punches with both their arms.,2,0.81386375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008262.txt
+202,angry_aggressive,010322,man punching with just his right fist,0,0.81372416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010322.txt
+203,angry_aggressive,011276,a person puts their right hand in the air and makes a slapping motion,2,0.8135812,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011276.txt
+204,angry_aggressive,013741,a person punches in the air.,1,0.81291246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013741.txt
+205,angry_aggressive,M013741,a person punches in the air.,1,0.81291246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013741.txt
+206,angry_aggressive,003108,a person punches as if they are boxing.,1,0.81205106,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003108.txt
+207,angry_aggressive,M003108,a person punches as if they are boxing.,1,0.81205106,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003108.txt
+208,angry_aggressive,008464,"person does a boxing punch, left uppercut",0,0.81171525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008464.txt
+209,angry_aggressive,001196,a person uses their right arm to block a punch,2,0.8116827,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001196.txt
+210,angry_aggressive,M012479,a person punches with their left hand then their right hand,2,0.81152856,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012479.txt
+211,angry_aggressive,006558,a person throws various punches with both their left and right hands.,2,0.8111117,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006558.txt
+212,angry_aggressive,M006556,a person punches upwards with right arm.,2,0.8098483,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006556.txt
+213,angry_aggressive,001366,a person hitting a right boxing punch..,2,0.80983037,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001366.txt
+214,angry_aggressive,M010322,man punching with just his left fist,0,0.8096263,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010322.txt
+215,angry_aggressive,008060,"a person throws punches, one with his right hand and four with his left hand.",0,0.8093512,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008060.txt
+216,angry_aggressive,M007895,a person kicks with their left foot and then moves back into a fighting stance.,0,0.809337,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007895.txt
+217,angry_aggressive,004223,a person throwing a right uppercut punch.,1,0.8089076,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004223.txt
+218,angry_aggressive,M013332,a person stands and throws jabbing punches.,1,0.8086498,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013332.txt
+219,angry_aggressive,013332,a person stands and throws jabbing punches.,1,0.8086498,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013332.txt
+220,angry_aggressive,000168,a persons throws a backfist with his right hand.,2,0.8085171,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000168.txt
+221,angry_aggressive,012108,a person throws something and tries to dodge something right after.,1,0.8083038,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012108.txt
+222,angry_aggressive,M003930,a person is standing and uses their left arm to punch upwards.,0,0.8073417,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003930.txt
+223,angry_aggressive,012327,a person slaps out in front of them.,0,0.8072761,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012327.txt
+224,angry_aggressive,M012327,a person slaps out in front of them.,0,0.8072761,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012327.txt
+225,angry_aggressive,007895,a person kicks with their right foot and then moves back into a fighting stance.,0,0.8069272,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007895.txt
+226,angry_aggressive,M001143,a person makes a large slapping motion with their left arm,1,0.80677396,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001143.txt
+227,angry_aggressive,M004223,a person throwing a left uppercut punch.,1,0.80676293,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004223.txt
+228,angry_aggressive,M000168,a persons throws a backfist with his left hand.,2,0.80658513,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000168.txt
+229,angry_aggressive,009384,the person is punching something with his foot.,2,0.8065225,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009384.txt
+230,angry_aggressive,M009384,the person is punching something with his foot.,2,0.8065225,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009384.txt
+231,angry_aggressive,M008060,"a person throws punches, one with his left hand and four with his right hand.",0,0.8064783,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008060.txt
+232,angry_aggressive,010155,a person kicks their right leg then punches with right and left hands repeatedly.,0,0.8064273,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010155.txt
+233,angry_aggressive,M011276,a person puts their left hand in the air and makes a slapping motion,2,0.8061122,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011276.txt
+234,angry_aggressive,013694,"a person seems angry, they aggressivley pounce forward then continue to make angry gestures and swing their arms.",2,0.8060552,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013694.txt
+235,angry_aggressive,M013694,"a person seems angry, they aggressivley pounce forward then continue to make angry gestures and swing their arms.",2,0.8060552,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013694.txt
+236,angry_aggressive,006556,a person punches upwards with left arm.,2,0.8059021,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006556.txt
+237,angry_aggressive,009175,a person throws hard with right hand.,1,0.80490804,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009175.txt
+238,angry_aggressive,007817,a person lifts their right arm up and slams it down angrily.,0,0.8047187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007817.txt
+239,angry_aggressive,M014430,a person kicks someone or something in front of them.,0,0.8044589,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014430.txt
+240,angry_aggressive,014430,a person kicks someone or something in front of them.,0,0.8044589,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014430.txt
+241,angry_aggressive,M013853,a person slaps something out of another persons hands.,1,0.8042824,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013853.txt
+242,angry_aggressive,013853,a person slaps something out of another persons hands.,1,0.8042824,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013853.txt
+243,angry_aggressive,M013587,a person hit something with right hand,1,0.80392474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013587.txt
+244,angry_aggressive,M005216,a person hit something with right hand,1,0.80392474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005216.txt
+245,angry_aggressive,M003173,a person gives an uppercut with his left hand,1,0.80375576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003173.txt
+246,angry_aggressive,001128,a person slaps their hands against their legs,0,0.8036746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001128.txt
+247,angry_aggressive,M001128,a person slaps their hands against their legs,0,0.8036746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001128.txt
+248,angry_aggressive,003237,a person does light punches with their right hand.,0,0.8035745,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003237.txt
+249,angry_aggressive,003258,a person throws an overhand right punch followed by an overhand left punch.,1,0.803565,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003258.txt
+250,angry_aggressive,006996,a person turns to the right and punches with their right arm.,2,0.80336237,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006996.txt
+251,angry_aggressive,006493,a person throws something overhand with their right hand,1,0.80314255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006493.txt
+252,angry_aggressive,M010263,person stretches out lots of times wide stance and punches forward,1,0.80301774,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010263.txt
+253,angry_aggressive,010263,person stretches out lots of times wide stance and punches forward,1,0.80301774,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010263.txt
+254,angry_aggressive,M001681,a person makes a forward smashing gesture with their left arm,2,0.8030107,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001681.txt
+255,angry_aggressive,M003237,a person does light punches with their left hand.,0,0.80292284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003237.txt
+256,angry_aggressive,010446,a person throws something with their right hand hard,0,0.80245215,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010446.txt
+257,angry_aggressive,003173,a person gives an uppercut with his right hand,1,0.80226207,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003173.txt
+258,angry_aggressive,M001396,a person throws an uppercut with the left hand.,0,0.80218077,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001396.txt
+259,angry_aggressive,013973,a person through punches with both their hands.,0,0.80184394,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013973.txt
+260,angry_aggressive,M013973,a person through punches with both their hands.,0,0.80184394,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013973.txt
+261,angry_aggressive,M001101,a person is holding their arms up by their face and then throws a punch with their left hand,0,0.8017331,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001101.txt
+262,angry_aggressive,000579,a person strikes something with with his left hand while repeatedly striking  something with his right hand,2,0.8015049,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000579.txt
+263,angry_aggressive,003930,a person is standing and uses their right arm to punch upwards.,0,0.80138355,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003930.txt
+264,angry_aggressive,M003258,a person throws an overhand left punch followed by an overhand right punch.,1,0.80137223,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003258.txt
+265,angry_aggressive,M005515,a person punches several times before pushing something to their left.,0,0.8012192,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005515.txt
+266,angry_aggressive,M006493,a person throws something overhand with their left hand,1,0.80117786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006493.txt
+267,angry_aggressive,M003277,a person punches with their left arm.,0,0.8009581,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003277.txt
+268,angry_aggressive,001840,hands in fighting position while the left foot kicks aggressively up and over.,1,0.8004787,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001840.txt
+269,angry_aggressive,003277,a person punches with their right arm.,0,0.8004542,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003277.txt
+270,angry_aggressive,001396,a person throws an uppercut with the right hand.,0,0.8003539,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001396.txt
+271,angry_aggressive,M000579,a person strikes something with with his right hand while repeatedly striking  something with his left hand,2,0.8003108,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000579.txt
+272,angry_aggressive,003051,person punches towards the left,2,0.79992396,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003051.txt
+273,angry_aggressive,M008469,a person throwing something with the left hand,1,0.7998609,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008469.txt
+274,angry_aggressive,M010155,a person kicks their left leg then punches with left and right hands repeatedly.,0,0.79963917,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010155.txt
+275,angry_aggressive,M014433,a person punches something straight out then lower and lower.,1,0.79941607,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014433.txt
+276,angry_aggressive,014433,a person punches something straight out then lower and lower.,1,0.79941607,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014433.txt
+277,angry_aggressive,011282,a person is hitting something with their right hand over and over again.,2,0.7990814,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011282.txt
+278,angry_aggressive,001681,a person makes a forward smashing gesture with their right arm,2,0.79878986,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001681.txt
+279,angry_aggressive,M002485,a person throws something very hard with their left hand.,1,0.7984418,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002485.txt
+280,angry_aggressive,M012384,a person throws something with both hands.,0,0.79840755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012384.txt
+281,angry_aggressive,012384,a person throws something with both hands.,0,0.79840755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012384.txt
+282,angry_aggressive,M003051,person punches towards the right,2,0.79837,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003051.txt
+283,angry_aggressive,M008236,a person makes a fists up motion followed by a wiping motion,1,0.7983671,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008236.txt
+284,angry_aggressive,008236,a person makes a fists up motion followed by a wiping motion,1,0.7983671,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008236.txt
+285,angry_aggressive,001143,a person makes a large slapping motion with their right arm,1,0.7981499,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001143.txt
+286,angry_aggressive,002929,a person throws something with their right hand,0,0.7980344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002929.txt
+287,angry_aggressive,010940,a person throws something with their right hand,0,0.7980344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010940.txt
+288,angry_aggressive,005021,a person throws something with their right hand,0,0.7980344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005021.txt
+289,angry_aggressive,000528,a person throws something with their right hand,2,0.7980344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000528.txt
+290,angry_aggressive,007376,a person throws something with their right hand,0,0.7980344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007376.txt
+291,angry_aggressive,001264,a person throws something with their right hand,0,0.7980344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001264.txt
+292,angry_aggressive,002485,a person throws something very hard with their right hand.,1,0.797683,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002485.txt
+293,angry_aggressive,011609,person ducks a punch while in a fighting stance,1,0.79745203,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011609.txt
+294,angry_aggressive,M011609,person ducks a punch while in a fighting stance,1,0.79745203,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011609.txt
+295,angry_aggressive,M007745,a person punches with their left hand and then their right.,1,0.79723155,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007745.txt
+296,angry_aggressive,013986,a person doing fast quick punches with their right hand.,2,0.7972042,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013986.txt
+297,angry_aggressive,M010446,a person throws something with their left hand hard,0,0.79705465,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010446.txt
+298,angry_aggressive,M012256,a person steps forward then kicks something hard with their left arm,1,0.7965672,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012256.txt
+299,angry_aggressive,008469,a person throwing something with the right hand,1,0.79629743,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008469.txt
+300,angry_aggressive,M003715,a person kicks with his right hand.,2,0.7960849,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003715.txt
+301,angry_aggressive,M000820,"a person lashes out with their right hand, punching.",2,0.7958426,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000820.txt
+302,angry_aggressive,003100,"a person throws something forward using their right hand, turning their body while they throw",1,0.7958171,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003100.txt
+303,angry_aggressive,M010153,a person punches forward with his left arm,2,0.795619,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010153.txt
+304,angry_aggressive,010153,a person punches forward with his right arm,2,0.79560566,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010153.txt
+305,angry_aggressive,002468,the person prepares to fight by raising there arms and getting in a fighting stance,0,0.79558784,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002468.txt
+306,angry_aggressive,M002468,the person prepares to fight by raising there arms and getting in a fighting stance,0,0.79558784,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002468.txt
+307,angry_aggressive,M013071,person makes fighting block and gets into fighting stance,2,0.79554397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013071.txt
+308,angry_aggressive,013071,person makes fighting block and gets into fighting stance,2,0.79554397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013071.txt
+309,angry_aggressive,M013986,a person doing fast quick punches with their left hand.,2,0.79536223,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013986.txt
+310,angry_aggressive,010939,a person throwing something with the right hand and catching it back,0,0.7952098,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010939.txt
+311,angry_aggressive,000794,a person throws something forcefully with their right hand and then steps in the direction they threw,2,0.79511505,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000794.txt
+312,angry_aggressive,M010939,a person throwing something with the left hand and catching it back,0,0.79495484,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010939.txt
+313,angry_aggressive,001271,a person in a fighting stance kicks out with his right foot.,2,0.7949418,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001271.txt
+314,angry_aggressive,M006797,a man is punching something several times with both his hands.,0,0.79486495,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006797.txt
+315,angry_aggressive,006797,a man is punching something several times with both his hands.,0,0.79486495,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006797.txt
+316,angry_aggressive,M007817,a person lifts their left arm up and slams it down angrily.,0,0.794778,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007817.txt
+317,angry_aggressive,004871,a person kicks something behind them.,0,0.79471576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004871.txt
+318,angry_aggressive,M004871,a person kicks something behind them.,0,0.79471576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004871.txt
+319,angry_aggressive,011769,a person throws something at the ground with their right hand.,2,0.79463243,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011769.txt
+320,angry_aggressive,001841,a person catching something and throwing it back with their right hand,2,0.7945276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001841.txt
+321,angry_aggressive,011257,person throws something forward with right hand.,1,0.7944064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011257.txt
+322,angry_aggressive,004391,a person is boxing and throwing punches with right and then left hand.,1,0.79438525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004391.txt
+323,angry_aggressive,M004846,the person is punching at someone.,2,0.7943643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004846.txt
+324,angry_aggressive,004846,the person is punching at someone.,2,0.7943643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004846.txt
+325,angry_aggressive,M011282,a person is hitting something with their left hand over and over again.,2,0.7942952,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011282.txt
+326,angry_aggressive,001101,a person is holding their arms up by their face and then throws a punch with their right hand,0,0.7942045,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001101.txt
+327,angry_aggressive,003715,a person kicks with his left hand.,2,0.79418623,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003715.txt
+328,angry_aggressive,005216,a person hit something with left hand,1,0.7938677,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005216.txt
+329,angry_aggressive,013587,a person hit something with left hand,1,0.7938677,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013587.txt
+330,angry_aggressive,M010940,a person throws something with their left hand,0,0.7937428,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010940.txt
+331,angry_aggressive,M005021,a person throws something with their left hand,0,0.7937428,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005021.txt
+332,angry_aggressive,M002929,a person throws something with their left hand,0,0.7937428,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002929.txt
+333,angry_aggressive,M007376,a person throws something with their left hand,0,0.7937428,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007376.txt
+334,angry_aggressive,M001264,a person throws something with their left hand,0,0.7937428,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001264.txt
+335,angry_aggressive,M000528,a person throws something with their left hand,2,0.7937428,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000528.txt
+336,angry_aggressive,013098,a person throw something with right hand,0,0.7937057,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013098.txt
+337,angry_aggressive,M003100,"a person throws something forward using their left hand, turning their body while they throw",1,0.7936642,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003100.txt
+338,angry_aggressive,M014342,a person kicks and punches in a manner consistant with martial arts.,2,0.7933733,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014342.txt
+339,angry_aggressive,014342,a person kicks and punches in a manner consistant with martial arts.,2,0.7933733,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014342.txt
+340,angry_aggressive,M001841,a person catching something and throwing it back with their left hand,2,0.7927346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001841.txt
+341,angry_aggressive,M000794,a person throws something forcefully with their left hand and then steps in the direction they threw,2,0.7927127,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000794.txt
+342,angry_aggressive,005008,a person is doing a boxing motion upwards,1,0.79207706,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005008.txt
+343,angry_aggressive,M005008,a person is doing a boxing motion upwards,1,0.79207706,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005008.txt
+344,angry_aggressive,001966,a person starts a fight and shoves their opponent.,0,0.7918688,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001966.txt
+345,angry_aggressive,M001966,a person starts a fight and shoves their opponent.,0,0.7918688,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001966.txt
+346,angry_aggressive,M006434,a person standing uses their left arm to throw something down in a forceful motion.,2,0.79177576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006434.txt
+347,angry_aggressive,M002811,a person uses both hands to throw something,2,0.791685,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002811.txt
+348,angry_aggressive,002811,a person uses both hands to throw something,2,0.791685,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002811.txt
+349,angry_aggressive,012801,the person throws punches as if practicing fighting.,0,0.7916559,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012801.txt
+350,angry_aggressive,M012801,the person throws punches as if practicing fighting.,0,0.7916559,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012801.txt
+351,angry_aggressive,M000140,a person raises both arms and punch's with its left arm.,1,0.7916229,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000140.txt
+352,angry_aggressive,007465,the person is punching to the right.,1,0.7914232,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007465.txt
+353,angry_aggressive,007586,"a person paces in a rough circle, while thrashing their hands angrily.",2,0.7913947,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007586.txt
+354,angry_aggressive,M007586,"a person paces in a rough circle, while thrashing their hands angrily.",2,0.7913947,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007586.txt
+355,angry_aggressive,006105,a person throws something with its right hand.,1,0.79118633,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006105.txt
+356,angry_aggressive,M013678,a person punches the air with their right hand and then their left hand,0,0.7910871,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013678.txt
+357,angry_aggressive,001928,"person kicks out with their right foot, but stays standing in place. person seems both frustrated and dejected.",0,0.7910483,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001928.txt
+358,angry_aggressive,M011352,person is practicing boxing punches,2,0.7909248,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011352.txt
+359,angry_aggressive,011352,person is practicing boxing punches,2,0.7909248,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011352.txt
+360,angry_aggressive,M001271,a person in a fighting stance kicks out with his left foot.,2,0.79085827,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001271.txt
+361,angry_aggressive,M001840,hands in fighting position while the right foot kicks aggressively up and over.,1,0.7906424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001840.txt
+362,angry_aggressive,002741,a person throws something from their right hand.,1,0.7901482,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002741.txt
+363,angry_aggressive,M004136,a person punches forward with alternating arms,1,0.7899548,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004136.txt
+364,angry_aggressive,004136,a person punches forward with alternating arms,1,0.7899548,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004136.txt
+365,angry_aggressive,M006457,a person catches something and throws it with his hands.,1,0.7898576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006457.txt
+366,angry_aggressive,006457,a person catches something and throws it with his hands.,1,0.7898576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006457.txt
+367,angry_aggressive,M004228,a person dodges punches while being attacked.,2,0.78944486,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004228.txt
+368,angry_aggressive,004228,a person dodges punches while being attacked.,2,0.78944486,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004228.txt
+369,angry_aggressive,M002440,the person is punching something.,0,0.78925705,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002440.txt
+370,angry_aggressive,002440,the person is punching something.,0,0.78925705,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002440.txt
+371,angry_aggressive,008115,the person is punching something.,0,0.78925705,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008115.txt
+372,angry_aggressive,M002736,the person is punching something.,0,0.78925705,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002736.txt
+373,angry_aggressive,M008115,the person is punching something.,0,0.78925705,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008115.txt
+374,angry_aggressive,002736,the person is punching something.,0,0.78925705,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002736.txt
+375,angry_aggressive,008754,a person catches something and throws it with his right hand.,0,0.78925216,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008754.txt
+376,angry_aggressive,000140,a person raises both arms and punch's with its right arm.,1,0.7888943,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000140.txt
+377,angry_aggressive,M013098,a person throw something with left hand,0,0.7888731,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013098.txt
+378,angry_aggressive,005873,a person throws something hard,2,0.78867257,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005873.txt
+379,angry_aggressive,M005873,a person throws something hard,2,0.78867257,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005873.txt
+380,angry_aggressive,011156,a person kicks something off their right foot.,2,0.7884017,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011156.txt
+381,angry_aggressive,001989,"someone in a fighting stance, kicking with their left foot.",0,0.7883644,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001989.txt
+382,angry_aggressive,005393,a person punches their right arm up.,1,0.7883402,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005393.txt
+383,angry_aggressive,M005450,a person is throwing something with his left hand,1,0.7882764,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005450.txt
+384,angry_aggressive,005384,a person is boxing and moves his left hand upwards.,1,0.78825974,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005384.txt
+385,angry_aggressive,M006790,a person kicks something and raises left hand to his face.,2,0.7880957,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006790.txt
+386,angry_aggressive,M011661,a person alternates right and left hands hitting something.,2,0.78803706,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011661.txt
+387,angry_aggressive,M001989,"someone in a fighting stance, kicking with their right foot.",0,0.7880355,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001989.txt
+388,angry_aggressive,006613,a person gathering force to throw something.,0,0.787969,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006613.txt
+389,angry_aggressive,M006613,a person gathering force to throw something.,0,0.787969,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006613.txt
+390,angry_aggressive,M002907,person throwing something on the ground,1,0.78779393,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002907.txt
+391,angry_aggressive,002907,person throwing something on the ground,1,0.78779393,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002907.txt
+392,angry_aggressive,M001593,person  facing forward does a throwing motion  with left arms before  going into a defensive motion with fists in face,0,0.7877737,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001593.txt
+393,angry_aggressive,M008754,a person catches something and throws it with his left hand.,0,0.78766245,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008754.txt
+394,angry_aggressive,003999,a person walks forward while raising their right hand and slapping it against something,2,0.787608,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003999.txt
+395,angry_aggressive,M001570,a person standing and punching with their left hand.,2,0.78750134,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001570.txt
+396,angry_aggressive,M000670,a person swaying right and left and then flinching,2,0.7874816,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000670.txt
+397,angry_aggressive,M009175,a person throws hard with left hand.,1,0.7873621,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009175.txt
+398,angry_aggressive,005484,person backed up and got ready to throw a punch with his left arm.,2,0.78732467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005484.txt
+399,angry_aggressive,M013516,a person uses their left hand to smack someone.,1,0.786925,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013516.txt
+400,angry_aggressive,M012799,a person throw something wth both hands,1,0.7869246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012799.txt
+401,angry_aggressive,012799,a person throw something wth both hands,1,0.7869246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012799.txt
+402,angry_aggressive,012524,a person throws a left hook,0,0.7869195,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012524.txt
+403,angry_aggressive,M013272,a person throwing something and catching it again,2,0.78686863,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013272.txt
+404,angry_aggressive,013272,a person throwing something and catching it again,2,0.78686863,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013272.txt
+405,angry_aggressive,M003999,a person walks forward while raising their left hand and slapping it against something,2,0.7868403,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003999.txt
+406,angry_aggressive,007549,a person throws something with their right hand.,1,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007549.txt
+407,angry_aggressive,011324,a person throws something with their right hand.,1,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011324.txt
+408,angry_aggressive,M012443,a person throws something with their right hand.,1,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012443.txt
+409,angry_aggressive,007113,a person throws something with their right hand.,2,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007113.txt
+410,angry_aggressive,007513,a person throws something with their right hand.,1,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007513.txt
+411,angry_aggressive,003335,a person throws something with their right hand.,0,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003335.txt
+412,angry_aggressive,012677,a person throws something with their right hand.,2,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012677.txt
+413,angry_aggressive,013433,a person throws something with their right hand.,1,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013433.txt
+414,angry_aggressive,006681,a person throws something with their right hand.,2,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006681.txt
+415,angry_aggressive,007363,a person throws something with their right hand.,2,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007363.txt
+416,angry_aggressive,002431,a person throws something with their right hand.,0,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002431.txt
+417,angry_aggressive,M007687,a person throws something with their right hand.,0,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007687.txt
+418,angry_aggressive,009846,a person throws something with their right hand.,2,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009846.txt
+419,angry_aggressive,004873,a person throws something with their right hand.,0,0.7867267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004873.txt
+420,angry_aggressive,005450,a person is throwing something with his right hand,1,0.78669506,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005450.txt
+421,angry_aggressive,010259,a person kicks out with their right foot,1,0.78663003,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010259.txt
+422,angry_aggressive,M011769,a person throws something at the ground with their left hand.,2,0.7865448,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011769.txt
+423,angry_aggressive,M014074,a person is in a boxing stance and then throws a left hook.,2,0.7864647,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014074.txt
+424,angry_aggressive,007730,a person punches out right and then left.,1,0.78643674,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007730.txt
+425,angry_aggressive,005164,a person catches something with both hands.,0,0.7861534,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005164.txt
+426,angry_aggressive,M005164,a person catches something with both hands.,0,0.7861534,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005164.txt
+427,angry_aggressive,010793,a person moves his hands from right to left hitting something.,1,0.78610384,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010793.txt
+428,angry_aggressive,M002741,a person throws something from their left hand.,1,0.7861036,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002741.txt
+429,angry_aggressive,M005618,a person lunges forward thrusting their right hand out at the same time,0,0.78563577,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005618.txt
+430,angry_aggressive,001593,person  facing forward does a throwing motion  with right arms before  going into a defensive motion with fists in face,0,0.78563017,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001593.txt
+431,angry_aggressive,M007465,the person is punching to the left.,1,0.78556734,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007465.txt
+432,angry_aggressive,014221,a person uses their right hand to throw an object in front of them,2,0.78551316,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014221.txt
+433,angry_aggressive,005515,a person punches several times before pushing something to their right.,0,0.78548914,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005515.txt
+434,angry_aggressive,M011257,person throws something forward with left hand.,1,0.78530985,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011257.txt
+435,angry_aggressive,011601,a person raises their right hand and slaps it on  something in front of them.,1,0.7850447,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011601.txt
+436,angry_aggressive,009977,a person throws something with their right hand hard.,1,0.78502566,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009977.txt
+437,angry_aggressive,000820,"a person lashes out with their left hand, punching.",2,0.7850169,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000820.txt
+438,angry_aggressive,006434,a person standing uses their right arm to throw something down in a forceful motion.,2,0.78500247,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006434.txt
+439,angry_aggressive,003468,a person gets into a fighting stance with slightly bent knees.,1,0.7849578,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003468.txt
+440,angry_aggressive,M003468,a person gets into a fighting stance with slightly bent knees.,1,0.7849578,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003468.txt
+441,angry_aggressive,001570,a person standing and punching with their right hand.,2,0.7848053,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001570.txt
+442,angry_aggressive,M007363,a person throws something with their left hand.,2,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007363.txt
+443,angry_aggressive,M002431,a person throws something with their left hand.,0,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002431.txt
+444,angry_aggressive,M007113,a person throws something with their left hand.,2,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007113.txt
+445,angry_aggressive,012443,a person throws something with their left hand.,1,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012443.txt
+446,angry_aggressive,007687,a person throws something with their left hand.,0,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007687.txt
+447,angry_aggressive,M009846,a person throws something with their left hand.,2,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009846.txt
+448,angry_aggressive,M007513,a person throws something with their left hand.,1,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007513.txt
+449,angry_aggressive,M007549,a person throws something with their left hand.,1,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007549.txt
+450,angry_aggressive,M013433,a person throws something with their left hand.,1,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013433.txt
+451,angry_aggressive,M003335,a person throws something with their left hand.,0,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003335.txt
+452,angry_aggressive,M004873,a person throws something with their left hand.,0,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004873.txt
+453,angry_aggressive,M006681,a person throws something with their left hand.,2,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006681.txt
+454,angry_aggressive,M012677,a person throws something with their left hand.,2,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012677.txt
+455,angry_aggressive,M011324,a person throws something with their left hand.,1,0.7846996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011324.txt
+456,angry_aggressive,005618,a person lunges forward thrusting their left hand out at the same time,0,0.78463584,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005618.txt
+457,angry_aggressive,008411,"a person raises their hands, punches once, then lowers their hands.",2,0.78457975,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008411.txt
+458,angry_aggressive,M008411,"a person raises their hands, punches once, then lowers their hands.",2,0.78457975,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008411.txt
+459,angry_aggressive,005983,a person shakily throws with their right hand.,2,0.7840468,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005983.txt
+460,angry_aggressive,013516,a person uses their right hand to smack someone.,1,0.78402615,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013516.txt
+461,angry_aggressive,M006105,a person throws something with its left hand.,1,0.7839116,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006105.txt
+462,angry_aggressive,M012108,a person throws something and tries to dodge something left after.,1,0.78379107,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012108.txt
+463,angry_aggressive,M005983,a person shakily throws with their left hand.,2,0.7837467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005983.txt
+464,angry_aggressive,012256,a person steps forward then kicks something hard with their right arm,1,0.7836477,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012256.txt
+465,angry_aggressive,011784,a person twists his body and punches the air.,2,0.7836368,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011784.txt
+466,angry_aggressive,M011784,a person twists his body and punches the air.,2,0.7836368,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011784.txt
+467,angry_aggressive,M005384,a person is boxing and moves his right hand upwards.,1,0.7833029,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005384.txt
+468,angry_aggressive,M010606,"a person throws a forceful, lunging karate punch with his left hand.",1,0.78324485,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010606.txt
+469,angry_aggressive,M012964,a man kicks his right leg out then turns around and punches twice with his left hand.,1,0.7832432,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012964.txt
+470,angry_aggressive,M008546,person raises left arms and points aggressively,1,0.7832427,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008546.txt
+471,angry_aggressive,M001928,"person kicks out with their left foot, but stays standing in place. person seems both frustrated and dejected.",0,0.7827171,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001928.txt
+472,angry_aggressive,M011601,a person raises their left hand and slaps it on  something in front of them.,1,0.7826462,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011601.txt
+473,angry_aggressive,M005393,a person punches their left arm up.,1,0.7825615,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005393.txt
+474,angry_aggressive,M004399,a person is throwing something with his left hand.,1,0.78212297,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004399.txt
+475,angry_aggressive,M007753,a person throws something with his right hand,1,0.78207594,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007753.txt
+476,angry_aggressive,M009977,a person throws something with their left hand hard.,1,0.7820748,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009977.txt
+477,angry_aggressive,005415,"person hops from left to right foot, throwing punches while occasionally dodging one.",2,0.78190064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005415.txt
+478,angry_aggressive,013995,a person was kicking wiht right and left hand,0,0.78182817,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013995.txt
+479,angry_aggressive,011168,a person moves up abit forward and puts up right hand to show a sign of anger,1,0.78171706,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011168.txt
+480,angry_aggressive,011847,a figure throws hard forward with their right hand,0,0.78154933,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011847.txt
+481,angry_aggressive,M006979,"the person looks as if they are boxing, throwing punches",2,0.7815492,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006979.txt
+482,angry_aggressive,006979,"the person looks as if they are boxing, throwing punches",2,0.7815492,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006979.txt
+483,angry_aggressive,M012391,"a person stands on the ground, makes three quick punches times with their left arm, one time with their right arm, then makes a big punch swinging with their left arm.",2,0.7815491,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012391.txt
+484,angry_aggressive,M007410,a person punches alternating right and left.,2,0.78150016,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007410.txt
+485,angry_aggressive,010606,"a person throws a forceful, lunging karate punch with his right hand.",1,0.7813648,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010606.txt
+486,angry_aggressive,012391,"a person stands on the ground, makes three quick punches times with their right arm, one time with their left arm, then makes a big punch swinging with their right arm.",2,0.78132075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012391.txt
+487,angry_aggressive,M007802,"a person takes a step forward, kicks their right foot and then punches with their left foot.",2,0.781192,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007802.txt
+488,angry_aggressive,006790,a person kicks something and raises right hand to his face.,2,0.78117836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006790.txt
+489,angry_aggressive,M011168,a person moves up abit forward and puts up left hand to show a sign of anger,1,0.781172,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011168.txt
+490,angry_aggressive,008602,a person throws something and catches something.,2,0.78103995,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008602.txt
+491,angry_aggressive,M008602,a person throws something and catches something.,2,0.78103995,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008602.txt
+492,angry_aggressive,M012321,a person throws something and catches something.,0,0.78103995,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012321.txt
+493,angry_aggressive,012321,a person throws something and catches something.,0,0.78103995,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012321.txt
+494,angry_aggressive,010997,a person is throwing with both hands,0,0.78099847,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010997.txt
+495,angry_aggressive,M010997,a person is throwing with both hands,0,0.78099847,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010997.txt
+496,angry_aggressive,001881,a man is punching and then throws a kick.,1,0.7808542,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001881.txt
+497,angry_aggressive,M001881,a man is punching and then throws a kick.,1,0.7808542,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001881.txt
+498,angry_aggressive,003392,"a person raises their right arm and brings it down forcefully in front of them, making a downwards slapping motion.",1,0.7808517,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003392.txt
+499,angry_aggressive,010791,a person kicks something with his right foot,1,0.78074527,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010791.txt
+500,angry_aggressive,M006140,a person throwing and catching something with their left hand.,0,0.7807336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006140.txt
+501,angry_aggressive,M000271,a person try to throw something with his right hand and left leg forward,1,0.78057635,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000271.txt
+502,angry_aggressive,M002997,a person throws something from their left arm with a lot of force,1,0.7804526,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002997.txt
+503,angry_aggressive,008067,"a person moves into a fighting position, light on their feet, and lightly punches and object.",1,0.78039086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008067.txt
+504,angry_aggressive,M008067,"a person moves into a fighting position, light on their feet, and lightly punches and object.",1,0.78039086,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008067.txt
+505,angry_aggressive,M010517,a person uses their left hand to do an uppercut,2,0.78012,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010517.txt
+506,angry_aggressive,002409,a person throwing a left hook.,0,0.77993184,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002409.txt
+507,angry_aggressive,004399,a person is throwing something with his right hand.,1,0.7798056,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004399.txt
+508,angry_aggressive,M005250,a person pushes forward with one hand.,0,0.77966076,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005250.txt
+509,angry_aggressive,005250,a person pushes forward with one hand.,0,0.77966076,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005250.txt
+510,angry_aggressive,009758,a person moves side to side while making punching motions with hands.,2,0.7795139,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009758.txt
+511,angry_aggressive,M009758,a person moves side to side while making punching motions with hands.,2,0.7795139,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009758.txt
+512,angry_aggressive,006584,"a person holds their arms in front of them, and makes a quick punch with their right arm.",1,0.77913594,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006584.txt
+513,angry_aggressive,M004391,a person is boxing and throwing punches with left and then right hand.,1,0.77907187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004391.txt
+514,angry_aggressive,M003392,"a person raises their left arm and brings it down forcefully in front of them, making a downwards slapping motion.",1,0.7790078,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003392.txt
+515,angry_aggressive,M014509,a person steps forward and slaps their right wrist.,1,0.7790013,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014509.txt
+516,angry_aggressive,M005484,person backed up and got ready to throw a punch with his right arm.,2,0.77895916,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005484.txt
+517,angry_aggressive,002997,a person throws something from their right arm with a lot of force,1,0.7787606,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002997.txt
+518,angry_aggressive,013678,a person punches the air with their left hand and then their right hand,0,0.7787405,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013678.txt
+519,angry_aggressive,M000027,a person punches with their left hand before they do a clockwise spin.,0,0.7787335,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000027.txt
+520,angry_aggressive,M005415,"person hops from right to left foot, throwing punches while occasionally dodging one.",2,0.7786712,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005415.txt
+521,angry_aggressive,M006584,"a person holds their arms in front of them, and makes a quick punch with their left arm.",1,0.77865475,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006584.txt
+522,angry_aggressive,006140,a person throwing and catching something with their right hand.,0,0.77864337,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006140.txt
+523,angry_aggressive,M006879,a person walks forward and aggressively sets something down.,2,0.77851284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006879.txt
+524,angry_aggressive,006879,a person walks forward and aggressively sets something down.,2,0.77851284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006879.txt
+525,angry_aggressive,M012393,a person turns to throw something with his right hand.,1,0.7784478,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012393.txt
+526,angry_aggressive,006318,"a person punches with their right hand, thrusts their hips a few times then leans down with their hands together.",2,0.778386,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006318.txt
+527,angry_aggressive,M000182,person puts their hands on something and attempts to push it,0,0.7783608,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000182.txt
+528,angry_aggressive,000182,person puts their hands on something and attempts to push it,0,0.7783608,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000182.txt
+529,angry_aggressive,M006318,"a person punches with their left hand, thrusts their hips a few times then leans down with their hands together.",2,0.77835286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006318.txt
+530,angry_aggressive,013455,a person throwing something with lots of force.,2,0.7780825,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013455.txt
+531,angry_aggressive,M013455,a person throwing something with lots of force.,2,0.7780825,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013455.txt
+532,angry_aggressive,004885,a person acting traumatic throwing his right hand.,1,0.77801585,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004885.txt
+533,angry_aggressive,001097,a person punches the air multiple times,0,0.7779255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001097.txt
+534,angry_aggressive,M001097,a person punches the air multiple times,0,0.7779255,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001097.txt
+535,angry_aggressive,M011156,a person kicks something off their left foot.,2,0.7778361,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011156.txt
+536,angry_aggressive,M013275,"a person smacks the air with their right hand, and then throws both arms down in frustration.",0,0.7777494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013275.txt
+537,angry_aggressive,M000415,"someone punches the ground with their left hand, then makes a leap towards the left.",0,0.77755624,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000415.txt
+538,angry_aggressive,008546,person raises right arms and points aggressively,1,0.7775101,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008546.txt
+539,angry_aggressive,010759,a person seems to be hitting an object with their right foot,1,0.7774998,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010759.txt
+540,angry_aggressive,000425,"a person takes a step back, starts swinging their fists boxing, and then runs forward.",0,0.7774864,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000425.txt
+541,angry_aggressive,M000425,"a person takes a step back, starts swinging their fists boxing, and then runs forward.",0,0.7774864,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000425.txt
+542,angry_aggressive,000017,a person kicks something with their right foot.,1,0.7773308,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000017.txt
+543,angry_aggressive,010453,a person kicks something with their right foot.,2,0.7773308,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010453.txt
+544,angry_aggressive,M013866,a person kicks something with their right foot.,2,0.7773308,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013866.txt
+545,angry_aggressive,003619,a person kicks something with their right foot.,0,0.7773308,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003619.txt
+546,angry_aggressive,010898,a person kicks something with their right foot.,0,0.7773308,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010898.txt
+547,angry_aggressive,M014221,a person uses their left hand to throw an object in front of them,2,0.7771758,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014221.txt
+548,angry_aggressive,M007188,"a person seems to angrily slap/hit something with their right hand, with their hand landing at about knee level.",1,0.77717173,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007188.txt
+549,angry_aggressive,M009099,person is making repeated punches with right hand,2,0.7769996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009099.txt
+550,angry_aggressive,012964,a man kicks his left leg out then turns around and punches twice with his right hand.,1,0.77680445,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012964.txt
+551,angry_aggressive,009067,a person throws something with his right hand and receives something with his two hands,1,0.77677584,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009067.txt
+552,angry_aggressive,007753,a person throws something with his left hand,1,0.77677405,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007753.txt
+553,angry_aggressive,M006946,a person throws their left arm forward and pulls it back grabbing it with their left hand,0,0.776753,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006946.txt
+554,angry_aggressive,010088,a person does a boxing maneuver.,1,0.7767121,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010088.txt
+555,angry_aggressive,M010088,a person does a boxing maneuver.,1,0.7767121,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010088.txt
+556,angry_aggressive,007410,a person punches alternating left and right.,2,0.7765781,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007410.txt
+557,angry_aggressive,M002963,a man throws something with his left hand,0,0.77657664,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002963.txt
+558,angry_aggressive,M010259,a person kicks out with their left foot,1,0.7765549,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010259.txt
+559,angry_aggressive,M003241,"a person lifting their hand close to face, in a frustrated or upset manner.",2,0.7759898,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003241.txt
+560,angry_aggressive,003241,"a person lifting their hand close to face, in a frustrated or upset manner.",2,0.7759898,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003241.txt
+561,angry_aggressive,008834,a person excitedly pumps their right fist.,0,0.77593267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008834.txt
+562,angry_aggressive,000381,a person lifts his hands to catch and throw something,0,0.77587014,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000381.txt
+563,angry_aggressive,M000381,a person lifts his hands to catch and throw something,0,0.77587014,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000381.txt
+564,angry_aggressive,M000690,"a person reaches back with an object, feign throwing, then throw it in front of them.",0,0.77581966,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000690.txt
+565,angry_aggressive,000690,"a person reaches back with an object, feign throwing, then throw it in front of them.",0,0.77581966,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000690.txt
+566,angry_aggressive,002963,a man throws something with his right hand,0,0.77581865,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002963.txt
+567,angry_aggressive,010517,a person uses their right hand to do an uppercut,2,0.77571183,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010517.txt
+568,angry_aggressive,M010898,a person kicks something with their left foot.,0,0.7755894,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010898.txt
+569,angry_aggressive,M000017,a person kicks something with their left foot.,1,0.7755894,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000017.txt
+570,angry_aggressive,M003619,a person kicks something with their left foot.,0,0.7755894,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003619.txt
+571,angry_aggressive,013866,a person kicks something with their left foot.,2,0.7755894,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013866.txt
+572,angry_aggressive,M010453,a person kicks something with their left foot.,2,0.7755894,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010453.txt
+573,angry_aggressive,000670,a person swaying left and right and then flinching,2,0.775581,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000670.txt
+574,angry_aggressive,M013995,a person was kicking wiht left and right hand,0,0.77556443,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013995.txt
+575,angry_aggressive,012393,a person turns to throw something with his left hand.,1,0.77554184,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012393.txt
+576,angry_aggressive,M004885,a person acting traumatic throwing his left hand.,1,0.7754571,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004885.txt
+577,angry_aggressive,008023,person holding something in right hand but gets pulled and has to chase,0,0.7752447,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008023.txt
+578,angry_aggressive,M014386,the person is doing a left hook and a left punch.,2,0.7751709,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014386.txt
+579,angry_aggressive,007834,a person claws at something with both hands,2,0.77513385,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007834.txt
+580,angry_aggressive,M007834,a person claws at something with both hands,2,0.77513385,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007834.txt
+581,angry_aggressive,007539,a person throws something with their right hand and stumbles slightly.,0,0.7749992,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007539.txt
+582,angry_aggressive,M007865,a person throws something.,1,0.7747479,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007865.txt
+583,angry_aggressive,007865,a person throws something.,1,0.7747479,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007865.txt
+584,angry_aggressive,M011847,a figure throws hard forward with their left hand,0,0.77473223,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011847.txt
+585,angry_aggressive,M003847,a person kicks something with their left foot twice.,0,0.77472246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003847.txt
+586,angry_aggressive,002966,a person turns and hits something in the air.,2,0.7746626,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002966.txt
+587,angry_aggressive,M002966,a person turns and hits something in the air.,2,0.7746626,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002966.txt
+588,angry_aggressive,M009067,a person throws something with his left hand and receives something with his two hands,1,0.7746596,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009067.txt
+589,angry_aggressive,000030,person is punching with their right arms whilst their left arm is stationary by their side,2,0.7746173,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000030.txt
+590,angry_aggressive,M001169,"a person is boxing, throwing various combinations and demonstrating fighting footwork.",1,0.77460194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001169.txt
+591,angry_aggressive,001169,"a person is boxing, throwing various combinations and demonstrating fighting footwork.",1,0.77460194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001169.txt
+592,angry_aggressive,M010793,a person moves his hands from left to right hitting something.,1,0.7745472,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010793.txt
+593,angry_aggressive,013275,"a person smacks the air with their left hand, and then throws both arms down in frustration.",0,0.7744931,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013275.txt
+594,angry_aggressive,000499,a person jumps over something while turning their wrists,0,0.7744588,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000499.txt
+595,angry_aggressive,M000499,a person jumps over something while turning their wrists,0,0.7744588,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000499.txt
+596,angry_aggressive,009664,a person uppercuts with their right hand.,1,0.7742508,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009664.txt
+597,angry_aggressive,M007440,"a person, in a fighting pose, backs up, then punches while moving forward, before backing up and kicking.",0,0.7742262,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007440.txt
+598,angry_aggressive,007440,"a person, in a fighting pose, backs up, then punches while moving forward, before backing up and kicking.",0,0.7742262,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007440.txt
+599,angry_aggressive,M003434,a person throws a right upper-cut punch.,1,0.7742051,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003434.txt
+600,angry_aggressive,M011914,"a person shuffles quickly forwards, turns, does it again several times, while writhing the hands and front of the body.",2,0.7741482,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011914.txt
+601,angry_aggressive,011914,"a person shuffles quickly forwards, turns, does it again several times, while writhing the hands and front of the body.",2,0.7741482,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011914.txt
+602,angry_aggressive,013320,a person throwed something with right hand,0,0.77414167,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013320.txt
+603,angry_aggressive,012447,a person throwed something with right hand,1,0.77414167,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012447.txt
+604,angry_aggressive,010841,a person throwed something with right hand,2,0.77414167,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010841.txt
+605,angry_aggressive,004986,a person kicks out with their right foot.,1,0.77406925,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004986.txt
+606,angry_aggressive,009999,the man throws punches with both hands like a boxer.,1,0.7739614,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009999.txt
+607,angry_aggressive,M009999,the man throws punches with both hands like a boxer.,1,0.7739614,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009999.txt
+608,angry_aggressive,000954,a person uses their left arm to smack someone across the face,2,0.77395356,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000954.txt
+609,angry_aggressive,009897,a person bends down and picks something up with their right hand,1,0.77379334,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009897.txt
+610,angry_aggressive,013449,"a person is boxing, jabbing mostly with his right hand.",0,0.7737138,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013449.txt
+611,angry_aggressive,011661,a person alternates left and right hands hitting something.,2,0.77366483,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011661.txt
+612,angry_aggressive,M013449,"a person is boxing, jabbing mostly with his left hand.",0,0.7735647,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013449.txt
+613,angry_aggressive,013303,the person is doing a quick punch kick.,0,0.7734885,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013303.txt
+614,angry_aggressive,M013303,the person is doing a quick punch kick.,0,0.7734885,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013303.txt
+615,angry_aggressive,003847,a person kicks something with their right foot twice.,0,0.77343273,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003847.txt
+616,angry_aggressive,014074,a person is in a boxing stance and then throws a right hook.,2,0.77342963,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014074.txt
+617,angry_aggressive,M012556,"a person puts both hands by their face in a defensive stance oh, then kicks with their right foot.",1,0.7729894,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012556.txt
+618,angry_aggressive,001114,a person makes punching motions with their arms and makes quick steps with their feet.,0,0.7729746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001114.txt
+619,angry_aggressive,M001114,a person makes punching motions with their arms and makes quick steps with their feet.,0,0.7729746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001114.txt
+620,angry_aggressive,008947,a person kicks their right foot,1,0.77297103,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008947.txt
+621,angry_aggressive,M009664,a person uppercuts with their left hand.,1,0.7727456,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009664.txt
+622,angry_aggressive,014580,the person is doing a punch karate kick.,0,0.7727449,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014580.txt
+623,angry_aggressive,M014580,the person is doing a punch karate kick.,0,0.7727449,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014580.txt
+624,angry_aggressive,002746,"a person appears to be punching with their left hand; twice to the front, then twice to their side.",1,0.7726943,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002746.txt
+625,angry_aggressive,004241,a person throws an uppercut from the left arm.,0,0.77251744,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004241.txt
+626,angry_aggressive,007802,"a person takes a step forward, kicks their left foot and then punches with their right foot.",2,0.77239513,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007802.txt
+627,angry_aggressive,012497,person seems upset using hand gesturing,1,0.7723192,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012497.txt
+628,angry_aggressive,M012497,person seems upset using hand gesturing,1,0.7723192,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012497.txt
+629,angry_aggressive,M003480,"a person punches their right arm up while tilted to the left, with their left foot crossed in front of their right.",2,0.7722614,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003480.txt
+630,angry_aggressive,010674,a person raised the hands and starts grabbing something,1,0.77195275,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010674.txt
+631,angry_aggressive,M010674,a person raised the hands and starts grabbing something,1,0.77195275,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010674.txt
+632,angry_aggressive,M009046,a person throws something and then catches something with their left hand.,1,0.7719257,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009046.txt
+633,angry_aggressive,M008620,a person kicks something with is right foot.,2,0.77187014,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008620.txt
+634,angry_aggressive,M008834,a person excitedly pumps their left fist.,0,0.7718204,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008834.txt
+635,angry_aggressive,006783,"a person throws something with their right hand hard, then stumbles",0,0.77181816,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006783.txt
+636,angry_aggressive,008676,a person putting both hands up as if he/she were to fight,0,0.77163124,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008676.txt
+637,angry_aggressive,M008676,a person putting both hands up as if he/she were to fight,0,0.77163124,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008676.txt
+638,angry_aggressive,007508,a person throws something with his right hand and catches something.,2,0.77162474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007508.txt
+639,angry_aggressive,007093,a person throws something with his right hand.,0,0.77162397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007093.txt
+640,angry_aggressive,008679,a person throws something with his right hand.,1,0.77162397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008679.txt
+641,angry_aggressive,011037,a person throws something with his right hand.,2,0.77162397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011037.txt
+642,angry_aggressive,001150,a person throws something with his right hand.,0,0.77162397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001150.txt
+643,angry_aggressive,001343,a person throws something with his right hand.,2,0.77162397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001343.txt
+644,angry_aggressive,011636,a person throws something with his right hand.,1,0.77162397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011636.txt
+645,angry_aggressive,M013624,a person moving closer to something or someone in a ready to fight stance,1,0.7716217,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013624.txt
+646,angry_aggressive,013624,a person moving closer to something or someone in a ready to fight stance,1,0.7716217,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013624.txt
+647,angry_aggressive,010241,the person holds something in both hands and kicks their right leg out,2,0.7716094,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010241.txt
+648,angry_aggressive,014509,a person steps forward and slaps their left wrist.,1,0.77146447,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014509.txt
+649,angry_aggressive,M002496,a person shuffles around while punching three times with their left arm then three times with their right,1,0.7713372,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002496.txt
+650,angry_aggressive,007188,"a person seems to angrily slap/hit something with their left hand, with their hand landing at about knee level.",1,0.7711534,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007188.txt
+651,angry_aggressive,M007075,a person punches right a few times.,1,0.77111244,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007075.txt
+652,angry_aggressive,M002090,a person throws something with their left arm,1,0.77089167,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002090.txt
+653,angry_aggressive,M000442,a person throws something with their left arm,1,0.77089167,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000442.txt
+654,angry_aggressive,M004797,a person throws something with their left arm,1,0.77089167,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004797.txt
+655,angry_aggressive,M006706,"a person raises their right hand, steps forward onto their right foot, and slaps with their right hand.",1,0.77078664,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006706.txt
+656,angry_aggressive,M004318,a person turns to his right and kicks something with his left foot.,0,0.7707842,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004318.txt
+657,angry_aggressive,009419,a person throws something with their right hand before stumbling.,2,0.77069837,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009419.txt
+658,angry_aggressive,001415,a person tries to reach something by stretching,1,0.7706418,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001415.txt
+659,angry_aggressive,M001415,a person tries to reach something by stretching,1,0.7706418,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001415.txt
+660,angry_aggressive,M010618,a person throws an object with their left hand,1,0.7706373,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010618.txt
+661,angry_aggressive,010618,a person throws an object with their right hand,1,0.7705522,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010618.txt
+662,angry_aggressive,M000030,person is punching with their left arms whilst their right arm is stationary by their side,2,0.770488,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000030.txt
+663,angry_aggressive,004968,a person throws with right hand and catches with both hands.,1,0.7704439,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004968.txt
+664,angry_aggressive,001795,a person throws with right hand and catches with both hands.,0,0.7704439,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001795.txt
+665,angry_aggressive,012831,a person throws with right hand and catches with both hands.,1,0.7704439,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012831.txt
+666,angry_aggressive,M000490,a person punches the air with their arms.,0,0.7703824,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000490.txt
+667,angry_aggressive,000490,a person punches the air with their arms.,0,0.7703824,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000490.txt
+668,angry_aggressive,M010791,a person kicks something with his left foot,1,0.7703635,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010791.txt
+669,angry_aggressive,009314,a person underhand throws something with their right hand.,2,0.7702416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009314.txt
+670,angry_aggressive,014328,a person underhand throws something with their right hand.,0,0.7702416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014328.txt
+671,angry_aggressive,M010462,a person angrily paces around while thrusting their arms outward and upwards.,1,0.7701432,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010462.txt
+672,angry_aggressive,010462,a person angrily paces around while thrusting their arms outward and upwards.,1,0.7701432,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010462.txt
+673,angry_aggressive,M007730,a person punches out left and then right.,1,0.77010006,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007730.txt
+674,angry_aggressive,M003243,person in a defensive stance round house kicks angrly,2,0.7700828,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003243.txt
+675,angry_aggressive,003243,person in a defensive stance round house kicks angrly,2,0.7700828,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003243.txt
+676,angry_aggressive,002248,"a person throwing something with right hand, while doing the smal movement forward",2,0.77000684,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002248.txt
+677,angry_aggressive,M010196,a person throwing both hands,1,0.76991284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010196.txt
+678,angry_aggressive,010196,a person throwing both hands,1,0.76991284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010196.txt
+679,angry_aggressive,006953,"a person who is standing with his arms away from his sides takes a step to his right, leading with his right foot and throws an uppercut punch with his left hand.",1,0.7698374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006953.txt
+680,angry_aggressive,004318,a person turns to his left and kicks something with his right foot.,0,0.7696928,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004318.txt
+681,angry_aggressive,006946,a person throws their right arm forward and pulls it back grabbing it with their right hand,0,0.7696885,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006946.txt
+682,angry_aggressive,M002746,"a person appears to be punching with their right hand; twice to the front, then twice to their side.",1,0.769525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002746.txt
+683,angry_aggressive,003480,"a person punches their left arm up while tilted to the right, with their right foot crossed in front of their left.",2,0.7694781,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003480.txt
+684,angry_aggressive,M010759,a person seems to be hitting an object with their left foot,1,0.76945543,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010759.txt
+685,angry_aggressive,M002661,a person throws something upwards with two hands.,0,0.7694138,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002661.txt
+686,angry_aggressive,002661,a person throws something upwards with two hands.,0,0.7694138,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002661.txt
+687,angry_aggressive,M007539,a person throws something with their left hand and stumbles slightly.,0,0.7693454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007539.txt
+688,angry_aggressive,004782,a person throwing with his left hand and catching it with both his hands.,0,0.7692768,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004782.txt
+689,angry_aggressive,M000929,a person picks something up and moves their hand over it,2,0.7692665,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000929.txt
+690,angry_aggressive,000929,a person picks something up and moves their hand over it,2,0.7692665,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000929.txt
+691,angry_aggressive,M004986,a person kicks out with their left foot.,1,0.7692225,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004986.txt
+692,angry_aggressive,M004782,a person throwing with his right hand and catching it with both his hands.,0,0.7692006,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004782.txt
+693,angry_aggressive,M013519,"a person picks something up with both hands, moves it and puts it down to their left",1,0.7690676,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013519.txt
+694,angry_aggressive,M014360,a person throws with their right hand.,1,0.7690251,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014360.txt
+695,angry_aggressive,007999,the person is being punched by someone.,2,0.7689572,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007999.txt
+696,angry_aggressive,M007999,the person is being punched by someone.,2,0.7689572,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007999.txt
+697,angry_aggressive,M009419,a person throws something with their left hand before stumbling.,2,0.7689508,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009419.txt
+698,angry_aggressive,008123,a person throws something with their right hand while standing still,0,0.76888084,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008123.txt
+699,angry_aggressive,007192,a person is punching the air with his right and left hand.,0,0.7688105,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007192.txt
+700,angry_aggressive,009046,a person throws something and then catches something with their right hand.,1,0.76852566,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009046.txt
+701,angry_aggressive,004486,a person throws something with their right hand. the left hand is glitchy,1,0.76842135,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004486.txt
+702,angry_aggressive,013713,"a person avoids something, dodging to their right.",0,0.76833534,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013713.txt
+703,angry_aggressive,M002356,"a person steps to the left and aggressively punches down, then moves forward while punching and completes the forward move with a kick.",0,0.76829314,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002356.txt
+704,angry_aggressive,013826,a man is being aggressive towards another and then slaps the other in the head with his left hand.,2,0.76829225,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013826.txt
+705,angry_aggressive,008620,a person kicks something with is left foot.,2,0.76827955,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008620.txt
+706,angry_aggressive,012927,a person throws with right hand.,0,0.7682396,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012927.txt
+707,angry_aggressive,013761,"a person throws something with their right hand, following through with their whole body.",1,0.7682369,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013761.txt
+708,angry_aggressive,010223,a person puts their hands together and kicks their right foot.,1,0.7682063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010223.txt
+709,angry_aggressive,014360,a person throws with their left hand.,1,0.7681229,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014360.txt
+710,angry_aggressive,011550,a person reaches out and slides their hand across something.,2,0.76785874,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011550.txt
+711,angry_aggressive,M011550,a person reaches out and slides their hand across something.,2,0.76785874,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011550.txt
+712,angry_aggressive,M011606,a person practices throwing overhand with their left hand,2,0.76784945,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011606.txt
+713,angry_aggressive,009531,a person is kicking an object back and forth,1,0.7678284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009531.txt
+714,angry_aggressive,M009531,a person is kicking an object back and forth,1,0.7678284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009531.txt
+715,angry_aggressive,003937,a person with hands together does a low kick.,1,0.7678087,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003937.txt
+716,angry_aggressive,M003937,a person with hands together does a low kick.,1,0.7678087,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003937.txt
+717,angry_aggressive,M013761,"a person throws something with their left hand, following through with their whole body.",1,0.76775175,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013761.txt
+718,angry_aggressive,012556,"a person puts both hands by their face in a defensive stance oh, then kicks with their left foot.",1,0.76774466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012556.txt
+719,angry_aggressive,M007508,a person throws something with his left hand and catches something.,2,0.7675824,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007508.txt
+720,angry_aggressive,000271,a person try to throw something with his left hand and right leg forward,1,0.76746297,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000271.txt
+721,angry_aggressive,M009314,a person underhand throws something with their left hand.,2,0.7673079,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009314.txt
+722,angry_aggressive,M014328,a person underhand throws something with their left hand.,0,0.7673079,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014328.txt
+723,angry_aggressive,M007522,a person grabbing something and giving it so someone,0,0.7671963,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007522.txt
+724,angry_aggressive,007522,a person grabbing something and giving it so someone,0,0.7671963,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007522.txt
+725,angry_aggressive,M011037,a person throws something with his left hand.,2,0.7671274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011037.txt
+726,angry_aggressive,M008679,a person throws something with his left hand.,1,0.7671274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008679.txt
+727,angry_aggressive,M001150,a person throws something with his left hand.,0,0.7671274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001150.txt
+728,angry_aggressive,M001343,a person throws something with his left hand.,2,0.7671274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001343.txt
+729,angry_aggressive,M011636,a person throws something with his left hand.,1,0.7671274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011636.txt
+730,angry_aggressive,M007093,a person throws something with his left hand.,0,0.7671274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007093.txt
+731,angry_aggressive,003434,a person throws a left upper-cut punch.,1,0.7670756,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003434.txt
+732,angry_aggressive,M006687,a figure gestures in frustration by extending then throwing down their left arm,2,0.7670362,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006687.txt
+733,angry_aggressive,004052,"a person extends their right hand then their left hand, in a punching motion.",1,0.7670219,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004052.txt
+734,angry_aggressive,007444,a person uses their right hand to throw an object in front of them.,0,0.7670054,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007444.txt
+735,angry_aggressive,000442,"the person imitates throwing something with their right hand, the movement is choppy",2,0.76674867,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000442.txt
+736,angry_aggressive,M003725,"a person puts their arms out, moves forward and grabs something",1,0.7667335,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003725.txt
+737,angry_aggressive,003725,"a person puts their arms out, moves forward and grabs something",1,0.7667335,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003725.txt
+738,angry_aggressive,M004241,a person throws an uppercut from the right arm.,0,0.7667161,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004241.txt
+739,angry_aggressive,009815,a person throws two thing with his right hand,1,0.76665145,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009815.txt
+740,angry_aggressive,M012831,a person throws with left hand and catches with both hands.,1,0.7666379,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012831.txt
+741,angry_aggressive,M001795,a person throws with left hand and catches with both hands.,0,0.7666379,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001795.txt
+742,angry_aggressive,M004968,a person throws with left hand and catches with both hands.,1,0.7666379,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004968.txt
+743,angry_aggressive,014258,a person is light on their feet as they move about and punch at something.,1,0.7665287,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014258.txt
+744,angry_aggressive,M014258,a person is light on their feet as they move about and punch at something.,1,0.7665287,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014258.txt
+745,angry_aggressive,M009815,a person throws two thing with his left hand,1,0.7664946,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009815.txt
+746,angry_aggressive,011606,a person practices throwing overhand with their right hand,2,0.76645166,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011606.txt
+747,angry_aggressive,002496,a person shuffles around while punching three times with their right arm then three times with their left,1,0.7664063,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002496.txt
+748,angry_aggressive,M000340,a person throws something with their left arm and then catches it with both hands.,1,0.7661941,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000340.txt
+749,angry_aggressive,006703,a person deflects something with their right hand.,2,0.7660246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006703.txt
+750,angry_aggressive,013959,a person is crouched down in fighting stance and stands to go into a flurry of fighting techniques.,0,0.7659931,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013959.txt
+751,angry_aggressive,M013959,a person is crouched down in fighting stance and stands to go into a flurry of fighting techniques.,0,0.7659931,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013959.txt
+752,angry_aggressive,M004482,a person is holding something down with their right hand and repeatedly chops down on it with their left hand.,0,0.76597285,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004482.txt
+753,angry_aggressive,001123,a person bends down to pick something up with their right hand,0,0.76596946,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001123.txt
+754,angry_aggressive,002090,a person throws something with their right arm,1,0.76593864,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002090.txt
+755,angry_aggressive,004797,a person throws something with their right arm,1,0.76593864,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004797.txt
+756,angry_aggressive,007083,person stands still and throws something over to there left,2,0.7659068,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007083.txt
+757,angry_aggressive,006543,person appears to slam or throw some thing down with their right hand.,2,0.7658473,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006543.txt
+758,angry_aggressive,000027,a person punches with their right hand before they do a counterclockwise spin.,0,0.7657938,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000027.txt
+759,angry_aggressive,008102,a person brings his hands together then kicks one leg out in front of him,0,0.76570463,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008102.txt
+760,angry_aggressive,M008102,a person brings his hands together then kicks one leg out in front of him,0,0.76570463,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008102.txt
+761,angry_aggressive,002356,"a person steps to the right and aggressively punches down, then moves forward while punching and completes the forward move with a kick.",0,0.76565474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002356.txt
+762,angry_aggressive,M004052,"a person extends their left hand then their right hand, in a punching motion.",1,0.7656121,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004052.txt
+763,angry_aggressive,M012524,a man who is standing in a fighting stance leans left and throws a slow punch with his right hand.,2,0.7655665,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012524.txt
+764,angry_aggressive,M008480,person throws a kick and then does pushing motion,1,0.76553404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008480.txt
+765,angry_aggressive,008480,person throws a kick and then does pushing motion,1,0.76553404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008480.txt
+766,angry_aggressive,M007083,person stands still and throws something over to there right,2,0.7653638,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007083.txt
+767,angry_aggressive,005621,a person grabbed something and throw it with right hand,0,0.7653479,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005621.txt
+768,angry_aggressive,007866,a person is kicking with his right foot.,2,0.7653381,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007866.txt
+769,angry_aggressive,M011118,a person quickly picks something up with their right hand.,2,0.7652592,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011118.txt
+770,angry_aggressive,006126,"a person is gesturing for a fist fight, then walks away and stops twice to make vigorous pelvic thrust motions.",1,0.76514924,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006126.txt
+771,angry_aggressive,M006126,"a person is gesturing for a fist fight, then walks away and stops twice to make vigorous pelvic thrust motions.",1,0.76514924,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006126.txt
+772,angry_aggressive,014386,the person is doing a right hook and a right punch.,2,0.7651485,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014386.txt
+773,angry_aggressive,M013826,a man is being aggressive towards another and then slaps the other in the head with his right hand.,2,0.76509094,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013826.txt
+774,angry_aggressive,000415,"someone punches the ground with their right hand, then makes a leap towards the right.",0,0.76506543,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000415.txt
+775,angry_aggressive,004430,a person shouting something out,2,0.76505363,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004430.txt
+776,angry_aggressive,M004430,a person shouting something out,2,0.76505363,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004430.txt
+777,angry_aggressive,003849,a person swats at something with their right hand.,2,0.7650349,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003849.txt
+778,angry_aggressive,M008123,a person throws something with their left hand while standing still,0,0.7650261,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008123.txt
+779,angry_aggressive,002532,"a person kicks with their left leg, shuffles backwards then forward, punching left, then shuffles back and punches right.",2,0.7650177,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002532.txt
+780,angry_aggressive,M009756,a person throws something and catches.,2,0.7649362,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009756.txt
+781,angry_aggressive,009756,a person throws something and catches.,2,0.7649362,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009756.txt
+782,angry_aggressive,014104,a person kicks his right foot.,1,0.7648603,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014104.txt
+783,angry_aggressive,M010367,person stands in a fighting position and moves feet back and fourth little at  a time,0,0.76484746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010367.txt
+784,angry_aggressive,010367,person stands in a fighting position and moves feet back and fourth little at  a time,0,0.76484746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010367.txt
+785,angry_aggressive,002400,a person repeatedly puts their right hand out,2,0.76479316,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002400.txt
+786,angry_aggressive,M010223,a person puts their hands together and kicks their left foot.,1,0.76479304,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010223.txt
+787,angry_aggressive,009099,"a person makes repeated punching motions in to the air, mostly toward their right side.",0,0.76475924,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009099.txt
+788,angry_aggressive,M005599,the person is throwing something with his left hand,1,0.76471555,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005599.txt
+789,angry_aggressive,M006358,person raises hands while kicking right leg out.,1,0.7646009,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006358.txt
+790,angry_aggressive,M000282,"a person walks backward, then punch's with both arms.",2,0.7645137,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000282.txt
+791,angry_aggressive,000282,"a person walks backward, then punch's with both arms.",2,0.7645137,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000282.txt
+792,angry_aggressive,M009594,a person throws something with their left hand then kicks with their left foot before catching the object with both hands,0,0.7645031,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009594.txt
+793,angry_aggressive,M000427,a person does a karate kick,2,0.76449597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000427.txt
+794,angry_aggressive,000427,a person does a karate kick,2,0.76449597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000427.txt
+795,angry_aggressive,005599,the person is throwing something with his right hand,1,0.764395,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005599.txt
+796,angry_aggressive,M006953,"a person who is standing with his arms away from his sides takes a step to his left, leading with his left foot and throws an uppercut punch with his right hand.",1,0.76432335,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006953.txt
+797,angry_aggressive,M013371,a person throws an object with both hands.,1,0.764267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013371.txt
+798,angry_aggressive,013371,a person throws an object with both hands.,1,0.764267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013371.txt
+799,angry_aggressive,M001052,the man throws a big left handed punch in the air.,1,0.76416975,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001052.txt
+800,angry_aggressive,M003268,a person is in a fighting stance and moves across the room.,2,0.7640283,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003268.txt
