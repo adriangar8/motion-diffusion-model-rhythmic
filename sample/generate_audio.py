@@ -203,6 +203,7 @@ def load_model(model_path, device):
         audio_conditioning=True,
         audio_feat_dim=ckpt_args.get('audio_feat_dim', 145),
         audio_cond_mask_prob=ckpt_args.get('audio_cond_mask_prob', 0.15),
+        use_audio_token_concat=ckpt_args.get('use_audio_token_concat', False),
     )
 
     # -- load weights --
@@ -277,25 +278,35 @@ def main():
 
     if args.audio_path and os.path.exists(args.audio_path):
 
-        from model.audio_features import extract_audio_features
-
+        use_wav2clip = ckpt_args.get('use_wav2clip', False) or ckpt_args.get('audio_feat_dim') == 519
         duration = args.motion_length if args.motion_length > 0 else None
-        audio_feat = extract_audio_features(
-            args.audio_path,
-            target_fps=args.fps,
-            duration=duration
-        )
+
+        if use_wav2clip:
+            from model.audio_features_wav2clip import extract_wav2clip_plus_librosa
+            audio_feat = extract_wav2clip_plus_librosa(
+                args.audio_path,
+                target_fps=args.fps,
+                duration=duration,
+                device=device,
+            )
+        else:
+            from model.audio_features import extract_audio_features
+            audio_feat = extract_audio_features(
+                args.audio_path,
+                target_fps=args.fps,
+                duration=duration,
+            )
 
         # -- if no explicit length, use audio length --
 
         if args.motion_length <= 0:
-            n_frames = min(audio_feat.shape[0], 196) # cap at max_motion_length
+            n_frames = min(audio_feat.shape[0], 196)
 
-        audio_feat = audio_feat[:n_frames] # (T, 145)
-        audio_features = torch.from_numpy(audio_feat).float().unsqueeze(0) # (1, T, 145)
+        audio_feat = audio_feat[:n_frames]
+        audio_features = torch.from_numpy(audio_feat).float().unsqueeze(0)
         audio_features = audio_features.repeat(args.num_samples, 1, 1).to(device)
 
-        print(f"Audio: {args.audio_path} → {audio_feat.shape[0]} frames ({audio_feat.shape[0]/args.fps:.1f}s)")
+        print(f"Audio: {args.audio_path} → {audio_feat.shape[0]} frames ({audio_feat.shape[0]/args.fps:.1f}s), dim={audio_feat.shape[1]}")
 
     elif args.audio_path:
         print(f"Warning: audio file not found: {args.audio_path}")

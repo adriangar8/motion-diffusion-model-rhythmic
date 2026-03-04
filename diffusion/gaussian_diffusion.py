@@ -1297,6 +1297,14 @@ class GaussianDiffusion:
             }[self.model_mean_type]
             assert model_output.shape == target.shape == x_start.shape  # [bs, njoints, nfeats, nframes]
 
+            # pred_xstart for auxiliary losses (e.g. physics)
+            if self.model_mean_type == ModelMeanType.START_X:
+                terms["pred_xstart"] = model_output
+            elif self.model_mean_type == ModelMeanType.EPSILON:
+                terms["pred_xstart"] = self._predict_xstart_from_eps(x_t=x_t, t=t, eps=model_output)
+            elif self.model_mean_type == ModelMeanType.PREVIOUS_X:
+                terms["pred_xstart"] = self._predict_xstart_from_xprev(x_t=x_t, t=t, xprev=model_output)
+
             terms["rot_mse"] = self.masked_l2(target, model_output, mask) # mean_flat(rot_mse)
 
             target_xyz, model_output_xyz = None, None

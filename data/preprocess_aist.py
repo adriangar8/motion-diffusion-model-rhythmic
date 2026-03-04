@@ -336,6 +336,8 @@ def main():
     parser.add_argument('--target_fps', type=int, default=20)
     parser.add_argument('--feet_thre', type=float, default=0.002)
     parser.add_argument('--device', type=str, default='cpu')
+    parser.add_argument('--use_wav2clip', action='store_true',
+                        help='Extract 519-d audio (Wav2CLIP + 7-d librosa) to processed/audio_feats_519/')
     args = parser.parse_args()
     
     # -- import process_file (with proper tgt_offsets from HumanML3D example) --
@@ -368,16 +370,26 @@ def main():
     sys.path.insert(0, '.')
     
     from model.audio_features import extract_audio_features
+    if args.use_wav2clip:
+        try:
+            from model.audio_features_wav2clip import extract_wav2clip_plus_librosa
+            wav2clip_available = True
+        except ImportError as e:
+            print(f"Wav2CLIP requested but not available: {e}")
+            print("Install wav2clip (lyrebird-wav2clip) or run without --use_wav2clip.")
+            sys.exit(1)
 
     # -- output directories --
     
     motion_out = os.path.join(args.aist_dir, 'processed', 'motions_263')
     audio_out = os.path.join(args.aist_dir, 'processed', 'audio_feats')
     joints_out = os.path.join(args.aist_dir, 'processed', 'joints_22')
-    
     os.makedirs(motion_out, exist_ok=True)
     os.makedirs(audio_out, exist_ok=True)
     os.makedirs(joints_out, exist_ok=True)
+    if args.use_wav2clip:
+        audio_out_519 = os.path.join(args.aist_dir, 'processed', 'audio_feats_519')
+        os.makedirs(audio_out_519, exist_ok=True)
 
     # -- copy normalization stats from HumanML3D --
     
@@ -423,8 +435,9 @@ def main():
         m_path = os.path.join(motion_out, f'{name}.npy')
         a_path = os.path.join(audio_out, f'{name}.npy')
         j_path = os.path.join(joints_out, f'{name}.npy')
+        a_path_519 = os.path.join(audio_out_519, f'{name}.npy') if args.use_wav2clip else None
 
-        if os.path.exists(m_path) and os.path.exists(a_path):
+        if os.path.exists(m_path) and os.path.exists(a_path) and (a_path_519 is None or os.path.exists(a_path_519)):
     
             ok += 1
             continue
@@ -496,6 +509,13 @@ def main():
             np.save(m_path, features.astype(np.float32))
             np.save(a_path, audio.astype(np.float32))
             np.save(j_path, joints_20.astype(np.float32))
+
+            if args.use_wav2clip:
+                audio_519 = extract_wav2clip_plus_librosa(wav, target_fps=args.target_fps,
+                                                          duration=duration, device=args.device)
+                L519 = min(features.shape[0], audio_519.shape[0])
+                audio_519 = audio_519[:L519].astype(np.float32)
+                np.save(a_path_519, audio_519)
             
             ok += 1
 

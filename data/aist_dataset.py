@@ -46,7 +46,7 @@ class AISTDataset(Dataset):
 
     def __init__(self, aist_dir, split='train', max_motion_length=196,
                  min_motion_length=40, fps=20,
-                 humanml_mean=None, humanml_std=None):
+                 humanml_mean=None, humanml_std=None, use_wav2clip=False):
     
         """
     
@@ -58,6 +58,8 @@ class AISTDataset(Dataset):
             fps: Frame rate (should be 20 to match HumanML3D)
             humanml_mean: Mean for normalization (from HumanML3D), shape (263,)
             humanml_std: Std for normalization (from HumanML3D), shape (263,)
+            use_wav2clip: If True, load 519-d features from processed/audio_feats_519/
+                         (Wav2CLIP 512 + librosa 7). Else load 145-d from audio_feats/.
     
         """
     
@@ -65,6 +67,8 @@ class AISTDataset(Dataset):
         self.max_motion_length = max_motion_length
         self.min_motion_length = min_motion_length
         self.fps = fps
+        self.use_wav2clip = use_wav2clip
+        self.audio_feat_dim = 519 if use_wav2clip else 145
 
         # -- load normalization stats from HumanML3D --
         # -- must match what MDM was trained with --
@@ -97,7 +101,7 @@ class AISTDataset(Dataset):
         # -- paths to preprocessed data --
         
         self.motion_dir = os.path.join(aist_dir, 'processed', 'motions_263')
-        self.audio_dir = os.path.join(aist_dir, 'processed', 'audio_feats')
+        self.audio_dir = os.path.join(aist_dir, 'processed', 'audio_feats_519' if use_wav2clip else 'audio_feats')
 
         # -- load split file --
         
@@ -220,16 +224,18 @@ def aist_collate_fn(batch):
     Returns a dict compatible with MDM's training loop:
         - motion: (B, 263, 1, T_max) — MDM's expected format
         - y: dict with 'text', 'audio_features', 'mask', 'lengths'
+    Audio feature dim is 145 (librosa) or 519 (Wav2CLIP+librosa), inferred from batch.
     
     """
     
     batch_size = len(batch)
     max_len = max(item['length'] for item in batch)
+    audio_dim = batch[0]['audio'].shape[1]  # 145 or 519
 
     # -- pad motion: (B, T_max, 263) → then reshape to (B, 263, 1, T_max) for MDM --
     
     motion_padded = np.zeros((batch_size, max_len, 263), dtype=np.float32)
-    audio_padded = np.zeros((batch_size, max_len, 145), dtype=np.float32)
+    audio_padded = np.zeros((batch_size, max_len, audio_dim), dtype=np.float32)
     
     mask = np.zeros((batch_size, max_len), dtype=bool)
     
@@ -270,11 +276,12 @@ def aist_collate_fn(batch):
 
 def get_aist_dataloader(aist_dir, split='train', batch_size=32,
                          max_motion_length=196, num_workers=4,
-                         humanml_mean=None, humanml_std=None):
+                         humanml_mean=None, humanml_std=None, use_wav2clip=False):
     
     """
     
     Convenience function to create AIST++ dataloader.
+    use_wav2clip: load 519-d audio from processed/audio_feats_519/ when True.
     
     """
     
@@ -284,6 +291,7 @@ def get_aist_dataloader(aist_dir, split='train', batch_size=32,
         max_motion_length=max_motion_length,
         humanml_mean=humanml_mean,
         humanml_std=humanml_std,
+        use_wav2clip=use_wav2clip,
     )
     
     loader = DataLoader(

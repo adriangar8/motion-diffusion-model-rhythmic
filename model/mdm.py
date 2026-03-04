@@ -57,6 +57,7 @@ class MDM(nn.Module):
         self.audio_conditioning = kargs.get('audio_conditioning', False)
         self.audio_feat_dim = kargs.get('audio_feat_dim', 145)
         self.audio_cond_mask_prob = kargs.get('audio_cond_mask_prob', 0.15)
+        self.use_audio_token_concat = kargs.get('use_audio_token_concat', False)
 
         if self.audio_conditioning:
             
@@ -446,20 +447,36 @@ class MDM(nn.Module):
             
             # -- adding the timestep embed --
             
-            xseq = torch.cat((emb, x), axis=0) # [seqlen+1, bs, d]
-            xseq = self.sequence_pos_encoder(xseq) # [seqlen+1, bs, d]
-            
+            xseq = torch.cat((emb, x), axis=0) # [seqlen+1, bs, d]  (1 + T_motion, bs, d)
+            xseq = self.sequence_pos_encoder(xseq)
+            src_key_padding_mask = frames_mask
+            nframes = x.shape[0]
+
+            # -- optional: MOSPA-style token concatenation (audio tokens alongside motion) --
+            if (self.audio_conditioning and audio_memory is not None and
+                    getattr(self, 'use_audio_token_concat', False)):
+                T_audio = audio_memory.shape[0]
+                xseq = torch.cat([xseq, audio_memory], dim=0)  # (1 + T_motion + T_audio, bs, d)
+                # ensure mask exists (None means all valid → create explicit False tensor)
+                if src_key_padding_mask is None:
+                    src_key_padding_mask = torch.zeros(bs, xseq.shape[0] - T_audio, dtype=torch.bool, device=xseq.device)
+                audio_part_mask = torch.zeros(bs, T_audio, dtype=torch.bool, device=xseq.device)
+                src_key_padding_mask = torch.cat([src_key_padding_mask, audio_part_mask], dim=1)
+
             if self.audio_conditioning and audio_memory is not None:
                 output = self.seqTransEncoder(
                     xseq,
                     audio_memory=audio_memory,
-                    src_key_padding_mask=frames_mask,
+                    src_key_padding_mask=src_key_padding_mask,
                 )
-            
             else:
-                output = self.seqTransEncoder(xseq, src_key_padding_mask=frames_mask)
-            
-            output = output[1:] # remove condition token
+                output = self.seqTransEncoder(xseq, src_key_padding_mask=src_key_padding_mask)
+
+            # -- take only motion tokens (drop condition token and, if concat, audio tokens) --
+            if getattr(self, 'use_audio_token_concat', False) and audio_memory is not None:
+                output = output[1:1 + nframes]
+            else:
+                output = output[1:]
 
         ####################################################################################[end]
         ####################################################################################[end]
@@ -497,12 +514,13 @@ class MDM(nn.Module):
 
     def _apply(self, fn):
         super()._apply(fn)
-        self.rot2xyz.smpl_model._apply(fn)
-
+        if self.rot2xyz.smpl_model is not None:
+            self.rot2xyz.smpl_model._apply(fn)
 
     def train(self, *args, **kwargs):
         super().train(*args, **kwargs)
-        self.rot2xyz.smpl_model.train(*args, **kwargs)
+        if self.rot2xyz.smpl_model is not None:
+            self.rot2xyz.smpl_model.train(*args, **kwargs)
 
 
 class PositionalEncoding(nn.Module):
