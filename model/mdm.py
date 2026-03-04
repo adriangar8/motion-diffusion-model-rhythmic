@@ -10,7 +10,7 @@ from model.BERT.BERT_encoder import load_bert
 ####################################################################################[start]
 
 from model.audio_encoder import AudioEncoder
-from model.audio_cross_attention import AudioCondTransformerEncoder
+from model.audio_cross_attention_v2 import AudioCondTransformerEncoder
 
 ####################################################################################[end]
 ####################################################################################[end]
@@ -124,8 +124,6 @@ class MDM(nn.Module):
             
             if self.audio_conditioning:
                 
-                # -- custom encoder with cross-attention layers for audio --
-            
                 self.seqTransEncoder = AudioCondTransformerEncoder(
                     d_model=self.latent_dim,
                     nhead=self.num_heads,
@@ -133,6 +131,8 @@ class MDM(nn.Module):
                     dim_feedforward=self.ff_size,
                     dropout=self.dropout,
                     activation=self.activation,
+                    temporal_sigma=kargs.get('temporal_sigma', 4.0),
+                    beat_weight=kargs.get('beat_weight', 2.0),
                 )
             
             else:
@@ -211,51 +211,94 @@ class MDM(nn.Module):
     ####################################################################################[start]
     ####################################################################################[start]
 
-    def audio_parameters(self):
+    def audio_parameters(self, unfreeze_top_n=0):
         
         """
-        Return only the parameters of the audio conditioning modules.
-        Used for Stage 2 training where we freeze everything else.
+        
+        Return parameters for optimizer: audio modules + optionally top N backbone layers.
+        
         """
         
         params = []
-        
+
         if self.audio_conditioning:
-        
             params.extend(self.audio_encoder.parameters())
-        
-            # -- cross-attention layers and their gates within the transformer --
-        
+
             for layer in self.seqTransEncoder.layers:
                 params.extend(layer.cross_attn.parameters())
                 params.extend(layer.norm_cross.parameters())
                 params.append(layer.cross_attn_gate)
-        
-        return params
 
-    def freeze_non_audio(self):
+        # -- add top N backbone layers if unfreezing --
+        
+        if unfreeze_top_n > 0 and hasattr(self, 'seqTransEncoder'):
+        
+            n_layers = len(self.seqTransEncoder.layers)
+        
+            for i in range(n_layers - unfreeze_top_n, n_layers):
+        
+                layer = self.seqTransEncoder.layers[i]
+                params.extend(layer.self_attn.parameters())
+                params.extend(layer.norm1.parameters())
+                params.extend(layer.linear1.parameters())
+                params.extend(layer.linear2.parameters())
+                params.extend(layer.norm2.parameters())
+
+        return params
+        
+    def freeze_non_audio(self, unfreeze_top_n=0):
         
         """
+        
         Freeze all parameters except audio conditioning modules.
+
+        Args:
+            unfreeze_top_n: Also unfreeze the top N transformer layers'
+                            self-attention and FFN weights (0 = fully frozen backbone).
+        
         """
         
         # -- freeze everything --
         
         for param in self.parameters():
             param.requires_grad = False
-        
+
         # -- unfreeze audio-specific parameters --
         
         for param in self.audio_parameters():
             param.requires_grad = True
+
+        # -- unfreeze top N backbone layers --
         
-        # -- count --
+        if unfreeze_top_n > 0 and hasattr(self, 'seqTransEncoder'):
         
+            n_layers = len(self.seqTransEncoder.layers)
+        
+            for i in range(n_layers - unfreeze_top_n, n_layers):
+        
+                layer = self.seqTransEncoder.layers[i]
+        
+                # -- unfreeze self-attention --
+        
+                for param in layer.self_attn.parameters():
+                    param.requires_grad = True
+                for param in layer.norm1.parameters():
+                    param.requires_grad = True
+                
+                # -- unfreeze FFN --
+                
+                for param in layer.linear1.parameters():
+                    param.requires_grad = True
+                for param in layer.linear2.parameters():
+                    param.requires_grad = True
+                for param in layer.norm2.parameters():
+                    param.requires_grad = True
+            print(f"Unfroze top {unfreeze_top_n} backbone layers (self-attn + FFN)")
+
         total = sum(p.numel() for p in self.parameters())
         trainable = sum(p.numel() for p in self.parameters() if p.requires_grad)
-        
-        print(f"Frozen: {total - trainable:,} params | Trainable (audio): {trainable:,} params "
-              f"({100*trainable/total:.1f}%)")
+        print(f"Frozen: {total - trainable:,} params | Trainable: {trainable:,} params "
+            f"({100*trainable/total:.1f}%)")
 
     ####################################################################################[end]
     ####################################################################################[end]
@@ -450,10 +493,12 @@ class MDM(nn.Module):
             xseq = self.sequence_pos_encoder(xseq) # [seqlen+1, bs, d]
             
             if self.audio_conditioning and audio_memory is not None:
+                beat_frames = y.get('beat_frames', None) if y is not None else None
                 output = self.seqTransEncoder(
                     xseq,
                     audio_memory=audio_memory,
                     src_key_padding_mask=frames_mask,
+                    beat_frames=beat_frames,
                 )
             
             else:

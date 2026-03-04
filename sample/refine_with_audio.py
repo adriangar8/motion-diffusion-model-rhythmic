@@ -134,7 +134,7 @@ class TextOnlyCFGModel(torch.nn.Module):
         self.model = model
         self.text_scale = text_scale
         
-        # -- diffusion compatibility
+        # -- diffusion compatibility --
         
         self.rot2xyz = model.rot2xyz
         self.translation = model.translation
@@ -145,26 +145,33 @@ class TextOnlyCFGModel(torch.nn.Module):
         self.encode_text = model.encode_text
 
     def forward(self, x, timesteps, y=None):
+        
         out = self.model(x, timesteps, y)
 
         y_uncond = deepcopy(y)
         y_uncond['uncond'] = True
+        
         if self.model.audio_conditioning:
             y_uncond['uncond_audio'] = True
+        
         out_uncond = self.model(x, timesteps, y_uncond)
 
         return out_uncond + self.text_scale * (out - out_uncond)
 
-
 class AudioCFGModel(torch.nn.Module):
+
     """Decomposed text+audio CFG wrapper."""
 
     def __init__(self, model, text_scale=2.5, audio_scale=2.5):
+
         super().__init__()
+
         self.model = model
         self.text_scale = text_scale
         self.audio_scale = audio_scale
-        # Diffusion compatibility
+
+        # -- diffusion compatibility --
+
         self.rot2xyz = model.rot2xyz
         self.translation = model.translation
         self.njoints = model.njoints
@@ -174,18 +181,24 @@ class AudioCFGModel(torch.nn.Module):
         self.encode_text = model.encode_text
 
     def forward(self, x, timesteps, y=None):
-        # 1. Full conditioning (text + audio)
+        
+        # -- 1. full conditioning (text + audio) --
+        
         out_full = self.model(x, timesteps, y)
 
-        # 2. Text only (audio masked)
+        # -- 2. Text only (audio masked) --
+        
         y_no_audio = deepcopy(y)
         y_no_audio['uncond_audio'] = True
+        
         out_text = self.model(x, timesteps, y_no_audio)
 
-        # 3. Fully unconditional
+        # -- 3. fully unconditional --
+        
         y_uncond = deepcopy(y)
         y_uncond['uncond'] = True
         y_uncond['uncond_audio'] = True
+        
         out_uncond = self.model(x, timesteps, y_uncond)
 
         return (out_uncond
@@ -194,6 +207,7 @@ class AudioCFGModel(torch.nn.Module):
 
 
 def load_model(model_path, device):
+    
     """Load audio-conditioned MDM from checkpoint."""
 
     ckpt = torch.load(model_path, map_location='cpu')
@@ -232,7 +246,9 @@ def load_model(model_path, device):
         audio_conditioning=True,
         audio_feat_dim=ckpt_args.get('audio_feat_dim', 145),
         audio_cond_mask_prob=ckpt_args.get('audio_cond_mask_prob', 0.15),
-        # v2 params (defaults for v1 compatibility)
+        
+        # -- v2 params (defaults for v1 compatibility) --
+        
         temporal_sigma=ckpt_args.get('temporal_sigma', 4.0),
         beat_weight=ckpt_args.get('beat_weight', 2.0),
     )
@@ -243,11 +259,12 @@ def load_model(model_path, device):
     model.eval()
 
     print(f"Model loaded from {model_path}")
+    
     return model, ckpt_args
-
 
 def generate_text_only(diffusion, model, text_prompt, n_frames, num_samples, device,
                        text_guidance=2.5, seed=42):
+
     """Step 1: Generate clean text-only motion."""
 
     torch.manual_seed(seed)
@@ -262,13 +279,14 @@ def generate_text_only(diffusion, model, text_prompt, n_frames, num_samples, dev
         }
     }
 
-    # Remove audio from conditioning for text-only pass
-    # (audio_features absent = no audio conditioning)
+    # -- remove audio from conditioning for text-only pass (audio_features absent = no audio conditioning) --
 
     sample_shape = (num_samples, 263, 1, n_frames)
 
     print("  Step 1: Generating text-only motion...")
+    
     with torch.no_grad():
+        
         text_motion = diffusion.p_sample_loop(
             cfg_model,
             sample_shape,
@@ -277,16 +295,16 @@ def generate_text_only(diffusion, model, text_prompt, n_frames, num_samples, dev
             progress=True,
         )
 
-    return text_motion  # (B, 263, 1, T) — normalized, in model space
-
+    return text_motion  # (B, 263, 1, T): normalized, in model space
 
 def refine_with_audio(diffusion, model, text_motion, audio_features,
                       text_prompt, n_frames, num_samples, device,
                       skip_timesteps=500, text_guidance=2.5, audio_guidance=2.5,
                       seed=42, beat_frames=None):
+    
     """Step 2: Refine text motion with audio via SDEdit."""
 
-    torch.manual_seed(seed + 1)  # different seed for refinement noise
+    torch.manual_seed(seed + 1) # different seed for refinement noise
 
     cfg_model = AudioCFGModel(
         model,
@@ -309,6 +327,7 @@ def refine_with_audio(diffusion, model, text_motion, audio_features,
     sample_shape = (num_samples, 263, 1, n_frames)
 
     noise_pct = 100 * (1000 - skip_timesteps) / 1000
+    
     print(f"  Step 2: Refining with audio (skip={skip_timesteps}, "
           f"noise={noise_pct:.0f}%, denoise {1000-skip_timesteps} steps)...")
 
@@ -319,17 +338,17 @@ def refine_with_audio(diffusion, model, text_motion, audio_features,
             clip_denoised=False,
             model_kwargs=model_kwargs,
             skip_timesteps=skip_timesteps,
-            init_image=text_motion,  # <-- key: start from text-only motion
+            init_image=text_motion, # start from text-only motion
             progress=True,
         )
 
-    return refined  # (B, 263, 1, T)
-
+    return refined # (B, 263, 1, T)
 
 def generate_full_audio(diffusion, model, audio_features, text_prompt,
                         n_frames, num_samples, device,
                         text_guidance=2.5, audio_guidance=2.5, seed=42,
                         beat_frames=None):
+    
     """Full audio generation from scratch (for comparison)."""
 
     torch.manual_seed(seed)
@@ -355,7 +374,9 @@ def generate_full_audio(diffusion, model, audio_features, text_prompt,
     sample_shape = (num_samples, 263, 1, n_frames)
 
     print("  Generating full audio-conditioned motion (from scratch)...")
+    
     with torch.no_grad():
+    
         sample = diffusion.p_sample_loop(
             cfg_model,
             sample_shape,
@@ -366,23 +387,26 @@ def generate_full_audio(diffusion, model, audio_features, text_prompt,
 
     return sample
 
-
 def denormalize_and_smooth(sample, mean, std, sigma=1.0):
+    
     """Convert from model space to joint space, optionally smooth."""
 
-    # sample: (B, 263, 1, T) → (B, T, 263)
+    # -- sample: (B, 263, 1, T) to (B, T, 263) --
+    
     out = sample.squeeze(2).permute(0, 2, 1).cpu().numpy()
     out = out * std + mean
 
     if sigma > 0:
+        
         from scipy.ndimage import gaussian_filter1d
+        
         for i in range(out.shape[0]):
             out[i] = gaussian_filter1d(out[i], sigma=sigma, axis=0)
 
     return out
 
-
 def main():
+    
     args = parse_args()
     torch.manual_seed(args.seed)
     np.random.seed(args.seed)
@@ -396,10 +420,12 @@ def main():
     print(f"Device: {device}")
 
     # -- load model --
+    
     model, ckpt_args = load_model(args.model_path, device)
     audio_feat_dim = ckpt_args.get('audio_feat_dim', 145)
 
     # -- diffusion --
+    
     from utils.model_util import create_gaussian_diffusion
 
     diff_args = SimpleNamespace(
@@ -414,11 +440,13 @@ def main():
     diffusion = create_gaussian_diffusion(diff_args)
 
     # -- normalization stats --
+    
     humanml_dir = args.humanml_dir or ckpt_args.get('humanml_dir', './dataset/HumanML3D')
     mean = np.load(os.path.join(humanml_dir, 'Mean.npy'))
     std = np.load(os.path.join(humanml_dir, 'Std.npy'))
 
     # -- load audio --
+    
     if audio_feat_dim == 52:
         from model.audio_features_v2 import extract_audio_features_v2 as extract_fn
     else:
@@ -436,12 +464,17 @@ def main():
     audio_features = torch.from_numpy(audio_feat).float().unsqueeze(0)
     audio_features = audio_features.repeat(args.num_samples, 1, 1).to(device)
 
-    # Extract beat frames for beat-aware masking
+    # -- extract beat frames for beat-aware masking --
+    
     beat_frames = None
+    
     if audio_feat_dim == 52:
+    
         beat_signal = audio_feat[:, 34]  # beat_soft channel
         beat_frames = list(np.where(beat_signal > 0.3)[0])
+    
     elif audio_feat_dim == 145:
+    
         beat_signal = audio_feat[:, 129]  # beat_indicator channel
         beat_frames = list(np.where(beat_signal > 0.5)[0])
 
@@ -455,11 +488,10 @@ def main():
     os.makedirs(args.output_dir, exist_ok=True)
 
     # -- determine skip values --
+    
     skip_values = args.sweep_skip if args.sweep_skip else [args.skip_timesteps]
 
-    # ================================================================
-    # Step 1: Generate text-only motion (shared across all skip values)
-    # ================================================================
+    # -- step 1: Generate text-only motion (shared across all skip values) --
 
     print(f"\n{'='*60}")
     print("PHASE 1: Text-only generation")
@@ -482,9 +514,7 @@ def main():
             np.save(path, text_np[i].astype(np.float32))
             print(f"  Saved text-only: {path}")
 
-    # ================================================================
-    # Step 2: Refine with audio at each skip level
-    # ================================================================
+    # -- step 2: Refine with audio at each skip level --
 
     results = {}
 
@@ -513,12 +543,14 @@ def main():
             path = os.path.join(args.output_dir, f'sample_refined_skip{skip}_{i:02d}.npy')
             np.save(path, refined_np[i].astype(np.float32))
 
-        # Compute stats
+        # -- compute stats --
+        
         text_np = denormalize_and_smooth(text_motion, mean, std, args.smooth_sigma)
         residual = refined_np - text_np
         residual_rms = np.sqrt(np.mean(residual ** 2))
 
-        # Root height variation (index 3 in HumanML3D representation)
+        # -- root height variation (index 3 in HumanML3D representation) --
+        
         root_height_std = np.mean([refined_np[i, :, 3].std() for i in range(args.num_samples)])
 
         results[skip] = {
@@ -530,11 +562,10 @@ def main():
         print(f"  Root height std: {root_height_std:.4f}")
         print(f"  Saved {args.num_samples} samples to {args.output_dir}")
 
-    # ================================================================
-    # Optional: Full audio generation for comparison
-    # ================================================================
+    # -- optional: Full audio generation for comparison --
 
     if args.save_full_audio:
+        
         print(f"\n{'='*60}")
         print("COMPARISON: Full audio generation (from scratch)")
         print(f"{'='*60}")
@@ -558,9 +589,7 @@ def main():
             np.save(path, full_np[i].astype(np.float32))
             print(f"  Saved full audio: {path}")
 
-    # ================================================================
-    # Save metadata
-    # ================================================================
+    # -- save metadata --
 
     meta = {
         'model_path': args.model_path,
@@ -581,6 +610,7 @@ def main():
     }
 
     meta_path = os.path.join(args.output_dir, 'meta_refinement.json')
+    
     with open(meta_path, 'w') as f:
         json.dump(meta, f, indent=2)
 
@@ -592,8 +622,10 @@ def main():
           f"{len(beat_frames) if beat_frames else 0} beats)")
 
     if len(skip_values) > 1:
+        
         print(f"\nSkip sweep results:")
         print(f"  {'Skip':>6}  {'Noise%':>6}  {'Residual RMS':>14}  {'Root H. Std':>12}")
+        
         for skip in skip_values:
             r = results[skip]
             noise_pct = 100 * (1000 - skip) / 1000
@@ -601,7 +633,6 @@ def main():
                   f"{r['root_height_std']:>12.4f}")
 
     print(f"\nAll outputs saved to: {args.output_dir}")
-
 
 if __name__ == '__main__':
     main()
