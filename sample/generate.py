@@ -301,12 +301,14 @@ def construct_template_variables(unconstrained):
 
 
 def load_dataset(args, max_frames, n_frames):
+    humanml_dir = getattr(args, 'humanml_dir', None) or ''
     data = get_dataset_loader(name=args.dataset,
                               batch_size=args.batch_size,
                               num_frames=max_frames,
                               split='test',
                               hml_mode='train' if args.pred_len > 0 else 'text_only',  # We need to sample a prefix from the dataset
-                              fixed_len=args.pred_len + args.context_len, pred_len=args.pred_len, device=dist_util.dev())
+                              fixed_len=args.pred_len + args.context_len, pred_len=args.pred_len, device=dist_util.dev(),
+                              humanml_dir=humanml_dir if humanml_dir else None)
     data.fixed_length = n_frames
     return data
 

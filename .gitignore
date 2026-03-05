@@ -140,6 +140,7 @@ slurm**/
 *.slurm
 .vscode/
 dataset/HumanML3D/
+CLAUDE.md
 
 # Large data files
 assets/actionrecognition/*.tar
@@ -149,7 +150,6 @@ visualize/joints2smpl/smpl_models/*.h5
 
 # Dataset folders (if you want to ignore the actual data)
 dataset/
-data/
 
 # Model weights
 *.pt
