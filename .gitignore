@@ -140,6 +140,7 @@ slurm**/
 *.slurm
 .vscode/
 dataset/HumanML3D/
+CLAUDE.md
 
 # Large data files
 assets/actionrecognition/*.tar
