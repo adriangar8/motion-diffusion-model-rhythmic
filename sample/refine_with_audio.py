@@ -246,9 +246,7 @@ def load_model(model_path, device):
         audio_conditioning=True,
         audio_feat_dim=ckpt_args.get('audio_feat_dim', 145),
         audio_cond_mask_prob=ckpt_args.get('audio_cond_mask_prob', 0.15),
-        
-        # -- v2 params (defaults for v1 compatibility) --
-        
+        use_audio_token_concat=ckpt_args.get('use_audio_token_concat', False),
         temporal_sigma=ckpt_args.get('temporal_sigma', 4.0),
         beat_weight=ckpt_args.get('beat_weight', 2.0),
     )
@@ -447,13 +445,23 @@ def main():
 
     # -- load audio --
     
-    if audio_feat_dim == 52:
+    use_wav2clip = ckpt_args.get('use_wav2clip', False) or audio_feat_dim == 519
+    duration = args.motion_length if args.motion_length > 0 else None
+
+    if use_wav2clip:
+        from model.audio_features_wav2clip import extract_wav2clip_plus_librosa
+        audio_feat = extract_wav2clip_plus_librosa(
+            args.audio_path,
+            target_fps=args.fps,
+            duration=duration,
+            device=device,
+        )
+    elif audio_feat_dim == 52:
         from model.audio_features_v2 import extract_audio_features_v2 as extract_fn
+        audio_feat = extract_fn(args.audio_path, target_fps=args.fps, duration=duration)
     else:
         from model.audio_features import extract_audio_features as extract_fn
-
-    duration = args.motion_length if args.motion_length > 0 else None
-    audio_feat = extract_fn(args.audio_path, target_fps=args.fps, duration=duration)
+        audio_feat = extract_fn(args.audio_path, target_fps=args.fps, duration=duration)
 
     if args.motion_length <= 0:
         n_frames = min(audio_feat.shape[0], 196)
@@ -468,13 +476,14 @@ def main():
     
     beat_frames = None
     
-    if audio_feat_dim == 52:
-    
+    if audio_feat_dim == 519:
+        # 7d librosa: index 1 is beat_indicator (after 512-d Wav2CLIP)
+        beat_signal = audio_feat[:, 512 + 1]
+        beat_frames = list(np.where(beat_signal > 0.5)[0])
+    elif audio_feat_dim == 52:
         beat_signal = audio_feat[:, 34]  # beat_soft channel
         beat_frames = list(np.where(beat_signal > 0.3)[0])
-    
     elif audio_feat_dim == 145:
-    
         beat_signal = audio_feat[:, 129]  # beat_indicator channel
         beat_frames = list(np.where(beat_signal > 0.5)[0])
 
