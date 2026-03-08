@@ -400,7 +400,7 @@ class MDM(nn.Module):
         bs, njoints, nfeats, nframes = x.shape
         time_emb = self.embed_timestep(timesteps)  # [1, bs, d]
 
-        if 'target_cond' in y.keys():
+        if y is not None and 'target_cond' in y.keys():
             # NOTE: We don't use CFG for joints - but we do wat to support uncond sampling for generation and eval!
             time_emb += self.mask_cond(self.embed_target_cond(y['target_cond'], y['target_joint_names'], y['is_heading'])[None], force_mask=y.get('target_uncond', False))  # For uncond support and CFG
             # time_emb += self.embed_target_cond(y['target_cond'], y['target_joint_names'], y['is_heading'])[None]  
@@ -511,6 +511,7 @@ class MDM(nn.Module):
                     xseq,
                     audio_memory=audio_memory,
                     src_key_padding_mask=src_key_padding_mask,
+                    beat_frames=y.get('beat_frames', None),
                 )
             else:
                 output = self.seqTransEncoder(xseq, src_key_padding_mask=src_key_padding_mask)

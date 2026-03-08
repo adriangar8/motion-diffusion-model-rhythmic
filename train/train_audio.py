@@ -90,6 +90,8 @@ def parse_args():
                         help='Probability of dropping audio condition (for CFG)')
     parser.add_argument('--text_cond_mask_prob', type=float, default=0.10,
                         help='Probability of dropping text condition (for CFG)')
+    parser.add_argument('--joint_cond_mask_prob', type=float, default=0.05,
+                        help='Probability of dropping ALL conditions jointly (GCDM)')
     parser.add_argument('--use_audio_token_concat', action='store_true',
                         help='MOSPA-style: concatenate audio tokens with motion tokens at transformer input')
     parser.add_argument('--use_physics_losses', action='store_true',
@@ -385,6 +387,18 @@ def main():
             batch_motion = batch_motion.to(device)
             batch_cond['audio_features'] = batch_cond['audio_features'].to(device)
             batch_cond['mask'] = batch_cond['mask'].to(device)
+
+            # -- extract beat frames for beat-aware cross-attention bias --
+            # 519-d: wav2clip(512) + [onset, beat, ...](7) → beat at idx 513
+            # 145-d: librosa features with beat_indicator at idx 129
+            _beat_idx = 513 if args.audio_feat_dim >= 519 else 129
+            _beat_sig = batch_cond['audio_features'][0, :, _beat_idx].cpu().numpy()
+            batch_cond['beat_frames'] = list(np.where(_beat_sig > 0.5)[0])
+
+            # -- GCDM joint dropout: force-mask all conditions together --
+            if np.random.rand() < args.joint_cond_mask_prob:
+                batch_cond['uncond'] = True
+                batch_cond['uncond_audio'] = True
 
             # -- sample diffusion timesteps --
             
