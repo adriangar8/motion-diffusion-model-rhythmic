@@ -12,7 +12,7 @@ Usage:
         --model_path ./save/audio_stage2_wav2clip/model_final.pt \
         --eval_mode debug \
         --guidance_param 2.5 \
-        --audio_guidance_param 0.0
+        --audio_guidance_param 2.5
 """
 
 import os

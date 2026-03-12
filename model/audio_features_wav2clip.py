@@ -13,12 +13,13 @@ import librosa
 WAV2CLIP_AVAILABLE = False
 _wav2clip_model = None
 
+import torch
+if not hasattr(torch, 'swapaxes'):
+    torch.swapaxes = torch.transpose
+
 try:
-    import torch
-    # Try descriptinc/lyrebird-wav2clip API
     import wav2clip
     WAV2CLIP_AVAILABLE = True
-    # Lyrebird calls librosa.util.frame(x, frame_length, hop_length) but librosa 0.11+ uses keyword-only args
     _librosa_frame_orig = librosa.util.frame
     def _frame_compat(x, *args, **kwargs):
         if len(args) >= 2:

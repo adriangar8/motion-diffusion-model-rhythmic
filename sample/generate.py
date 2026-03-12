@@ -301,7 +301,8 @@ def construct_template_variables(unconstrained):
 
 
 def load_dataset(args, max_frames, n_frames):
-    humanml_dir = getattr(args, 'humanml_dir', None) or ''
+    # humanml_dir = getattr(args, 'humanml_dir', None) or ''
+    humanml_dir = "/Data/adrian.garcia/motion-diffusion-model-rhythmic/dataset/HumanML3D"
     data = get_dataset_loader(name=args.dataset,
                               batch_size=args.batch_size,
                               num_frames=max_frames,
