@@ -57,6 +57,8 @@ CFG_CONFIGS = [
     ("audio_heavy_1.0_5.0", 1.0, 5.0),
     ("audio_only_0.0_5.0",  0.0, 5.0),
     ("high_both_5.0_5.0",   5.0, 5.0),
+    ("best_bas_2.5_1.5",    2.5, 1.5),
+    ("text_only_2.5_0.0",   2.5, 0.0),
 ]
 
 # -- audio tracks: (wav filename, text prompt) --
@@ -85,6 +87,8 @@ CFG_COLORS = {
     "audio_heavy_1.0_5.0": "#4CAF50",
     "audio_only_0.0_5.0":  "#00BCD4",
     "high_both_5.0_5.0":   "#795548",
+    "best_bas_2.5_1.5":    "#E91E63",
+    "text_only_2.5_0.0":   "#9E9E9E",
 }
 
 CFG_LABELS = {
@@ -93,6 +97,8 @@ CFG_LABELS = {
     "audio_heavy_1.0_5.0": "audio-heavy (1.0/5.0)",
     "audio_only_0.0_5.0":  "audio-only (0.0/5.0)",
     "high_both_5.0_5.0":   "high-both (5.0/5.0)",
+    "best_bas_2.5_1.5":    "best-BAS (2.5/1.5)",
+    "text_only_2.5_0.0":   "text-only (2.5/0.0)",
 }
 
 
@@ -452,6 +458,12 @@ def run_plot(args):
 
     # -- 13. scatter + marginal kde (per config, side by side) --
     plot_scatter_marginal_per_config(gt_normed, gen_normed, args.model_tag, fig_dir)
+
+    # -- 14-15. audio conditioning impact (needs text_only baseline) --
+    plot_audio_conditioning_impact(gt_normed, gen_normed, args.model_tag, fig_dir)
+
+    # -- 16-17. original-dimension metrics per feature group --
+    plot_feature_group_metrics_original_dims(gt_normed, gen_normed, args.model_tag, fig_dir)
 
     print("\nplotting complete!")
 
@@ -1231,6 +1243,245 @@ def plot_centroid_migration(gt, gen, model_tag, fig_dir):
 
 
 # ============================================================
+# audio conditioning impact analysis
+# ============================================================
+
+def plot_audio_conditioning_impact(gt, gen, model_tag, fig_dir):
+
+    from scipy.stats import wasserstein_distance, ks_2samp
+
+    # -- need text_only baseline --
+    text_only_key = "text_only_2.5_0.0"
+    if text_only_key not in gen:
+        print("skipping audio_conditioning_impact: text_only_2.5_0.0 not found")
+        return
+
+    text_only = gen[text_only_key]
+    audio_cfgs = {k: v for k, v in gen.items() if k != text_only_key}
+
+    if not audio_cfgs:
+        print("skipping audio_conditioning_impact: no audio configs found")
+        return
+
+    group_names = list(FEATURE_GROUPS.keys())
+    group_slices = list(FEATURE_GROUPS.values())
+    cfg_names = list(audio_cfgs.keys())
+    n_groups = len(group_names)
+    n_cfgs = len(cfg_names)
+
+    # -- compute metrics: mean_shift, wasserstein, ks_stat, cohens_d --
+    metrics = {
+        "Mean shift (L2)": np.zeros((n_cfgs, n_groups)),
+        "Wasserstein-1": np.zeros((n_cfgs, n_groups)),
+        "KS statistic": np.zeros((n_cfgs, n_groups)),
+        "Cohen's d": np.zeros((n_cfgs, n_groups)),
+    }
+
+    for ci, cfg_name in enumerate(cfg_names):
+        audio_frames = audio_cfgs[cfg_name]
+        for gi, (gname, sl) in enumerate(FEATURE_GROUPS.items()):
+            t = text_only[:, sl]
+            a = audio_frames[:, sl]
+            ndims = t.shape[1]
+
+            # -- mean shift --
+            metrics["Mean shift (L2)"][ci, gi] = np.linalg.norm(a.mean(0) - t.mean(0))
+
+            # -- per-dim wasserstein, ks, cohen's d --
+            w_vals, ks_vals, d_vals = [], [], []
+            for d in range(ndims):
+                w_vals.append(wasserstein_distance(t[:, d], a[:, d]))
+                ks_stat, _ = ks_2samp(t[:, d], a[:, d])
+                ks_vals.append(ks_stat)
+                # -- cohen's d --
+                pooled_std = np.sqrt((np.var(t[:, d]) + np.var(a[:, d])) / 2)
+                if pooled_std > 1e-8:
+                    d_vals.append(abs(a[:, d].mean() - t[:, d].mean()) / pooled_std)
+                else:
+                    d_vals.append(0.0)
+
+            metrics["Wasserstein-1"][ci, gi] = np.mean(w_vals)
+            metrics["KS statistic"][ci, gi] = np.mean(ks_vals)
+            metrics["Cohen's d"][ci, gi] = np.mean(d_vals)
+
+    # -- plot 1: 4-panel bar chart --
+    fig, axes = plt.subplots(2, 2, figsize=(16, 12))
+    fig.suptitle(f"Audio Conditioning Impact vs Text-Only Baseline — {model_tag}",
+                 fontsize=14, y=0.98)
+
+    x = np.arange(n_groups)
+    bar_w = 0.8 / n_cfgs
+
+    for ax, (metric_name, vals) in zip(axes.flat, metrics.items()):
+        for ci, cfg_name in enumerate(cfg_names):
+            color = CFG_COLORS.get(cfg_name, "#333333")
+            label = CFG_LABELS.get(cfg_name, cfg_name)
+            ax.bar(x + ci * bar_w - 0.4 + bar_w / 2, vals[ci],
+                   bar_w * 0.9, color=color, label=label, alpha=0.85)
+        ax.set_xticks(x)
+        ax.set_xticklabels([g.split(" (")[0] for g in group_names], fontsize=9, rotation=15)
+        ax.set_title(metric_name, fontsize=12)
+        ax.grid(axis='y', alpha=0.3)
+
+    axes[0, 0].legend(fontsize=7, loc='upper left')
+    fig.subplots_adjust(top=0.92, hspace=0.3, wspace=0.25)
+    path = os.path.join(fig_dir, "audio_impact_bars.png")
+    fig.savefig(path, dpi=150)
+    plt.close(fig)
+    print(f"saved → {path}")
+
+    # -- plot 2: heatmap (configs × feature groups, wasserstein) --
+    fig, ax = plt.subplots(figsize=(10, max(4, n_cfgs * 0.6 + 2)))
+    im = ax.imshow(metrics["Wasserstein-1"], aspect='auto', cmap='YlOrRd')
+    ax.set_xticks(range(n_groups))
+    ax.set_xticklabels([g.split(" (")[0] for g in group_names], fontsize=10)
+    ax.set_yticks(range(n_cfgs))
+    ax.set_yticklabels([CFG_LABELS.get(c, c) for c in cfg_names], fontsize=10)
+
+    # -- annotate cells --
+    for ci in range(n_cfgs):
+        for gi in range(n_groups):
+            val = metrics["Wasserstein-1"][ci, gi]
+            ax.text(gi, ci, f"{val:.3f}", ha='center', va='center', fontsize=9,
+                    color='white' if val > metrics["Wasserstein-1"].max() * 0.6 else 'black')
+
+    fig.colorbar(im, ax=ax, label="Wasserstein-1 distance")
+    ax.set_title(f"Audio vs Text-Only: Wasserstein-1 per Feature Group — {model_tag}",
+                 fontsize=12, pad=10)
+    plt.tight_layout()
+    path = os.path.join(fig_dir, "audio_impact_heatmap.png")
+    fig.savefig(path, dpi=150)
+    plt.close(fig)
+    print(f"saved → {path}")
+
+    # -- print table --
+    print("\n  Audio conditioning impact (Wasserstein-1 vs text-only):")
+    header = f"  {'Config':<30s}" + "".join(f"{g.split(' (')[0]:>15s}" for g in group_names)
+    print(header)
+    for ci, cfg_name in enumerate(cfg_names):
+        row = f"  {CFG_LABELS.get(cfg_name, cfg_name):<30s}"
+        row += "".join(f"{metrics['Wasserstein-1'][ci, gi]:>15.4f}" for gi in range(n_groups))
+        print(row)
+
+
+# ============================================================
+# original-dimension metrics per feature group
+# ============================================================
+
+def plot_feature_group_metrics_original_dims(gt, gen, model_tag, fig_dir):
+
+    from scipy.stats import wasserstein_distance
+
+    group_names = list(FEATURE_GROUPS.keys())
+    group_slices = list(FEATURE_GROUPS.values())
+    n_groups = len(group_names)
+
+    # -- all datasets --
+    all_data = {}
+    all_data.update(gt)
+    for k, v in gen.items():
+        all_data[CFG_LABELS.get(k, k)] = v
+
+    ds_names = list(all_data.keys())
+    n_ds = len(ds_names)
+
+    # -- compute pairwise wasserstein per feature group --
+    wasserstein_maps = {}  # group_name -> (n_ds, n_ds) matrix
+
+    for gname, sl in FEATURE_GROUPS.items():
+        mat = np.zeros((n_ds, n_ds))
+        for i in range(n_ds):
+            for j in range(i + 1, n_ds):
+                a = all_data[ds_names[i]][:, sl]
+                b = all_data[ds_names[j]][:, sl]
+                # -- per-dim wasserstein, averaged --
+                ndims = a.shape[1]
+                w = np.mean([wasserstein_distance(a[:, d], b[:, d]) for d in range(ndims)])
+                mat[i, j] = w
+                mat[j, i] = w
+        wasserstein_maps[gname] = mat
+
+    # -- plot 1: 1×5 heatmaps --
+    fig, axes = plt.subplots(1, n_groups, figsize=(5 * n_groups, max(5, n_ds * 0.4 + 2)))
+    fig.suptitle(f"Original-Dim Pairwise Wasserstein-1 — {model_tag}", fontsize=14, y=1.02)
+
+    short_names = []
+    for name in ds_names:
+        if "(GT)" in name:
+            short_names.append(name.replace(" (GT)", ""))
+        else:
+            short_names.append(name[:12])
+
+    for ax, (gname, mat) in zip(axes, wasserstein_maps.items()):
+        im = ax.imshow(mat, cmap='YlOrRd', aspect='auto')
+        ax.set_xticks(range(n_ds))
+        ax.set_xticklabels(short_names, fontsize=7, rotation=45, ha='right')
+        ax.set_yticks(range(n_ds))
+        ax.set_yticklabels(short_names, fontsize=7)
+        ax.set_title(gname, fontsize=10)
+        fig.colorbar(im, ax=ax, shrink=0.6)
+
+        # -- annotate --
+        vmax = mat.max()
+        for i in range(n_ds):
+            for j in range(n_ds):
+                if i != j:
+                    ax.text(j, i, f"{mat[i, j]:.2f}", ha='center', va='center',
+                            fontsize=5, color='white' if mat[i, j] > vmax * 0.6 else 'black')
+
+    fig.subplots_adjust(top=0.88, wspace=0.35)
+    path = os.path.join(fig_dir, "original_dim_wasserstein_heatmaps.png")
+    fig.savefig(path, dpi=150, bbox_inches='tight')
+    plt.close(fig)
+    print(f"saved → {path}")
+
+    # -- plot 2: distance to AIST++ GT per feature group --
+    aist_idx = ds_names.index("AIST++ (GT)")
+    cfg_ds_names = [n for n in ds_names if "(GT)" not in n]
+    cfg_indices = [ds_names.index(n) for n in cfg_ds_names]
+
+    fig, ax = plt.subplots(figsize=(14, 6))
+    x = np.arange(n_groups)
+    n_bars = len(cfg_ds_names)
+    bar_w = 0.8 / n_bars
+
+    # -- map display names back to cfg keys for colors --
+    label_to_cfg = {v: k for k, v in CFG_LABELS.items()}
+
+    for bi, (cfg_label, ci) in enumerate(zip(cfg_ds_names, cfg_indices)):
+        cfg_key = label_to_cfg.get(cfg_label, "")
+        color = CFG_COLORS.get(cfg_key, "#333333")
+        distances = [wasserstein_maps[gname][ci, aist_idx] for gname in group_names]
+        ax.bar(x + bi * bar_w - 0.4 + bar_w / 2, distances,
+               bar_w * 0.9, color=color, label=cfg_label, alpha=0.85)
+
+    ax.set_xticks(x)
+    ax.set_xticklabels([g.split(" (")[0] for g in group_names], fontsize=11)
+    ax.set_ylabel("Wasserstein-1 distance to AIST++ GT", fontsize=11)
+    ax.set_title(f"Distance to AIST++ GT per Feature Group (Original Dims) — {model_tag}",
+                 fontsize=13, pad=10)
+    ax.legend(fontsize=8, loc='upper right')
+    ax.grid(axis='y', alpha=0.3)
+
+    plt.tight_layout()
+    path = os.path.join(fig_dir, "original_dim_distance_to_aist.png")
+    fig.savefig(path, dpi=150)
+    plt.close(fig)
+    print(f"saved → {path}")
+
+    # -- print pairwise table per group --
+    for gname in group_names:
+        mat = wasserstein_maps[gname]
+        print(f"\n  Wasserstein-1 ({gname}):")
+        header = f"  {'':>20s}" + "".join(f"{n[:12]:>14s}" for n in ds_names)
+        print(header)
+        for i, name in enumerate(ds_names):
+            row = f"  {name[:20]:>20s}"
+            row += "".join(f"{mat[i, j]:>14.4f}" for j in range(n_ds))
+            print(row)
+
+
+# ============================================================
 # cli
 # ============================================================
 
@@ -1245,7 +1496,7 @@ def parse_args():
                         help='label for output dirs and plot titles')
     parser.add_argument('--output_dir', type=str, required=True,
                         help='per-model output directory')
-    parser.add_argument('--num_samples_per_track', type=int, default=3)
+    parser.add_argument('--num_samples_per_track', type=int, default=6)
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--skip_domain_gap', action='store_true',
                         help='skip expensive KL/MMD computation')

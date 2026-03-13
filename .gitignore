@@ -165,3 +165,7 @@ Multimodal_Motion_Generation_Blueprint*.pdf
 
 # Generated CLIP index (reproducible via build-index)
 cache/
+
+# Generated outputs (regenerable via scripts)
+outputs/beataware_pca/
+outputs/v2_pca/
