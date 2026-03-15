@@ -1312,19 +1312,21 @@ def plot_poster_centroid_migration_marginal(gt, gen, model_tag, fig_dir):
     # -- generated centroids with arrows, labels in legend --
     for cfg_name, centroid in gen_centroids.items():
         c = CFG_COLORS[cfg_name]
-        ax_main.scatter(*centroid, c=c, s=120, marker='D', edgecolors='black',
+        ax_main.scatter(*centroid, c=c, s=200, marker='D', edgecolors='black',
                         linewidths=0.8, zorder=10, label=CFG_LABELS[cfg_name])
 
         # -- arrow from midpoint to centroid --
         ax_main.annotate('', xy=centroid, xytext=mid,
-                         arrowprops=dict(arrowstyle='->', color=c, lw=1.5, alpha=0.6))
+                         arrowprops=dict(arrowstyle='->', color=c, lw=2.0, alpha=0.6))
 
-    # -- clip axes to avoid edge contour artifacts --
-    all_gt_xy = np.concatenate(list(gt_proj.values()), axis=0)
-    ax_main.set_xlim(np.percentile(all_gt_xy[:, 0], 2) - 2,
-                     np.percentile(all_gt_xy[:, 0], 98) + 2)
-    ax_main.set_ylim(np.percentile(all_gt_xy[:, 1], 2) - 2,
-                     np.percentile(all_gt_xy[:, 1], 98) + 2)
+    # -- zoom into centroid region with enough padding for contour context --
+    all_centroids = np.array(list(gt_centroids.values()) + list(gen_centroids.values()))
+    cx_min, cy_min = all_centroids.min(axis=0)
+    cx_max, cy_max = all_centroids.max(axis=0)
+    pad_x = max((cx_max - cx_min) * 1.5, 5)
+    pad_y = max((cy_max - cy_min) * 1.5, 5)
+    ax_main.set_xlim(cx_min - pad_x, cx_max + pad_x)
+    ax_main.set_ylim(cy_min - pad_y, cy_max + pad_y)
 
     # -- axis labels and styling --
     ax_main.set_xlabel(f"PC1 ({var[0]:.1f}% var)", fontsize=12)
@@ -1335,9 +1337,12 @@ def plot_poster_centroid_migration_marginal(gt, gen, model_tag, fig_dir):
     ax_right.set_xlabel("density", fontsize=9)
     ax_right.tick_params(labelleft=False, labelsize=7)
 
-    # -- legend on main axes (gt + all configs) --
-    ax_main.legend(fontsize=8, loc='upper right')
-    ax_top.legend(fontsize=7, loc='upper right', ncol=2)
+    # -- legend: cfg labels on main axes, distribution names in empty top-right corner --
+    ax_main.legend(fontsize=15, loc='upper right')
+    ax_corner = fig.add_subplot(gs[0, 3])
+    ax_corner.axis('off')
+    ax_corner.legend(*ax_top.get_legend_handles_labels(), fontsize=13, loc='center',
+                     frameon=False)
 
     path = os.path.join(fig_dir, "poster_centroid_migration.png")
     fig.savefig(path, dpi=200, bbox_inches='tight')
