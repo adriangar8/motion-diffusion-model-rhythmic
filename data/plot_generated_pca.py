@@ -465,6 +465,12 @@ def run_plot(args):
     # -- 16-17. original-dimension metrics per feature group --
     plot_feature_group_metrics_original_dims(gt_normed, gen_normed, args.model_tag, fig_dir)
 
+    # -- 18. poster: gt distance heatmap --
+    plot_poster_gt_distance_heatmap(gt_normed, gen_normed, args.model_tag, fig_dir)
+
+    # -- 19. poster: centroid migration + marginal kde --
+    plot_poster_centroid_migration_marginal(gt_normed, gen_normed, args.model_tag, fig_dir)
+
     print("\nplotting complete!")
 
 
@@ -1243,6 +1249,103 @@ def plot_centroid_migration(gt, gen, model_tag, fig_dir):
 
 
 # ============================================================
+# poster: centroid migration + marginal kde
+# ============================================================
+
+def plot_poster_centroid_migration_marginal(gt, gen, model_tag, fig_dir):
+    # -- centroid migration with marginal kde panels, no scatter, no title --
+
+    from matplotlib.gridspec import GridSpec
+
+    gt_combined = np.concatenate(list(gt.values()), axis=0)
+    pca = PCA(n_components=2).fit(gt_combined)
+    var = pca.explained_variance_ratio_ * 100
+
+    gt_proj = {name: pca.transform(frames) for name, frames in gt.items()}
+    gen_proj = {cfg_name: pca.transform(frames) for cfg_name, frames in gen.items()}
+
+    gt_centroids = {name: xy.mean(axis=0) for name, xy in gt_proj.items()}
+    gen_centroids = {cfg_name: xy.mean(axis=0) for cfg_name, xy in gen_proj.items()}
+
+    hc = gt_centroids["HumanML3D (GT)"]
+    ac = gt_centroids["AIST++ (GT)"]
+    mid = (hc + ac) / 2
+
+    # -- gridspec layout --
+    fig = plt.figure(figsize=(12, 10))
+    gs = GridSpec(4, 4, figure=fig, hspace=0.05, wspace=0.05)
+    ax_main = fig.add_subplot(gs[1:4, 0:3])
+    ax_top = fig.add_subplot(gs[0, 0:3], sharex=ax_main)
+    ax_right = fig.add_subplot(gs[1:4, 3], sharey=ax_main)
+
+    # -- gt kde contours only (no scatter) --
+    for name, xy in gt_proj.items():
+        c = GT_COLORS[name]
+        add_kde_contours(ax_main, xy, color=c, levels=4)
+
+    # -- gt marginal kde (filled) --
+    for name, xy in gt_proj.items():
+        c = GT_COLORS[name]
+        xc, xd = _kde_curve(xy[:, 0])
+        ax_top.fill_between(xc, xd, alpha=0.15, color=c)
+        ax_top.plot(xc, xd, color=c, linewidth=1.5, alpha=0.8, label=name)
+
+        yc, yd = _kde_curve(xy[:, 1])
+        ax_right.fill_between(yd, yc, alpha=0.15, color=c)
+        ax_right.plot(yd, yc, color=c, linewidth=1.5, alpha=0.8)
+
+    # -- selected config marginal kde (dashed) --
+    marginal_cfgs = ["best_bas_2.5_1.5", "text_only_2.5_0.0", "audio_heavy_1.0_5.0"]
+    for cfg_name in marginal_cfgs:
+        if cfg_name not in gen_proj:
+            continue
+        xy = gen_proj[cfg_name]
+        c = CFG_COLORS[cfg_name]
+
+        xc, xd = _kde_curve(xy[:, 0])
+        ax_top.plot(xc, xd, color=c, linewidth=1.5, alpha=0.8, linestyle='--',
+                    label=CFG_LABELS[cfg_name])
+
+        yc, yd = _kde_curve(xy[:, 1])
+        ax_right.plot(yd, yc, color=c, linewidth=1.5, alpha=0.8, linestyle='--')
+
+    # -- generated centroids with arrows, labels in legend --
+    for cfg_name, centroid in gen_centroids.items():
+        c = CFG_COLORS[cfg_name]
+        ax_main.scatter(*centroid, c=c, s=120, marker='D', edgecolors='black',
+                        linewidths=0.8, zorder=10, label=CFG_LABELS[cfg_name])
+
+        # -- arrow from midpoint to centroid --
+        ax_main.annotate('', xy=centroid, xytext=mid,
+                         arrowprops=dict(arrowstyle='->', color=c, lw=1.5, alpha=0.6))
+
+    # -- clip axes to avoid edge contour artifacts --
+    all_gt_xy = np.concatenate(list(gt_proj.values()), axis=0)
+    ax_main.set_xlim(np.percentile(all_gt_xy[:, 0], 2) - 2,
+                     np.percentile(all_gt_xy[:, 0], 98) + 2)
+    ax_main.set_ylim(np.percentile(all_gt_xy[:, 1], 2) - 2,
+                     np.percentile(all_gt_xy[:, 1], 98) + 2)
+
+    # -- axis labels and styling --
+    ax_main.set_xlabel(f"PC1 ({var[0]:.1f}% var)", fontsize=12)
+    ax_main.set_ylabel(f"PC2 ({var[1]:.1f}% var)", fontsize=12)
+
+    ax_top.set_ylabel("density", fontsize=9)
+    ax_top.tick_params(labelbottom=False, labelsize=7)
+    ax_right.set_xlabel("density", fontsize=9)
+    ax_right.tick_params(labelleft=False, labelsize=7)
+
+    # -- legend on main axes (gt + all configs) --
+    ax_main.legend(fontsize=8, loc='upper right')
+    ax_top.legend(fontsize=7, loc='upper right', ncol=2)
+
+    path = os.path.join(fig_dir, "poster_centroid_migration.png")
+    fig.savefig(path, dpi=200, bbox_inches='tight')
+    plt.close(fig)
+    print(f"saved → {path}")
+
+
+# ============================================================
 # audio conditioning impact analysis
 # ============================================================
 
@@ -1362,6 +1465,66 @@ def plot_audio_conditioning_impact(gt, gen, model_tag, fig_dir):
         row = f"  {CFG_LABELS.get(cfg_name, cfg_name):<30s}"
         row += "".join(f"{metrics['Wasserstein-1'][ci, gi]:>15.4f}" for gi in range(n_groups))
         print(row)
+
+
+# ============================================================
+# poster: gt distance heatmap
+# ============================================================
+
+def plot_poster_gt_distance_heatmap(gt, gen, model_tag, fig_dir):
+    # -- pairwise wasserstein-1 heatmap, lower triangle, all datasets --
+
+    from scipy.stats import wasserstein_distance
+
+    # -- merge gt and gen into one dict --
+    all_data = {}
+    all_data.update(gt)
+    for k, v in gen.items():
+        all_data[CFG_LABELS.get(k, k)] = v
+
+    ds_names = list(all_data.keys())
+    n_ds = len(ds_names)
+    ndims = 263
+
+    # -- pairwise wasserstein across all 263 dims --
+    mat = np.zeros((n_ds, n_ds))
+    for i in range(n_ds):
+        for j in range(i + 1, n_ds):
+            a = all_data[ds_names[i]]
+            b = all_data[ds_names[j]]
+            w = np.mean([wasserstein_distance(a[:, d], b[:, d]) for d in range(ndims)])
+            mat[i, j] = w
+            mat[j, i] = w
+
+    # -- mask upper triangle for display --
+    mask = np.triu(np.ones_like(mat, dtype=bool), k=1)
+    mat_masked = np.ma.array(mat, mask=mask)
+
+    fig, ax = plt.subplots(figsize=(9, 8))
+    im = ax.imshow(mat_masked, aspect='auto', cmap='YlOrRd')
+
+    ax.set_xticks(range(n_ds))
+    ax.set_xticklabels(ds_names, fontsize=10, rotation=45, ha='right')
+    ax.set_yticks(range(n_ds))
+    ax.set_yticklabels(ds_names, fontsize=10)
+
+    # -- annotate lower triangle + diagonal --
+    vmax = mat[~np.eye(n_ds, dtype=bool)].max() if n_ds > 1 else 1.0
+    for i in range(n_ds):
+        for j in range(n_ds):
+            if j > i:
+                continue
+            val = mat[i, j]
+            ax.text(j, i, f"{val:.3f}", ha='center', va='center', fontsize=9,
+                    color='white' if val > vmax * 0.6 else 'black')
+
+    fig.colorbar(im, ax=ax, label="Wasserstein-1 distance", shrink=0.8)
+
+    plt.tight_layout()
+    path = os.path.join(fig_dir, "poster_pairwise_wasserstein_heatmap.png")
+    fig.savefig(path, dpi=200)
+    plt.close(fig)
+    print(f"saved → {path}")
 
 
 # ============================================================
