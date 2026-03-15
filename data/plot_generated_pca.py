@@ -419,57 +419,14 @@ def run_plot(args):
         print("no generated data found! run --mode generate first.")
         return
 
-    # -- 1. main pca overlay --
-    plot_pca_overlay(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 2. per-config side-by-side --
-    plot_pca_per_config(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 3. feature-group pca (1×5 row) --
-    plot_feature_group_pca(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 4. domain gap heatmaps --
-    if not args.skip_domain_gap:
-        plot_domain_gap(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 5. feature group × config grid (5×5) --
-    plot_feature_group_config_grid(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 6. individual feature group × config figures --
-    plot_feature_group_individual(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 7. centroid distances bar chart --
-    plot_centroid_distances(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 8. variance ratio bar chart --
-    plot_variance_ratio(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 9. pc1/pc2 histograms --
-    plot_pc_histograms(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 10. marginal violin plots --
-    plot_marginal_violins(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 11. centroid migration arrows --
-    plot_centroid_migration(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 12. scatter + marginal kde (all configs) --
-    plot_scatter_marginal_kde(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 13. scatter + marginal kde (per config, side by side) --
-    plot_scatter_marginal_per_config(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 14-15. audio conditioning impact (needs text_only baseline) --
-    plot_audio_conditioning_impact(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 16-17. original-dimension metrics per feature group --
-    plot_feature_group_metrics_original_dims(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 18. poster: gt distance heatmap --
-    plot_poster_gt_distance_heatmap(gt_normed, gen_normed, args.model_tag, fig_dir)
-
-    # -- 19. poster: centroid migration + marginal kde --
-    plot_poster_centroid_migration_marginal(gt_normed, gen_normed, args.model_tag, fig_dir)
+    # -- run selected plots (or all if --plots not specified) --
+    targets = args.plots or list(PLOT_REGISTRY.keys())
+    for name in targets:
+        if name == "domain_gap" and args.skip_domain_gap:
+            print(f"  skipping {name} (--skip_domain_gap)")
+            continue
+        print(f"  plotting {name}...")
+        PLOT_REGISTRY[name](gt_normed, gen_normed, args.model_tag, fig_dir)
 
     print("\nplotting complete!")
 
@@ -520,7 +477,7 @@ def plot_pca_overlay(gt, gen, model_tag, fig_dir):
 
     plt.tight_layout()
     path = os.path.join(fig_dir, "pca_overlay.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -580,7 +537,7 @@ def plot_pca_per_config(gt, gen, model_tag, fig_dir):
     plt.tight_layout()
     fig.subplots_adjust(top=0.88)
     path = os.path.join(fig_dir, "pca_per_config.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -622,7 +579,7 @@ def plot_feature_group_pca(gt, gen, model_tag, fig_dir):
     plt.tight_layout()
     fig.subplots_adjust(top=0.88)
     path = os.path.join(fig_dir, "pca_by_feature_group.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -704,7 +661,7 @@ def plot_domain_gap(gt, gen, model_tag, fig_dir):
     plt.tight_layout()
     fig.subplots_adjust(top=0.88)
     path = os.path.join(fig_dir, "domain_gap.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"\nsaved → {path}")
 
@@ -778,7 +735,7 @@ def plot_feature_group_config_grid(gt, gen, model_tag, fig_dir):
     plt.tight_layout()
     fig.subplots_adjust(top=0.95)
     path = os.path.join(fig_dir, "feature_group_config_grid.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -828,7 +785,7 @@ def plot_feature_group_individual(gt, gen, model_tag, fig_dir):
 
             plt.tight_layout()
             path = os.path.join(cfg_subdir, f"{short}.png")
-            fig.savefig(path, dpi=150)
+            fig.savefig(path, dpi=600, bbox_inches='tight')
             plt.close(fig)
 
     print(f"saved → {fig_dir}/feature_groups/ (25 figures)")
@@ -878,7 +835,7 @@ def plot_centroid_distances(gt, gen, model_tag, fig_dir):
 
     plt.tight_layout()
     path = os.path.join(fig_dir, "centroid_distances.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -923,7 +880,7 @@ def plot_variance_ratio(gt, gen, model_tag, fig_dir):
 
     plt.tight_layout()
     path = os.path.join(fig_dir, "variance_ratio.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -972,7 +929,7 @@ def plot_pc_histograms(gt, gen, model_tag, fig_dir):
     plt.tight_layout()
     fig.subplots_adjust(top=0.90)
     path = os.path.join(fig_dir, "pc_histograms.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1019,7 +976,7 @@ def plot_marginal_violins(gt, gen, model_tag, fig_dir):
     plt.tight_layout()
     fig.subplots_adjust(top=0.88)
     path = os.path.join(fig_dir, "marginal_violins.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1105,7 +1062,7 @@ def plot_scatter_marginal_kde(gt, gen, model_tag, fig_dir):
 
     fig.suptitle(f"PCA Scatter + Marginal KDE — {model_tag}", fontsize=14, y=0.95)
     path = os.path.join(fig_dir, "scatter_marginal_kde.png")
-    fig.savefig(path, dpi=150, bbox_inches='tight')
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1186,7 +1143,7 @@ def plot_scatter_marginal_per_config(gt, gen, model_tag, fig_dir):
 
     fig.suptitle(f"PCA + Marginal KDE per Config — {model_tag}", fontsize=14, y=0.96)
     path = os.path.join(fig_dir, "scatter_marginal_per_config.png")
-    fig.savefig(path, dpi=150, bbox_inches='tight')
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1243,7 +1200,7 @@ def plot_centroid_migration(gt, gen, model_tag, fig_dir):
 
     plt.tight_layout()
     path = os.path.join(fig_dir, "centroid_migration.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1309,10 +1266,14 @@ def plot_poster_centroid_migration_marginal(gt, gen, model_tag, fig_dir):
         yc, yd = _kde_curve(xy[:, 1])
         ax_right.plot(yd, yc, color=c, linewidth=1.5, alpha=0.8, linestyle='--')
 
+    # -- midpoint of gt centroids --
+    ax_main.scatter(*mid, c='violet', s=150, marker='o', edgecolors='black',
+                    linewidths=0.8, zorder=10, label='GT midpoint')
+
     # -- generated centroids with arrows, labels in legend --
     for cfg_name, centroid in gen_centroids.items():
         c = CFG_COLORS[cfg_name]
-        ax_main.scatter(*centroid, c=c, s=200, marker='D', edgecolors='black',
+        ax_main.scatter(*centroid, c=c, s=200, marker='o', edgecolors='black',
                         linewidths=0.8, zorder=10, label=CFG_LABELS[cfg_name])
 
         # -- arrow from midpoint to centroid --
@@ -1345,7 +1306,7 @@ def plot_poster_centroid_migration_marginal(gt, gen, model_tag, fig_dir):
                      frameon=False)
 
     path = os.path.join(fig_dir, "poster_centroid_migration.png")
-    fig.savefig(path, dpi=200, bbox_inches='tight')
+    fig.savefig(path, dpi=1200, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1434,7 +1395,7 @@ def plot_audio_conditioning_impact(gt, gen, model_tag, fig_dir):
     axes[0, 0].legend(fontsize=7, loc='upper left')
     fig.subplots_adjust(top=0.92, hspace=0.3, wspace=0.25)
     path = os.path.join(fig_dir, "audio_impact_bars.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1458,7 +1419,7 @@ def plot_audio_conditioning_impact(gt, gen, model_tag, fig_dir):
                  fontsize=12, pad=10)
     plt.tight_layout()
     path = os.path.join(fig_dir, "audio_impact_heatmap.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1505,13 +1466,13 @@ def plot_poster_gt_distance_heatmap(gt, gen, model_tag, fig_dir):
     mask = np.triu(np.ones_like(mat, dtype=bool), k=1)
     mat_masked = np.ma.array(mat, mask=mask)
 
-    fig, ax = plt.subplots(figsize=(9, 8))
+    fig, ax = plt.subplots(figsize=(11, 10))
     im = ax.imshow(mat_masked, aspect='auto', cmap='YlOrRd')
 
     ax.set_xticks(range(n_ds))
-    ax.set_xticklabels(ds_names, fontsize=10, rotation=45, ha='right')
+    ax.set_xticklabels(ds_names, fontsize=15, rotation=45, ha='right')
     ax.set_yticks(range(n_ds))
-    ax.set_yticklabels(ds_names, fontsize=10)
+    ax.set_yticklabels(ds_names, fontsize=15)
 
     # -- annotate lower triangle + diagonal --
     vmax = mat[~np.eye(n_ds, dtype=bool)].max() if n_ds > 1 else 1.0
@@ -1520,14 +1481,16 @@ def plot_poster_gt_distance_heatmap(gt, gen, model_tag, fig_dir):
             if j > i:
                 continue
             val = mat[i, j]
-            ax.text(j, i, f"{val:.3f}", ha='center', va='center', fontsize=9,
+            ax.text(j, i, f"{val:.3f}", ha='center', va='center', fontsize=13,
                     color='white' if val > vmax * 0.6 else 'black')
 
-    fig.colorbar(im, ax=ax, label="Wasserstein-1 distance", shrink=0.8)
+    cbar = fig.colorbar(im, ax=ax, label="Wasserstein-1 distance", shrink=0.8)
+    cbar.ax.tick_params(labelsize=12)
+    cbar.set_label("Wasserstein-1 distance", fontsize=13)
 
     plt.tight_layout()
     path = os.path.join(fig_dir, "poster_pairwise_wasserstein_heatmap.png")
-    fig.savefig(path, dpi=200)
+    fig.savefig(path, dpi=1200, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1599,7 +1562,7 @@ def plot_feature_group_metrics_original_dims(gt, gen, model_tag, fig_dir):
 
     fig.subplots_adjust(top=0.88, wspace=0.35)
     path = os.path.join(fig_dir, "original_dim_wasserstein_heatmaps.png")
-    fig.savefig(path, dpi=150, bbox_inches='tight')
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1633,7 +1596,7 @@ def plot_feature_group_metrics_original_dims(gt, gen, model_tag, fig_dir):
 
     plt.tight_layout()
     path = os.path.join(fig_dir, "original_dim_distance_to_aist.png")
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=600, bbox_inches='tight')
     plt.close(fig)
     print(f"saved → {path}")
 
@@ -1647,6 +1610,31 @@ def plot_feature_group_metrics_original_dims(gt, gen, model_tag, fig_dir):
             row = f"  {name[:20]:>20s}"
             row += "".join(f"{mat[i, j]:>14.4f}" for j in range(n_ds))
             print(row)
+
+
+# ============================================================
+# plot registry
+# ============================================================
+
+PLOT_REGISTRY = {
+    "pca_overlay":                    plot_pca_overlay,
+    "pca_per_config":                 plot_pca_per_config,
+    "feature_group_pca":              plot_feature_group_pca,
+    "domain_gap":                     plot_domain_gap,
+    "feature_group_config_grid":      plot_feature_group_config_grid,
+    "feature_group_individual":       plot_feature_group_individual,
+    "centroid_distances":             plot_centroid_distances,
+    "variance_ratio":                 plot_variance_ratio,
+    "pc_histograms":                  plot_pc_histograms,
+    "marginal_violins":               plot_marginal_violins,
+    "centroid_migration":             plot_centroid_migration,
+    "scatter_marginal_kde":           plot_scatter_marginal_kde,
+    "scatter_marginal_per_config":    plot_scatter_marginal_per_config,
+    "audio_conditioning_impact":      plot_audio_conditioning_impact,
+    "feature_group_metrics_original": plot_feature_group_metrics_original_dims,
+    "poster_gt_distance_heatmap":     plot_poster_gt_distance_heatmap,
+    "poster_centroid_migration":      plot_poster_centroid_migration_marginal,
+}
 
 
 # ============================================================
@@ -1670,6 +1658,9 @@ def parse_args():
                         help='skip expensive KL/MMD computation')
     parser.add_argument('--force', action='store_true',
                         help='regenerate even if samples already exist')
+    parser.add_argument('--plots', nargs='+', default=None,
+                        choices=list(PLOT_REGISTRY.keys()),
+                        help='specific plots to generate (default: all)')
     return parser.parse_args()
 
 
