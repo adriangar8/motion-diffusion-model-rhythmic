@@ -403,7 +403,7 @@ def main():
     )
     parser.add_argument('--finedance_dir', type=str, required=True,
                         help='Root of FineDance dataset (contains motion/, music_wav/, label_json/)')
-    parser.add_argument('--humanml_dir', type=str, default='/Data/yash.bhardwaj/datasets/HumanML3D',
+    parser.add_argument('--humanml_dir', type=str, default='./dataset/HumanML3D',
                         help='Path to HumanML3D dataset (for normalization stats and example joints)')
     parser.add_argument('--conversion_repo', type=str, default='./data_loaders/humanml',
                         help='Path to motion_process.py repo (default: bundled copy)')

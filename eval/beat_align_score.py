@@ -12,19 +12,19 @@ Usage examples:
   # Our Stage 2 model
   python -m eval.beat_align_score \\
       --motion_dir ./save/audio_stage2_wav2clip_beataware/samples \\
-      --audio_dir /Data/yash.bhardwaj/datasets/aist/audio \\
+      --audio_dir ./dataset/aist/audio \\
       --format humanml --fps 20
 
   # EDGE
   python -m eval.beat_align_score \\
       --motion_dir ./EDGE/experiments/test/pkl \\
-      --audio_dir /Data/yash.bhardwaj/datasets/aist/audio \\
+      --audio_dir ./dataset/aist/audio \\
       --format edge --fps 30
 
   # Single audio file paired with all motions (e.g. qualitative eval)
   python -m eval.beat_align_score \\
       --motion_dir ./save/audio_stage2_wav2clip_beataware/samples \\
-      --audio_path /Data/yash.bhardwaj/datasets/aist/audio/mJB0.wav \\
+      --audio_path ./dataset/aist/audio/mJB0.wav \\
       --format humanml --fps 20
 
 Pairing logic:

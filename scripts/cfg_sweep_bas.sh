@@ -15,7 +15,13 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_ROOT"
 
-MODEL_PATH=${MODEL_PATH:-"$REPO_ROOT/save/audio_stage2_wav2clip_beataware/model_final.pt"}
+# Auto-detect weights location
+if [ -f "$REPO_ROOT/final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt" ]; then
+    _DEFAULT_MODEL="$REPO_ROOT/final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt"
+else
+    _DEFAULT_MODEL="$REPO_ROOT/save/audio_stage2_wav2clip_beataware/model_final.pt"
+fi
+MODEL_PATH=${MODEL_PATH:-"$_DEFAULT_MODEL"}
 AUDIO_DIR=${AUDIO_DIR:-"$REPO_ROOT/dataset/aist/audio_test_10"}
 SWEEP_ROOT=${SWEEP_ROOT:-"$REPO_ROOT/eval_outputs/cfg_sweep"}
 

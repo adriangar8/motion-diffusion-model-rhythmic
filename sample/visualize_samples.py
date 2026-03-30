@@ -237,7 +237,7 @@ def main():
                         help='Directory with .npy sample files')
     parser.add_argument('--compare_dir', type=str, default='',
                         help='Optional: second directory for comparison')
-    parser.add_argument('--humanml_dir', type=str, default='/Data/yash.bhardwaj/datasets/HumanML3D')
+    parser.add_argument('--humanml_dir', type=str, default='./dataset/HumanML3D')
     parser.add_argument('--output_dir', type=str, default='')
     parser.add_argument('--fps', type=int, default=20)
     parser.add_argument('--max_samples', type=int, default=3,
