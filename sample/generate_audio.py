@@ -308,6 +308,7 @@ def main():
     if args.audio_path and os.path.exists(args.audio_path):
 
         use_wav2clip = ckpt_args.get('use_wav2clip', False) or ckpt_args.get('audio_feat_dim') == 519
+        audio_feat_dim = ckpt_args.get('audio_feat_dim', 145)
         duration = args.motion_length if args.motion_length > 0 else None
 
         if use_wav2clip:
@@ -317,6 +318,13 @@ def main():
                 target_fps=args.fps,
                 duration=duration,
                 device=device,
+            )
+        elif audio_feat_dim == 52:
+            from model.audio_features_v2 import extract_audio_features_v2
+            audio_feat = extract_audio_features_v2(
+                args.audio_path,
+                target_fps=args.fps,
+                duration=duration,
             )
         else:
             from model.audio_features import extract_audio_features
@@ -361,7 +369,7 @@ def main():
     if audio_features is not None:
         model_kwargs['y']['audio_features'] = audio_features
         feat_dim = audio_features.shape[-1]
-        _bi = 513 if feat_dim >= 519 else 129
+        _bi = 513 if feat_dim >= 519 else (34 if feat_dim == 52 else 129)
         _bs = audio_features[0, :, _bi].cpu().numpy()
         model_kwargs['y']['beat_frames'] = list(np.where(_bs > 0.5)[0])
         print(f"Beat frames: {len(model_kwargs['y']['beat_frames'])} beats for cross-attn bias")

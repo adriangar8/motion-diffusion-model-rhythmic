@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 save/
+!save/*/args.json
 wandb/
 t2m/
 body_models/
@@ -139,16 +140,9 @@ slurm**/
 *.err
 *.slurm
 .vscode/
-dataset/HumanML3D/
 CLAUDE.md
 
-# Large data files
-assets/actionrecognition/*.tar
-assets/actionrecognition/*.pth.tar
-visualize/joints2smpl/smpl_models/*.pkl
-visualize/joints2smpl/smpl_models/*.h5
-
-# Dataset folders (if you want to ignore the actual data)
+# Dataset folders
 dataset/
 
 # Model weights
@@ -156,12 +150,36 @@ dataset/
 *.pth
 *.ckpt
 
-# Byte-compiled Python
-__pycache__/
-*.pyc
+# Weights downloaded from Google Drive
+final_weights/
 
-# Blueprint / local docs (do not push)
-Multimodal_Motion_Generation_Blueprint*.pdf
+# Generated outputs (reproducible from code + weights)
+demo_outputs/
+ablation_grid/
+bas_viz_ag1.5/
+e6_variants/
+e6_viz/
+sidebyside/
+sidebyside_mesh/
+text_week/
 
-# Generated CLIP index (reproducible via build-index)
+# External repos (not ours)
+Bailando/
+EDGE/
+fairmotion/
+
+# Caches
 cache/
+.numba_cache/
+
+# Large data files
+assets/actionrecognition/*.tar
+assets/actionrecognition/*.pth.tar
+visualize/joints2smpl/smpl_models/*.pkl
+visualize/joints2smpl/smpl_models/*.h5
+
+# PDFs
+*.pdf
+
+# Standalone videos at repo root
+*.mp4

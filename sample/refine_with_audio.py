@@ -440,7 +440,7 @@ def main():
     # -- normalization stats --
     
     # humanml_dir = args.humanml_dir or ckpt_args.get('humanml_dir', './dataset/HumanML3D')
-    humanml_dir = "/Data/adrian.garcia/motion-diffusion-model-rhythmic/dataset/HumanML3D"
+    humanml_dir = args.humanml_dir or "/Data/yash.bhardwaj/datasets/HumanML3D"
     mean = np.load(os.path.join(humanml_dir, 'Mean.npy'))
     std = np.load(os.path.join(humanml_dir, 'Std.npy'))
 
