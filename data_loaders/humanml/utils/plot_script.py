@@ -9,7 +9,6 @@ import mpl_toolkits.mplot3d.axes3d as p3
 # import cv2
 from textwrap import wrap
 from moviepy.editor import VideoClip
-from moviepy.video.io.bindings import mplfig_to_npimage
 
 def list_cut_average(ll, intervals):
     if intervals == 1:
@@ -71,7 +70,7 @@ def plot_3d_motion(save_path, kinematic_tree, joints, title, dataset, figsize=(3
 
     fig = plt.figure(figsize=figsize)
     plt.tight_layout()
-    ax = p3.Axes3D(fig)
+    ax = fig.add_subplot(111, projection='3d')
     init()
     MINS = data.min(axis=0).min(axis=0)
     MAXS = data.max(axis=0).max(axis=0)
@@ -101,6 +100,10 @@ def plot_3d_motion(save_path, kinematic_tree, joints, title, dataset, figsize=(3
         # sometimes index is equal to n_frames/fps due to floating point issues. in such case, we duplicate the last frame
         index = min(n_frames-1, int(index*fps))
         ax.clear()
+        # Re-apply limits after clear() so the skeleton stays in view
+        ax.set_xlim3d([-radius / 2, radius / 2])
+        ax.set_ylim3d([0, radius])
+        ax.set_zlim3d([-radius / 3., radius * 2 / 3.])
         ax.view_init(elev=120, azim=-90)
         ax.dist = 7.5
         
@@ -139,10 +142,13 @@ def plot_3d_motion(save_path, kinematic_tree, joints, title, dataset, figsize=(3
         ax.set_yticks([])
         ax.set_zticks([])
 
+        fig.canvas.draw()
+        buf = np.frombuffer(fig.canvas.buffer_rgba(), dtype=np.uint8)
+        buf = buf.reshape((fig.canvas.get_width_height()[1], fig.canvas.get_width_height()[0], 4))
+        return buf[:, :, :3].copy()
 
-        return mplfig_to_npimage(fig)
-
-    ani = VideoClip(update)
+    duration_sec = n_frames / fps
+    ani = VideoClip(update, duration=duration_sec)
     
     plt.close()
     return ani

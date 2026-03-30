@@ -36,5 +36,5 @@ amass_smpl_idx =  range(22)
 SMPL_MODEL_DIR = "./body_models/"
 GMM_MODEL_DIR = "./visualize/joints2smpl/smpl_models/"
 SMPL_MEAN_FILE = "./visualize/joints2smpl/smpl_models/neutral_smpl_mean_params.h5"
-# for collsion 
-Part_Seg_DIR = "./visualize/joints2smpl/smpl_models/smplx_parts_segm.pkl"
+# for collision (disabled — file not present, collision detection skipped)
+Part_Seg_DIR = ""

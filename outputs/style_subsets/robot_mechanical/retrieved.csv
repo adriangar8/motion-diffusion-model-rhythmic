@@ -1,0 +1,801 @@
+rank,style,motion_id,best_caption,best_caption_idx,similarity,source_file
+1,robot_mechanical,M006033,person moves by twitching both arms in a robotic way,1,0.8435929,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006033.txt
+2,robot_mechanical,006033,person moves by twitching both arms in a robotic way,1,0.8435929,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006033.txt
+3,robot_mechanical,M000127,a person moves their right arm at head level back and forth,0,0.8425214,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000127.txt
+4,robot_mechanical,M008195,person uses right arm to make circular motion in front of body,1,0.8373544,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008195.txt
+5,robot_mechanical,M002568,a person moves their right hand in a circular motion on the left side of their body,1,0.8327387,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002568.txt
+6,robot_mechanical,M001907,a person is moving their arms and hands from one side of their body to another,1,0.83215237,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001907.txt
+7,robot_mechanical,001907,a person is moving their arms and hands from one side of their body to another,1,0.83215237,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001907.txt
+8,robot_mechanical,008195,person uses left arm to make circular motion in front of body,1,0.8318111,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008195.txt
+9,robot_mechanical,M012265,a person uses their right arm out in front of their body in a clockwise rotating motion,0,0.8310723,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012265.txt
+10,robot_mechanical,004178,a person moves their right arm up and down in front of them,2,0.829515,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004178.txt
+11,robot_mechanical,M000221,a person moves their right arm in a circular motion,1,0.82895195,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000221.txt
+12,robot_mechanical,000127,a person moves their left arm at head level back and forth,0,0.827474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000127.txt
+13,robot_mechanical,010974,a person moves its arm in an upward motion as if to pick something up with both hands,2,0.8247141,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010974.txt
+14,robot_mechanical,M010974,a person moves its arm in an upward motion as if to pick something up with both hands,2,0.8247141,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010974.txt
+15,robot_mechanical,M000172,a person makes a big motion with their right arm,0,0.8245426,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000172.txt
+16,robot_mechanical,013125,a person does a range of motion with hands and arms.,1,0.8228268,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013125.txt
+17,robot_mechanical,M013125,a person does a range of motion with hands and arms.,1,0.8228268,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013125.txt
+18,robot_mechanical,005640,"a person steps forward briskly, then makes robotic movements with both arms.",0,0.8226843,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005640.txt
+19,robot_mechanical,M005640,"a person steps forward briskly, then makes robotic movements with both arms.",0,0.8226843,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005640.txt
+20,robot_mechanical,004979,person takes right arm and stretches it in front of body,1,0.8201463,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004979.txt
+21,robot_mechanical,M011446,"a person moves their hands slightly over their head and rotates, as if adjusting a mechanism.",1,0.81901664,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011446.txt
+22,robot_mechanical,011446,"a person moves their hands slightly over their head and rotates, as if adjusting a mechanism.",1,0.81901664,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011446.txt
+23,robot_mechanical,013886,a person stands still while making a horizontal circular motion with their right hand,1,0.8176314,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013886.txt
+24,robot_mechanical,000221,a person moves their left arm in a circular motion,1,0.8174585,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000221.txt
+25,robot_mechanical,M014553,person brings right arm up and bends it to stretch it backwards,0,0.8172939,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014553.txt
+26,robot_mechanical,013453,a person moves their arms from their left to the right.,2,0.817074,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013453.txt
+27,robot_mechanical,006565,a person moves something with both hands from left to right.,2,0.8153221,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006565.txt
+28,robot_mechanical,005659,a person stands from a sitting position and makes a motion with both of his hands.,1,0.81445646,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005659.txt
+29,robot_mechanical,M005659,a person stands from a sitting position and makes a motion with both of his hands.,1,0.81445646,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005659.txt
+30,robot_mechanical,000172,a person makes a big motion with their left arm,0,0.8142235,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000172.txt
+31,robot_mechanical,M006565,a person moves something with both hands from right to left.,2,0.813635,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006565.txt
+32,robot_mechanical,007903,a person stands and moves right hand side to side,0,0.81361073,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007903.txt
+33,robot_mechanical,M013547,a person rotates their arm in and out.,0,0.8133404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013547.txt
+34,robot_mechanical,013547,a person rotates their arm in and out.,0,0.8133404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013547.txt
+35,robot_mechanical,007752,a person moves right arm up and back to the knee,1,0.81279534,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007752.txt
+36,robot_mechanical,002568,a figure moves its hand in a circular motion across its body and right arm,2,0.8115016,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002568.txt
+37,robot_mechanical,009016,a person moves their arm back and forth in a pulling motion.,2,0.8114289,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009016.txt
+38,robot_mechanical,M009016,a person moves their arm back and forth in a pulling motion.,2,0.8114289,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009016.txt
+39,robot_mechanical,000583,"a person loosening up by moving their arms , shoulders and legs slightly.",0,0.811328,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000583.txt
+40,robot_mechanical,M000583,"a person loosening up by moving their arms , shoulders and legs slightly.",0,0.811328,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000583.txt
+41,robot_mechanical,M003638,a person rotates both arms in an clockwise rotation,1,0.8108948,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003638.txt
+42,robot_mechanical,007597,"a person uses reaching motion with right arm, and then brings hands to middle and extends arms outward and horizontally twice",1,0.81009775,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007597.txt
+43,robot_mechanical,M001065,a person sways slightly from left to right and uses him arms as if to balance himself.,0,0.8100779,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001065.txt
+44,robot_mechanical,M012001,person is moving something from right to left with both arms,1,0.80907637,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012001.txt
+45,robot_mechanical,012292,a person spreads their arms horizontally before letting them fall to their sides,1,0.80852896,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012292.txt
+46,robot_mechanical,M012292,a person spreads their arms horizontally before letting them fall to their sides,1,0.80852896,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012292.txt
+47,robot_mechanical,M013886,a person stands still while making a horizontal circular motion with their left hand,1,0.8080926,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013886.txt
+48,robot_mechanical,M004979,person takes left arm and stretches it in front of body,1,0.80794173,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004979.txt
+49,robot_mechanical,002049,a person reaches forward with their right arm,1,0.8074565,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002049.txt
+50,robot_mechanical,M004178,a person moves their left arm up and down in front of them,2,0.80667037,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004178.txt
+51,robot_mechanical,M002818,a person extends their arms back and forth,1,0.80656064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002818.txt
+52,robot_mechanical,002818,a person extends their arms back and forth,1,0.80656064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002818.txt
+53,robot_mechanical,M002092,a person bends left arm and moves it back and forth several times while slightly leaning to the left.,1,0.8058281,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002092.txt
+54,robot_mechanical,002222,person sat down moving right and left hands to rotate motion,2,0.80562234,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002222.txt
+55,robot_mechanical,012354,"a person stretches their arm out, curves outwards and returns it to the neutral position",0,0.80548215,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012354.txt
+56,robot_mechanical,M012354,"a person stretches their arm out, curves outwards and returns it to the neutral position",0,0.80548215,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012354.txt
+57,robot_mechanical,M012630,person extends arms forward and sweeps them outward,2,0.80543983,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012630.txt
+58,robot_mechanical,012630,person extends arms forward and sweeps them outward,2,0.80543983,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012630.txt
+59,robot_mechanical,005689,a person uses their arms to motion from the right side of the screen to the left side.,2,0.8050002,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005689.txt
+60,robot_mechanical,M007021,a person stands still and mixes something with their left arm in a counterclockwise motion.,2,0.804918,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007021.txt
+61,robot_mechanical,M007903,a person stands and moves left hand side to side,0,0.80459785,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007903.txt
+62,robot_mechanical,008143,a person stretches right hand forward,0,0.80456895,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008143.txt
+63,robot_mechanical,M006348,a person raises their arms and rotates their torso back and forth.,2,0.80434865,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006348.txt
+64,robot_mechanical,006348,a person raises their arms and rotates their torso back and forth.,2,0.80434865,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006348.txt
+65,robot_mechanical,M009840,a person uses their right arm to make a circular motion in front of them.,1,0.80420977,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009840.txt
+66,robot_mechanical,003923,a person appears to be moving something with both hands.,0,0.8039235,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003923.txt
+67,robot_mechanical,M003923,a person appears to be moving something with both hands.,0,0.8039235,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003923.txt
+68,robot_mechanical,005936,a person moves arms slightly in place.,2,0.8038893,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005936.txt
+69,robot_mechanical,M005936,a person moves arms slightly in place.,2,0.8038893,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005936.txt
+70,robot_mechanical,M005689,a person uses their arms to motion from the left side of the screen to the right side.,2,0.80381435,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005689.txt
+71,robot_mechanical,009944,a person reaches with their right arm and pulls on their upper left arm,2,0.8032923,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009944.txt
+72,robot_mechanical,M013453,a person moves their arms from their right to the left.,2,0.80299985,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013453.txt
+73,robot_mechanical,012001,person is moving something from left to right with both arms,1,0.8029154,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012001.txt
+74,robot_mechanical,012927,person moving arm in up motion,1,0.8022234,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012927.txt
+75,robot_mechanical,M012927,person moving arm in up motion,1,0.8022234,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012927.txt
+76,robot_mechanical,013287,"a person puts their right arm straight out and moves it to the left, in front, and then to the right",0,0.8021941,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013287.txt
+77,robot_mechanical,M011472,a person winding up their body to throw something a lot of force,1,0.8016206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011472.txt
+78,robot_mechanical,011472,a person winding up their body to throw something a lot of force,1,0.8016206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011472.txt
+79,robot_mechanical,014553,person brings left arm up and bends it to stretch it backwards,0,0.8015984,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014553.txt
+80,robot_mechanical,004067,a person reaches forward with the right hand and then lets their arm drop to their side.,0,0.8015946,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004067.txt
+81,robot_mechanical,001101,person  raises both arms and moves right arm in a forward motion,2,0.80153096,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001101.txt
+82,robot_mechanical,006951,a person releases their left arm while keeping their right arm extended,0,0.8015092,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006951.txt
+83,robot_mechanical,M001517,person raises their right arm and moved head towards wrist,2,0.80142134,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001517.txt
+84,robot_mechanical,M000799,a person moving arms and right leg in a certain motion,2,0.800884,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000799.txt
+85,robot_mechanical,004385,a person moves their right arm in a circular motion.,2,0.8008226,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004385.txt
+86,robot_mechanical,M001798,person turns body slightly and moves backwards,1,0.8003516,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001798.txt
+87,robot_mechanical,001798,person turns body slightly and moves backwards,1,0.8003516,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001798.txt
+88,robot_mechanical,M010510,a person stands in one place while their arms and upper body move around,0,0.8002474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010510.txt
+89,robot_mechanical,010510,a person stands in one place while their arms and upper body move around,0,0.8002474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010510.txt
+90,robot_mechanical,M007752,a person moves left arm up and back to the knee,1,0.8000178,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007752.txt
+91,robot_mechanical,001162,a person lifts an object and moves it from left to right and set it back down,2,0.79963475,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001162.txt
+92,robot_mechanical,M002222,person sat down moving left and right hands to rotate motion,2,0.799602,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002222.txt
+93,robot_mechanical,M007732,"a person moves both arms straight in front, and bends them at the elbow",1,0.79948866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007732.txt
+94,robot_mechanical,007732,"a person moves both arms straight in front, and bends them at the elbow",1,0.79948866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007732.txt
+95,robot_mechanical,000272,a person moves their left hand in a clockwise motion,1,0.7993355,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000272.txt
+96,robot_mechanical,M013287,"a person puts their left arm straight out and moves it to the right, in front, and then to the left",0,0.79925936,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013287.txt
+97,robot_mechanical,M000038,a person bends their arms at the elbow and moves their right arm up and down,2,0.79921097,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000038.txt
+98,robot_mechanical,M006951,a person releases their right arm while keeping their left arm extended,0,0.79912245,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006951.txt
+99,robot_mechanical,001265,a person moves their arms and shoulders back and forth.,2,0.7990752,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001265.txt
+100,robot_mechanical,M001265,a person moves their arms and shoulders back and forth.,2,0.7990752,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001265.txt
+101,robot_mechanical,M004170,a person sits and moves their right arm,0,0.79885375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004170.txt
+102,robot_mechanical,M002042,a person tilts over then stand up shifting both hands to the left.,0,0.79874027,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002042.txt
+103,robot_mechanical,009840,a person uses their left arm to make a circular motion in front of them.,1,0.7985419,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009840.txt
+104,robot_mechanical,007917,a person shifts their body from left to right before throwing forward with their right hand.,2,0.79844475,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007917.txt
+105,robot_mechanical,012853,a person performs a stretch to the right,1,0.7983005,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012853.txt
+106,robot_mechanical,004503,a person moves something with both arms.,2,0.7982761,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004503.txt
+107,robot_mechanical,M004503,a person moves something with both arms.,2,0.7982761,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004503.txt
+108,robot_mechanical,M001874,a person is moving its right and left arm up and down from shoulder to side,2,0.79822904,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001874.txt
+109,robot_mechanical,002042,a person tilts over then stand up shifting both hands to the right.,0,0.7980064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002042.txt
+110,robot_mechanical,M009080,"a person spreads with arms straight out, before beinging them back down to their side",0,0.79796124,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009080.txt
+111,robot_mechanical,009080,"a person spreads with arms straight out, before beinging them back down to their side",0,0.79796124,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009080.txt
+112,robot_mechanical,002885,a person moves their right hand in a clockwise motion in front of them at chest level,0,0.7978361,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002885.txt
+113,robot_mechanical,007281,a person bends slightly at the shoulders and mimics the movements of picking something up with both arms moving it from their left side to their right side.,0,0.79764026,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007281.txt
+114,robot_mechanical,001065,a person sways slightly from right to left and uses him arms as if to balance himself.,0,0.79740775,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001065.txt
+115,robot_mechanical,000754,a person is moving both hands in an up and down motion.,2,0.7973937,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000754.txt
+116,robot_mechanical,M000754,a person is moving both hands in an up and down motion.,2,0.7973937,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000754.txt
+117,robot_mechanical,001761,person moves forward and moves right hand with something in it carefully,1,0.7972287,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001761.txt
+118,robot_mechanical,M001162,a person lifts an object and moves it from right to left and set it back down,2,0.7972096,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001162.txt
+119,robot_mechanical,006556,a person moves their right hand in front of their body quickly.,0,0.7970452,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006556.txt
+120,robot_mechanical,012265,a person uses their left arm out in front of their body in a counter-clockwise rotating motion,0,0.79703176,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012265.txt
+121,robot_mechanical,007278,"a person stands still while using their right arm to move from left to right, up and then down, and then out and in.",0,0.79701966,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007278.txt
+122,robot_mechanical,M012853,a person performs a stretch to the left,1,0.7969582,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012853.txt
+123,robot_mechanical,004935,a person lifts something with both hands and moves it towards their right side then sets it down,2,0.7967895,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004935.txt
+124,robot_mechanical,000635,a person quickly folds their arms while standing up,0,0.7967267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000635.txt
+125,robot_mechanical,M000635,a person quickly folds their arms while standing up,0,0.7967267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000635.txt
+126,robot_mechanical,003638,a person rotates both arms in an anti-clockwise rotation,1,0.7965348,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003638.txt
+127,robot_mechanical,000885,person lifts their right arm up to their side and puts it back down again,1,0.7963233,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000885.txt
+128,robot_mechanical,006347,person is bending slightly and putting arms out to side,1,0.7961465,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006347.txt
+129,robot_mechanical,M006347,person is bending slightly and putting arms out to side,1,0.7961465,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006347.txt
+130,robot_mechanical,002092,a person bends right arm and moves it back and forth several times while slightly leaning to the right.,1,0.7958401,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002092.txt
+131,robot_mechanical,001073,a person makes an s-motion with their hands & arms.,0,0.7957815,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001073.txt
+132,robot_mechanical,M001073,a person makes an s-motion with their hands & arms.,0,0.7957815,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001073.txt
+133,robot_mechanical,M002038,a person bends their arms at the elbows and moves them up and down,0,0.7957704,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002038.txt
+134,robot_mechanical,002038,a person bends their arms at the elbows and moves them up and down,0,0.7957704,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002038.txt
+135,robot_mechanical,M007597,"a person uses reaching motion with left arm, and then brings hands to middle and extends arms outward and horizontally twice",1,0.7956862,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007597.txt
+136,robot_mechanical,M009632,a person raises their arms then shift their body from right to left before bending down and repeating.,0,0.79561913,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009632.txt
+137,robot_mechanical,M013835,a person moves from side to side in a dance motion,0,0.79560494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013835.txt
+138,robot_mechanical,013835,a person moves from side to side in a dance motion,0,0.79560494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013835.txt
+139,robot_mechanical,014190,a person bend the body to right direction,1,0.79553235,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014190.txt
+140,robot_mechanical,000038,a person bends their arms at the elbow and moves their left arm up and down,2,0.79551244,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000038.txt
+141,robot_mechanical,M011860,person is stretching by moving around their shoulders and arms,2,0.79548013,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011860.txt
+142,robot_mechanical,011860,person is stretching by moving around their shoulders and arms,2,0.79548013,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011860.txt
+143,robot_mechanical,003894,a person lifts up both hands and rotates to the right.,0,0.79537535,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003894.txt
+144,robot_mechanical,M014190,a person bend the body to left direction,1,0.79535913,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014190.txt
+145,robot_mechanical,M014613,a person reaches form something on the right and moves it to the left.,1,0.79532075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014613.txt
+146,robot_mechanical,009632,a person raises their arms then shift their body from left to right before bending down and repeating.,0,0.79510176,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009632.txt
+147,robot_mechanical,M014408,a person is being active with their arms while turning around.,1,0.7950982,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014408.txt
+148,robot_mechanical,014408,a person is being active with their arms while turning around.,1,0.7950982,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014408.txt
+149,robot_mechanical,M003757,a person wave their arm in a straight motion,2,0.79494333,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003757.txt
+150,robot_mechanical,003757,a person wave their arm in a straight motion,2,0.79494333,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003757.txt
+151,robot_mechanical,002325,a person walks in an 's' motion with their arms slightly bent.,2,0.7946711,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002325.txt
+152,robot_mechanical,M002325,a person walks in an 's' motion with their arms slightly bent.,2,0.7946711,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002325.txt
+153,robot_mechanical,003916,a person flexes chest area by moving arms outwards and inwards.,2,0.79456556,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003916.txt
+154,robot_mechanical,M003916,a person flexes chest area by moving arms outwards and inwards.,2,0.79456556,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003916.txt
+155,robot_mechanical,M001101,person  raises both arms and moves left arm in a forward motion,2,0.7944696,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001101.txt
+156,robot_mechanical,M005105,a person with the help of the right arm stretches the left arm,1,0.7944524,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005105.txt
+157,robot_mechanical,M004181,a person walks forward and puts arms out at sides like trying to balance,2,0.79421675,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004181.txt
+158,robot_mechanical,004181,a person walks forward and puts arms out at sides like trying to balance,2,0.79421675,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004181.txt
+159,robot_mechanical,M010775,person lifts right arm to the front and then to the side,2,0.7940841,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010775.txt
+160,robot_mechanical,M013780,person leans forward and stretches out right hand to move something around,1,0.79388,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013780.txt
+161,robot_mechanical,008199,a person moves their right hand up and down in a repetitive motion.,2,0.7938745,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008199.txt
+162,robot_mechanical,009485,a person reaches his right arm straight forward,1,0.7935076,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009485.txt
+163,robot_mechanical,001703,"a person lowers arms from being stretched out to either side, and turns around clockwise.",0,0.79350424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001703.txt
+164,robot_mechanical,M002049,a person reaches forward with their left arm,1,0.79336846,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002049.txt
+165,robot_mechanical,009782,a person performs a joining motion with their hands twice.,1,0.7930895,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009782.txt
+166,robot_mechanical,M009782,a person performs a joining motion with their hands twice.,1,0.7930895,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009782.txt
+167,robot_mechanical,008810,a person lifts and moves something from left to right.,2,0.79293436,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008810.txt
+168,robot_mechanical,008969,"person reaches forward with hands, and makes repeated movements in front of themselves.",0,0.7926737,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008969.txt
+169,robot_mechanical,M008969,"person reaches forward with hands, and makes repeated movements in front of themselves.",0,0.7926737,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008969.txt
+170,robot_mechanical,000799,a person moving arms and left leg in a certain motion,2,0.79246914,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000799.txt
+171,robot_mechanical,003374,person bends down a little in a lifting position and moves hands left to right,2,0.79244375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003374.txt
+172,robot_mechanical,013363,a person is doing a dance while shifting between both arm positions and turning around.,1,0.7922056,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013363.txt
+173,robot_mechanical,M013363,a person is doing a dance while shifting between both arm positions and turning around.,1,0.7922056,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013363.txt
+174,robot_mechanical,001874,a person is moving its left and right arm up and down from shoulder to side,2,0.79206586,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001874.txt
+175,robot_mechanical,M004385,a person moves their left arm in a circular motion.,2,0.7917585,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004385.txt
+176,robot_mechanical,M007281,a person bends slightly at the shoulders and mimics the movements of picking something up with both arms moving it from their right side to their left side.,0,0.7915077,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007281.txt
+177,robot_mechanical,003660,a person does a small body shift while standing.,2,0.79142594,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003660.txt
+178,robot_mechanical,M003660,a person does a small body shift while standing.,2,0.79142594,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003660.txt
+179,robot_mechanical,004511,"a person lifts an object with both hands, shifts it to the side, and sets it down.",0,0.7914123,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004511.txt
+180,robot_mechanical,M004511,"a person lifts an object with both hands, shifts it to the side, and sets it down.",0,0.7914123,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004511.txt
+181,robot_mechanical,001517,person raises their left arm and moved head towards wrist,2,0.79129183,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001517.txt
+182,robot_mechanical,010075,a person rotates their right hand and arm in a clockwise motion in front of themselves parallel to the floor.,2,0.79125285,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010075.txt
+183,robot_mechanical,M008810,a person lifts and moves something from right to left.,2,0.791037,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008810.txt
+184,robot_mechanical,001827,a person moves quickly forward with arms and legs outstretched to appear bigger.,0,0.79095143,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001827.txt
+185,robot_mechanical,M001827,a person moves quickly forward with arms and legs outstretched to appear bigger.,0,0.79095143,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001827.txt
+186,robot_mechanical,M004935,a person lifts something with both hands and moves it towards their left side then sets it down,2,0.790892,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004935.txt
+187,robot_mechanical,005905,"a person bend the body, in righ and left direction",0,0.7907813,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005905.txt
+188,robot_mechanical,000468,a person moves their hand clockwise at waist level,2,0.7906135,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000468.txt
+189,robot_mechanical,007686,a person moves their arms in front of them.,0,0.790444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007686.txt
+190,robot_mechanical,M007686,a person moves their arms in front of them.,0,0.790444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007686.txt
+191,robot_mechanical,M012651,a person does a throwing motion with their right arm,2,0.7903831,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012651.txt
+192,robot_mechanical,M003423,"a person takes slow, steady steps forward with their arms loose at their side",1,0.79035336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003423.txt
+193,robot_mechanical,003423,"a person takes slow, steady steps forward with their arms loose at their side",1,0.79035336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003423.txt
+194,robot_mechanical,006275,"a person reaches forward with their right arm, then puts their arm back down at their side.",1,0.7903285,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006275.txt
+195,robot_mechanical,001569,a person moves an object from a surface from their left to their right,0,0.78989196,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001569.txt
+196,robot_mechanical,M008000,a person reaching over to move something,1,0.78972375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008000.txt
+197,robot_mechanical,008000,a person reaching over to move something,1,0.78972375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008000.txt
+198,robot_mechanical,M008143,a person stretches left hand forward,0,0.78947014,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008143.txt
+199,robot_mechanical,M007278,"a person stands still while using their left arm to move from right to left, up and then down, and then out and in.",0,0.78934187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007278.txt
+200,robot_mechanical,009754,person is a low stance raises right arm above head and moves forward,1,0.78924763,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009754.txt
+201,robot_mechanical,M006556,a person moves their left hand in front of their body quickly.,0,0.7889833,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006556.txt
+202,robot_mechanical,M003894,a person lifts up both hands and rotates to the left.,0,0.78878856,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003894.txt
+203,robot_mechanical,009606,a person moves arm back and forth and then sets something down on the ground.,0,0.7886666,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009606.txt
+204,robot_mechanical,M009606,a person moves arm back and forth and then sets something down on the ground.,0,0.7886666,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009606.txt
+205,robot_mechanical,M002109,a person swings their right arm them spreads both arms.,0,0.7885847,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002109.txt
+206,robot_mechanical,010376,a person loosely hangs their arms in front and shifts their weight back and forth,2,0.78850836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010376.txt
+207,robot_mechanical,M010376,a person loosely hangs their arms in front and shifts their weight back and forth,2,0.78850836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010376.txt
+208,robot_mechanical,M003374,person bends down a little in a lifting position and moves hands right to left,2,0.7884993,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003374.txt
+209,robot_mechanical,003695,person does full rotation of arms inwards to shoulder then extends arms from hips to just above shoulder height,1,0.7884064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003695.txt
+210,robot_mechanical,M003695,person does full rotation of arms inwards to shoulder then extends arms from hips to just above shoulder height,1,0.7884064,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003695.txt
+211,robot_mechanical,004693,a person rotates their right arm at the elbow,1,0.7882142,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004693.txt
+212,robot_mechanical,002035,a person uses its hands to make fast movements at chest height and turns left and right.,0,0.78817225,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002035.txt
+213,robot_mechanical,M006747,a person bounces their body from right to left,2,0.78815514,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006747.txt
+214,robot_mechanical,002899,a person is leaning forward and making rapid movements with their right arm.,0,0.78770435,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002899.txt
+215,robot_mechanical,002616,"a person moves their arms in circular motions, alternating left and right.",1,0.78768563,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002616.txt
+216,robot_mechanical,014247,a person moves his right arm straight up and then to the right while standing still.,2,0.78758574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014247.txt
+217,robot_mechanical,010741,a person walks forward while using their arms mildly to balance.,1,0.7874498,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010741.txt
+218,robot_mechanical,M010741,a person walks forward while using their arms mildly to balance.,1,0.7874498,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010741.txt
+219,robot_mechanical,000063,"a person bends down to grab something, then moves their arm",2,0.7874392,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000063.txt
+220,robot_mechanical,M000063,"a person bends down to grab something, then moves their arm",2,0.7874392,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000063.txt
+221,robot_mechanical,014613,a person reaches form something on the left and moves it to the right.,1,0.7874116,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014613.txt
+222,robot_mechanical,M011421,a person sways side to side while raising and lowering their arms and shoulders.,2,0.7872126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011421.txt
+223,robot_mechanical,011421,a person sways side to side while raising and lowering their arms and shoulders.,2,0.7872126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011421.txt
+224,robot_mechanical,M005608,a person rotates an object to the left side of their body and returns the object to their front,2,0.7872044,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005608.txt
+225,robot_mechanical,M010159,a person stretching to the right and left,1,0.78718734,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010159.txt
+226,robot_mechanical,009793,a person standing moving right arm in an upward motion .,2,0.7871762,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009793.txt
+227,robot_mechanical,012085,"a person bends their left arm at the waist, before sticking out their right arm straight forward and rotating clockwise",1,0.78716165,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012085.txt
+228,robot_mechanical,M007887,person lifts right arm up repeatedly,1,0.7871357,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007887.txt
+229,robot_mechanical,001847,a person bends over and moves their right hand back and forth horizontally several times.,2,0.7870878,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001847.txt
+230,robot_mechanical,012408,a person pivots backwards while holding alternating arms out in defense,0,0.78695315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012408.txt
+231,robot_mechanical,M012408,a person pivots backwards while holding alternating arms out in defense,0,0.78695315,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012408.txt
+232,robot_mechanical,M011897,a person uses their right arm to get up from a kneeling position,2,0.78660405,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011897.txt
+233,robot_mechanical,009343,a person reaches their left arm up in a clockwise motion and drops it to their side.,2,0.78649974,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009343.txt
+234,robot_mechanical,010775,person lifts left arm to the front and then to the side,2,0.7864866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010775.txt
+235,robot_mechanical,M004126,a person moves something with both hands.,1,0.78627354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004126.txt
+236,robot_mechanical,M007982,a person moves something with both hands.,0,0.78627354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007982.txt
+237,robot_mechanical,004126,a person moves something with both hands.,1,0.78627354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004126.txt
+238,robot_mechanical,007982,a person moves something with both hands.,0,0.78627354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007982.txt
+239,robot_mechanical,M010849,a person moves something with both hands.,0,0.78627354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010849.txt
+240,robot_mechanical,M012904,a person moves something with both hands.,2,0.78627354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012904.txt
+241,robot_mechanical,010849,a person moves something with both hands.,0,0.78627354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010849.txt
+242,robot_mechanical,012904,a person moves something with both hands.,2,0.78627354,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012904.txt
+243,robot_mechanical,M002035,a person uses its hands to make fast movements at chest height and turns right and left.,0,0.78610253,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002035.txt
+244,robot_mechanical,M008261,a person is standing with hands in front of them and slightly moves them.,0,0.78600144,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008261.txt
+245,robot_mechanical,008261,a person is standing with hands in front of them and slightly moves them.,0,0.78600144,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008261.txt
+246,robot_mechanical,001640,a person moves their hands in alternating circular motions,1,0.7859495,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001640.txt
+247,robot_mechanical,M001640,a person moves their hands in alternating circular motions,1,0.7859495,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001640.txt
+248,robot_mechanical,010159,a person stretching to the left and right,1,0.785949,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010159.txt
+249,robot_mechanical,M011118,a person bends their elbow and moves their right arm up and down quickly.,1,0.7859434,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011118.txt
+250,robot_mechanical,009634,a person moves object from left to right and turns it on its side.,2,0.78577715,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009634.txt
+251,robot_mechanical,M011312,a person is moving their right arm erratically.,2,0.78569525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011312.txt
+252,robot_mechanical,M008199,a person moves their left hand up and down in a repetitive motion.,2,0.785567,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008199.txt
+253,robot_mechanical,M009944,a person reaches with their left arm and pulls on their upper right arm,2,0.78555745,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009944.txt
+254,robot_mechanical,011593,person moves forward and uses right  hand to  pick something up and move to side,0,0.7854166,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011593.txt
+255,robot_mechanical,002211,a person signals with arm movements.,1,0.7853908,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002211.txt
+256,robot_mechanical,M002211,a person signals with arm movements.,1,0.7853908,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002211.txt
+257,robot_mechanical,007792,a person stretches with both arms,1,0.78536904,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007792.txt
+258,robot_mechanical,M007792,a person stretches with both arms,1,0.78536904,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007792.txt
+259,robot_mechanical,M004123,person turns different directions whilst moving arms all over the place  from side to side stretched out,1,0.7852961,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004123.txt
+260,robot_mechanical,004123,person turns different directions whilst moving arms all over the place  from side to side stretched out,1,0.7852961,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004123.txt
+261,robot_mechanical,M010761,a person lifts something that is placed horizontally and shifts it to a vertical position on their left,2,0.7851113,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010761.txt
+262,robot_mechanical,005105,a person with the help of the left arm stretches the right arm,1,0.78506863,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005105.txt
+263,robot_mechanical,M012509,a person moves their right arm in a circular motion in front of their stomach area.,1,0.7850581,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012509.txt
+264,robot_mechanical,013846,a person using the right arm to reach for something.,0,0.7848278,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013846.txt
+265,robot_mechanical,013780,person leans forward and stretches out left hand to move something around,1,0.784698,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013780.txt
+266,robot_mechanical,M005024,a person moves chaotically with wide arms and legs.,1,0.78468394,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005024.txt
+267,robot_mechanical,005024,a person moves chaotically with wide arms and legs.,1,0.78468394,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005024.txt
+268,robot_mechanical,M002899,a person is leaning forward and making rapid movements with their left arm.,0,0.78465635,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002899.txt
+269,robot_mechanical,002712,"a person lowers their arms, then uses their right hand to push an object to the side.",2,0.7846379,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002712.txt
+270,robot_mechanical,M009741,a person uses his right arm to do a passing something back motion,0,0.78456426,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009741.txt
+271,robot_mechanical,004408,a person sticking right arm directly in front.,2,0.7845241,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004408.txt
+272,robot_mechanical,M007708,a person turns with their arms to stretch.,1,0.78448206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007708.txt
+273,robot_mechanical,007708,a person turns with their arms to stretch.,1,0.78448206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007708.txt
+274,robot_mechanical,005608,a person rotates an object to the right side of their body and returns the object to their front,2,0.78439677,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005608.txt
+275,robot_mechanical,012651,a person does a throwing motion with their left arm,2,0.7843263,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012651.txt
+276,robot_mechanical,M012584,a person reaches his right arm straight out,0,0.7842821,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012584.txt
+277,robot_mechanical,011118,a person bends their elbow and moves their left arm up and down quickly.,1,0.7842082,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011118.txt
+278,robot_mechanical,002441,person pushes their right arm forward,2,0.7841941,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002441.txt
+279,robot_mechanical,M009508,a person is making forward motions with incorporated dance moves,2,0.784143,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009508.txt
+280,robot_mechanical,009508,a person is making forward motions with incorporated dance moves,2,0.784143,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009508.txt
+281,robot_mechanical,M012072,"a person lifts an object with both hands, moves it to their left, and then sets it back down.",1,0.78413427,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012072.txt
+282,robot_mechanical,002087,a person walks forward while holding out their arms for balance,0,0.78408265,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002087.txt
+283,robot_mechanical,M002087,a person walks forward while holding out their arms for balance,0,0.78408265,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002087.txt
+284,robot_mechanical,M001569,a person moves an object from a surface from their right to their left,0,0.78407484,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001569.txt
+285,robot_mechanical,007366,a person doing robot dance moves,0,0.7840017,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007366.txt
+286,robot_mechanical,M007366,a person doing robot dance moves,0,0.7840017,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007366.txt
+287,robot_mechanical,M012900,a person rotates in a clockwise motion,0,0.7839023,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012900.txt
+288,robot_mechanical,M002712,"a person lowers their arms, then uses their left hand to push an object to the side.",2,0.7838134,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002712.txt
+289,robot_mechanical,M001672,a person moves his right arm up and his left arm downward.,1,0.7838014,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001672.txt
+290,robot_mechanical,001565,"a figure bends down slightly, extends his arms, mimics a lifting motion at the waist",2,0.78378075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001565.txt
+291,robot_mechanical,M001565,"a figure bends down slightly, extends his arms, mimics a lifting motion at the waist",2,0.78378075,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001565.txt
+292,robot_mechanical,011319,a person lifts their arms and spins slowly,2,0.7837241,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011319.txt
+293,robot_mechanical,M011319,a person lifts their arms and spins slowly,2,0.7837241,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011319.txt
+294,robot_mechanical,007684,a person grabs something at waist level with both hands and moves it to the right.,0,0.78331184,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007684.txt
+295,robot_mechanical,011149,a person holds their arms to the side to balance and walks in a straight line.,1,0.78319156,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011149.txt
+296,robot_mechanical,M011149,a person holds their arms to the side to balance and walks in a straight line.,1,0.78319156,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011149.txt
+297,robot_mechanical,013253,a person has arms back and head forwards bouning around.,1,0.7829968,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013253.txt
+298,robot_mechanical,M013253,a person has arms back and head forwards bouning around.,1,0.7829968,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013253.txt
+299,robot_mechanical,002195,a person backs up before moving their arms out and pushing something.,0,0.78294253,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002195.txt
+300,robot_mechanical,M002195,a person backs up before moving their arms out and pushing something.,0,0.78294253,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002195.txt
+301,robot_mechanical,005927,a person moves arms in and out in front of his body.,2,0.78270507,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005927.txt
+302,robot_mechanical,M005927,a person moves arms in and out in front of his body.,2,0.78270507,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005927.txt
+303,robot_mechanical,M004067,a person reaches forward with the left hand and then lets their arm drop to their side.,0,0.7826556,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004067.txt
+304,robot_mechanical,M006575,a person reaches with their right arm to the right and then turns their upper body to the left.,2,0.78226995,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006575.txt
+305,robot_mechanical,M000885,person lifts their left arm up to their side and puts it back down again,1,0.7822504,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000885.txt
+306,robot_mechanical,M004678,person stretches across the body on both sides.,1,0.7821747,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004678.txt
+307,robot_mechanical,004678,person stretches across the body on both sides.,1,0.7821747,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004678.txt
+308,robot_mechanical,012072,"a person lifts an object with both hands, moves it to their right, and then sets it back down.",1,0.7821125,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012072.txt
+309,robot_mechanical,002964,"a person lifts their right arm to a horizontal position, holds it there for a brief moment, and then returns to their side.",2,0.7820263,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002964.txt
+310,robot_mechanical,M003946,a person moves arms and legs in various ranges of movement.,2,0.7819922,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003946.txt
+311,robot_mechanical,003946,a person moves arms and legs in various ranges of movement.,2,0.7819922,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003946.txt
+312,robot_mechanical,006409,a person stretches out its right arm then moves it back to its side.,0,0.78188175,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006409.txt
+313,robot_mechanical,M003888,a person appears to be moving something with his hands.,0,0.78181696,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003888.txt
+314,robot_mechanical,003888,a person appears to be moving something with his hands.,0,0.78181696,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003888.txt
+315,robot_mechanical,M002616,"a person moves their arms in circular motions, alternating right and left.",1,0.7817342,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002616.txt
+316,robot_mechanical,006747,a person bounces their body from left to right,2,0.78167933,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006747.txt
+317,robot_mechanical,M001847,a person bends over and moves their left hand back and forth horizontally several times.,2,0.78155226,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001847.txt
+318,robot_mechanical,M009754,person is a low stance raises left arm above head and moves forward,1,0.7815162,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009754.txt
+319,robot_mechanical,M011270,a person is moving their right arm in a circular motion in the air.,1,0.7814882,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011270.txt
+320,robot_mechanical,M002376,a person lifts arms and twists body to the left and right.,1,0.78145397,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002376.txt
+321,robot_mechanical,008548,a person moves their arms from side to side from the elbows out.,2,0.7814206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008548.txt
+322,robot_mechanical,M008548,a person moves their arms from side to side from the elbows out.,2,0.7814206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008548.txt
+323,robot_mechanical,005913,a person stretches their arms forward and to the side.,0,0.78137565,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005913.txt
+324,robot_mechanical,M005913,a person stretches their arms forward and to the side.,0,0.78137565,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005913.txt
+325,robot_mechanical,M007093,a person twisting from side to side and puts right arm up.,2,0.78130054,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007093.txt
+326,robot_mechanical,012600,a person has right arm up to push something away,1,0.7812601,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012600.txt
+327,robot_mechanical,M001761,person moves forward and moves left hand with something in it carefully,1,0.78115875,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001761.txt
+328,robot_mechanical,009937,a person extends their arms to the side.,1,0.7810639,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009937.txt
+329,robot_mechanical,M009937,a person extends their arms to the side.,1,0.7810639,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009937.txt
+330,robot_mechanical,004634,person moving his torso in circular motion from right to left,0,0.7810183,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004634.txt
+331,robot_mechanical,013112,person bends down lifting something with their hands and moving the object to the right before bringing their arms back in front of them.,2,0.78084856,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013112.txt
+332,robot_mechanical,003163,a person is moving their right hand back and forth in front of their face.,2,0.7808341,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003163.txt
+333,robot_mechanical,M004475,"a person quickly scrambles around, moving its arms as it goes",0,0.7806994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004475.txt
+334,robot_mechanical,004475,"a person quickly scrambles around, moving its arms as it goes",0,0.7806994,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004475.txt
+335,robot_mechanical,M009485,a person reaches his left arm straight forward,1,0.7805879,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009485.txt
+336,robot_mechanical,M006113,a person twist their body in a very fluid motion,0,0.7805437,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006113.txt
+337,robot_mechanical,006113,a person twist their body in a very fluid motion,0,0.7805437,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006113.txt
+338,robot_mechanical,M002118,a person who is lifting left and right arms.,0,0.780527,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002118.txt
+339,robot_mechanical,008883,a person lifts up their right arm and touches it with the left,1,0.7805167,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008883.txt
+340,robot_mechanical,M005482,a person stretches out arms and legs,2,0.7804449,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005482.txt
+341,robot_mechanical,005482,a person stretches out arms and legs,2,0.7804449,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005482.txt
+342,robot_mechanical,M010598,a person moving his both arms,1,0.7803663,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010598.txt
+343,robot_mechanical,010598,a person moving his both arms,1,0.7803663,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010598.txt
+344,robot_mechanical,003725,"a person puts their arms out, moves forward and grabs something",1,0.7803568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003725.txt
+345,robot_mechanical,M003725,"a person puts their arms out, moves forward and grabs something",1,0.7803568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003725.txt
+346,robot_mechanical,000447,a person stands still then slightly moves their arms,0,0.78021985,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000447.txt
+347,robot_mechanical,M000447,a person stands still then slightly moves their arms,0,0.78021985,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000447.txt
+348,robot_mechanical,M008883,a person lifts up their left arm and touches it with the right,1,0.7801941,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008883.txt
+349,robot_mechanical,012499,a person strafes back and forth from right to left.,1,0.7801497,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012499.txt
+350,robot_mechanical,M001301,a person standing up uses both of their hands to swing an object with little force.,0,0.7800996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001301.txt
+351,robot_mechanical,001301,a person standing up uses both of their hands to swing an object with little force.,0,0.7800996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001301.txt
+352,robot_mechanical,M014308,person is making different movements with right arm,1,0.77998906,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014308.txt
+353,robot_mechanical,M005905,"a person bend the body, in righ and right direction",0,0.77993715,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005905.txt
+354,robot_mechanical,002291,"person moves their arms and legs about, bends down then back up again",2,0.77991676,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002291.txt
+355,robot_mechanical,M002291,"person moves their arms and legs about, bends down then back up again",2,0.77991676,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002291.txt
+356,robot_mechanical,M010793,a person moves his hands from left to right hitting something.,1,0.7799034,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010793.txt
+357,robot_mechanical,003792,a person shifts down to their right side then stand up with arms extended.,1,0.7798015,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003792.txt
+358,robot_mechanical,M007661,a person moves their arms in a strange manner.,0,0.77979857,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007661.txt
+359,robot_mechanical,007661,a person moves their arms in a strange manner.,0,0.77979857,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007661.txt
+360,robot_mechanical,003954,"a person standing in one position, gently swinging both arms in back-and-forth motion",0,0.77979374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003954.txt
+361,robot_mechanical,M003954,"a person standing in one position, gently swinging both arms in back-and-forth motion",0,0.77979374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003954.txt
+362,robot_mechanical,M004693,a person rotates their left arm at the elbow,1,0.7797568,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004693.txt
+363,robot_mechanical,M008130,a person bends forward slightly at the waist and continually uses the left hand to stroke something softly,2,0.7796991,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008130.txt
+364,robot_mechanical,M001694,a person bends forward and reaches down with hand.,2,0.77962136,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001694.txt
+365,robot_mechanical,001694,a person bends forward and reaches down with hand.,2,0.77962136,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001694.txt
+366,robot_mechanical,006990,a person swings their right arm across their body in an upwards motion.,0,0.77958596,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006990.txt
+367,robot_mechanical,001591,a person with arms down and relaxed makes a forward upward motion with right arm.,0,0.7795361,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001591.txt
+368,robot_mechanical,010994,a person with their arms stretch straight out folds their arm to there chest and then back out repetedly,2,0.77948755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010994.txt
+369,robot_mechanical,M010994,a person with their arms stretch straight out folds their arm to there chest and then back out repetedly,2,0.77948755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010994.txt
+370,robot_mechanical,002280,a figure with arms out rotates down the moves hands around.,0,0.77941185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002280.txt
+371,robot_mechanical,M002280,a figure with arms out rotates down the moves hands around.,0,0.77941185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002280.txt
+372,robot_mechanical,M003571,"a person rotates their right hand in front of their body, then their left hand.",1,0.7793896,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003571.txt
+373,robot_mechanical,011092,a person moves their right hand from left to right in front of them.,2,0.779352,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011092.txt
+374,robot_mechanical,M012938,a person stands in the same spot swaying back and forth moving their hands around,0,0.77920866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012938.txt
+375,robot_mechanical,012938,a person stands in the same spot swaying back and forth moving their hands around,0,0.77920866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012938.txt
+376,robot_mechanical,007638,a person takes a few quick steps forward with their arms swinging at their sides.,2,0.77913105,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007638.txt
+377,robot_mechanical,M007638,a person takes a few quick steps forward with their arms swinging at their sides.,2,0.77913105,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007638.txt
+378,robot_mechanical,M003188,a person moving both arms in a certain rotation and then bending both arms backwards like a stretching motion,0,0.77907467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003188.txt
+379,robot_mechanical,003188,a person moving both arms in a certain rotation and then bending both arms backwards like a stretching motion,0,0.77907467,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003188.txt
+380,robot_mechanical,M012371,a person walks forward with each arm extended at their sides as if they are trying to balance themselves.,1,0.7788882,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012371.txt
+381,robot_mechanical,012371,a person walks forward with each arm extended at their sides as if they are trying to balance themselves.,1,0.7788882,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012371.txt
+382,robot_mechanical,003494,person picks up something on their left side and moves it to their right side,0,0.7788594,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003494.txt
+383,robot_mechanical,008730,person is doing a huge stretch  to the right,0,0.7788371,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008730.txt
+384,robot_mechanical,M006602,a person dizzily walks forward and uses their hands to steady themselves,1,0.7787721,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006602.txt
+385,robot_mechanical,006602,a person dizzily walks forward and uses their hands to steady themselves,1,0.7787721,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006602.txt
+386,robot_mechanical,002370,a person lefts his both hands sideways while squating.,1,0.778703,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002370.txt
+387,robot_mechanical,M011939,person slowly moves right arm up in the air,2,0.7786883,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011939.txt
+388,robot_mechanical,M001135,a person bends and rests their hands on their thights before putting their arms straight out,1,0.7785395,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001135.txt
+389,robot_mechanical,001135,a person bends and rests their hands on their thights before putting their arms straight out,1,0.7785395,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001135.txt
+390,robot_mechanical,012942,a person uses both hands to lift and move an object.,2,0.778466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012942.txt
+391,robot_mechanical,005321,a person uses both hands to lift and move an object.,2,0.778466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005321.txt
+392,robot_mechanical,M005321,a person uses both hands to lift and move an object.,2,0.778466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005321.txt
+393,robot_mechanical,M012942,a person uses both hands to lift and move an object.,2,0.778466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012942.txt
+394,robot_mechanical,M003092,a person moves right hand to torso and then raises left arm,1,0.7784536,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003092.txt
+395,robot_mechanical,004781,a person brings their right knee up to their chest and moves it around side to side.,2,0.7783985,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004781.txt
+396,robot_mechanical,007996,a person extending their right arm out.,1,0.77832603,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007996.txt
+397,robot_mechanical,M003535,"a person holds something in its hands and moves his arms side to side, then moves it up and side to side again",2,0.778242,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003535.txt
+398,robot_mechanical,003535,"a person holds something in its hands and moves his arms side to side, then moves it up and side to side again",2,0.778242,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003535.txt
+399,robot_mechanical,001151,a person moves their arms from their chest outwards.,2,0.7782147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001151.txt
+400,robot_mechanical,M001151,a person moves their arms from their chest outwards.,2,0.7782147,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001151.txt
+401,robot_mechanical,009970,a person repeatedly reaches for an object and appears to put it back with their right hand.,1,0.7781823,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009970.txt
+402,robot_mechanical,010761,a person lifts something that is placed horizontally and shifts it to a vertical position on their right,2,0.77801085,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010761.txt
+403,robot_mechanical,010119,a person makes a circular motion with their arms forward and backward.,0,0.77800286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010119.txt
+404,robot_mechanical,M010119,a person makes a circular motion with their arms forward and backward.,0,0.77800286,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010119.txt
+405,robot_mechanical,007297,"a person rotates their entire outstretched left arm at the shoulder, forwards and then backwards.",1,0.77798855,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007297.txt
+406,robot_mechanical,008469,person makes a throwing motion with right arm,2,0.7777866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008469.txt
+407,robot_mechanical,008130,a person bends forward slightly at the waist and continually uses the right hand to stroke something softly,2,0.7777692,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008130.txt
+408,robot_mechanical,M012693,"a person leans slightly to each side while moving one hand, and rotating to the other hand.",1,0.77773404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012693.txt
+409,robot_mechanical,012693,"a person leans slightly to each side while moving one hand, and rotating to the other hand.",1,0.77773404,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012693.txt
+410,robot_mechanical,003571,"a person rotates their left hand in front of their body, then their right hand.",1,0.7776598,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003571.txt
+411,robot_mechanical,M006076,"a person is performing a motion where they extend their right arm across the body to the left side twice above the head, twice extended over chest and once extended over torso.",0,0.77763426,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006076.txt
+412,robot_mechanical,M003494,person picks up something on their right side and moves it to their left side,0,0.7775435,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003494.txt
+413,robot_mechanical,M006275,"a person reaches forward with their left arm, then puts their arm back down at their side.",1,0.77745384,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006275.txt
+414,robot_mechanical,006964,person is standing and starts motion to their left,0,0.77735454,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006964.txt
+415,robot_mechanical,M014451,a person loses balance and moves forward with both hands going backwards and their head going down.,2,0.7773412,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014451.txt
+416,robot_mechanical,014451,a person loses balance and moves forward with both hands going backwards and their head going down.,2,0.7773412,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014451.txt
+417,robot_mechanical,003762,a person is moving something with both arms.,1,0.77731675,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003762.txt
+418,robot_mechanical,M003762,a person is moving something with both arms.,1,0.77731675,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003762.txt
+419,robot_mechanical,005136,"a person moves each shoulder up and down rapidly in opposite directions, with their arms slightly outstretched.",0,0.77724373,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005136.txt
+420,robot_mechanical,M005136,"a person moves each shoulder up and down rapidly in opposite directions, with their arms slightly outstretched.",0,0.77724373,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005136.txt
+421,robot_mechanical,M001703,"a person lowers arms from being stretched out to either side, and turns around counterclockwise.",0,0.77713335,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001703.txt
+422,robot_mechanical,013542,a person moves an object from their left to their right side.,0,0.776921,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013542.txt
+423,robot_mechanical,011138,a person pulses their arms up and down at their sides until it gets super fast.,2,0.77690643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011138.txt
+424,robot_mechanical,M011138,a person pulses their arms up and down at their sides until it gets super fast.,2,0.77690643,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011138.txt
+425,robot_mechanical,002118,a person who is lifting right and left arms.,0,0.7768295,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002118.txt
+426,robot_mechanical,M014247,a person moves his left arm straight up and then to the left while standing still.,2,0.77669716,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014247.txt
+427,robot_mechanical,004170,a person sits and moves their left arm,0,0.7766858,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004170.txt
+428,robot_mechanical,011070,a person doing a circular rotation motion whit the torso,1,0.77667224,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011070.txt
+429,robot_mechanical,M011070,a person doing a circular rotation motion whit the torso,1,0.77667224,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011070.txt
+430,robot_mechanical,M002088,"a figure performs a lifting motion with its right arm, leaning slightly",2,0.77664256,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002088.txt
+431,robot_mechanical,M008664,a person berings their right arm forward and swipes left to right,2,0.77654934,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008664.txt
+432,robot_mechanical,M009343,a person reaches their right arm up in a counterclockwise motion and drops it to their side.,2,0.77654487,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009343.txt
+433,robot_mechanical,M008003,a person is making arm motions with both arms starting with their right arm.,0,0.7764523,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008003.txt
+434,robot_mechanical,M010437,"a person reaches to their right with both hands, straightens then moves their hands and arms to their left, placing something down.",2,0.77640486,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010437.txt
+435,robot_mechanical,M009176,person slides to the right in a smooth motion,0,0.77630687,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009176.txt
+436,robot_mechanical,M009634,a person moves object from right to left and turns it on its side.,2,0.77630657,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009634.txt
+437,robot_mechanical,010630,"a person carefully paces back and forth, their arms loose at their sides.",2,0.7762864,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010630.txt
+438,robot_mechanical,M010630,"a person carefully paces back and forth, their arms loose at their sides.",2,0.7762864,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010630.txt
+439,robot_mechanical,011312,a person is moving their left arm erratically.,2,0.7762188,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011312.txt
+440,robot_mechanical,008148,a person lifts their right arm back and then throws an object with their right hand,0,0.7762174,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008148.txt
+441,robot_mechanical,M009970,a person repeatedly reaches for an object and appears to put it back with their left hand.,1,0.77619934,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009970.txt
+442,robot_mechanical,M004634,person moving his torso in circular motion from left to right,0,0.7761934,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004634.txt
+443,robot_mechanical,M009793,a person standing moving left arm in an upward motion .,2,0.776172,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009793.txt
+444,robot_mechanical,009741,a person uses his left arm to do a passing something back motion,0,0.7761613,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009741.txt
+445,robot_mechanical,001672,a person moves his left arm up and his right arm downward.,1,0.7761494,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001672.txt
+446,robot_mechanical,010026,"a person uses his arms to maintain balance, takes a step forward and puts his arms back down",1,0.7760885,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010026.txt
+447,robot_mechanical,M010026,"a person uses his arms to maintain balance, takes a step forward and puts his arms back down",1,0.7760885,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010026.txt
+448,robot_mechanical,010793,a person moves his hands from right to left hitting something.,1,0.77603006,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010793.txt
+449,robot_mechanical,M012632,a person lifts an object in the air with both arms and repeats the lifting motion,2,0.7759822,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012632.txt
+450,robot_mechanical,012632,a person lifts an object in the air with both arms and repeats the lifting motion,2,0.7759822,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012632.txt
+451,robot_mechanical,005756,a person bends its right arm multiple times.,2,0.77594584,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005756.txt
+452,robot_mechanical,M007684,a person grabs something at waist level with both hands and moves it to the left.,0,0.77589893,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007684.txt
+453,robot_mechanical,004842,a person stretches by crossing their arms over their body,2,0.77588814,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004842.txt
+454,robot_mechanical,M004842,a person stretches by crossing their arms over their body,2,0.77588814,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004842.txt
+455,robot_mechanical,004063,a person trying to strike a pose,1,0.7758585,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004063.txt
+456,robot_mechanical,M004063,a person trying to strike a pose,1,0.7758585,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004063.txt
+457,robot_mechanical,M012746,person stands still with arms at side and hands swaying slightly.,0,0.7758031,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012746.txt
+458,robot_mechanical,012746,person stands still with arms at side and hands swaying slightly.,0,0.7758031,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012746.txt
+459,robot_mechanical,M012823,"a person lifts their left hand up and moves it around, occasionally bringing up their right hand.",1,0.7757101,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012823.txt
+460,robot_mechanical,009176,person slides to the left in a smooth motion,0,0.7757089,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009176.txt
+461,robot_mechanical,M007917,a person shifts their body from right to left before throwing forward with their left hand.,2,0.77561444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007917.txt
+462,robot_mechanical,001788,"a person with arms in front of them, elbows bent, shifts their weight from one foot to another.",0,0.7755996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001788.txt
+463,robot_mechanical,M001788,"a person with arms in front of them, elbows bent, shifts their weight from one foot to another.",0,0.7755996,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001788.txt
+464,robot_mechanical,M008525,a person rotates their right arm in front of them from the elbow.,1,0.77558976,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008525.txt
+465,robot_mechanical,M003792,a person shifts down to their left side then stand up with arms extended.,1,0.775537,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003792.txt
+466,robot_mechanical,M013065,a person lifts right arm up,1,0.77552235,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013065.txt
+467,robot_mechanical,M002737,a person waves both arms in a back and forth motion.,0,0.7755165,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002737.txt
+468,robot_mechanical,002737,a person waves both arms in a back and forth motion.,0,0.7755165,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002737.txt
+469,robot_mechanical,002088,"a figure performs a lifting motion with its left arm, leaning slightly",2,0.77546597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002088.txt
+470,robot_mechanical,012584,a person reaches his left arm straight out,0,0.77542603,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012584.txt
+471,robot_mechanical,M012499,a person strafes back and forth from left to right.,1,0.77540505,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012499.txt
+472,robot_mechanical,005096,a person is struggling to lift a right arm multiple times.,1,0.7753402,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005096.txt
+473,robot_mechanical,M007781,person doing a stretch of the right arm,1,0.77533126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007781.txt
+474,robot_mechanical,M012281,a person moves both arm in an upward direction fast.,2,0.7752836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012281.txt
+475,robot_mechanical,012281,a person moves both arm in an upward direction fast.,2,0.7752836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012281.txt
+476,robot_mechanical,M014416,person lifts something and moves it to their left side.,2,0.775206,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014416.txt
+477,robot_mechanical,M010382,a person twists their torso from right to left.,1,0.7751285,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010382.txt
+478,robot_mechanical,M013112,person bends down lifting something with their hands and moving the object to the left before bringing their arms back in front of them.,2,0.7750829,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013112.txt
+479,robot_mechanical,M008730,person is doing a huge stretch  to the left,0,0.77500737,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008730.txt
+480,robot_mechanical,002892,"a person stands, raises their wrist, then lowers it and moves back and forth",1,0.77497613,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002892.txt
+481,robot_mechanical,M002892,"a person stands, raises their wrist, then lowers it and moves back and forth",1,0.77497613,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002892.txt
+482,robot_mechanical,005979,a person raises their hands laterally and lowers them whilst moving on the spot,1,0.7749187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005979.txt
+483,robot_mechanical,M005979,a person raises their hands laterally and lowers them whilst moving on the spot,1,0.7749187,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005979.txt
+484,robot_mechanical,M007297,"a person rotates their entire outstretched right arm at the shoulder, forwards and then backwards.",1,0.77487385,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007297.txt
+485,robot_mechanical,M002378,a person hops up and down with their hands at their sides,2,0.7748575,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002378.txt
+486,robot_mechanical,002378,a person hops up and down with their hands at their sides,2,0.7748575,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002378.txt
+487,robot_mechanical,008517,a person moves an object from a position on his left to a position to his right.,0,0.7748498,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008517.txt
+488,robot_mechanical,M000272,a person moves their right hand in a counterclockwise motion,1,0.77459836,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000272.txt
+489,robot_mechanical,M003184,a person doing full arm spins in an apparent effort to loosen his shoulder areas.,2,0.7745456,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003184.txt
+490,robot_mechanical,003184,a person doing full arm spins in an apparent effort to loosen his shoulder areas.,2,0.7745456,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003184.txt
+491,robot_mechanical,M012678,"a figure raises its hands to shoulder level then lowers them, repeatedly",2,0.7744597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012678.txt
+492,robot_mechanical,012678,"a figure raises its hands to shoulder level then lowers them, repeatedly",2,0.7744597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012678.txt
+493,robot_mechanical,014416,person lifts something and moves it to their right side.,2,0.77433604,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014416.txt
+494,robot_mechanical,M012906,a person is standing still and move their right hand and elbow in a clockwise motion.,1,0.77433497,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012906.txt
+495,robot_mechanical,002376,a person lifts arms and twists body to the right and left.,1,0.774291,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002376.txt
+496,robot_mechanical,M003885,a person stretching both arms and then moving in odd ways,0,0.7742789,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003885.txt
+497,robot_mechanical,003885,a person stretching both arms and then moving in odd ways,0,0.7742789,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003885.txt
+498,robot_mechanical,001415,a person tries to reach something by stretching,1,0.7742202,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001415.txt
+499,robot_mechanical,M001415,a person tries to reach something by stretching,1,0.7742202,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001415.txt
+500,robot_mechanical,M000388,"a person raises their arms, bends them at the elbows, and moves them up and down",2,0.7741771,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000388.txt
+501,robot_mechanical,000388,"a person raises their arms, bends them at the elbows, and moves them up and down",2,0.7741771,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000388.txt
+502,robot_mechanical,002306,person lifts both hands to centre and moves right hand fast against left hand a few times,0,0.7740577,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002306.txt
+503,robot_mechanical,001510,a person stretches from side to side.,0,0.7740526,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001510.txt
+504,robot_mechanical,M001510,a person stretches from side to side.,0,0.7740526,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001510.txt
+505,robot_mechanical,M006409,a person stretches out its left arm then moves it back to its side.,0,0.7740164,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006409.txt
+506,robot_mechanical,M008676,a person moves then right arm up whilst moving their left arm down.,2,0.77395284,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008676.txt
+507,robot_mechanical,M013846,a person using the left arm to reach for something.,0,0.77395105,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013846.txt
+508,robot_mechanical,008676,a person moves then left arm up whilst moving their right arm down.,2,0.77385914,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008676.txt
+509,robot_mechanical,M001731,a person moves their right arm in a corcle motion.,1,0.7738346,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001731.txt
+510,robot_mechanical,006575,a person reaches with their left arm to the left and then turns their upper body to the right.,2,0.7736858,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006575.txt
+511,robot_mechanical,005088,a standing person putting their left hand forward and moving it clockwise,2,0.7736237,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005088.txt
+512,robot_mechanical,006116,a person is performing a lifting motion over their head,2,0.7736161,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006116.txt
+513,robot_mechanical,M006116,a person is performing a lifting motion over their head,2,0.7736161,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006116.txt
+514,robot_mechanical,M010075,a person rotates their left hand and arm in a counterclockwise motion in front of themselves parallel to the floor.,2,0.7736057,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010075.txt
+515,robot_mechanical,M006467,a person lifts their right arm and then left arm.,0,0.77357507,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006467.txt
+516,robot_mechanical,003092,a person moves left hand to torso and then raises right arm,1,0.77356905,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003092.txt
+517,robot_mechanical,M002122,a person stretches their back by turning their arms.,0,0.77350265,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002122.txt
+518,robot_mechanical,002122,a person stretches their back by turning their arms.,0,0.77350265,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002122.txt
+519,robot_mechanical,009591,a person stretches toward their let with their right arm.,0,0.77350223,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009591.txt
+520,robot_mechanical,M004462,"a person raises their hands to above shoulder height, and flicks their foot at the end of the motion",2,0.7734136,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004462.txt
+521,robot_mechanical,004462,"a person raises their hands to above shoulder height, and flicks their foot at the end of the motion",2,0.7734136,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004462.txt
+522,robot_mechanical,003287,a person raises and lowers both arms outward to the side and then back down again,1,0.77319,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003287.txt
+523,robot_mechanical,M003287,a person raises and lowers both arms outward to the side and then back down again,1,0.77319,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003287.txt
+524,robot_mechanical,006946,a person throws their right arm forward and pulls it back grabbing it with their right hand,0,0.7731657,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006946.txt
+525,robot_mechanical,M004158,a person walks forward using their right hand to steady themselves on an object.,0,0.77316415,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004158.txt
+526,robot_mechanical,010382,a person twists their torso from left to right.,1,0.7730775,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010382.txt
+527,robot_mechanical,M011959,person does a slight jump while arms stay in place,2,0.7730765,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011959.txt
+528,robot_mechanical,011959,person does a slight jump while arms stay in place,2,0.7730765,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011959.txt
+529,robot_mechanical,009550,a person makes a vertical waving motion with their right arm,1,0.7728671,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009550.txt
+530,robot_mechanical,000169,a person picks something up then moves their arm in a circular motion,2,0.7727811,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000169.txt
+531,robot_mechanical,M000169,a person picks something up then moves their arm in a circular motion,2,0.7727811,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000169.txt
+532,robot_mechanical,012839,a person gets up from a seated position,2,0.7727263,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012839.txt
+533,robot_mechanical,M012839,a person gets up from a seated position,2,0.7727263,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012839.txt
+534,robot_mechanical,M002306,person lifts both hands to centre and moves left hand fast against right hand a few times,0,0.7727084,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002306.txt
+535,robot_mechanical,001143,a person makes a large slapping motion with their right arm,1,0.77268267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001143.txt
+536,robot_mechanical,011533,a person sways their body side to side.,2,0.7726574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011533.txt
+537,robot_mechanical,M011533,a person sways their body side to side.,2,0.7726574,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011533.txt
+538,robot_mechanical,009270,a person is moving his right arm in a circular motion.,1,0.7726378,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009270.txt
+539,robot_mechanical,M007936,a person is exercising with their arms and legs,1,0.7726194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007936.txt
+540,robot_mechanical,007936,a person is exercising with their arms and legs,1,0.7726194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007936.txt
+541,robot_mechanical,002810,"a person twist his torso to reach far to the left, then returns to a neutral position",0,0.7725595,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002810.txt
+542,robot_mechanical,007665,a person is moving something with both hands.,0,0.7725246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007665.txt
+543,robot_mechanical,M005765,a person is moving something with both hands.,1,0.7725246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005765.txt
+544,robot_mechanical,M007665,a person is moving something with both hands.,0,0.7725246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007665.txt
+545,robot_mechanical,005765,a person is moving something with both hands.,1,0.7725246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005765.txt
+546,robot_mechanical,004153,a figure repeatedly turns towards the right hand side,0,0.77249444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004153.txt
+547,robot_mechanical,M012518,a person swings and moves his arms and legs,2,0.7724715,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012518.txt
+548,robot_mechanical,012518,a person swings and moves his arms and legs,2,0.7724715,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012518.txt
+549,robot_mechanical,011897,a person uses their left arm to get up from a kneeling position,2,0.7724209,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011897.txt
+550,robot_mechanical,M011479,person is spinning in place while holding their arms out to the sides,2,0.77239466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011479.txt
+551,robot_mechanical,011479,person is spinning in place while holding their arms out to the sides,2,0.77239466,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011479.txt
+552,robot_mechanical,M012085,"a person bends their right arm at the waist, before sticking out their left arm straight forward and rotating counterclockwise",1,0.7723829,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012085.txt
+553,robot_mechanical,006395,"a person reaches out with their right arm as if to grab something, then drop their arm back to the side",1,0.77237487,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006395.txt
+554,robot_mechanical,M002964,"a person lifts their left arm to a horizontal position, holds it there for a brief moment, and then returns to their side.",2,0.7723651,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002964.txt
+555,robot_mechanical,010437,"a person reaches to their left with both hands, straightens then moves their hands and arms to their right, placing something down.",2,0.7723319,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010437.txt
+556,robot_mechanical,M007129,a person moves hand up and down,2,0.7723036,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007129.txt
+557,robot_mechanical,007129,a person moves hand up and down,2,0.7723036,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007129.txt
+558,robot_mechanical,M008800,a person stretches his body and twists it around.,1,0.7722819,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008800.txt
+559,robot_mechanical,008800,a person stretches his body and twists it around.,1,0.7722819,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008800.txt
+560,robot_mechanical,M000800,a person moving something from their right to left and back right,2,0.7722148,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000800.txt
+561,robot_mechanical,014080,"a person raises something in their left arm, and moves their right arm in a sawing motion",2,0.7722043,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014080.txt
+562,robot_mechanical,007021,"a person stirs something with their right hand, stirring in a clockwise motion",0,0.77211773,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007021.txt
+563,robot_mechanical,M014080,"a person raises something in their right arm, and moves their left arm in a sawing motion",2,0.77211547,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014080.txt
+564,robot_mechanical,M004912,a person moves their arms forward then around in opposite circles,0,0.7720374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004912.txt
+565,robot_mechanical,004912,a person moves their arms forward then around in opposite circles,0,0.7720374,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004912.txt
+566,robot_mechanical,M011550,a person reaches out and slides their hand across something.,2,0.77201045,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011550.txt
+567,robot_mechanical,011550,a person reaches out and slides their hand across something.,2,0.77201045,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011550.txt
+568,robot_mechanical,002109,a person swings their left arm them spreads both arms.,0,0.7719599,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002109.txt
+569,robot_mechanical,004527,person stands and stretches our their arms before rotating their right arm,1,0.7719482,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004527.txt
+570,robot_mechanical,003879,a person is sitting and rotating an object in front of them with both arms.,0,0.77194464,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003879.txt
+571,robot_mechanical,M003879,a person is sitting and rotating an object in front of them with both arms.,0,0.77194464,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003879.txt
+572,robot_mechanical,009992,a person lifts both arms and moves hands in and out.,1,0.77193236,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009992.txt
+573,robot_mechanical,M009992,a person lifts both arms and moves hands in and out.,1,0.77193236,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009992.txt
+574,robot_mechanical,008830,a person reaches their right arm forward.,0,0.77193004,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008830.txt
+575,robot_mechanical,003568,person is stratching hands around with a motion towards and against.,0,0.7718344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003568.txt
+576,robot_mechanical,M003568,person is stratching hands around with a motion towards and against.,0,0.7718344,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003568.txt
+577,robot_mechanical,M004781,a person brings their left knee up to their chest and moves it around side to side.,2,0.77180356,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004781.txt
+578,robot_mechanical,006076,"a person is performing a motion where they extend their left arm across the body to the right side twice above the head, twice extended over chest and once extended over torso.",0,0.771786,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006076.txt
+579,robot_mechanical,M003490,person reaches for an object on their right with both hands and gestures a movement of this object to their left.,0,0.7717258,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003490.txt
+580,robot_mechanical,009549,person goes side to side with both hands in the air right arm lower and staying still,2,0.7715907,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009549.txt
+581,robot_mechanical,008003,a person is making arm motions with both arms starting with their left arm.,0,0.7715696,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008003.txt
+582,robot_mechanical,M011861,a person slightly turns to the left and raises their right hand,1,0.77153856,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011861.txt
+583,robot_mechanical,M004981,a person flaps their arms back and forward repeatedly before letting them down.,2,0.77152747,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004981.txt
+584,robot_mechanical,004981,a person flaps their arms back and forward repeatedly before letting them down.,2,0.77152747,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004981.txt
+585,robot_mechanical,M006560,"a person raises both arms slightly, and moves quickly.",1,0.7713746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006560.txt
+586,robot_mechanical,006560,"a person raises both arms slightly, and moves quickly.",1,0.7713746,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006560.txt
+587,robot_mechanical,013916,a person is stretching his body to the left and right.,2,0.7713436,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013916.txt
+588,robot_mechanical,007959,a person moves their arms and neck about rapidly to stretch them.,0,0.7713138,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007959.txt
+589,robot_mechanical,M007959,a person moves their arms and neck about rapidly to stretch them.,0,0.7713138,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007959.txt
+590,robot_mechanical,M014360,a person does a throwing motion with their right arm.,2,0.7712852,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014360.txt
+591,robot_mechanical,005873,a person does a throwing motion with their right arm.,0,0.7712852,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005873.txt
+592,robot_mechanical,M011593,person moves forward and uses left  hand to  pick something up and move to side,0,0.77127486,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011593.txt
+593,robot_mechanical,002387,"a person standing still moves left hand forward , backward  to the side and down.",2,0.771247,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002387.txt
+594,robot_mechanical,M005912,a person fully extends both arms.,1,0.77124274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005912.txt
+595,robot_mechanical,005912,a person fully extends both arms.,1,0.77124274,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005912.txt
+596,robot_mechanical,008661,a person being slightly pushed forward,2,0.7712387,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008661.txt
+597,robot_mechanical,M008661,a person being slightly pushed forward,2,0.7712387,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008661.txt
+598,robot_mechanical,M010937,a person does throwing motion with right arm and then brings both hands over right shoulder with both elbows pointed outwards,0,0.771186,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010937.txt
+599,robot_mechanical,M005088,a standing person putting their right hand forward and moving it counterclockwise,2,0.7711738,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005088.txt
+600,robot_mechanical,007093,a person twisting from side to side and puts left arm up.,2,0.771142,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007093.txt
+601,robot_mechanical,011737,a person moves from a standing position onto their hands and knees.,2,0.7711276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011737.txt
+602,robot_mechanical,M011737,a person moves from a standing position onto their hands and knees.,2,0.7711276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011737.txt
+603,robot_mechanical,M000065,a person with dance moves,2,0.7710827,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000065.txt
+604,robot_mechanical,000065,a person with dance moves,2,0.7710827,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000065.txt
+605,robot_mechanical,M011213,"a figure stands with its arms sort of out to its sides, swaying slightly back and forth tentatively",1,0.7710706,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011213.txt
+606,robot_mechanical,011213,"a figure stands with its arms sort of out to its sides, swaying slightly back and forth tentatively",1,0.7710706,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011213.txt
+607,robot_mechanical,M007996,a person extending their left arm out.,1,0.77103126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007996.txt
+608,robot_mechanical,006764,a person bends at the elbow on their right arm and waves their hand back and forth,0,0.77100134,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006764.txt
+609,robot_mechanical,M007610,a person shakes their arms and shoulders and move backwards at the same time,0,0.77096057,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007610.txt
+610,robot_mechanical,007610,a person shakes their arms and shoulders and move backwards at the same time,0,0.77096057,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007610.txt
+611,robot_mechanical,M010953,a person does motions to stretch out his back,0,0.77093506,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010953.txt
+612,robot_mechanical,010953,a person does motions to stretch out his back,0,0.77093506,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010953.txt
+613,robot_mechanical,008664,a person berings their left arm forward and swipes right to left,2,0.7707629,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008664.txt
+614,robot_mechanical,010920,a person stretches out his right arm and moves it from right to left then puts it down.,0,0.7707347,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010920.txt
+615,robot_mechanical,003293,person reaches arms out then takes right arm and points outwards,0,0.77073383,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003293.txt
+616,robot_mechanical,M000636,person walks up and down with arms slightly spread,0,0.77072126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000636.txt
+617,robot_mechanical,000636,person walks up and down with arms slightly spread,0,0.77072126,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000636.txt
+618,robot_mechanical,009318,person is making circular movements with both arms,0,0.77070916,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009318.txt
+619,robot_mechanical,M009318,person is making circular movements with both arms,0,0.77070916,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009318.txt
+620,robot_mechanical,010261,a person lifts right arm and lowers it.,1,0.77059424,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010261.txt
+621,robot_mechanical,002405,a person drops both arms from shoulder height and repeats the action.,1,0.770545,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002405.txt
+622,robot_mechanical,M002405,a person drops both arms from shoulder height and repeats the action.,1,0.770545,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002405.txt
+623,robot_mechanical,001035,a person doing loosening up by moving and bending.,1,0.770504,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001035.txt
+624,robot_mechanical,M001035,a person doing loosening up by moving and bending.,1,0.770504,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001035.txt
+625,robot_mechanical,005000,a person back up one step with both arms at their side,0,0.7705019,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005000.txt
+626,robot_mechanical,M005000,a person back up one step with both arms at their side,0,0.7705019,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005000.txt
+627,robot_mechanical,005393,person lifts right arm up,2,0.77048373,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005393.txt
+628,robot_mechanical,010575,a person makes a wiping motion with their right arm in front of them,0,0.770429,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010575.txt
+629,robot_mechanical,M005618,a person lunges forward thrusting their right hand out at the same time,0,0.7703066,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005618.txt
+630,robot_mechanical,003003,a person lifts their arms and stretches them away from themselves.,1,0.7701564,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003003.txt
+631,robot_mechanical,M003003,a person lifts their arms and stretches them away from themselves.,1,0.7701564,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003003.txt
+632,robot_mechanical,M011276,person is physically striking an object with their left hand twice,1,0.7700247,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011276.txt
+633,robot_mechanical,M009529,a person swings their arms quickly forward and then backwards.,0,0.77001345,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009529.txt
+634,robot_mechanical,009529,a person swings their arms quickly forward and then backwards.,0,0.77001345,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009529.txt
+635,robot_mechanical,001343,a person makes a throwing motion with their right arm.,1,0.7699778,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001343.txt
+636,robot_mechanical,M006990,a person swings their left arm across their body in an upwards motion.,0,0.76997524,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006990.txt
+637,robot_mechanical,004104,"a person holds their right arm in front of them and moves it towards the right hand side, then drops arm down to their side.",2,0.7699725,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004104.txt
+638,robot_mechanical,009616,a person standing seems to be moving their arm in a circular motions forward and backwards.,0,0.7698289,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009616.txt
+639,robot_mechanical,M009616,a person standing seems to be moving their arm in a circular motions forward and backwards.,0,0.7698289,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009616.txt
+640,robot_mechanical,M008508,a person winds up their right arm to pitch and then rolls both their arms in a stretch,1,0.7695465,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008508.txt
+641,robot_mechanical,004727,"a person seated, rotating object with hands.",2,0.76950276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004727.txt
+642,robot_mechanical,M004727,"a person seated, rotating object with hands.",2,0.76950276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004727.txt
+643,robot_mechanical,M002063,a person shakes their legs and arms,2,0.7694416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002063.txt
+644,robot_mechanical,002063,a person shakes their legs and arms,2,0.7694416,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002063.txt
+645,robot_mechanical,007285,person stands still then moves right hand across their body and lifts up shoulder height,2,0.7693739,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007285.txt
+646,robot_mechanical,M006258,person stands and folds arms in front of their body,1,0.7693681,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006258.txt
+647,robot_mechanical,006258,person stands and folds arms in front of their body,1,0.7693681,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006258.txt
+648,robot_mechanical,M003472,"a person takes a few steps forward and bend down slightly, takes their left arm and opens something",1,0.769267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003472.txt
+649,robot_mechanical,M007526,a person moving something from right to left,0,0.7692501,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007526.txt
+650,robot_mechanical,M004069,a person moving something from right to left,1,0.7692501,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004069.txt
+651,robot_mechanical,M008168,a person moves both hands.,2,0.7692267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008168.txt
+652,robot_mechanical,008168,a person moves both hands.,2,0.7692267,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008168.txt
+653,robot_mechanical,002100,a person lowers their right arm from their middle and then raises it again,1,0.7692057,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002100.txt
+654,robot_mechanical,M012596,a person stretches by holding their hands out and moving their upper body about.,0,0.7691982,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012596.txt
+655,robot_mechanical,012596,a person stretches by holding their hands out and moving their upper body about.,0,0.7691982,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012596.txt
+656,robot_mechanical,000096,"a person stretched right arm up and over to the left, then left arm up and over to the right",0,0.7691569,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000096.txt
+657,robot_mechanical,M009071,a person swings his arms back and forth and bounces,2,0.7691233,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M009071.txt
+658,robot_mechanical,009071,a person swings his arms back and forth and bounces,2,0.7691233,/Data/yash.bhardwaj/datasets/HumanML3D/texts/009071.txt
+659,robot_mechanical,000420,a person holds their hands in front of them and moves them in a circular motion,0,0.76911795,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000420.txt
+660,robot_mechanical,M000420,a person holds their hands in front of them and moves them in a circular motion,0,0.76911795,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000420.txt
+661,robot_mechanical,005378,"a person flexes both arms a few times, lowers them and puts them straight out.",1,0.76911646,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005378.txt
+662,robot_mechanical,M005378,"a person flexes both arms a few times, lowers them and puts them straight out.",1,0.76911646,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005378.txt
+663,robot_mechanical,M008487,a person moves both arms up,1,0.76903325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008487.txt
+664,robot_mechanical,008487,a person moves both arms up,1,0.76903325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008487.txt
+665,robot_mechanical,003490,person reaches for an object on their left with both hands and gestures a movement of this object to their right.,0,0.76902866,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003490.txt
+666,robot_mechanical,001618,a robot is standing then stretch left arm and moves it in anti clockwise direction,2,0.7689474,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001618.txt
+667,robot_mechanical,012509,a person moves their left arm in a circular motion in front of their stomach area.,1,0.7687988,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012509.txt
+668,robot_mechanical,M000946,"a person stretches first their left arm across their body, then their right.",1,0.7687881,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000946.txt
+669,robot_mechanical,M001684,a person performs a stretch,2,0.76878345,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001684.txt
+670,robot_mechanical,001684,a person performs a stretch,2,0.76878345,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001684.txt
+671,robot_mechanical,001237,a person extends their right arm forward.,1,0.7687751,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001237.txt
+672,robot_mechanical,M004527,person stands and stretches our their arms before rotating their left arm,1,0.7686507,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004527.txt
+673,robot_mechanical,001744,the person stretches with their left arm over their head then with their right arm,1,0.76859426,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001744.txt
+674,robot_mechanical,M014576,a person stretches their arm by diagonally reaching across,1,0.7685752,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014576.txt
+675,robot_mechanical,014576,a person stretches their arm by diagonally reaching across,1,0.7685752,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014576.txt
+676,robot_mechanical,M014113,a figure moves their arms diagonally up and down.,0,0.7685748,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014113.txt
+677,robot_mechanical,014113,a figure moves their arms diagonally up and down.,0,0.7685748,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014113.txt
+678,robot_mechanical,008853,a figure rubs its hands together and shifts its weight from foot to foot,1,0.7685429,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008853.txt
+679,robot_mechanical,M008853,a figure rubs its hands together and shifts its weight from foot to foot,1,0.7685429,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008853.txt
+680,robot_mechanical,003068,"a person lifts up their right arm above their head, moves it towards their left side and then back down.",1,0.76850325,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003068.txt
+681,robot_mechanical,002281,a figure is moving in a dancing motion with hands,1,0.768444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002281.txt
+682,robot_mechanical,M002281,a figure is moving in a dancing motion with hands,1,0.768444,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002281.txt
+683,robot_mechanical,M007552,a person lifts their right arm straight out.,0,0.7684357,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007552.txt
+684,robot_mechanical,000451,a person standing up folds arms by placing right arm over left.,2,0.7684143,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000451.txt
+685,robot_mechanical,001450,person moves from one foot to the other and moves their hands in front of their face in a slight dancing motion.,1,0.76835275,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001450.txt
+686,robot_mechanical,M001450,person moves from one foot to the other and moves their hands in front of their face in a slight dancing motion.,1,0.76835275,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001450.txt
+687,robot_mechanical,M004849,person lifting an imaginary object from their right and placing it on the left.,0,0.76830405,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004849.txt
+688,robot_mechanical,M005756,a person bends its left arm multiple times.,2,0.76824164,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005756.txt
+689,robot_mechanical,003785,person rotates hand in air lots of times then brings hand to right hip,2,0.7682389,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003785.txt
+690,robot_mechanical,M006453,a person is lifting their left and right arms irratically.,2,0.768221,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006453.txt
+691,robot_mechanical,005663,a person moves back and forth with their right arm and then seems to wave goodbye,1,0.76819277,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005663.txt
+692,robot_mechanical,005428,"a person moves their arms in circles in the same direction, but in opposite parts of the motion",0,0.76815593,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005428.txt
+693,robot_mechanical,M005428,"a person moves their arms in circles in the same direction, but in opposite parts of the motion",0,0.76815593,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005428.txt
+694,robot_mechanical,M001801,"a person bends at the waist, outstretching both arms to reach to the left, then the right, then straight in front of them",0,0.7681396,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001801.txt
+695,robot_mechanical,M013304,a figure lifts something from waist height on the right and sets it down to the left,1,0.7681247,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013304.txt
+696,robot_mechanical,004687,"a person extends their arms out to their sides then rotates them backwards, stretching their shoulders.",2,0.76812375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004687.txt
+697,robot_mechanical,M004687,"a person extends their arms out to their sides then rotates them backwards, stretching their shoulders.",2,0.76812375,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004687.txt
+698,robot_mechanical,M003787,a person takes two steps forward and then starts to motion both arms and hands,2,0.76811194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003787.txt
+699,robot_mechanical,003787,a person takes two steps forward and then starts to motion both arms and hands,2,0.76811194,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003787.txt
+700,robot_mechanical,M013938,a person is stretching their arms and turns.,2,0.7680774,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013938.txt
+701,robot_mechanical,013938,a person is stretching their arms and turns.,2,0.7680774,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013938.txt
+702,robot_mechanical,008705,"a person makes a lifting motion with their right arm, lowers their right arm, and then raises their right arm again.",2,0.76806414,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008705.txt
+703,robot_mechanical,008525,a person rotates their left arm in front of them from the elbow.,1,0.76799566,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008525.txt
+704,robot_mechanical,M011895,a person is moving their forearms up and down.,2,0.7679608,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011895.txt
+705,robot_mechanical,011895,a person is moving their forearms up and down.,2,0.7679608,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011895.txt
+706,robot_mechanical,003209,a person walks forward quickly with a slight swing of the arms,2,0.7679508,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003209.txt
+707,robot_mechanical,M003209,a person walks forward quickly with a slight swing of the arms,2,0.7679508,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003209.txt
+708,robot_mechanical,000346,"a person moves their right arm gently, then picks something up with both hands and puts it to the side",1,0.7678837,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000346.txt
+709,robot_mechanical,M010637,a person moves both hands in opposite circles in front of their body.,2,0.76787937,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010637.txt
+710,robot_mechanical,010637,a person moves both hands in opposite circles in front of their body.,2,0.76787937,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010637.txt
+711,robot_mechanical,M005328,a person lifts their right arm,0,0.76787597,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005328.txt
+712,robot_mechanical,M006203,"a person standing up straight twist his body in a quick motion towards the right and left, using their arms as momentum.",2,0.76784956,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006203.txt
+713,robot_mechanical,000773,a person stretches both arms to their side and hold it for a few seconds before releasing,0,0.7678276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000773.txt
+714,robot_mechanical,M000773,a person stretches both arms to their side and hold it for a few seconds before releasing,0,0.7678276,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000773.txt
+715,robot_mechanical,000078,"a person stands still with their hands on their legs, then moves their arms",1,0.7678139,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000078.txt
+716,robot_mechanical,M000078,"a person stands still with their hands on their legs, then moves their arms",1,0.7678139,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000078.txt
+717,robot_mechanical,011270,a person is moving their left arm in a circular motion in the air.,1,0.7678003,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011270.txt
+718,robot_mechanical,007476,a person stretches arms and does arm rolls,0,0.7677072,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007476.txt
+719,robot_mechanical,M007476,a person stretches arms and does arm rolls,0,0.7677072,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007476.txt
+720,robot_mechanical,013519,"a person picks up a horizontal object from their front left side with both hands, and moves it to the front right side.",0,0.7677047,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013519.txt
+721,robot_mechanical,006771,person bends down and keeps legs straight flowing arms left to right before turning around and doing same back,1,0.7676652,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006771.txt
+722,robot_mechanical,M000016,"a person bends their right arm at the elbow and raises their left arm towards it, then lowers both arms",0,0.7676588,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000016.txt
+723,robot_mechanical,M001776,a person who seems to be lifting something with their left hand,2,0.7676365,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001776.txt
+724,robot_mechanical,012823,"a person lifts their right hand up and moves it around, occasionally bringing up their left hand.",1,0.7675883,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012823.txt
+725,robot_mechanical,M002652,a person swaying from side to side.,0,0.7675576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002652.txt
+726,robot_mechanical,002652,a person swaying from side to side.,0,0.7675576,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002652.txt
+727,robot_mechanical,003533,"a person bends their right arm at the elbow, moves their arm around, then raises both arms",1,0.76755136,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003533.txt
+728,robot_mechanical,M012267,a standing person does forearm lifts twice in place.,2,0.7674625,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M012267.txt
+729,robot_mechanical,012267,a standing person does forearm lifts twice in place.,2,0.7674625,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012267.txt
+730,robot_mechanical,001534,a person streches their arms to the left then right.,2,0.76741827,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001534.txt
+731,robot_mechanical,007454,a person moves their right arm up and the left arm toward their chest as a gesture.,2,0.76741755,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007454.txt
+732,robot_mechanical,004250,"a person moves both their arms to the side, and then raises their left arm",0,0.7673796,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004250.txt
+733,robot_mechanical,005618,a person lunges forward thrusting their left hand out at the same time,0,0.7673619,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005618.txt
+734,robot_mechanical,M004250,"a person moves both their arms to the side, and then raises their right arm",0,0.76734376,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004250.txt
+735,robot_mechanical,001825,a person flaps their arms forward and backward,2,0.7672943,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001825.txt
+736,robot_mechanical,M001825,a person flaps their arms forward and backward,2,0.7672943,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001825.txt
+737,robot_mechanical,010213,a person swaying from side to side,2,0.7672525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010213.txt
+738,robot_mechanical,M010213,a person swaying from side to side,2,0.7672525,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010213.txt
+739,robot_mechanical,M001614,a person staggers around slowly in an clockwise movement,1,0.76711476,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001614.txt
+740,robot_mechanical,M000042,a person walks forward then moves their arms in unison from right to left,0,0.7670593,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000042.txt
+741,robot_mechanical,M013743,a person twirls their right arm around as if to stretch it,2,0.767042,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013743.txt
+742,robot_mechanical,M006946,a person throws their left arm forward and pulls it back grabbing it with their left hand,0,0.7670189,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006946.txt
+743,robot_mechanical,M005671,a person seeming to be working with arms placing things up and back and forth.,0,0.76700616,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005671.txt
+744,robot_mechanical,005671,a person seeming to be working with arms placing things up and back and forth.,0,0.76700616,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005671.txt
+745,robot_mechanical,M000468,a person moves their hand counterclockwise at waist level,2,0.7669369,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000468.txt
+746,robot_mechanical,M002387,"a person standing still moves right hand forward , backward  to the side and down.",2,0.766925,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002387.txt
+747,robot_mechanical,000077,a person bends down and motion the right hand in circles.,0,0.7668943,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000077.txt
+748,robot_mechanical,004346,"a person stands and moves their arms in a circular motion in front of their body, the arms then bend up towards the head before repeating the first motion again.",2,0.7668638,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004346.txt
+749,robot_mechanical,M004346,"a person stands and moves their arms in a circular motion in front of their body, the arms then bend up towards the head before repeating the first motion again.",2,0.7668638,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004346.txt
+750,robot_mechanical,M010575,a person makes a wiping motion with their left arm in front of them,0,0.7668355,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010575.txt
+751,robot_mechanical,007922,a person puts their arms straight out in front of them and rotates their left arm counter clockwise and their right arm clockwise at the same time.,1,0.7667534,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007922.txt
+752,robot_mechanical,M010268,a person reaches around in front of them with their right hand.,0,0.7667304,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010268.txt
+753,robot_mechanical,M000380,a person is standing and moving their arm in and outwardly.,0,0.7666268,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000380.txt
+754,robot_mechanical,000380,a person is standing and moving their arm in and outwardly.,0,0.7666268,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000380.txt
+755,robot_mechanical,M006086,"a person moves to put their hands on their thighs, then stretches their arms back out to the side.",2,0.7665984,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006086.txt
+756,robot_mechanical,006086,"a person moves to put their hands on their thighs, then stretches their arms back out to the side.",2,0.7665984,/Data/yash.bhardwaj/datasets/HumanML3D/texts/006086.txt
+757,robot_mechanical,000657,a person stands upright and shifts their weight on their feet from one side to another,2,0.7665761,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000657.txt
+758,robot_mechanical,M005838,person moves something with both hands diagnoly,0,0.7665185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M005838.txt
+759,robot_mechanical,005838,person moves something with both hands diagnoly,0,0.7665185,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005838.txt
+760,robot_mechanical,011178,person has both arms extended  to side then turns around and picks something up,2,0.7665055,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011178.txt
+761,robot_mechanical,M011178,person has both arms extended  to side then turns around and picks something up,2,0.7665055,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011178.txt
+762,robot_mechanical,014537,"person extends their right arm out to reach for something then brings both hands together in front of the body while pivoting to the left, and repeats this motion several times.",2,0.7664676,/Data/yash.bhardwaj/datasets/HumanML3D/texts/014537.txt
+763,robot_mechanical,M010920,a person stretches out his left arm and moves it from left to right then puts it down.,0,0.7664182,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010920.txt
+764,robot_mechanical,003472,"a person takes a few steps forward and bend down slightly, takes their right arm and opens something",1,0.7663748,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003472.txt
+765,robot_mechanical,M002810,"a person twist his torso to reach far to the right, then returns to a neutral position",0,0.76636505,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002810.txt
+766,robot_mechanical,008086,person touches something the right arm and then reaches out across the body for something and then walks backwards,0,0.7662974,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008086.txt
+767,robot_mechanical,004733,"a person bends at the hips and moves their right arm up and down, then pats something with their right hand.",1,0.7662887,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004733.txt
+768,robot_mechanical,011276,person is physically striking an object with their right hand twice,1,0.76624584,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011276.txt
+769,robot_mechanical,M006023,a person is moving around his right arm.,0,0.7662445,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006023.txt
+770,robot_mechanical,M007835,person extends right arm slightly then bounces on spot,0,0.7662238,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M007835.txt
+771,robot_mechanical,M010163,a person walks forward with both arms not swinging at their side,1,0.7662109,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M010163.txt
+772,robot_mechanical,010163,a person walks forward with both arms not swinging at their side,1,0.7662109,/Data/yash.bhardwaj/datasets/HumanML3D/texts/010163.txt
+773,robot_mechanical,M011635,a person raised left hand and pull it down,1,0.76611966,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011635.txt
+774,robot_mechanical,004016,a person raising their left arm away from their body,2,0.7660432,/Data/yash.bhardwaj/datasets/HumanML3D/texts/004016.txt
+775,robot_mechanical,M002072,a person lifts something with their right arm,2,0.7659603,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002072.txt
+776,robot_mechanical,M002223,a person rotating both arms and shaking off his/her legs,1,0.76595724,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M002223.txt
+777,robot_mechanical,002223,a person rotating both arms and shaking off his/her legs,1,0.76595724,/Data/yash.bhardwaj/datasets/HumanML3D/texts/002223.txt
+778,robot_mechanical,M003163,a person is moving their left hand back and forth in front of their face.,2,0.76593536,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003163.txt
+779,robot_mechanical,011974,a person nonchalantly walks forward in a clockwise motion,1,0.7659336,/Data/yash.bhardwaj/datasets/HumanML3D/texts/011974.txt
+780,robot_mechanical,M001143,a person makes a large slapping motion with their left arm,1,0.7659209,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001143.txt
+781,robot_mechanical,M000029,a person bends their arms at the elbow and then lowers them,2,0.7658956,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M000029.txt
+782,robot_mechanical,000029,a person bends their arms at the elbow and then lowers them,2,0.7658956,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000029.txt
+783,robot_mechanical,M006395,"a person reaches out with their left arm as if to grab something, then drop their arm back to the side",1,0.7658573,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M006395.txt
+784,robot_mechanical,008441,person raises right arm and bends twice to the left.,0,0.7658535,/Data/yash.bhardwaj/datasets/HumanML3D/texts/008441.txt
+785,robot_mechanical,005771,person raises right arm and bends twice to the left.,1,0.7658535,/Data/yash.bhardwaj/datasets/HumanML3D/texts/005771.txt
+786,robot_mechanical,M014537,"person extends their left arm out to reach for something then brings both hands together in front of the body while pivoting to the right, and repeats this motion several times.",2,0.7658347,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M014537.txt
+787,robot_mechanical,007887,person lifts left arm up repeatedly,1,0.7658096,/Data/yash.bhardwaj/datasets/HumanML3D/texts/007887.txt
+788,robot_mechanical,M011092,a person moves their left hand from right to left in front of them.,2,0.7657396,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011092.txt
+789,robot_mechanical,M011327,a person lifts an item with both hands and rotates the right upward before placing the item back down in the same position,0,0.7656975,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M011327.txt
+790,robot_mechanical,M008787,"a person picks up and moves an object in front of them, from their right to their left, using both hands.",1,0.7656846,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M008787.txt
+791,robot_mechanical,000946,"a person stretches first their right arm across their body, then their left.",1,0.76564133,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000946.txt
+792,robot_mechanical,M003788,a person is taking a forward swing with both hands,2,0.7656246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M003788.txt
+793,robot_mechanical,003788,a person is taking a forward swing with both hands,2,0.7656246,/Data/yash.bhardwaj/datasets/HumanML3D/texts/003788.txt
+794,robot_mechanical,M013914,a person makes several arm circles with both arms in front of their body.,2,0.76552457,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M013914.txt
+795,robot_mechanical,013914,a person makes several arm circles with both arms in front of their body.,2,0.76552457,/Data/yash.bhardwaj/datasets/HumanML3D/texts/013914.txt
+796,robot_mechanical,000042,a person walks forward then moves their arms in unison from left to right,0,0.7654917,/Data/yash.bhardwaj/datasets/HumanML3D/texts/000042.txt
+797,robot_mechanical,M004897,person steps in a back left position to a front right position,1,0.7654734,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M004897.txt
+798,robot_mechanical,001492,a person standing still and moving both hands in a synchronized motion.,1,0.76544577,/Data/yash.bhardwaj/datasets/HumanML3D/texts/001492.txt
+799,robot_mechanical,M001492,a person standing still and moving both hands in a synchronized motion.,1,0.76544577,/Data/yash.bhardwaj/datasets/HumanML3D/texts/M001492.txt
+800,robot_mechanical,012525,person moves right arm forward in front of face.,0,0.7654259,/Data/yash.bhardwaj/datasets/HumanML3D/texts/012525.txt

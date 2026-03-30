@@ -1,0 +1,169 @@
+# ============================================================================
+# Style Definitions — Hybrid Training (Final)
+# ============================================================================
+#
+# TRAINING DATA PER STYLE:
+#   1. PRIMARY   → 100STYLE clips (primary + secondary labels, SMooDi SMPL
+#                   retarget, HumanML3D 263-dim format).
+#   2. SUPPLEMENT → CLIP-retrieved HumanML3D (prototypes below, non-locomotion
+#                   actions only — 100STYLE already covers locomotion).
+#   3. PRIOR     → Random HumanML3D samples.  Manifold preservation.
+#
+# ============================================================================
+# STYLE SELECTION RATIONALE
+# ============================================================================
+#
+# These 4 styles are chosen to maximise impact across the FULL trimodal
+# system (text + audio + style), not just style adaptation in isolation.
+#
+# Selection criteria:
+#   (a) Audio interaction  — each style must express musical beats in a
+#       visually DIFFERENT way, proving style and audio are orthogonal.
+#   (b) Poster readability — skeleton renderings must be instantly
+#       distinguishable at poster distance (1–2 metres).
+#   (c) Kinematic separation — DoRA adapters learn distinct weight updates.
+#   (d) Text generalization — style must transfer to diverse text prompts.
+#   (e) 100STYLE coverage — clean ground-truth locomotion clips exist.
+#
+# Beat response per style (E10 flagship demo):
+#   Old    → small careful stiff steps timed to beats
+#   Angry  → sharp explosive stomps/hits on beats
+#   Proud  → smooth deliberate accents flowing with rhythm
+#   Robot  → mechanical segmented pops locked to beats
+#
+# Why NOT Energetic/Athletic:  redundant with audio conditioning.  Upbeat
+#   music already produces energetic movement via the audio branch — an
+#   "energetic" style adapter adds nothing the audio isn't already doing.
+#
+# Why NOT Depressed/Sad:  kills the audio demo.  Listless movement barely
+#   responds to beats, making the audio branch look broken.  Wastes 25%
+#   of the poster grid on a style that undermines the core contribution.
+#
+# Why Robot (a character style):  it's the "wow" factor.  LoRA-MDM's title
+#   is literally "Dance Like a Chicken."  Robot + music is the single most
+#   visually striking trimodal demo you can build.  And it's backed by
+#   clean 100STYLE ground truth with 7 locomotion variants.
+#
+# Kinematic axes covered:
+#
+#              Speed:  Old (slow) ←——————————→ Angry (fast)
+#         Smoothness:  Robot (segmented) ←——→ Proud (fluid)
+#            Posture:  Old (hunched) ←————→ Proud (upright)
+#             Energy:  Old (minimal) ←————→ Angry (explosive)
+#          Joint ROM:  Robot (constrained) ←→ Proud (expansive)
+#        Muscle tone:  Proud (controlled) ←→ Angry (tense)
+#
+# ============================================================================
+
+# --------------------------------------------------------------------------
+# STYLE 1: Old / Elderly
+# --------------------------------------------------------------------------
+# Kinematic signature: slow, stiff joints, short shuffling steps, limited
+#   ROM, cautious weight transfer, slight forward lean, minimal arm swing
+# Beat response:  small careful steps timed to beats — rhythm is visible
+#   but constrained, proving the system respects style limits while
+#   maintaining audio synchronisation
+# Poster readability:  HIGH — shuffling gait with locked arms is instantly
+#   recognisable even in wireframe skeletons
+# --------------------------------------------------------------------------
+old_elderly:
+  description: "Elderly frail movement — slow, stiff, cautious, limited range of motion"
+
+  hundredstyle_primary: "Old"
+  hundredstyle_secondary:
+    - "Heavyset"                    # slow, grounded, heavy steps — compatible
+
+  prototypes:
+    - "an old person slowly bends down to pick something up off the ground"
+    - "an elderly person carefully sits down in a chair with difficulty"
+    - "a frail person slowly raises one arm with limited range of motion"
+    - "an old person stands up from a seat slowly while holding their back"
+    - "a person slowly and carefully reaches forward with a stiff arm"
+
+  retrieval_k: 800
+
+# --------------------------------------------------------------------------
+# STYLE 2: Angry / Aggressive
+# --------------------------------------------------------------------------
+# Kinematic signature: fast, jerky acceleration profiles, sharp direction
+#   changes, forceful impacts, forward-leaning tense posture, clenched
+#   upper body, stomping foot contacts
+# Beat response:  explosive sharp hits on beats — stomps, punches, slams
+#   timed to rhythm.  The intensity of beat expression is maximal.
+# Poster readability:  HIGH — sharp sudden poses with angular limbs are
+#   visually dramatic in skeleton form
+# --------------------------------------------------------------------------
+angry_aggressive:
+  description: "Angry aggressive movement — fast, sharp, forceful, jerky, tense"
+
+  hundredstyle_primary: "Angry"
+  hundredstyle_secondary: []        # Angry is kinematically unique in 100STYLE
+
+  prototypes:
+    - "an angry person aggressively kicks something on the ground"
+    - "a person throws a forceful punch forward with their right hand"
+    - "an angry person slams both fists down hard"
+    - "a frustrated person stomps their foot and points forward aggressively"
+    - "a person angrily shoves something away with both hands"
+
+  retrieval_k: 800
+
+# --------------------------------------------------------------------------
+# STYLE 3: Proud / Confident
+# --------------------------------------------------------------------------
+# Kinematic signature: tall upright posture, chest forward, wide stance,
+#   expansive arm movements, large ROM, smooth fluid trajectories,
+#   deliberate (not rushed) pacing, strong ground contact
+# Beat response:  smooth flowing accents on beats — the body rides the
+#   rhythm with grace rather than attacking it.  Think strutting.
+# Poster readability:  HIGH — upright chest-out posture with wide arm
+#   gestures contrasts sharply with Old (hunched) and Angry (tense)
+# --------------------------------------------------------------------------
+proud_confident:
+  description: "Proud confident movement — upright, expansive, smooth, deliberate, bold"
+
+  hundredstyle_primary: "Proud"
+  hundredstyle_secondary:
+    - "Elated"                      # shares upright posture, expansive ROM,
+                                    # positive high-energy valence
+
+  prototypes:
+    - "a confident person gestures broadly with wide open arms"
+    - "a proud person stands tall with their chest out and hands on hips"
+    - "a person boldly points forward with authority and a straight back"
+    - "a person picks something up with a smooth confident flourish"
+    - "a confident person turns around with a sharp deliberate pivot"
+
+  retrieval_k: 800
+
+# --------------------------------------------------------------------------
+# STYLE 4: Robot / Mechanical
+# --------------------------------------------------------------------------
+# Kinematic signature: rigid segmented joint trajectories, discrete
+#   stop-and-go motion, joints move one at a time rather than flowing,
+#   precise angular poses, constant velocity between poses then sudden
+#   stops, minimal organic sway
+# Beat response:  mechanical pops locked exactly to beats — the body
+#   snaps between poses on each beat with zero easing.  This is the
+#   showstopper demo: robot + music = mechanical dance.
+# Poster readability:  VERY HIGH — angular frozen poses with straight
+#   limbs are the most visually distinctive of all four styles.
+#   Unmistakable even in thumbnail skeleton renderings.
+# --------------------------------------------------------------------------
+robot_mechanical:
+  description: "Robotic mechanical movement — rigid, segmented, precise, stop-and-go"
+
+  hundredstyle_primary: "Robot"
+  hundredstyle_secondary:
+    - "Stiff"                       # shares rigidity and constrained joints
+
+  prototypes:
+    - "a person stiffly reaches out their arm in a rigid mechanical way"
+    - "a person turns their whole body in a stiff robotic segmented motion"
+    - "a person sits down with rigid mechanical movements like a robot"
+    - "a person raises both arms in a precise angular segmented motion"
+    - "a person stiffly bends forward at the waist and stands straight back up"
+
+  retrieval_k: 600
+  # Lower k — "robotic" language is rarer in HumanML3D captions.
+  # 100STYLE's Robot clips do the heavy lifting for this style.

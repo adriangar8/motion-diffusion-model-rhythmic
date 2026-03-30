@@ -10,7 +10,6 @@ Comprehensive Evaluation for Audio-Conditioned Motion Generation.
   RhythmScore = RDS_norm × (1 - TF_norm)
 
   Where:
-  
     RDS  = Residual-Dance Similarity: Pearson correlation between the kinetic
            energy profile of the audio-added residual and the kinetic energy
            profile of real AIST++ dance to the same music.
@@ -121,22 +120,18 @@ from scipy.ndimage import gaussian_filter1d
 
 sys.path.insert(0, '.')
 
-
 # -- step 1: joint recovery from HumanML3D 263-dim representation --
 
 def recover_joints(motion_263, mean, std, joints_num=22):
     
     """
-    
     Convert (T, 263) HumanML3D-normalized features to (T, 22, 3) joint positions.
-    
     """
     
     from data_loaders.humanml.scripts.motion_process import recover_from_ric
     
     motion = motion_263 * std + mean
     motion_t = torch.from_numpy(motion).float().unsqueeze(0)
-    
     joints = recover_from_ric(motion_t, joints_num)
     
     return joints.squeeze(0).numpy()
@@ -158,19 +153,18 @@ def compute_velocity_magnitude(joints):
 
     return np.sum(speed_per_joint, axis=1)
 
-# -- step 2: audio analysis --
+# -- step 2: audio analysis
 
 def analyze_audio(wav_path, fps=20):
-    
+
     """Extract beats, onset envelope, and onset peaks from audio."""
-    
+
     import librosa
-    
+
     y, sr = librosa.load(wav_path, sr=22050)
     hop_length = sr // fps
 
     tempo, beat_frames = librosa.beat.beat_track(y=y, sr=sr, hop_length=hop_length)
-    
     beat_times = librosa.frames_to_time(beat_frames, sr=sr, hop_length=hop_length)
     beat_indices = (beat_times * fps).astype(int)
 
@@ -178,6 +172,7 @@ def analyze_audio(wav_path, fps=20):
     onset_peaks, _ = find_peaks(onset_env, distance=int(fps * 0.1), height=np.mean(onset_env))
 
     if isinstance(tempo, np.ndarray):
+
         tempo = float(tempo[0])
 
     return {
@@ -187,23 +182,23 @@ def analyze_audio(wav_path, fps=20):
         'tempo': float(tempo),
     }
 
-# -- step 3: load ground truth AIST++ dance --
+# -- step 3: Load ground truth AIST++ dance --
 
 def load_ground_truth_dances(gt_dance_dir, music_id, mean, std):
-    
+
     """Load all AIST++ dances for a specific music track, return their KE profiles."""
-    
+
     all_files = sorted(glob(os.path.join(gt_dance_dir, '*.npy')))
     dance_ke_profiles = []
     names = []
 
     for f in all_files:
-    
+
         name = os.path.splitext(os.path.basename(f))[0]
         parts = name.split('_')
-    
+
         if len(parts) >= 5 and parts[4] == music_id:
-    
+
             motion = np.load(f)
             joints = recover_joints(motion, mean, std)
             ke = compute_kinetic_energy(joints)
@@ -211,30 +206,29 @@ def load_ground_truth_dances(gt_dance_dir, music_id, mean, std):
             names.append(name)
 
     print(f"  Loaded {len(dance_ke_profiles)} ground truth dances for '{music_id}'")
-    
+
     for n in names[:5]:
         print(f"    - {n}")
-    
+
     if len(names) > 5:
         print(f"    ... and {len(names) - 5} more")
 
     return dance_ke_profiles
 
-
 def compute_average_dance_ke(dance_ke_profiles, target_length):
-    
+
     """Average KE profiles across choreographies, truncating/padding to target_length."""
-    
+
     if not dance_ke_profiles:
         return np.zeros(target_length)
 
     aligned = []
-    
+
     for ke in dance_ke_profiles:
-    
+
         if len(ke) >= target_length:
             aligned.append(ke[:target_length])
-    
+
         else:
             padded = np.full(target_length, np.mean(ke))
             padded[:len(ke)] = ke
@@ -242,7 +236,7 @@ def compute_average_dance_ke(dance_ke_profiles, target_length):
 
     return np.mean(aligned, axis=0)
 
-# -- step 4: Individual metrics --
+# -- step 4: individual metrics --
 
 def metric_bas(joints, beat_indices, fps=20, window=2):
     
@@ -270,6 +264,7 @@ def metric_rrba(joints_audio, joints_text, beat_indices, fps=20, window=2):
     """Rhythmic Residual Beat Alignment. Range: [0, 1], higher = better."""
 
     T = min(joints_audio.shape[0], joints_text.shape[0])
+
     residual = joints_audio[:T] - joints_text[:T]
     vel = np.diff(residual, axis=0)
     res_ke = 0.5 * np.sum(vel ** 2, axis=(1, 2))
@@ -303,15 +298,12 @@ def metric_rds(joints_audio, joints_text, avg_dance_ke, fps=20):
     """
 
     T = min(joints_audio.shape[0], joints_text.shape[0])
-    
     residual = joints_audio[:T] - joints_text[:T]
-    
     vel = np.diff(residual, axis=0)
     res_ke = 0.5 * np.sum(vel ** 2, axis=(1, 2))
 
-    
     L = min(len(res_ke), len(avg_dance_ke))
-    
+
     if L < 10:
         return 0.0
 
@@ -322,7 +314,6 @@ def metric_rds(joints_audio, joints_text, avg_dance_ke, fps=20):
         return 0.0
 
     corr, _ = pearsonr(r_signal, d_signal)
-    
     return float(corr)
 
 def metric_bds(joints, beat_indices, fps=20):
@@ -420,19 +411,18 @@ def evaluate_single_pair(joints_audio, joints_text, audio_info, avg_dance_ke, fp
 
 def evaluate_sample_set(audio_files, text_files, audio_info, avg_dance_ke,
                         mean, std, fps=20, tf_max=None):
-    
+
     """Evaluate all metrics over paired samples. Returns aggregated dict."""
-    
+
     n = min(len(audio_files), len(text_files))
-    
+
     if n == 0:
         print("  WARNING: no sample pairs found!")
         return {}
 
     all_r = []
-    
+
     for i in range(n):
-    
         ja = recover_joints(np.load(audio_files[i]), mean, std)
         jt = recover_joints(np.load(text_files[i]), mean, std)
         r = evaluate_single_pair(ja, jt, audio_info, avg_dance_ke, fps)
@@ -447,6 +437,7 @@ def evaluate_sample_set(audio_files, text_files, audio_info, avg_dance_ke,
     agg = {}
     
     for key in all_r[0].keys():
+    
         vals = [r[key] for r in all_r]
         agg[f'{key}_mean'] = float(np.mean(vals))
         agg[f'{key}_std'] = float(np.std(vals))
@@ -466,7 +457,7 @@ def evaluate_sample_set(audio_files, text_files, audio_info, avg_dance_ke,
     rhythm_scores = []
     
     for r in all_r:
-        
+    
         rds_norm = (r['RDS'] + 1.0) / 2.0
         tf_norm = min(r['TF'] / tf_max, 1.0)
         rhythm_scores.append(rds_norm * (1.0 - tf_norm))
@@ -519,7 +510,6 @@ def print_comparison_table(results_by_model):
     print(f"{'='*117}")
 
     for name, r in results_by_model.items():
-
         print(f"{name:>20} {r.get('RhythmScore_mean',0):>8.4f} {r['RDS_mean']:>7.3f} "
               f"{r['BAS_mean']:>7.3f} {r['RRBA_mean']:>7.3f} "
               f"{r['RRBA_BAS_gap_mean']:>7.3f} {r['BDS_mean']:>7.3f} "
@@ -553,7 +543,7 @@ def main():
     parser.add_argument('--model_names', nargs='+', default=[])
     parser.add_argument('--text_dirs', nargs='+', default=[])
 
-    # -- shared --
+    # -- common args --
     
     parser.add_argument('--audio_path', type=str, required=True)
     parser.add_argument('--humanml_dir', type=str, default='./dataset/HumanML3D')
@@ -565,13 +555,16 @@ def main():
     args = parser.parse_args()
 
     # -- load shared resources --
+    
     print("Loading normalization stats...")
     
     mean = np.load(os.path.join(args.humanml_dir, 'Mean.npy'))
     std = np.load(os.path.join(args.humanml_dir, 'Std.npy'))
 
     print("Analyzing audio...")
+
     audio_info = analyze_audio(args.audio_path, args.fps)
+
     print(f"  Tempo: {audio_info['tempo']:.1f} BPM, "
           f"{len(audio_info['beat_indices'])} beats, "
           f"{len(audio_info['onset_peaks'])} onsets")
@@ -586,6 +579,7 @@ def main():
         profiles = load_ground_truth_dances(args.gt_dance_dir, args.music_id, mean, std)
     
         if profiles:
+    
             target_len = max(len(ke) for ke in profiles)
             avg_dance_ke = compute_average_dance_ke(profiles, target_len)
     
@@ -597,9 +591,8 @@ def main():
     # -- mode 1: single --
     
     if args.audio_dir and args.text_dir:
-        
+    
         print(f"\n=== Single evaluation ===")
-        
         af = sorted(glob(os.path.join(args.audio_dir, '*.npy')))
         tf = sorted(glob(os.path.join(args.text_dir, '*.npy')))
         results = evaluate_sample_set(af, tf, audio_info, avg_dance_ke, mean, std, args.fps)
@@ -631,6 +624,7 @@ def main():
                 all_tfs.append(metric_tf(ja, jt))
         
         tf_max = max(all_tfs) if all_tfs else 1.0
+        
         print(f"  TF_max = {tf_max:.4f}")
 
         sweep_results = {}
@@ -659,7 +653,6 @@ def main():
     
         if not args.model_names:
             args.model_names = [f"Model_{i}" for i in range(len(args.model_dirs))]
-    
         if not args.text_dirs:
             args.text_dirs = args.model_dirs
 
@@ -701,11 +694,10 @@ def main():
     
     with open(args.output_path, 'w') as f:
         json.dump(results, f, indent=2, default=str)
-    
     print(f"\nResults saved to {args.output_path}")
 
 if __name__ == '__main__':
     main()
-
+    
 ####################################################################################[end]
 ####################################################################################[end]

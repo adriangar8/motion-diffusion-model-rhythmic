@@ -72,6 +72,7 @@ def get_opt(opt_path, device):
         raise KeyError('Dataset not recognized')
 
     opt.dim_word = 300
+    opt.max_text_len = 20
     opt.num_classes = 200 // opt.unit_length
     opt.dim_pos_ohot = len(POS_enumerator)
     opt.is_train = False

@@ -6,7 +6,6 @@ from os.path import join as pjoin
 import random
 import codecs as cs
 from tqdm import tqdm
-import spacy
 
 from torch.utils.data._utils.collate import default_collate
 from data_loaders.humanml.utils.word_vectorizer import WordVectorizer
@@ -607,6 +606,7 @@ class MotionDatasetV2(data.Dataset):
 
 class RawTextDataset(data.Dataset):
     def __init__(self, opt, mean, std, text_file, w_vectorizer):
+        import spacy
         self.mean = mean
         self.std = std
         self.opt = opt
@@ -771,6 +771,10 @@ class HumanML3D(data.Dataset):
         opt.data_root = pjoin(abs_base_path, opt.data_root)
         opt.save_root = pjoin(abs_base_path, opt.save_root)
         opt.meta_dir = pjoin(abs_base_path, './dataset')
+        if kwargs.get('humanml_dir'):
+            opt.data_root = os.path.abspath(kwargs['humanml_dir'])
+            opt.motion_dir = pjoin(opt.data_root, 'new_joint_vecs')
+            opt.text_dir = pjoin(opt.data_root, 'texts')
         opt.use_cache = kwargs.get('use_cache', True)
         opt.fixed_len = kwargs.get('fixed_len', 0)
         if opt.fixed_len > 0:

@@ -140,6 +140,8 @@ def add_data_options(parser):
                        help="Dataset name (choose from list).")
     group.add_argument("--data_dir", default="", type=str,
                        help="If empty, will use defaults according to the specified dataset.")
+    group.add_argument("--humanml_dir", default="", type=str,
+                       help="Path to HumanML3D folder (Mean.npy, Std.npy, new_joint_vecs, texts, etc.). If empty, uses ./dataset/HumanML3D.")
 
 
 def add_training_options(parser):

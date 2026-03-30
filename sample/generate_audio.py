@@ -47,11 +47,12 @@ def parse_args():
 
     # -- paths --
 
-    parser.add_argument('--model_path', type=str, required=True,
-                        help='Path to audio-conditioned checkpoint (.pt)')
+    parser.add_argument('--model_path', type=str,
+                        default='./save/audio_stage2_wav2clip_beataware/model_final.pt',
+                        help='Path to Stage 2 checkpoint (default: beataware model)')
     parser.add_argument('--audio_path', type=str, default='',
                         help='Path to .wav file (leave empty for text-only)')
-    parser.add_argument('--output_dir', type=str, default='./save/audio_stage2/samples',
+    parser.add_argument('--output_dir', type=str, default='./save/audio_stage2_wav2clip_beataware/samples',
                         help='Directory to save generated motions')
 
     # -- generation params --
@@ -67,9 +68,21 @@ def parse_args():
     # -- guidance --
 
     parser.add_argument('--guidance_param', type=float, default=2.5,
-                        help='CFG scale for text')
+                        help='CFG scale for text (legacy AudioCFG)')
     parser.add_argument('--audio_guidance_param', type=float, default=2.5,
-                        help='CFG scale for audio')
+                        help='CFG scale for audio (legacy AudioCFG)')
+    parser.add_argument('--use_gcdm', action='store_true',
+                        help='Use GCDM composite guidance (Phase 4) instead of legacy AudioCFG')
+    parser.add_argument('--gcdm_alpha', type=float, default=3.0,
+                        help='GCDM overall guidance strength')
+    parser.add_argument('--gcdm_beta_text', type=float, default=1.0,
+                        help='GCDM per-condition weight for text')
+    parser.add_argument('--gcdm_beta_audio', type=float, default=1.5,
+                        help='GCDM per-condition weight for audio')
+    parser.add_argument('--gcdm_lambda_start', type=float, default=0.8,
+                        help='GCDM lambda at t=T (early denoising, joint term dominates)')
+    parser.add_argument('--gcdm_lambda_end', type=float, default=0.2,
+                        help='GCDM lambda at t=0 (late denoising, independent terms dominate)')
 
     # -- model (overridden by checkpoint args.json if available) --
 
@@ -203,6 +216,7 @@ def load_model(model_path, device):
         audio_conditioning=True,
         audio_feat_dim=ckpt_args.get('audio_feat_dim', 145),
         audio_cond_mask_prob=ckpt_args.get('audio_cond_mask_prob', 0.15),
+        use_audio_token_concat=ckpt_args.get('use_audio_token_concat', False),
     )
 
     # -- load weights --
@@ -256,13 +270,29 @@ def main():
 
     diffusion = create_gaussian_diffusion(diff_args)
 
-    # -- wrap model with CFG --
+    # -- wrap model with CFG or GCDM --
 
-    cfg_model = AudioCFGSampleModel(
-        model,
-        text_scale=args.guidance_param,
-        audio_scale=args.audio_guidance_param,
-    )
+    if getattr(args, 'use_gcdm', False):
+        from sample.gcdm import GCDMSampleModel
+        cfg_model = GCDMSampleModel(
+            model,
+            alpha=args.gcdm_alpha,
+            beta_text=args.gcdm_beta_text,
+            beta_audio=args.gcdm_beta_audio,
+            lambda_start=args.gcdm_lambda_start,
+            lambda_end=args.gcdm_lambda_end,
+            diffusion_steps=diffusion.num_timesteps,
+        )
+        print(f"GCDM guidance: alpha={args.gcdm_alpha}, "
+              f"beta_text={args.gcdm_beta_text}, beta_audio={args.gcdm_beta_audio}, "
+              f"lambda=[{args.gcdm_lambda_start} -> {args.gcdm_lambda_end}]")
+    else:
+        cfg_model = AudioCFGSampleModel(
+            model,
+            text_scale=args.guidance_param,
+            audio_scale=args.audio_guidance_param,
+        )
+        print(f"CFG: text={args.guidance_param}, audio={args.audio_guidance_param}")
 
     # -- load normalization stats --
 
@@ -277,25 +307,43 @@ def main():
 
     if args.audio_path and os.path.exists(args.audio_path):
 
-        from model.audio_features import extract_audio_features
-
+        use_wav2clip = ckpt_args.get('use_wav2clip', False) or ckpt_args.get('audio_feat_dim') == 519
+        audio_feat_dim = ckpt_args.get('audio_feat_dim', 145)
         duration = args.motion_length if args.motion_length > 0 else None
-        audio_feat = extract_audio_features(
-            args.audio_path,
-            target_fps=args.fps,
-            duration=duration
-        )
+
+        if use_wav2clip:
+            from model.audio_features_wav2clip import extract_wav2clip_plus_librosa
+            audio_feat = extract_wav2clip_plus_librosa(
+                args.audio_path,
+                target_fps=args.fps,
+                duration=duration,
+                device=device,
+            )
+        elif audio_feat_dim == 52:
+            from model.audio_features_v2 import extract_audio_features_v2
+            audio_feat = extract_audio_features_v2(
+                args.audio_path,
+                target_fps=args.fps,
+                duration=duration,
+            )
+        else:
+            from model.audio_features import extract_audio_features
+            audio_feat = extract_audio_features(
+                args.audio_path,
+                target_fps=args.fps,
+                duration=duration,
+            )
 
         # -- if no explicit length, use audio length --
 
         if args.motion_length <= 0:
-            n_frames = min(audio_feat.shape[0], 196) # cap at max_motion_length
+            n_frames = min(audio_feat.shape[0], 196)
 
-        audio_feat = audio_feat[:n_frames] # (T, 145)
-        audio_features = torch.from_numpy(audio_feat).float().unsqueeze(0) # (1, T, 145)
+        audio_feat = audio_feat[:n_frames]
+        audio_features = torch.from_numpy(audio_feat).float().unsqueeze(0)
         audio_features = audio_features.repeat(args.num_samples, 1, 1).to(device)
 
-        print(f"Audio: {args.audio_path} → {audio_feat.shape[0]} frames ({audio_feat.shape[0]/args.fps:.1f}s)")
+        print(f"Audio: {args.audio_path} → {audio_feat.shape[0]} frames ({audio_feat.shape[0]/args.fps:.1f}s), dim={audio_feat.shape[1]}")
 
     elif args.audio_path:
         print(f"Warning: audio file not found: {args.audio_path}")
@@ -306,7 +354,6 @@ def main():
     print(f"Generating {args.num_samples} samples, {n_frames} frames ({n_frames/args.fps:.1f}s)")
     print(f"Text: '{args.text_prompt}'")
     print(f"Audio: {'yes' if audio_features is not None else 'no'}")
-    print(f"CFG: text={args.guidance_param}, audio={args.audio_guidance_param}")
 
     # -- build conditioning dict --
 
@@ -321,6 +368,11 @@ def main():
 
     if audio_features is not None:
         model_kwargs['y']['audio_features'] = audio_features
+        feat_dim = audio_features.shape[-1]
+        _bi = 513 if feat_dim >= 519 else (34 if feat_dim == 52 else 129)
+        _bs = audio_features[0, :, _bi].cpu().numpy()
+        model_kwargs['y']['beat_frames'] = list(np.where(_bs > 0.5)[0])
+        print(f"Beat frames: {len(model_kwargs['y']['beat_frames'])} beats for cross-attn bias")
 
     # -- sample --
 

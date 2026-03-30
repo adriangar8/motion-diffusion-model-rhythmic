@@ -41,11 +41,13 @@ from data_loaders.humanml.scripts.motion_process import recover_from_ric
 import data_loaders.humanml.utils.paramUtil as paramUtil
 from data_loaders.humanml.utils.plot_script import plot_3d_motion
 
-def recover_joints(motion_263, mean, std, joints_num=22):
+def recover_joints(motion_263, mean, std, joints_num=22, already_denormalized=False):
     
-    """Convert (T, 263) normalized features → (T, 22, 3) joint positions."""
+    """Convert (T, 263) features → (T, 22, 3) joint positions. If already_denormalized, skip mean/std."""
     
-    motion = motion_263 * std + mean
+    if not already_denormalized:
+        motion_263 = motion_263 * std + mean
+    motion = motion_263
     motion_t = torch.from_numpy(motion).float().unsqueeze(0) # (1, T, 263)
     joints = recover_from_ric(motion_t, joints_num) # (1, T, 22, 3)
     
@@ -111,12 +113,14 @@ def main():
     parser.add_argument('--sample_dir', type=str, required=True)
     parser.add_argument('--compare_dir', type=str, default='')
     parser.add_argument('--audio_path', type=str, default='')
-    parser.add_argument('--humanml_dir', type=str, default='./dataset/HumanML3D')
+    parser.add_argument('--humanml_dir', type=str, default='/Data/yash.bhardwaj/datasets/HumanML3D')
     parser.add_argument('--output_dir', type=str, default='')
     parser.add_argument('--fps', type=int, default=20)
     parser.add_argument('--max_samples', type=int, default=3)
     parser.add_argument('--text_prompt', type=str, default='')
     parser.add_argument('--dataset', type=str, default='humanml')
+    parser.add_argument('--samples_denormalized', action='store_true',
+                        help='Sample .npy are already in real space (e.g. from generate_audio); do not apply Mean/Std')
     args = parser.parse_args()
 
     if not args.output_dir:
@@ -133,11 +137,12 @@ def main():
     sample_files = sorted(glob(os.path.join(args.sample_dir, '*.npy')))[:args.max_samples]
     print(f"Found {len(sample_files)} samples")
 
+    denorm = getattr(args, 'samples_denormalized', False)
     for i, f in enumerate(sample_files):
         
         name = os.path.splitext(os.path.basename(f))[0]
         motion = np.load(f)
-        joints = recover_joints(motion, mean, std)
+        joints = recover_joints(motion, mean, std, already_denormalized=denorm)
         duration = joints.shape[0] / args.fps
 
         title = args.text_prompt if args.text_prompt else name
@@ -172,12 +177,12 @@ def main():
             # -- audio+text sample --
             
             motion_a = np.load(sample_files[i])
-            joints_a = recover_joints(motion_a, mean, std)
+            joints_a = recover_joints(motion_a, mean, std, already_denormalized=denorm)
 
             # -- text-only sample --
             
             motion_b = np.load(compare_files[i])
-            joints_b = recover_joints(motion_b, mean, std)
+            joints_b = recover_joints(motion_b, mean, std, already_denormalized=denorm)
 
             duration = min(joints_a.shape[0], joints_b.shape[0]) / args.fps
             title_a = 'Audio+Text'

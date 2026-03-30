@@ -82,11 +82,23 @@ def parse_args():
 
     # -- audio conditioning --
     
-    parser.add_argument('--audio_feat_dim', type=int, default=145)
+    parser.add_argument('--use_wav2clip', action='store_true',
+                        help='Use 519-d audio (Wav2CLIP + 7-d librosa). Requires preprocessed audio_feats_519/.')
+    parser.add_argument('--audio_feat_dim', type=int, default=None,
+                        help='Audio feature dim (145 or 519). Default: 519 if --use_wav2clip else 145.')
     parser.add_argument('--audio_cond_mask_prob', type=float, default=0.15,
                         help='Probability of dropping audio condition (for CFG)')
     parser.add_argument('--text_cond_mask_prob', type=float, default=0.10,
                         help='Probability of dropping text condition (for CFG)')
+    parser.add_argument('--joint_cond_mask_prob', type=float, default=0.05,
+                        help='Probability of dropping ALL conditions jointly (GCDM)')
+    parser.add_argument('--use_audio_token_concat', action='store_true',
+                        help='MOSPA-style: concatenate audio tokens with motion tokens at transformer input')
+    parser.add_argument('--use_physics_losses', action='store_true',
+                        help='Add auxiliary physics losses (L_contact, L_penetrate, L_skating)')
+    parser.add_argument('--lambda_contact', type=float, default=0.5)
+    parser.add_argument('--lambda_penetrate', type=float, default=1.0)
+    parser.add_argument('--lambda_skating', type=float, default=0.5)
 
     # -- model (must match pretrained) --
     
@@ -109,7 +121,10 @@ def parse_args():
     parser.add_argument('--device', type=str, default='')
     parser.add_argument('--resume_checkpoint', type=str, default='')
 
-    return parser.parse_args()
+    args = parser.parse_args()
+    if args.audio_feat_dim is None:
+        args.audio_feat_dim = 519 if args.use_wav2clip else 145
+    return args
 
 def load_pretrained_mdm(args):
     
@@ -181,6 +196,7 @@ def load_pretrained_mdm(args):
         audio_conditioning=True,
         audio_feat_dim=args.audio_feat_dim,
         audio_cond_mask_prob=args.audio_cond_mask_prob,
+        use_audio_token_concat=args.use_audio_token_concat,
     )
 
     # -- load pretrained weights --
@@ -286,6 +302,7 @@ def main():
         num_workers=args.num_workers,
         humanml_mean=mean,
         humanml_std=std,
+        use_wav2clip=args.use_wav2clip,
     )
     
     print(f"Train loader: {len(train_loader)} batches of {args.batch_size}")
@@ -353,6 +370,8 @@ def main():
         model.load_state_dict(ckpt['model'], strict=False)
         optimizer.load_state_dict(ckpt['optimizer'])
         step = ckpt['step']
+        # Recreate scheduler so LR matches resumed step (next step will be step+1)
+        scheduler = CosineAnnealingLR(optimizer, T_max=args.num_steps, eta_min=1e-6, last_epoch=step - 1)
         
         print(f"Resumed from step {step}")
 
@@ -368,6 +387,18 @@ def main():
             batch_motion = batch_motion.to(device)
             batch_cond['audio_features'] = batch_cond['audio_features'].to(device)
             batch_cond['mask'] = batch_cond['mask'].to(device)
+
+            # -- extract beat frames for beat-aware cross-attention bias --
+            # 519-d: wav2clip(512) + [onset, beat, ...](7) → beat at idx 513
+            # 145-d: librosa features with beat_indicator at idx 129
+            _beat_idx = 513 if args.audio_feat_dim >= 519 else 129
+            _beat_sig = batch_cond['audio_features'][0, :, _beat_idx].cpu().numpy()
+            batch_cond['beat_frames'] = list(np.where(_beat_sig > 0.5)[0])
+
+            # -- GCDM joint dropout: force-mask all conditions together --
+            if np.random.rand() < args.joint_cond_mask_prob:
+                batch_cond['uncond'] = True
+                batch_cond['uncond_audio'] = True
 
             # -- sample diffusion timesteps --
             
@@ -385,6 +416,19 @@ def main():
             )
 
             loss = (losses['loss'] * weights).mean()
+
+            if args.use_physics_losses and 'pred_xstart' in losses:
+                from utils.physics_losses import physics_losses
+                mean_t = torch.from_numpy(mean).float().to(device)
+                std_t = torch.from_numpy(std).float().to(device)
+                phys = physics_losses(
+                    losses['pred_xstart'],
+                    mean=mean_t, std=std_t,
+                    lambda_contact=args.lambda_contact,
+                    lambda_penetrate=args.lambda_penetrate,
+                    lambda_skating=args.lambda_skating,
+                )
+                loss = loss + phys['physics_total']
 
             # -- backward --
             
