@@ -55,6 +55,48 @@ ln -s ./final_weights/evaluators/t2m ./t2m
 ln -s ./final_weights/evaluators/glove ./glove
 ```
 
+## Inference
+
+Generate audio-conditioned motion and visualize:
+
+```bash
+# Generate (text + audio → motion)
+python -m sample.generate_audio \
+  --model_path ./final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt \
+  --text_prompt "a person dances to music" \
+  --audio_path ./dataset/aist/audio_test_10/mBR0.wav \
+  --guidance_param 2.5 \
+  --audio_guidance_param 1.5 \
+  --num_samples 3 \
+  --output_dir ./outputs/my_generation
+
+# Visualize (motion → stick-figure video with audio)
+python -m sample.visualize_with_audio \
+  --sample_dir ./outputs/my_generation \
+  --audio_path ./dataset/aist/audio_test_10/mBR0.wav \
+  --text_prompt "a person dances to music" \
+  --samples_denormalized
+```
+
+Text-only (no audio):
+```bash
+python -m sample.generate_audio \
+  --model_path ./final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt \
+  --text_prompt "a person walks forward" \
+  --guidance_param 2.5 \
+  --audio_guidance_param 0.0
+```
+
+Audio-only (no text):
+```bash
+python -m sample.generate_audio \
+  --model_path ./final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt \
+  --audio_path ./dataset/aist/audio_test_10/mBR0.wav \
+  --text_prompt "" \
+  --guidance_param 0.0 \
+  --audio_guidance_param 1.5
+```
+
 ## Training
 
 All scripts use environment variable overrides. Set `PRETRAINED`, `AIST_DIR`, `HUMANML_DIR` if your paths differ from the defaults.
