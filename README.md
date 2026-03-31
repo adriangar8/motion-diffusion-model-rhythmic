@@ -27,9 +27,11 @@ Download `final_weights/` from **[Google Drive](https://drive.google.com/drive/f
 final_weights/
 ├── pretrained/
 │   ├── humanml_trans_enc_512/
-│   │   └── model000200000.pt      # base MDM (Stage 1 init + text-only baseline)
+│   │   ├── model000200000.pt      # base MDM (Stage 1 init + text-only baseline)
+│   │   └── args.json
 │   └── edge/
-│       └── checkpoint.pt           # EDGE baseline for BAS comparison
+│       ├── checkpoint.pt           # EDGE baseline for BAS comparison
+│       └── edge_bas_motions/       # pre-generated EDGE outputs (8 AIST++ test songs)
 ├── stage2/
 │   ├── audio_stage2_wav2clip_beataware/   # best model (BAS=0.286)
 │   ├── audio_stage2_wav2clip/
@@ -138,7 +140,7 @@ python -m eval.rhythmic_residual \
 
 ## Demo
 
-Interactive Jupyter notebook with text sweep, audio sweep, and free-form generation (with model selector):
+Interactive Jupyter notebook with text sweep, audio sweep, baseline comparisons (MDM text-only and EDGE audio-only vs our model), and free-form generation (with model selector):
 
 ```bash
 jupyter notebook demo.ipynb
