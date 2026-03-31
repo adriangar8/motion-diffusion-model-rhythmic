@@ -8,10 +8,17 @@ cd "$(dirname "$0")/.."
 
 GUIDANCE=2.5
 
+# Auto-detect weights location (Google Drive or local)
+if [ -d "final_weights/stage2" ]; then
+    W="final_weights/stage2"
+else
+    W="save"
+fi
+
 declare -A MODELS
-MODELS["audio_stage2_librosa"]="save/audio_stage2_librosa/model_final.pt"
-MODELS["audio_stage2_wav2clip"]="save/audio_stage2_wav2clip/model_final.pt"
-MODELS["audio_stage2_wav2clip_mospa"]="save/audio_stage2_wav2clip_mospa/model_final.pt"
+MODELS["audio_stage2_librosa"]="$W/audio_stage2_librosa/model_final.pt"
+MODELS["audio_stage2_wav2clip"]="$W/audio_stage2_wav2clip/model_final.pt"
+MODELS["audio_stage2_wav2clip_mospa"]="$W/audio_stage2_wav2clip_mospa/model_final.pt"
 
 for NAME in audio_stage2_librosa audio_stage2_wav2clip audio_stage2_wav2clip_mospa; do
     MODEL_PATH="${MODELS[$NAME]}"

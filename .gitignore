@@ -132,8 +132,10 @@ save/
 !save/*/args.json
 wandb/
 t2m/
+t2m
 body_models/
 glove/
+glove
 kit/
 slurm**/
 *.out
@@ -142,8 +144,9 @@ slurm**/
 .vscode/
 CLAUDE.md
 
-# Dataset folders
+# Dataset (directory or symlink)
 dataset/
+dataset
 
 # Model weights
 *.pt
@@ -180,6 +183,10 @@ visualize/joints2smpl/smpl_models/*.h5
 
 # PDFs
 *.pdf
+
+# Stale files
+ablation_log.txt
+run_ablation.sh
 
 # Standalone videos at repo root
 *.mp4

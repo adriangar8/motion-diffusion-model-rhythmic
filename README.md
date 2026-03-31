@@ -40,17 +40,17 @@ final_weights/
     └── glove/      # GloVe word embeddings for evaluator
 ```
 
-The code auto-detects `final_weights/` and falls back to `./save/` if absent (for local dev).
+The demo notebook auto-detects `final_weights/` and falls back to `./save/` if absent. For CLI commands below, replace `./final_weights/stage2/` with `./save/` if you trained locally.
 
 ### Data
 
 1. **HumanML3D** — follow [original instructions](https://github.com/EricGuo5513/HumanML3D) and place in `./dataset/HumanML3D/`
 2. **AIST++** — download from [AIST++](https://google.github.io/aistplusplus_dataset/), preprocess with `python data/preprocess_aist.py`, place in `./dataset/aist/`
 
-Symlink evaluator weights (if not using `final_weights/`):
+The evaluation code loads evaluator weights from `./t2m/` and `./glove/` at the repo root. After downloading `final_weights/`, create symlinks:
 ```bash
-ln -s /path/to/t2m ./t2m
-ln -s /path/to/glove ./glove
+ln -s ./final_weights/evaluators/t2m ./t2m
+ln -s ./final_weights/evaluators/glove ./glove
 ```
 
 ## Training
@@ -99,7 +99,7 @@ Evaluates FID, R-Precision, Matching Score on HumanML3D test set (text-only mode
 
 ```bash
 python -m eval.eval_audio_humanml_v2 \
-  --model_path ./save/audio_stage2_wav2clip_beataware/model_final.pt \
+  --model_path ./final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt \
   --audio_mode none \
   --audio_guidance_param 0.0 \
   --guidance_param 2.5 \
@@ -131,7 +131,7 @@ bash scripts/cfg_sweep_bas.sh
 
 ```bash
 python -m eval.rhythmic_residual \
-  --model_path ./save/audio_stage2_wav2clip_beataware/model_final.pt \
+  --model_path ./final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt \
   --audio_path ./dataset/aist/audio_test_10/mBR0.wav \
   --text_prompt "a person walks forward"
 ```

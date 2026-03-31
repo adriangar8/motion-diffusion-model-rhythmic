@@ -48,7 +48,7 @@ case "$VARIANT" in
         ;;
 esac
 
-AUDIO_DIR="/Data/yash.bhardwaj/datasets/aist/audio"
+AUDIO_DIR="${AUDIO_DIR:-./dataset/aist/audio}"
 MOTIONS_OUT="save/aist_fid_eval/${LABEL}_motions"
 FEATURES_OUT="eval/aist_fid/cache/${LABEL}_features.npz"
 NUM_SAMPLES=20  # samples per music clip; 10 clips × 20 = 200 generated sequences (>> 98-dim, well-conditioned covariance)

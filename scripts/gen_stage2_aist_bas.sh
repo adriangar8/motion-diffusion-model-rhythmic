@@ -6,14 +6,20 @@
 #   bash scripts/gen_stage2_aist_bas.sh
 #
 # Outputs:
-#   /Data/yash.bhardwaj/eval/stage2_bas/motions/   -- .npy files, one per song
-#   /Data/yash.bhardwaj/eval/stage2_bas_run.log    -- log
+#   ./eval_outputs/stage2_bas/motions/   -- .npy files, one per song
+#   (override OUT_ROOT env var to change output location)
 
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-MODEL_PATH=${MODEL_PATH:-"$REPO_ROOT/save/audio_stage2_wav2clip_beataware/model_final.pt"}
+# Auto-detect weights location
+if [ -f "$REPO_ROOT/final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt" ]; then
+    _DEFAULT_MODEL="$REPO_ROOT/final_weights/stage2/audio_stage2_wav2clip_beataware/model_final.pt"
+else
+    _DEFAULT_MODEL="$REPO_ROOT/save/audio_stage2_wav2clip_beataware/model_final.pt"
+fi
+MODEL_PATH=${MODEL_PATH:-"$_DEFAULT_MODEL"}
 AUDIO_DIR=${AUDIO_DIR:-"$REPO_ROOT/dataset/aist/audio_test_10"}
 OUT_ROOT=${OUT_ROOT:-"$REPO_ROOT/eval_outputs/stage2_bas"}
 MOTION_DIR="$OUT_ROOT/motions"
