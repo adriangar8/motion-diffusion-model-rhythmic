@@ -1,6 +1,6 @@
 # Adding Musical Rhythm to Text-to-Motion Diffusion Models
 
-Karl Zeeny, Adrián García, Yash Bhardwaj — École Polytechnique, Institut Polytechnique de Paris (2026)
+Karl Zeeny, Adrián García, Yash Bhardwaj - École Polytechnique, Institut Polytechnique de Paris (2026)
 
 We extend the [Human Motion Diffusion Model (MDM)](https://arxiv.org/abs/2209.14916) with audio conditioning via cross-attention, enabling rhythmic synchronization with music while preserving text-to-motion quality. Text controls *what* the person does; audio controls *when* emphasis occurs.
 
