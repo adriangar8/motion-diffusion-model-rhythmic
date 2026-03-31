@@ -231,8 +231,8 @@ This code is distributed under an [MIT LICENSE](LICENSE). Depends on CLIP, SMPL,
 ```bibtex
 @techreport{zeeny2026rhythmic,
   title={Adding Musical Rhythm to Text-to-Motion Diffusion Models},
-  author={Zeeny, Karl and Garc{\'i}a, Adri{\'a}n and Bhardwaj, Yash},
-  institution={{\'E}cole Polytechnique, Institut Polytechnique de Paris},
+  author={Zeeny, Karl and Garcia, Adrian and Bhardwaj, Yash},
+  institution={Ecole Polytechnique, Institut Polytechnique de Paris},
   year={2026}
 }
 ```
